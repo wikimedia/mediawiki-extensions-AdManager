@@ -91,6 +91,17 @@ $messages['be-tarask'] = array(
 	'right-admanager' => '[[Special:AdManager|кіраваньне наладамі рэклямы]]',
 );
 
+/** Bulgarian (Български)
+ * @author DCLXVI
+ */
+$messages['bg'] = array(
+	'admanager_invalidtargetpage' => 'Не е намерена страница с името „$1“.',
+	'admanager_invalidtargetcategory' => 'Не е намерена категория с името „$1“.',
+	'admanager_Page' => 'Страници',
+	'admanager_Category' => 'Категории',
+	'admanager_zonenum' => 'Зона #: $1',
+);
+
 /** Breton (Brezhoneg)
  * @author Fulup
  * @author Y-M D
@@ -694,6 +705,13 @@ $messages['uk'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Редагувати розміщення оголошень]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Редагувати зони оголошень]]',
 	'right-admanager' => '[[Special:AdManager|Керування конфігурацією реклами]]',
+);
+
+/** Yiddish (ייִדיש)
+ * @author פוילישער
+ */
+$messages['yi'] = array(
+	'admanager_submit' => 'אײַנגעבן',
 );
 
 /** Simplified Chinese (‪中文(简体)‬)

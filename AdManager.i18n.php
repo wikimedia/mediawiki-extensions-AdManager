@@ -97,8 +97,10 @@ $messages['be-tarask'] = array(
 $messages['bg'] = array(
 	'admanager_invalidtargetpage' => 'Не е намерена страница с името „$1“.',
 	'admanager_invalidtargetcategory' => 'Не е намерена категория с името „$1“.',
+	'admanager_noads' => 'Без показване на реклами',
 	'admanager_Page' => 'Страници',
 	'admanager_Category' => 'Категории',
+	'admanager_added' => 'Промените бяха съхранени',
 	'admanager_zonenum' => 'Зона #: $1',
 );
 

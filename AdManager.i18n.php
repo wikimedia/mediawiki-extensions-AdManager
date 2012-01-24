@@ -721,6 +721,7 @@ $messages['yi'] = array(
  */
 $messages['zh-hans'] = array(
 	'admanager' => '广告管理器',
+	'admanagerzones' => '广告管理器区域',
 	'admanager_invalidtargetpage' => '找不到标题名为“$1”的页面',
 	'admanager_invalidtargetcategory' => '找不到标题名为“$1”的分类',
 	'admanager_notable' => '错误！找不到某数据库资料表！请先运行update.php。',
@@ -731,6 +732,7 @@ $messages['zh-hans'] = array(
 	'admanager_Page' => '页面',
 	'admanager_Category' => '分类',
 	'admanager_added' => '更改已保存',
+	'admanager_addedzone' => '已添加区域',
 	'admanager_zonenotnumber' => '错误！$1不是数字。',
 	'admanager_return' => '回到[[Special:AdManager|广告管理器]]',
 	'admanager_gotoads' => '[[Special:AdManager|编辑广告位置]]',

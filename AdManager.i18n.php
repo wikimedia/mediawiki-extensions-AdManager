@@ -680,6 +680,13 @@ $messages['te'] = array(
 	'admanager_added' => 'మీ మార్పుల భద్రమయ్యాయి',
 );
 
+/** Turkish (Türkçe)
+ * @author Incelemeelemani
+ */
+$messages['tr'] = array(
+	'admanager_submit' => 'Gönder',
+);
+
 /** Ukrainian (Українська)
  * @author Sodmy
  */

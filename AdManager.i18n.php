@@ -227,6 +227,36 @@ $messages['eo'] = array(
 	'admanager_Category' => 'Kategorioj',
 );
 
+/** Spanish (Español)
+ * @author Armando-Martin
+ */
+$messages['es'] = array(
+	'admanager' => 'Administrador de publicidad',
+	'admanagerzones' => 'Zonas de administrador de publicidad',
+	'admanager-desc' => 'Proporciona una [[Special:AdManager|página especial]] que permite a los sysops (operadores de sistema) establecer la zona de páginas o categorías',
+	'admanager_docu' => 'Para agregar o quitar la zona de publicidad de una página o de toda la categoría, agregue o elimine su título a continuación.',
+	'admanagerzones_docu' => 'Introduzca cada número de zona de publicidad en su propia línea.',
+	'admanager_invalidtargetpage' => 'Ninguna página encontrada con el título "$1".',
+	'admanager_invalidtargetcategory' => 'Ninguna categoría encontrada con el título "$1".',
+	'admanager_notable' => '¡Error! ¡No se encontró una tabla de base de datos requerida! Ejecute primero update.php.',
+	'admanager_noAdManagerZones' => '¡Error! Debe agregar algunas zonas de publicidad. Introdúzcalas en [[Special:AdManagerZones|el administrador de zonas de publicidad]].',
+	'admanager_labelPage' => 'Títulos de página',
+	'admanager_labelCategory' => 'Nombres de categoría',
+	'admanager_submit' => 'Enviar',
+	'admanager_noads' => 'No mostrar anuncios',
+	'admanager_Page' => 'Páginas',
+	'admanager_Category' => 'Categorías',
+	'admanager_added' => 'Sus cambios han sido guardados',
+	'admanager_noadsset' => '$1 se ha establecido para no mostrar anuncios',
+	'admanager_addedzone' => 'Zona adicional',
+	'admanager_zonenum' => 'Zona #: $1',
+	'admanager_zonenotnumber' => '¡Error!  $1 no es un número.',
+	'admanager_return' => 'Volver a [[Special: AdManager|Administrador de publicidad]]',
+	'admanager_gotoads' => '[[Special:AdManager|Editar ubicación de publicidad]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Editar zonas de publicidad]]',
+	'right-admanager' => '[[Special:AdManager|Administrar configuración de publicidad]]',
+);
+
 /** Persian (فارسی)
  * @author ZxxZxxZ
  */

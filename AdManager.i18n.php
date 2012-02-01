@@ -714,7 +714,23 @@ $messages['te'] = array(
  * @author Incelemeelemani
  */
 $messages['tr'] = array(
+	'admanager' => 'Reklam Yöneticisi',
+	'admanagerzones' => 'Reklam Yöneticisi bölgeleri',
+	'admanager_labelPage' => 'Sayfa başlıkları',
+	'admanager_labelCategory' => 'Kategori adları',
 	'admanager_submit' => 'Gönder',
+	'admanager_noads' => 'Reklamları gösterme',
+	'admanager_Page' => 'Sayfalar',
+	'admanager_Category' => 'Kategoriler',
+	'admanager_added' => 'Değişiklikleriniz kaydedildi',
+	'admanager_noadsset' => '$1 reklamı göstermek için ayarla',
+	'admanager_addedzone' => 'Eklenen bölge',
+	'admanager_zonenum' => 'Bölge #: $1',
+	'admanager_zonenotnumber' => 'Hata!  $1  bir sayı değil.',
+	'admanager_return' => '[[Special:AdManager|Reklam Yöneticisine]] dön',
+	'admanager_gotoads' => '[[Special:AdManager|Reklamı düzenle]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Bölgeyi düzenle]]',
+	'right-admanager' => '[[Special:AdManager|Reklam Yöneticisi ayarları]]',
 );
 
 /** Ukrainian (Українська)

@@ -794,3 +794,16 @@ $messages['zh-hans'] = array(
 	'right-admanager' => '[[Special:AdManager|管理广告配置]]',
 );
 
+/** Traditional Chinese (‪中文(繁體)‬)
+ * @author Oapbtommy
+ */
+$messages['zh-hant'] = array(
+	'admanager' => '廣告管理員',
+	'admanagerzones' => '廣告管理員區域',
+	'admanager_labelCategory' => '類別名稱',
+	'admanager_submit' => '提交',
+	'admanager_noads' => '不顯示廣告',
+	'admanager_Category' => '類別',
+	'admanager_zonenotnumber' => '錯誤！$1 不是一個數字。',
+);
+

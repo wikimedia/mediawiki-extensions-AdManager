@@ -358,11 +358,13 @@ $messages['gl'] = array(
 );
 
 /** Hebrew (עברית)
+ * @author Amire80
  * @author Deror avi
  */
 $messages['he'] = array(
 	'admanager' => 'ניהול המודעות',
 	'admanagerzones' => 'איזור ניהול המודעות',
+	'admanager-desc' => 'יצירת [[Special:AdManager|דף מיוחד]] שמאפשר למפעילים להגדיר את האזור לדפים או קטגוריות',
 	'admanager_docu' => 'על מנת להוסיף או להסיר את איזור המועדות של עמוד או של קטגוריה שלמה, נא להוסיף או להסיר את כותרתו מטה.',
 	'admanagerzones_docu' => 'נא להזין כל מספר איזור מודעה בשורה נפרדת.',
 	'admanager_invalidtargetpage' => 'לא נמצא דף שכותרתו "$1".',

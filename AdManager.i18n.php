@@ -567,6 +567,7 @@ $messages['ms'] = array(
 	'admanager' => 'Pengurus Iklan',
 	'admanagerzones' => 'Zon Pengurus Iklan',
 	'admanager_labelPage' => 'Tajuk laman',
+	'admanager_labelCategory' => 'Nama kategori',
 	'admanager_noads' => 'Jangan paparkan iklan',
 	'admanager_zonenum' => 'Bil. Zon: $1',
 	'admanager_zonenotnumber' => 'Ralat! $1 bukan bilangan.',

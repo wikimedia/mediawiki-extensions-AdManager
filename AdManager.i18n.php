@@ -705,6 +705,16 @@ $messages['sv'] = array(
 	'right-admanager' => '[[Special:AdManager|Hantera annonskonfigurering]]',
 );
 
+/** Tamil (தமிழ்)
+ * @author Karthi.dr
+ */
+$messages['ta'] = array(
+	'admanager_labelPage' => 'பக்கத் தலைப்புகள்',
+	'admanager_submit' => 'சமர்ப்பி',
+	'admanager_Page' => 'பக்கங்கள்',
+	'admanager_Category' => 'பகுப்புகள்',
+);
+
 /** Telugu (తెలుగు)
  * @author Veeven
  */

@@ -627,6 +627,14 @@ $messages['pdc'] = array(
 	'admanager_labelPage' => 'Naame vun Bledder',
 );
 
+/** Pashto (پښتو)
+ * @author Ahmed-Najib-Biabani-Ibrahimkhel
+ */
+$messages['ps'] = array(
+	'admanager_Page' => 'مخونه',
+	'admanager_Category' => 'وېشنيزې',
+);
+
 /** Portuguese (Português)
  * @author SandroHc
  */

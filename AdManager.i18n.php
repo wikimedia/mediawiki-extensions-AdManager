@@ -652,6 +652,15 @@ $messages['pt'] = array(
 	'admanager_return' => 'Voltar para [[Special:AdManager|Ad Manager]]',
 );
 
+/** Tarandíne (Tarandíne)
+ * @author Joetaras
+ */
+$messages['roa-tara'] = array(
+	'admanager_submit' => 'Conferme',
+	'admanager_Page' => 'Pàggene',
+	'admanager_Category' => 'Categorije',
+);
+
 /** Russian (Русский)
  * @author DCamer
  * @author Engineering

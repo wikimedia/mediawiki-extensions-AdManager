@@ -450,9 +450,10 @@ $messages['ia'] = array(
 
 /** Japanese (日本語)
  * @author Fryed-peach
+ * @author Shirayuki
  */
 $messages['ja'] = array(
-	'admanager_Category' => 'カテゴリー',
+	'admanager_Category' => 'カテゴリ',
 );
 
 /** Luxembourgish (Lëtzebuergesch)

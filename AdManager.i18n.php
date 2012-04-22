@@ -563,15 +563,22 @@ $messages['mk'] = array(
 
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
+ * @author Diagramma Della Verita
  */
 $messages['ms'] = array(
 	'admanager' => 'Pengurus Iklan',
 	'admanagerzones' => 'Zon Pengurus Iklan',
 	'admanager_labelPage' => 'Tajuk laman',
 	'admanager_labelCategory' => 'Nama kategori',
+	'admanager_submit' => 'Hantar',
 	'admanager_noads' => 'Jangan paparkan iklan',
+	'admanager_Page' => 'Halaman',
+	'admanager_Category' => 'Kategori-kategori',
+	'admanager_added' => 'Perubahan anda telah disimpan',
+	'admanager_addedzone' => 'Zon tambahan',
 	'admanager_zonenum' => 'Bil. Zon: $1',
 	'admanager_zonenotnumber' => 'Ralat! $1 bukan bilangan.',
+	'admanager_return' => 'Kembali ke [[Special:AdManager|Ad Manager]]',
 );
 
 /** Dutch (Nederlands)

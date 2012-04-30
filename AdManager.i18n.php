@@ -730,6 +730,14 @@ $messages['ru'] = array(
 	'right-admanager' => '[[Special:AdManager|Управление конфигурацией рекламы]]',
 );
 
+/** Sinhala (සිංහල)
+ * @author Singhalawap
+ */
+$messages['si'] = array(
+	'admanager_Category' => 'ප්‍රවර්ග',
+	'admanager_added' => 'ඔබ විසින් කරනලද වෙනස්කිරීම් සුරකින ලදී.',
+);
+
 /** Swedish (Svenska)
  * @author WikiPhoenix
  */

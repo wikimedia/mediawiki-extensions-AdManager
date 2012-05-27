@@ -454,6 +454,7 @@ $messages['ia'] = array(
  */
 $messages['ja'] = array(
 	'admanager_labelCategory' => 'カテゴリ名',
+	'admanager_Page' => 'ページ',
 	'admanager_Category' => 'カテゴリ',
 	'admanager_added' => '変更を保存しました',
 	'right-admanager' => '[[Special:AdManager|広告の設定を管理]]',

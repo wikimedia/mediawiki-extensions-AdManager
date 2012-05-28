@@ -453,7 +453,9 @@ $messages['ia'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'admanager_labelPage' => 'ページ名',
 	'admanager_labelCategory' => 'カテゴリ名',
+	'admanager_submit' => '送信',
 	'admanager_Page' => 'ページ',
 	'admanager_Category' => 'カテゴリ',
 	'admanager_added' => '変更を保存しました',

@@ -448,7 +448,7 @@ $messages['ia'] = array(
 	'right-admanager' => '[[Special:AdManager|Gerer configuration de publicitate]]',
 );
 
-/** Italian (Italiano)
+/** Italian (italiano)
  * @author Beta16
  */
 $messages['it'] = array(
@@ -729,6 +729,18 @@ $messages['pfl'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Oande Oazaisch schaffe]]',
 	'admanager_gotozones' => "[[Special:AdManagerZones|Oam Oazaischeb'raisch schaffe]]",
 	'right-admanager' => '[[Special:AdManager|Oazaische gschdalde]]',
+);
+
+/** Polish (polski)
+ * @author Woytecr
+ */
+$messages['pl'] = array(
+	'admanager_labelCategory' => 'Nazwy kategorii',
+	'admanager_submit' => 'Wyślij',
+	'admanager_Page' => 'Strony',
+	'admanager_Category' => 'Kategorie',
+	'admanager_added' => 'Zmiany zostały zapisane',
+	'admanager_zonenum' => 'Strefa #: $1',
 );
 
 /** Pashto (پښتو)

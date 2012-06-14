@@ -91,7 +91,7 @@ $messages['be-tarask'] = array(
 	'right-admanager' => '[[Special:AdManager|кіраваньне наладамі рэклямы]]',
 );
 
-/** Bulgarian (Български)
+/** Bulgarian (български)
  * @author DCLXVI
  */
 $messages['bg'] = array(
@@ -104,7 +104,7 @@ $messages['bg'] = array(
 	'admanager_zonenum' => 'Зона #: $1',
 );
 
-/** Breton (Brezhoneg)
+/** Breton (brezhoneg)
  * @author Fulup
  * @author Y-M D
  */
@@ -126,7 +126,7 @@ $messages['br'] = array(
 	'admanager_return' => 'Distreiñ da [[Special:AdManager|Ad Manager]]',
 );
 
-/** Catalan (Català)
+/** Catalan (català)
  * @author Gemmaa
  */
 $messages['ca'] = array(
@@ -230,7 +230,7 @@ $messages['eo'] = array(
 	'admanager_Category' => 'Kategorioj',
 );
 
-/** Spanish (Español)
+/** Spanish (español)
  * @author Armando-Martin
  */
 $messages['es'] = array(
@@ -271,7 +271,7 @@ $messages['fa'] = array(
 	'admanager_zonenotnumber' => 'خطا! $1 عدد نیست.',
 );
 
-/** French (Français)
+/** French (français)
  * @author Gomoko
  * @author Hashar
  */
@@ -302,7 +302,7 @@ $messages['fr'] = array(
 	'right-admanager' => '[[Special:AdManager|Gérer la configuration des publicités]]',
 );
 
-/** Franco-Provençal (Arpetan)
+/** Franco-Provençal (arpetan)
  * @author ChrisPtDe
  */
 $messages['frp'] = array(
@@ -418,7 +418,7 @@ $messages['hsb'] = array(
 	'right-admanager' => '[[Special:AdManager|Nawěški konfigurować]]',
 );
 
-/** Interlingua (Interlingua)
+/** Interlingua (interlingua)
  * @author McDutchie
  */
 $messages['ia'] = array(
@@ -575,7 +575,7 @@ $messages['li'] = array(
 	'right-admanager' => '[[Special:AdManager|Advertentie-insjtèllinge behiere]]',
 );
 
-/** Lithuanian (Lietuvių)
+/** Lithuanian (lietuvių)
  * @author Eitvys200
  */
 $messages['lt'] = array(
@@ -597,7 +597,7 @@ $messages['lt'] = array(
 	'admanager_gotozones' => '[[Special:AdManagerZones|Redaguoti reklamos zonas]]',
 );
 
-/** Macedonian (Македонски)
+/** Macedonian (македонски)
  * @author Bjankuloski06
  */
 $messages['mk'] = array(
@@ -751,7 +751,7 @@ $messages['ps'] = array(
 	'admanager_Category' => 'وېشنيزې',
 );
 
-/** Portuguese (Português)
+/** Portuguese (português)
  * @author SandroHc
  */
 $messages['pt'] = array(
@@ -768,7 +768,7 @@ $messages['pt'] = array(
 	'admanager_return' => 'Voltar para [[Special:AdManager|Ad Manager]]',
 );
 
-/** Tarandíne (Tarandíne)
+/** tarandíne (tarandíne)
  * @author Joetaras
  */
 $messages['roa-tara'] = array(
@@ -777,7 +777,7 @@ $messages['roa-tara'] = array(
 	'admanager_Category' => 'Categorije',
 );
 
-/** Russian (Русский)
+/** Russian (русский)
  * @author DCamer
  * @author Engineering
  */
@@ -816,7 +816,7 @@ $messages['si'] = array(
 	'admanager_added' => 'ඔබ විසින් කරනලද වෙනස්කිරීම් සුරකින ලදී.',
 );
 
-/** Swedish (Svenska)
+/** Swedish (svenska)
  * @author WikiPhoenix
  */
 $messages['sv'] = array(
@@ -890,7 +890,7 @@ $messages['tr'] = array(
 	'right-admanager' => '[[Special:AdManager|Reklam Yöneticisi ayarları]]',
 );
 
-/** Ukrainian (Українська)
+/** Ukrainian (українська)
  * @author Sodmy
  */
 $messages['uk'] = array(
@@ -927,7 +927,7 @@ $messages['yi'] = array(
 	'admanager_submit' => 'אײַנגעבן',
 );
 
-/** Simplified Chinese (‪中文(简体)‬)
+/** Simplified Chinese (‪中文（简体）‬)
  * @author Hzy980512
  */
 $messages['zh-hans'] = array(
@@ -951,7 +951,7 @@ $messages['zh-hans'] = array(
 	'right-admanager' => '[[Special:AdManager|管理广告配置]]',
 );
 
-/** Traditional Chinese (‪中文(繁體)‬)
+/** Traditional Chinese (‪中文（繁體）‬)
  * @author Oapbtommy
  */
 $messages['zh-hant'] = array(

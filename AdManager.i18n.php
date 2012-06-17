@@ -39,12 +39,33 @@ $messages['en'] = array(
 
 /** Message documentation (Message documentation)
  * @author EugeneZelenko
+ * @author Shirayuki
  * @author Umherirrender
  */
 $messages['qqq'] = array(
+	'admanager' => 'Title of [[Special:AdManager]]',
+	'admanagerzones' => 'Title of [[Special:AdManagerZones]]',
+	'admanager-desc' => 'Description of this extension',
+	'admanagerzones_docu' => 'Used in [[Special:AdManagerZones]]',
+	'admanager_noAdManagerZones' => 'Used in [[Special:AdManager]]',
+	'admanager_labelPage' => 'Used in [[Special:AdManager]]',
+	'admanager_labelCategory' => 'Used in [[Special:AdManager]]',
 	'admanager_submit' => '{{Identical|Submit}}',
+	'admanager_noads' => 'Usage example of this message:
+
+* Zone #: Display no ads',
 	'admanager_Page' => '{{Identical|Pages}}',
 	'admanager_Category' => '{{Identical|Categories}}',
+	'admanager_addedzone' => 'Usage example of this mesage (123 is the Zone number):
+
+*Added zone 123',
+	'admanager_zonenum' => '* $1 is the Zone number',
+	'admanager_zonenotnumber' => 'Error message
+
+* $1 is the invalid Zone number. $1 may contain HTML tags.',
+	'admanager_return' => 'Used in [[Special:AdManager]]',
+	'admanager_gotoads' => 'Link to [[Special:AdManager]]. Used in [[Special:AdManagerZones]].',
+	'admanager_gotozones' => 'Link to [[Special:AdManagerZones]]. Used in [[Special:AdManager]].',
 	'right-admanager' => '{{doc-right|admanager}}',
 );
 
@@ -483,12 +504,29 @@ $messages['it'] = array(
  * @author Shirayuki
  */
 $messages['ja'] = array(
+	'admanager' => '広告の管理',
+	'admanagerzones' => '広告管理のゾーン',
+	'admanager-desc' => '管理者がページまたはカテゴリにゾーンを設定できるようにする、[[Special:AdManager|特別ページ]]を提供する',
+	'admanager_docu' => 'ページまたはカテゴリ全体の広告ゾーンを追加または除去するには、下でページ名を追加または除去してください。',
+	'admanagerzones_docu' => '広告ゾーン番号を各行に 1 つずつ入力してください。',
+	'admanager_invalidtargetpage' => '「$1」という名前のページはありません。',
+	'admanager_invalidtargetcategory' => '「$1」という名前のカテゴリはありません。',
+	'admanager_notable' => 'エラー! 必須のデータベーステーブルがありません! まず update.php を実行してください。',
+	'admanager_noAdManagerZones' => 'エラー! 広告ゾーンをいくつか設定する必要があります。[[Special:AdManagerZones|広告管理のゾーン]]で入力してください。',
 	'admanager_labelPage' => 'ページ名',
 	'admanager_labelCategory' => 'カテゴリ名',
 	'admanager_submit' => '送信',
+	'admanager_noads' => '広告非表示',
 	'admanager_Page' => 'ページ',
 	'admanager_Category' => 'カテゴリ',
 	'admanager_added' => '変更を保存しました',
+	'admanager_noadsset' => '$1 が広告を非表示に設定しました',
+	'admanager_addedzone' => 'ゾーンを追加しました：',
+	'admanager_zonenum' => 'ゾーン番号：$1',
+	'admanager_zonenotnumber' => 'エラー! $1 は数値ではありません。',
+	'admanager_return' => '[[Special:AdManager|広告の管理]]に戻る',
+	'admanager_gotoads' => '[[Special:AdManager|広告の配置を編集]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|広告ゾーンを編集]]',
 	'right-admanager' => '[[Special:AdManager|広告の設定を管理]]',
 );
 

@@ -895,6 +895,7 @@ $messages['ta'] = array(
 );
 
 /** Telugu (తెలుగు)
+ * @author Jprmvnvijay5
  * @author Veeven
  */
 $messages['te'] = array(
@@ -903,6 +904,7 @@ $messages['te'] = array(
 	'admanager_Page' => 'పుటలు',
 	'admanager_Category' => 'వర్గాలు',
 	'admanager_added' => 'మీ మార్పుల భద్రమయ్యాయి',
+	'admanager_zonenotnumber' => 'పొరపాటు! $1 సంఖ్య కాదు.',
 );
 
 /** Turkish (Türkçe)

@@ -81,7 +81,7 @@ $messages['ar'] = array(
 	'admanager_added' => 'تم حفظ التغييرات',
 );
 
-/** Belarusian (Taraškievica orthography) (‪Беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -178,6 +178,7 @@ $messages['ca'] = array(
 );
 
 /** Welsh (Cymraeg)
+ * @author Lloffiwr
  * @author Pwyll
  */
 $messages['cy'] = array(
@@ -191,9 +192,11 @@ $messages['cy'] = array(
 	'admanager_notable' => 'Gwall! Ni ddaethpwyd o hyd i dabl cronfa ddata angenrheidiol. Rhedwch update.php yn gyntaf.',
 	'admanager_noAdManagerZones' => 'Gwall! Rhaid i chi ychwanegu rhai ardaloedd. Nodwch nhw yn [[Special:AdManagerZones|Ardaloedd Rheolwr Hysbysebion]].',
 	'admanager_labelPage' => 'Teitlau tudalennau',
+	'admanager_labelCategory' => 'Enwau categorïau',
 	'admanager_submit' => 'Cyflwyner',
 	'admanager_noads' => 'Peidio arddangos hysbysebion',
 	'admanager_Page' => 'Tudalennau',
+	'admanager_Category' => 'Categorïau',
 	'admanager_added' => 'Cadwyd eich newidiadau',
 	'admanager_noadsset' => 'Gosodwyd $1 i beidio ag arddangos hysbysebion',
 	'admanager_addedzone' => 'Ardal a ychwanegwyd',
@@ -348,7 +351,7 @@ $messages['frp'] = array(
 	'right-admanager' => '[[Special:AdManager|Administrar la configuracion de la recllâma]]',
 );
 
-/** Galician (Galego)
+/** Galician (galego)
  * @author Toliño
  */
 $messages['gl'] = array(
@@ -409,7 +412,7 @@ $messages['he'] = array(
 	'right-admanager' => '[[Special:AdManager|ניהול תצורת פרסום]]',
 );
 
-/** Upper Sorbian (Hornjoserbsce)
+/** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
 $messages['hsb'] = array(

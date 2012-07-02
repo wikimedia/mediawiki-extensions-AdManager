@@ -563,6 +563,14 @@ $messages['ko'] = array(
 	'right-admanager' => '[[Special:AdManager|광고 설정 관리]]',
 );
 
+/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+ * @author George Animal
+ */
+$messages['ku-latn'] = array(
+	'admanager_submit' => 'Tomar bike',
+	'admanager_Category' => 'Kategorî',
+);
+
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
  */

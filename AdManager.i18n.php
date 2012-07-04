@@ -241,6 +241,7 @@ $messages['de'] = array(
 $messages['diq'] = array(
 	'admanager_submit' => 'Qeyd ke',
 	'admanager_Page' => 'Peli',
+	'admanager_Category' => 'Kategoriy',
 );
 
 /** Esperanto (Esperanto)

@@ -236,12 +236,20 @@ $messages['de'] = array(
 );
 
 /** Zazaki (Zazaki)
+ * @author Erdemaslancan
  * @author Mirzali
  */
 $messages['diq'] = array(
+	'admanager' => 'İdarekarê Reklami',
+	'admanagerzones' => 'Mıntıqey idarekaran de Reklaman',
+	'admanager_labelPage' => 'Sernamey pelan',
+	'admanager_labelCategory' => 'Nameyê kategoriyan',
 	'admanager_submit' => 'Qeyd ke',
+	'admanager_noads' => 'Reklaman measne',
 	'admanager_Page' => 'Peli',
 	'admanager_Category' => 'Kategoriy',
+	'admanager_addedzone' => 'Mıntıqaya ke debyaya',
+	'admanager_zonenum' => 'Nıntıqa #: $1',
 );
 
 /** Esperanto (Esperanto)

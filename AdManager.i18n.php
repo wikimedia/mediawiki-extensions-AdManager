@@ -294,9 +294,14 @@ $messages['es'] = array(
 );
 
 /** Persian (فارسی)
+ * @author Mjbmr
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
+	'admanager' => 'مدیریت آگهی',
+	'admanager_labelPage' => 'عناوین صفحه',
+	'admanager_labelCategory' => 'نام‌های رده',
+	'admanager_submit' => 'ثبت',
 	'admanager_Page' => 'صفحه‌ها',
 	'admanager_Category' => 'رده‌ها',
 	'admanager_added' => 'تغییرات شما ذخیره شده‌است',
@@ -540,6 +545,20 @@ $messages['ja'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|広告の配置を編集]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|広告ゾーンを編集]]',
 	'right-admanager' => '[[Special:AdManager|広告の設定を管理]]',
+);
+
+/** Georgian (ქართული)
+ * @author David1010
+ */
+$messages['ka'] = array(
+	'admanager_labelPage' => 'გვერდის სათაურები',
+	'admanager_labelCategory' => 'კატეგორიის სახელები',
+	'admanager_submit' => 'მიღება',
+	'admanager_Page' => 'გვერდები',
+	'admanager_Category' => 'კატეგორიები',
+	'admanager_addedzone' => 'დამატებულია ზონა',
+	'admanager_zonenum' => 'ზონა №: $1',
+	'admanager_zonenotnumber' => 'შეცდომა! $1 არ არის რიცხვი.',
 );
 
 /** Korean (한국어)
@@ -816,6 +835,7 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'admanager_submit' => 'سپارل',
 	'admanager_Page' => 'مخونه',
 	'admanager_Category' => 'وېشنيزې',
 );
@@ -835,6 +855,37 @@ $messages['pt'] = array(
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Erro! $1 não é um número.',
 	'admanager_return' => 'Voltar para [[Special:AdManager|Ad Manager]]',
+);
+
+/** Romanian (română)
+ * @author Firilacroco
+ * @author Minisarm
+ */
+$messages['ro'] = array(
+	'admanager' => 'Gestionar de anunțuri',
+	'admanagerzones' => 'Zone gestionare anunțuri',
+	'admanager-desc' => 'Furnizează o [[Special:AdManager|pagină specială]] care permite administratorilor să seteze zona pentru pagini sau categorii',
+	'admanager_docu' => 'Pentru a adăuga sau înlătura zona cu anunțuri a unei pagini sau a unei întregi categorii, adăugați-i sau eliminați-i titlul mai jos.',
+	'admanagerzones_docu' => 'Introduceți fiecare număr al zonei cu anunțuri pe un singur rând.',
+	'admanager_invalidtargetpage' => 'Nicio pagină găsită cu titlul „$1”.',
+	'admanager_invalidtargetcategory' => 'Nicio categorie găsită cu titlul „$1”.',
+	'admanager_notable' => 'Eroare! Un tabel cu baza de date, care a fost solicitat, nu a fost găsit! Rulați mai întâi update.php.',
+	'admanager_noAdManagerZones' => 'Eroare! Trebuie să adăugați câteva zone cu anunțuri. Introduceți-le în pagina [[Special:AdManagerZones|Zone gestionare anunțuri]].',
+	'admanager_labelPage' => 'Titluri de pagină',
+	'admanager_labelCategory' => 'Nume de categorie',
+	'admanager_submit' => 'Trimite',
+	'admanager_noads' => 'Nu se afișează anunțuri',
+	'admanager_Page' => 'Pagini',
+	'admanager_Category' => 'Categorii',
+	'admanager_added' => 'Modificările dumneavoastră au fost salvate',
+	'admanager_noadsset' => '$1 a fost setată să nu afișeze anunțuri',
+	'admanager_addedzone' => 'Zonă adăugată',
+	'admanager_zonenum' => 'Zona nr.: $1',
+	'admanager_zonenotnumber' => 'Eroare! $1 nu este un număr.',
+	'admanager_return' => 'Revenire la [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => '[[Special:AdManager|Modifică amplasarea anunțurilor]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Modifică zonele cu anunțuri]]',
+	'right-admanager' => '[[Special:AdManager|Gestionează configurația anunțurilor publicitare]]',
 );
 
 /** tarandíne (tarandíne)
@@ -879,8 +930,11 @@ $messages['ru'] = array(
 
 /** Sinhala (සිංහල)
  * @author Singhalawap
+ * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'admanager_submit' => 'යොමන්න',
+	'admanager_Page' => 'පිටු',
 	'admanager_Category' => 'ප්‍රවර්ග',
 	'admanager_added' => 'ඔබ විසින් කරනලද වෙනස්කිරීම් සුරකින ලදී.',
 );

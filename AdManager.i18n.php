@@ -293,6 +293,15 @@ $messages['es'] = array(
 	'right-admanager' => '[[Special:AdManager|Administrar configuración de publicidad]]',
 );
 
+/** Estonian (eesti)
+ * @author Avjoska
+ */
+$messages['et'] = array(
+	'admanager_Page' => 'Leheküljed',
+	'admanager_Category' => 'Kategooriad',
+	'admanager_added' => 'Sinu muudatused on salvestatud',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  * @author ZxxZxxZ
@@ -926,6 +935,21 @@ $messages['ru'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Изменить размещение рекламы]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Изменить рекламные зоны]]',
 	'right-admanager' => '[[Special:AdManager|Управление конфигурацией рекламы]]',
+);
+
+/** Sakha (саха тыла)
+ * @author HalanTul
+ */
+$messages['sah'] = array(
+	'admanagerzones' => 'Арбааһын бөлөхтөрүн менеджерэ',
+	'admanager_labelPage' => 'Сирэйдэр бастара',
+	'admanager_labelCategory' => 'Категориялар ааттара',
+	'admanager_submit' => 'Ыыт',
+	'admanager_noads' => 'Арбааһыны көрдөрүмэ',
+	'admanager_Page' => 'Сирэйдэр',
+	'admanager_Category' => 'Категориялар',
+	'admanager_added' => 'Уларытыыҥ бигэргэннэ',
+	'admanager_noadsset' => '$1 арбааһыны араарбыт',
 );
 
 /** Sinhala (සිංහල)

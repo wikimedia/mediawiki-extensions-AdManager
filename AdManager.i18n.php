@@ -600,6 +600,18 @@ $messages['ko'] = array(
 	'right-admanager' => '[[Special:AdManager|광고 설정 관리]]',
 );
 
+/** Colognian (Ripoarisch)
+ * @author Purodha
+ */
+$messages['ksh'] = array(
+	'admanager-desc' => 'Deihd en [[Special:AdManager|{{int:specialpage}}]] en et Wiki, domet Wiki_Köbeße der Berett för Aanzeije op Sigge un en Saachjroppe faß lääje künne.',
+	'admanager_labelPage' => 'Siggetittele:',
+	'admanager_labelCategory' => 'Dä Saachjroppe ier Naame:',
+	'admanager_submit' => 'Lohß Jonn!',
+	'admanager_Page' => 'Sigge',
+	'admanager_Category' => 'Saachjroppe',
+);
+
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)
  * @author George Animal
  */
@@ -1014,6 +1026,36 @@ $messages['te'] = array(
 	'admanager_Category' => 'వర్గాలు',
 	'admanager_added' => 'మీ మార్పుల భద్రమయ్యాయి',
 	'admanager_zonenotnumber' => 'పొరపాటు! $1 సంఖ్య కాదు.',
+);
+
+/** Tagalog (Tagalog)
+ * @author AnakngAraw
+ */
+$messages['tl'] = array(
+	'admanager' => 'Tagapamahala ng Patalastas',
+	'admanagerzones' => 'Mga Sona ng Tagapamahala ng Anunsiyo',
+	'admanager-desc' => 'Nagbibigay ng isang [[Special:AdManager|natatanging pahina]] na nagpapahintulot sa mga tagapagpaandar ng sistema na magtakda ng sona para sa mga pahina o mga kategorya',
+	'admanager_docu' => 'Upang makapagdagdag o makapagtanggal ng sona ng anunsiyo ng isang pahina o buong kategorya, idagdag o tanggalin ang pamagat nito sa ibaba.',
+	'admanagerzones_docu' => 'Ipasok ang bawat isang bilang na pangsona ng anunsiyo sa ibabaw ng sarili nitong guhit.',
+	'admanager_invalidtargetpage' => 'Walang pahinang natagpuan na mayroong pamagat na "$1".',
+	'admanager_invalidtargetcategory' => 'Walang kategoryang natagpuan na mayroong pamagat na "$1".',
+	'admanager_notable' => 'Kamalian! Hindi natagpuan ang isang kinakailangang talahanayan ng kalipunan ng dato! Patakbuhin muna ang update.php.',
+	'admanager_noAdManagerZones' => 'Pagkakamali! Dapat kang magdagdag ng ilang mga sona ng patalastas. Ipasok ang mga ito roon sa [[Special:AdManagerZones|Mga Sona ng Tagapamahala ng Patalastas]].',
+	'admanager_labelPage' => 'Mga pamagat ng pahina',
+	'admanager_labelCategory' => 'Mga pangalan ng kategorya',
+	'admanager_submit' => 'Ipasa',
+	'admanager_noads' => 'Huwag magpakita ng mga patalastas',
+	'admanager_Page' => 'Mga pahina',
+	'admanager_Category' => 'Mga kategorya',
+	'admanager_added' => 'Nasagip na ang mga binago mo',
+	'admanager_noadsset' => 'Ang $1 ay naitakda upang huwag magpakita ng mga anunsiyo',
+	'admanager_addedzone' => 'Idinagdag ang sonang',
+	'admanager_zonenum' => 'Sona #: $1',
+	'admanager_zonenotnumber' => 'Kamalian! Ang $1 ay hindi isang bilang.',
+	'admanager_return' => 'Bumalik sa [[Special:AdManager|Tagapamahala ng Patalastas]]',
+	'admanager_gotoads' => '[[Special:AdManager|Baguhin ang pagkakalagay ng patalastas]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Baguhin ang mga sona ng patalastas]]',
+	'right-admanager' => '[[Special:AdManager|Pamahalaan ang pagkakaayos ng pag-aanunsiyo]]',
 );
 
 /** Turkish (Türkçe)

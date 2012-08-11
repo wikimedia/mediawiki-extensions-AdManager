@@ -70,12 +70,13 @@ $messages['qqq'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Meno25
  * @author روخو
  */
 $messages['ar'] = array(
 	'admanager_labelPage' => 'عناوين الصفحة:',
 	'admanager_labelCategory' => 'أسماء التصنيف',
-	'admanager_submit' => 'أرسل',
+	'admanager_submit' => 'إرسال',
 	'admanager_noads' => 'لا تعرض إعلانات',
 	'admanager_Page' => 'صفحات',
 	'admanager_added' => 'تم حفظ التغييرات',
@@ -856,6 +857,7 @@ $messages['pl'] = array(
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
 $messages['ps'] = array(
+	'admanager_labelCategory' => 'د وېشنيزو نومونه',
 	'admanager_submit' => 'سپارل',
 	'admanager_Page' => 'مخونه',
 	'admanager_Category' => 'وېشنيزې',
@@ -1020,6 +1022,7 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'admanager_labelPage' => 'పేజీ శీర్షికలు',
 	'admanager_labelCategory' => 'వర్గాల పేర్లు',
 	'admanager_submit' => 'దాఖలుచెయ్యి',
 	'admanager_Page' => 'పుటలు',

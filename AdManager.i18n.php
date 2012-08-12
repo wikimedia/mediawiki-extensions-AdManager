@@ -971,10 +971,18 @@ $messages['sah'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['si'] = array(
+	'admanager' => 'දැන්වීම් කළමනාකරු',
+	'admanagerzones' => 'දැන්වීම් කළමනාකරුගේ කලාප',
+	'admanager_labelPage' => 'පිටුවේ මාතෘකා',
+	'admanager_labelCategory' => 'ප්‍රවර්ග නාම',
 	'admanager_submit' => 'යොමන්න',
+	'admanager_noads' => 'දැන්වීම් නොපෙන්වන්න',
 	'admanager_Page' => 'පිටු',
 	'admanager_Category' => 'ප්‍රවර්ග',
 	'admanager_added' => 'ඔබ විසින් කරනලද වෙනස්කිරීම් සුරකින ලදී.',
+	'admanager_addedzone' => 'දැන්වීම් කලාපය',
+	'admanager_zonenum' => 'කලාපය #: $1',
+	'admanager_zonenotnumber' => 'දෝෂය! $1 යනු අංකයක් නොවේ.',
 );
 
 /** Swedish (svenska)
@@ -1011,10 +1019,13 @@ $messages['sv'] = array(
  * @author Karthi.dr
  */
 $messages['ta'] = array(
+	'admanager_invalidtargetpage' => '"$1" தலைப்புள்ள எந்தப் பக்கமும் காணப்படவில்லை.',
+	'admanager_invalidtargetcategory' => '"$1" தலைப்புள்ள எந்தப் பகுப்பும் காணப்படவில்லை.',
 	'admanager_labelPage' => 'பக்கத் தலைப்புகள்',
 	'admanager_submit' => 'சமர்ப்பி',
 	'admanager_Page' => 'பக்கங்கள்',
 	'admanager_Category' => 'பகுப்புகள்',
+	'admanager_zonenotnumber' => 'பிழை! $1 ஓர் எண் அன்று.',
 );
 
 /** Telugu (తెలుగు)

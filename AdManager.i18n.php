@@ -253,6 +253,16 @@ $messages['diq'] = array(
 	'admanager_zonenum' => 'Nıntıqa #: $1',
 );
 
+/** Lower Sorbian (dolnoserbski)
+ * @author Michawiki
+ */
+$messages['dsb'] = array(
+	'admanager_Page' => 'Boki',
+	'admanager_Category' => 'Kategorije',
+	'admanager_zonenum' => 'Numer wobcerka: $1',
+	'admanager_zonenotnumber' => 'Zmólka! $1 njejo licba.',
+);
+
 /** Esperanto (Esperanto)
  * @author Yekrats
  */
@@ -373,6 +383,14 @@ $messages['frp'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Changiér lo placement de recllâma]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Changiér les zones de recllâmes]]',
 	'right-admanager' => '[[Special:AdManager|Administrar la configuracion de la recllâma]]',
+);
+
+/** Irish (Gaeilge)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ga'] = array(
+	'admanager_Page' => 'Leathanaigh',
+	'admanager_Category' => 'Catagóirí',
 );
 
 /** Galician (galego)

@@ -313,6 +313,15 @@ $messages['et'] = array(
 	'admanager_added' => 'Sinu muudatused on salvestatud',
 );
 
+/** Basque (euskara)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['eu'] = array(
+	'admanager_submit' => 'Bidali',
+	'admanager_Page' => 'Orrialdeak',
+	'admanager_Category' => 'Kategoriak',
+);
+
 /** Persian (فارسی)
  * @author Mjbmr
  * @author ZxxZxxZ
@@ -327,6 +336,15 @@ $messages['fa'] = array(
 	'admanager_added' => 'تغییرات شما ذخیره شده‌است',
 	'admanager_zonenum' => 'شمارهٔ منطقه: $1',
 	'admanager_zonenotnumber' => 'خطا! $1 عدد نیست.',
+);
+
+/** Finnish (suomi)
+ * @author Beluga
+ */
+$messages['fi'] = array(
+	'admanager_labelPage' => 'Sivujen nimet',
+	'admanager_labelCategory' => 'Luokkien nimet',
+	'admanager_submit' => 'Lähetä',
 );
 
 /** French (français)
@@ -1033,6 +1051,16 @@ $messages['sv'] = array(
 	'right-admanager' => '[[Special:AdManager|Hantera annonskonfigurering]]',
 );
 
+/** Swahili (Kiswahili)
+ * @author Kwisha
+ */
+$messages['sw'] = array(
+	'admanager_submit' => 'Wasilisha',
+	'admanager_Page' => 'Kurasa',
+	'admanager_Category' => 'Jamii',
+	'admanager_added' => 'Mabadiliko yako yamehifadhiwa',
+);
+
 /** Tamil (தமிழ்)
  * @author Karthi.dr
  */
@@ -1141,6 +1169,13 @@ $messages['uk'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Редагувати розміщення оголошень]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Редагувати зони оголошень]]',
 	'right-admanager' => '[[Special:AdManager|Керування конфігурацією реклами]]',
+);
+
+/** Vietnamese (Tiếng Việt)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['vi'] = array(
+	'admanager_Page' => 'Số trang',
 );
 
 /** Yiddish (ייִדיש)

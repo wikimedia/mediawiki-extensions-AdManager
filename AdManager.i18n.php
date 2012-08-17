@@ -1171,6 +1171,18 @@ $messages['uk'] = array(
 	'right-admanager' => '[[Special:AdManager|Керування конфігурацією реклами]]',
 );
 
+/** Urdu (اردو)
+ * @author පසිඳු කාවින්ද
+ */
+$messages['ur'] = array(
+	'admanager_labelPage' => 'صفحہ عنوانات',
+	'admanager_labelCategory' => 'زمرہ کے نام',
+	'admanager_submit' => 'جمع کرائیں',
+	'admanager_noads' => 'ظاہر کی کوئی اشتہار نہیں',
+	'admanager_Page' => 'صفحات',
+	'admanager_Category' => 'زمرہ جات',
+);
+
 /** Vietnamese (Tiếng Việt)
  * @author පසිඳු කාවින්ද
  */

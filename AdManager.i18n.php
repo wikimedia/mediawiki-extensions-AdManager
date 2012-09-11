@@ -936,6 +936,24 @@ $messages['pt'] = array(
 	'admanager_return' => 'Voltar para [[Special:AdManager|Ad Manager]]',
 );
 
+/** Brazilian Portuguese (português do Brasil)
+ * @author Luckas Blade
+ */
+$messages['pt-br'] = array(
+	'admanager_invalidtargetpage' => 'Nenhuma página encontrada com o título "$1".',
+	'admanager_invalidtargetcategory' => 'Nenhuma categoria encontrada com o título "$1".',
+	'admanager_labelPage' => 'Títulos de página',
+	'admanager_labelCategory' => 'Nomes da categoria',
+	'admanager_submit' => 'Enviar',
+	'admanager_noads' => 'Não mostrar anúncios',
+	'admanager_Page' => 'Páginas',
+	'admanager_Category' => 'Categorias',
+	'admanager_added' => 'Suas alterações foram salvas',
+	'admanager_addedzone' => 'Zona adicionada',
+	'admanager_zonenum' => 'Zona #: $1',
+	'admanager_zonenotnumber' => 'Erro! $1 não é um número.',
+);
+
 /** Romanian (română)
  * @author Firilacroco
  * @author Minisarm

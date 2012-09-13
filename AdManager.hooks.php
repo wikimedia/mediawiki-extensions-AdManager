@@ -23,7 +23,7 @@ final class AdManagerHooks {
 				);
 
 				$wgExtNewTables[] = array(
-					AD_ZONE_TABLE,
+					AD_ZONES_TABLE,
 					dirname( __FILE__ ) . '/AdManager.sql',
 					true
 				);
@@ -39,7 +39,7 @@ final class AdManagerHooks {
 				) );
 				$updater->addExtensionUpdate( array(
 					'addTable',
-					AD_ZONE_TABLE,
+					AD_ZONES_TABLE,
 					dirname( __FILE__ ) . '/AdManager.sql',
 					true
 				) );
@@ -146,31 +146,6 @@ final class AdManagerHooks {
 
 		if ( $wgAdManagerService == 'openx' ) {
 			$wgAdManagerCode = "<a href='http://d1.openx.org/ck.php?cb=91238047' target='_blank'><img src='http://d1.openx.org/avw.php?zoneid=$1&amp;cb=1378957897235' border='0' alt='' /></a>";
-		}
-
-		if ( $wgAdManagerService == 'banman' ) {
-			$wgAdManagerCode = <<<END
-	<!-- Begin -  Site: AAO Zone: /eyewiki -->
-	<script language="javascript"  type="text/javascript">
-	<!--
-	var browName = navigator.appName;
-	var SiteID = 1;
-	var ZoneID = $1;
-	var browDateTime = (new Date()).getTime();
-	if ( browName=='Netscape' ) {
-		document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="http://aaoads.enforme.com/a.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;Browser=NETSCAPE4&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '">'); document.write('</'+'scr'+'ipt>');
-	}
-	if ( browName != 'Netscape' ) {
-		document.write('<s'+'cript lang' + 'uage="jav' + 'ascript" src="http://aaoads.enforme.com/a.aspx?ZoneID=' + ZoneID + '&amp;Task=Get&amp;IFR=False&amp;SiteID=' + SiteID + '&amp;Random=' + browDateTime  + '">'); document.write('</'+'scr'+'ipt>');
-	}
-	// -->
-	</script>
-	<noscript>
-		<a href="http://aaoads.enforme.com/a.aspx?ZoneID=$1&amp;Task=Click&amp;Mode=HTML&amp;SiteID=1" target="_blank">
-		<img src="http://aaoads.enforme.com/a.aspx?ZoneID=$1&amp;Task=Get&amp;Mode=HTML&amp;SiteID=1" border="0"  alt=""></a>
-	</noscript>
-	<!-- End -  Site: AAO Zone: /eyewiki_0 -->
-END;
 		}
 
 		// Other ad services can be added here, with the same format as above

@@ -661,12 +661,31 @@ $messages['ko'] = array(
  * @author Purodha
  */
 $messages['ksh'] = array(
+	'admanager' => 'Reklaame Verwallde',
+	'admanagerzones' => 'Reklame Verwallde &mdash; Berette',
 	'admanager-desc' => 'Deihd en [[Special:AdManager|{{int:specialpage}}]] en et Wiki, domet Wiki_Köbeße der Berett för Aanzeije op Sigge un en Saachjroppe faß lääje künne.',
+	'admanager_docu' => 'Öm ene Berett för de Reklaame vun ene Sigg udder en janze Saachjropp derbei ze donn udder afzeträcke, donn onge dä Tittel derbei udder fott.',
+	'admanagerzones_docu' => 'Donn jedem Berett för de Reklaame sing Nommer op sing eije Reih.',
+	'admanager_invalidtargetpage' => 'Kein Sigg mem Naame „$1“ jefonge.',
+	'admanager_invalidtargetcategory' => 'Kein Saachjropp mem Naame „$1“ jefonge.',
+	'admanager_notable' => 'En nüüdeje Tabäll en dä Daatebangk vun Wiki wood nit jefonge.
+Lohß eets ens dat Projramm <code lang="en">update.php</code> loufe.',
+	'admanager_noAdManagerZones' => 'Do moß ene Berett för de Reklaame aanjävve. Donn di op dä Sigg [[Special:AdManagerZones|Berette för de Reklaame]] aanlääje.',
 	'admanager_labelPage' => 'Siggetittele:',
 	'admanager_labelCategory' => 'Dä Saachjroppe ier Naame:',
 	'admanager_submit' => 'Lohß Jonn!',
+	'admanager_noads' => 'Kein Reklaame aanzeije',
 	'admanager_Page' => 'Sigge',
 	'admanager_Category' => 'Saachjroppe',
+	'admanager_added' => 'Ding Änderonge sin faßjehalde.',
+	'admanager_noadsset' => '$1 wood enjeschtallt, kein Reklaame ze zeije.',
+	'admanager_addedzone' => 'Dä Berett för de Reklaame wood zojeföösch:',
+	'admanager_zonenum' => 'Berett för de Reklaame Nommer: $1',
+	'admanager_zonenotnumber' => '„$1“ es kein Zahl.',
+	'admanager_return' => 'Retuur nohm [[Special:AdManager|Reklaame Verwallde]]',
+	'admanager_gotoads' => '[[Special:AdManager|Reklaame plazeere]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Berette för de Reklaame Verwallde]]',
+	'right-admanager' => '[[Special:AdManager|Enschtällonge för de Reklaame Ändere]]',
 );
 
 /** Kurdish (Latin script) (‪Kurdî (latînî)‬)

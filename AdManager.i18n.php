@@ -178,6 +178,31 @@ $messages['ca'] = array(
 	'right-admanager' => '[[Especial: AdManager|Gestió de configuració de publicitat]]',
 );
 
+/** Czech (česky)
+ * @author Gaj777
+ * @author Mormegil
+ */
+$messages['cs'] = array(
+	'admanager' => 'Správce reklam',
+	'admanagerzones' => 'Správce reklamních zón',
+	'admanager_docu' => 'Chcete-li přidat nebo odstranit reklamní zónu stránky nebo celé kategorie, přidej nebo odberte její název.',
+	'admanagerzones_docu' => 'Zadejte číslo každé reklamní zóny na samostatném řádku.',
+	'admanager_invalidtargetpage' => 'Stránka s názvem "$1" nebyla nalezena.',
+	'admanager_invalidtargetcategory' => 'Žádná kategorie s názvem "$1" nebyla nalezena.',
+	'admanager_notable' => 'Chyba! Požadovaná tabulka databáze nebyla nalezena! Nejprve spusťte update.php.',
+	'admanager_noAdManagerZones' => 'Chyba! Musíte přidat nějaké reklamní zóny. Je to možné ve [[Special:AdManagerZones|Správci reklamních zón]].',
+	'admanager_labelPage' => 'Názvy stránek',
+	'admanager_labelCategory' => 'Názvy kategorií',
+	'admanager_submit' => 'Odeslat',
+	'admanager_noads' => 'Nezobrazovat reklamy',
+	'admanager_Page' => 'Stránky',
+	'admanager_Category' => 'Kategorie',
+	'admanager_added' => 'Vaše úpravy byly uloženy',
+	'admanager_addedzone' => 'Přidána zona',
+	'admanager_zonenotnumber' => 'Chyba! $1 není čislem.',
+	'admanager_gotoads' => '[[Special:AdManager|Upravit umístění reklamy]]',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  * @author Pwyll
@@ -1278,16 +1303,27 @@ $messages['zh-hans'] = array(
 	'right-admanager' => '[[Special:AdManager|管理广告配置]]',
 );
 
-/** Traditional Chinese (‪中文（繁體）‬)
+/** Traditional Chinese (中文（繁體）‎)
  * @author Oapbtommy
  */
 $messages['zh-hant'] = array(
 	'admanager' => '廣告管理員',
 	'admanagerzones' => '廣告管理員區域',
+	'admanager_invalidtargetpage' => '找不到標題名為“$1”的頁面',
+	'admanager_invalidtargetcategory' => '找不到標題名為“$1”的分類',
+	'admanager_notable' => '錯誤！找不到某數據庫資料表！請先運行update.php。',
+	'admanager_labelPage' => '頁面標題',
 	'admanager_labelCategory' => '類別名稱',
 	'admanager_submit' => '提交',
 	'admanager_noads' => '不顯示廣告',
+	'admanager_Page' => '頁面',
 	'admanager_Category' => '類別',
+	'admanager_added' => '更改已保存',
+	'admanager_addedzone' => '已添加區域',
 	'admanager_zonenotnumber' => '錯誤！$1 不是一個數字。',
+	'admanager_return' => '回到[[Special:AdManager|廣告管理器]]',
+	'admanager_gotoads' => '[[Special:AdManager|編輯廣告位置]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|編輯廣告區域]]',
+	'right-admanager' => '[[Special:AdManager|管理廣告配置]]',
 );
 

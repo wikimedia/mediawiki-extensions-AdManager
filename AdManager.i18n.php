@@ -82,7 +82,7 @@ $messages['ar'] = array(
 	'admanager_added' => 'تم حفظ التغييرات',
 );
 
-/** Belarusian (Taraškievica orthography) (‪беларуская (тарашкевіца)‬)
+/** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by
  */
@@ -713,7 +713,7 @@ Lohß eets ens dat Projramm <code lang="en">update.php</code> loufe.',
 	'right-admanager' => '[[Special:AdManager|Enschtällonge för de Reklaame Ändere]]',
 );
 
-/** Kurdish (Latin script) (‪Kurdî (latînî)‬)
+/** Kurdish (Latin script) (Kurdî (latînî)‎)
  * @author George Animal
  */
 $messages['ku-latn'] = array(
@@ -1279,7 +1279,7 @@ $messages['yi'] = array(
 	'admanager_submit' => 'אײַנגעבן',
 );
 
-/** Simplified Chinese (‪中文（简体）‬)
+/** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
  */
 $messages['zh-hans'] = array(

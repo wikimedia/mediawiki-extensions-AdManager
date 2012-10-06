@@ -274,8 +274,15 @@ $messages['diq'] = array(
 	'admanager_noads' => 'Reklaman measne',
 	'admanager_Page' => 'Peri',
 	'admanager_Category' => 'Kategoriy',
+	'admanager_added' => 'Vurnayışe şıma biyo qeyd',
+	'admanager_noadsset' => 'Qande reklame $1 mocnayışi saz kerê',
 	'admanager_addedzone' => 'Mıntıqaya ke debyaya',
 	'admanager_zonenum' => 'Nıntıqa #: $1',
+	'admanager_zonenotnumber' => 'Xırabin!  $1  yew amar niya.',
+	'admanager_return' => 'Peyser şo [[Special:AdManager|İdarekarê Reklami]]',
+	'admanager_gotoads' => '[[Special:AdManager|Reklami timar ke]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Warey timar ke]]',
+	'right-admanager' => '[[Special:AdManager|Sazê İdarekar dê Reklami]]',
 );
 
 /** Lower Sorbian (dolnoserbski)

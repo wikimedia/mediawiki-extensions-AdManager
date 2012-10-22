@@ -154,13 +154,13 @@ $messages['br'] = array(
 $messages['ca'] = array(
 	'admanager' => "Administrador d'anuncis",
 	'admanagerzones' => "Zones de l'administrador d'anuncis",
-	'admanager-desc' => "Proporciona un [[especial: AdManager|special pàgina]] que permet que els administradors d'establir la zona de pàgines o categories",
+	'admanager-desc' => "Proporciona un [[especial: AdManager|special pàgina]] que permet que els administradors d'establir la zona de pàgines o categories", # Fuzzy
 	'admanager_docu' => "Per afegir o suprimir la zona d'anunci d'una pàgina o categoria sencera, afegir o treure el seu títol sota.",
 	'admanagerzones_docu' => "Cada número de zona d'anunci d'entrar en la seva pròpia línia.",
 	'admanager_invalidtargetpage' => 'No hi ha pàgina s\'ha trobat amb títol " $1 ".',
 	'admanager_invalidtargetcategory' => 'No hi ha pàgina s\'ha trobat amb títol " $1 ".',
 	'admanager_notable' => "Error! No s'ha trobat una taula de base de dades requerit! Córrer update.php primer.",
-	'admanager_noAdManagerZones' => "Error! Heu d'afegir algunes zones d'anuncis. Introduir-los a les [[especial: AdManagerZones|Administrador d'anuncis Zones]].",
+	'admanager_noAdManagerZones' => "Error! Heu d'afegir algunes zones d'anuncis. Introduir-los a les [[especial: AdManagerZones|Administrador d'anuncis Zones]].", # Fuzzy
 	'admanager_labelPage' => 'Títol de la pàgina:',
 	'admanager_labelCategory' => 'Nom de la categoria:',
 	'admanager_submit' => 'Envia',
@@ -172,10 +172,10 @@ $messages['ca'] = array(
 	'admanager_addedzone' => "Zona d'afegit",
 	'admanager_zonenum' => '# La zona:$1',
 	'admanager_zonenotnumber' => 'Error!  $1  no és un número.',
-	'admanager_return' => "Torna a [[especial: AdManager|Administrador d'anuncis]]",
-	'admanager_gotoads' => "[[Especial: AdManager|Edita la col. locació d'anuncis]]",
-	'admanager_gotozones' => "[[Especial: AdManagerZones|Edita les zones d'anuncis]]",
-	'right-admanager' => '[[Especial: AdManager|Gestió de configuració de publicitat]]',
+	'admanager_return' => "Torna a [[especial: AdManager|Administrador d'anuncis]]", # Fuzzy
+	'admanager_gotoads' => "[[Especial: AdManager|Edita la col. locació d'anuncis]]", # Fuzzy
+	'admanager_gotozones' => "[[Especial: AdManagerZones|Edita les zones d'anuncis]]", # Fuzzy
+	'right-admanager' => '[[Especial: AdManager|Gestió de configuració de publicitat]]', # Fuzzy
 );
 
 /** Czech (česky)
@@ -1333,4 +1333,3 @@ $messages['zh-hant'] = array(
 	'admanager_gotozones' => '[[Special:AdManagerZones|編輯廣告區域]]',
 	'right-admanager' => '[[Special:AdManager|管理廣告配置]]',
 );
-

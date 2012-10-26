@@ -272,7 +272,7 @@ $messages['diq'] = array(
 	'admanager_labelCategory' => 'Nameyê kategoriyan',
 	'admanager_submit' => 'Qeyd ke',
 	'admanager_noads' => 'Reklaman measne',
-	'admanager_Page' => 'Peri',
+	'admanager_Page' => 'Peli',
 	'admanager_Category' => 'Kategoriy',
 	'admanager_added' => 'Vurnayışe şıma biyo qeyd',
 	'admanager_noadsset' => 'Qande reklame $1 mocnayışi saz kerê',
@@ -1208,11 +1208,13 @@ $messages['tl'] = array(
 );
 
 /** Turkish (Türkçe)
+ * @author Hedda Gabler
  * @author Incelemeelemani
  */
 $messages['tr'] = array(
 	'admanager' => 'Reklam Yöneticisi',
 	'admanagerzones' => 'Reklam Yöneticisi bölgeleri',
+	'admanager_invalidtargetpage' => '"$1" adıyla sayfa bulunamadı.',
 	'admanager_labelPage' => 'Sayfa başlıkları',
 	'admanager_labelCategory' => 'Kategori adları',
 	'admanager_submit' => 'Gönder',

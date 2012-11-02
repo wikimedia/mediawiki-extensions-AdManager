@@ -1290,10 +1290,12 @@ $messages['yi'] = array(
 
 /** Simplified Chinese (中文（简体）‎)
  * @author Hzy980512
+ * @author Yfdyh000
  */
 $messages['zh-hans'] = array(
 	'admanager' => '广告管理器',
 	'admanagerzones' => '广告管理器区域',
+	'admanager-desc' => '提供了一个[[Special:AdManager|特殊页面]]，它允许管理员设置页面或分类的区域',
 	'admanager_invalidtargetpage' => '找不到标题名为“$1”的页面',
 	'admanager_invalidtargetcategory' => '找不到标题名为“$1”的分类',
 	'admanager_notable' => '错误！找不到某数据库资料表！请先运行update.php。',

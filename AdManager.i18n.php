@@ -400,6 +400,7 @@ $messages['fi'] = array(
 );
 
 /** French (français)
+ * @author Crochet.david
  * @author Gomoko
  * @author Hashar
  */
@@ -425,7 +426,7 @@ $messages['fr'] = array(
 	'admanager_zonenum' => 'Zone #: $1',
 	'admanager_zonenotnumber' => "Erreur ! « $1 » n'est pas un nombre.",
 	'admanager_return' => 'Revenir à [[Special:AdManager|Gestionnaire de publicité]]',
-	'admanager_gotoads' => "[[Special:AdManager|Modifier l'emplacement d'une publicité]]",
+	'admanager_gotoads' => "[[Special:AdManager|Modifier l’emplacement d'une publicité]]",
 	'admanager_gotozones' => '[[Special:AdManagerZones|Modifier les zones de publicité]]',
 	'right-admanager' => '[[Special:AdManager|Gérer la configuration des publicités]]',
 );

@@ -1233,6 +1233,13 @@ $messages['tr'] = array(
 	'right-admanager' => '[[Special:AdManager|Reklam Yöneticisi ayarları]]',
 );
 
+/** Central Atlas Tamazight (ⵜⴰⵎⴰⵣⵉⵖⵜ)
+ * @author Tifinaghes
+ */
+$messages['tzm'] = array(
+	'admanager_labelPage' => 'ⵉⵣⵡⵉⵍⵏ ⵏ ⵜⴰⵙⵏⴰ',
+);
+
 /** Ukrainian (українська)
  * @author Sodmy
  */

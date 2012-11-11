@@ -898,8 +898,12 @@ $messages['nl'] = array(
 
 /** Oriya (ଓଡ଼ିଆ)
  * @author Jnanaranjan Sahu
+ * @author ଆଶୁତୋଷ କର
  */
 $messages['or'] = array(
+	'admanager' => 'ବିଜ୍ଞାପନ ପରିଚାଳକ',
+	'admanagerzones' => 'ବିଜ୍ଞାପନ ପରିଚାଳକ ଅଞ୍ଚଳ ଗୁଡିକ',
+	'admanager_notable' => 'ତ୍ରୁଟି! ଏକ ଦରକାରି ଡେଟାବେସ ତାଲିକା ମିଳିଲା ନାହିଁ। ପ୍ରଥମେ update.php ଚଲାନ୍ତୁ।',
 	'admanager_labelPage' => 'ପୃଷ୍ଠା ଶିରୋନାମାଗୁଡିକ',
 	'admanager_labelCategory' => 'ବିଭାଗ ନାମ',
 	'admanager_submit' => 'ପଇଠ କରିବେ',
@@ -908,6 +912,7 @@ $messages['or'] = array(
 	'admanager_Category' => 'ବିଭାଗଗୁଡିକ',
 	'admanager_added' => 'ଆପଣଙ୍କର ବଦଳଗୁଡିକୁ ସାଇତାଗଲା',
 	'admanager_addedzone' => 'ଯୋଡ଼ାଯାଇଥିବା ଭାଗ',
+	'admanager_zonenum' => 'ଅଞ୍ଚଳ ନଂ : $1',
 	'admanager_zonenotnumber' => 'ଅସୁବିଧା ! $1 ଗୋଟିଏ ସଂଖ୍ୟା ନୁହେଁ ।',
 	'admanager_return' => '[[Special:AdManager|Ad Manager]]କୁ ଫେରିବେ',
 );

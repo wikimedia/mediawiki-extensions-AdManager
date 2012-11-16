@@ -178,6 +178,18 @@ $messages['ca'] = array(
 	'right-admanager' => '[[Especial: AdManager|Gestió de configuració de publicitat]]', # Fuzzy
 );
 
+/** Sorani Kurdish (کوردی)
+ * @author Calak
+ */
+$messages['ckb'] = array(
+	'admanager_labelPage' => 'سەردێڕەکانی پەڕە',
+	'admanager_labelCategory' => 'ناوەکانی پۆل',
+	'admanager_Page' => 'پەڕەکان',
+	'admanager_Category' => 'پۆلەكان',
+	'admanager_added' => 'گۆڕانکارییەکانت پاشەکەوت کران',
+	'admanager_zonenotnumber' => 'ھەڵە! $1 ژمارە نییە.',
+);
+
 /** Czech (česky)
  * @author Gaj777
  * @author Mormegil

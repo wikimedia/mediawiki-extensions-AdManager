@@ -82,6 +82,30 @@ $messages['ar'] = array(
 	'admanager_added' => 'تم حفظ التغييرات',
 );
 
+/** تورکجه (تورکجه)
+ * @author Amir a57
+ */
+$messages['azb'] = array(
+	'admanager' => 'رئکلام ایداره‌چی‌سی',
+	'admanagerzones' => 'رئکلام ایداره‌چی‌سی بؤلگه‌لری',
+	'admanager_invalidtargetpage' => '"$ 1" آدییلا صحیفه تاپیلمادی.', # Fuzzy
+	'admanager_labelPage' => 'صحیفه باش‌لیق‌لاری',
+	'admanager_labelCategory' => 'بولمه آدلاری',
+	'admanager_submit' => 'گؤندر',
+	'admanager_noads' => 'رئکلام لاری گورستمه',
+	'admanager_Page' => 'صحیفه لر',
+	'admanager_Category' => 'بولمه لر',
+	'admanager_added' => 'ائدیگینیز دیشیک لیک لر ساخلانیب دیر',
+	'admanager_noadsset' => '$ 1 رئکلامی گؤسترمک اوچون نیزاملا', # Fuzzy
+	'admanager_addedzone' => 'ائکلئنئن بؤلگه',
+	'admanager_zonenum' => 'بولگه نومره سی #: $ 1', # Fuzzy
+	'admanager_zonenotnumber' => 'سهو! $ 1 بیر سایی دئییل.', # Fuzzy
+	'admanager_return' => '[[Special:AdManager|Reklam Yöneticisine]] قاییت',
+	'admanager_gotoads' => '[[Special:AdManager | رئکلامی دیشدیر]]', # Fuzzy
+	'admanager_gotozones' => '[[Special:AdManagerZones|بؤلگه‌یه دیشدیر]]',
+	'right-admanager' => '[[Special: AdManager | ئکلام ایداره‌چی‌سی نیزام‌لاری]]', # Fuzzy
+);
+
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
  * @author EugeneZelenko
  * @author Jim-by

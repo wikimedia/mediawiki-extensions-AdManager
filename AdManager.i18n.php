@@ -1366,6 +1366,7 @@ $messages['zh-hans'] = array(
 
 /** Traditional Chinese (中文（繁體）‎)
  * @author Oapbtommy
+ * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'admanager' => '廣告管理員',
@@ -1373,6 +1374,7 @@ $messages['zh-hant'] = array(
 	'admanager_invalidtargetpage' => '找不到標題名為“$1”的頁面',
 	'admanager_invalidtargetcategory' => '找不到標題名為“$1”的分類',
 	'admanager_notable' => '錯誤！找不到某數據庫資料表！請先運行update.php。',
+	'admanager_noAdManagerZones' => '錯誤！您必須添加廣告區。在[[Special:AdManagerZones|管理廣告區]]內輸入它。',
 	'admanager_labelPage' => '頁面標題',
 	'admanager_labelCategory' => '類別名稱',
 	'admanager_submit' => '提交',
@@ -1380,7 +1382,9 @@ $messages['zh-hant'] = array(
 	'admanager_Page' => '頁面',
 	'admanager_Category' => '類別',
 	'admanager_added' => '更改已保存',
+	'admanager_noadsset' => '$1已設置為顯示沒有廣告',
 	'admanager_addedzone' => '已添加區域',
+	'admanager_zonenum' => '區＃：$1',
 	'admanager_zonenotnumber' => '錯誤！$1 不是一個數字。',
 	'admanager_return' => '回到[[Special:AdManager|廣告管理器]]',
 	'admanager_gotoads' => '[[Special:AdManager|編輯廣告位置]]',

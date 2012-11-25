@@ -1365,12 +1365,14 @@ $messages['zh-hans'] = array(
 );
 
 /** Traditional Chinese (中文（繁體）‎)
+ * @author Justincheng12345
  * @author Oapbtommy
  * @author Simon Shek
  */
 $messages['zh-hant'] = array(
 	'admanager' => '廣告管理員',
 	'admanagerzones' => '廣告管理員區域',
+	'admanager-desc' => '提供一個[[Special:AdManager|特殊頁面]]以供管理員設置頁面或分類的區域',
 	'admanager_invalidtargetpage' => '找不到標題名為“$1”的頁面',
 	'admanager_invalidtargetcategory' => '找不到標題名為“$1”的分類',
 	'admanager_notable' => '錯誤！找不到某數據庫資料表！請先運行update.php。',

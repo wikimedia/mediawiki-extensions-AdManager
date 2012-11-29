@@ -429,11 +429,16 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author Nedergard
  */
 $messages['fi'] = array(
 	'admanager_labelPage' => 'Sivujen nimet',
 	'admanager_labelCategory' => 'Luokkien nimet',
 	'admanager_submit' => 'Lähetä',
+	'admanager_Page' => 'Sivut',
+	'admanager_Category' => 'Luokat',
+	'admanager_added' => 'Muutoksesi on tallennettu',
+	'admanager_zonenotnumber' => 'Virhe! $1 ei ole numero.',
 );
 
 /** French (français)

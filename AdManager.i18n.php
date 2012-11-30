@@ -627,6 +627,19 @@ $messages['ia'] = array(
 	'right-admanager' => '[[Special:AdManager|Gerer configuration de publicitate]]',
 );
 
+/** Icelandic (íslenska)
+ * @author S.Örvarr.S
+ */
+$messages['is'] = array(
+	'admanager_labelPage' => 'Síðutitlar',
+	'admanager_labelCategory' => 'Flokkaheiti',
+	'admanager_submit' => 'Senda',
+	'admanager_noads' => 'Sýna engar auglýsingar',
+	'admanager_Page' => 'Síður',
+	'admanager_Category' => 'Flokkar',
+	'admanager_added' => 'Breytingar þínar hafa verið vistaðar',
+);
+
 /** Italian (italiano)
  * @author Beta16
  */
@@ -1019,9 +1032,11 @@ $messages['ps'] = array(
 );
 
 /** Portuguese (português)
+ * @author Bonifácio
  * @author SandroHc
  */
 $messages['pt'] = array(
+	'admanager_docu' => 'Para adicionar ou remover a zona de publicidade de uma página ou toda a categoria, adicionar ou remover o título abaixo.',
 	'admanager_labelCategory' => 'Nomes da categoria',
 	'admanager_submit' => 'Enviar',
 	'admanager_noads' => 'Não apresentar anúncios',

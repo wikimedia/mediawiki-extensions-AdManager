@@ -715,6 +715,16 @@ $messages['ka'] = array(
 	'admanager_zonenotnumber' => 'შეცდომა! $1 არ არის რიცხვი.',
 );
 
+/** Khowar (کھوار)
+ * @author Rachitrali
+ */
+$messages['khw'] = array(
+	'admanager_labelPage' => 'صفحہ عنوانات',
+	'admanager_submit' => 'داخل کوے',
+	'admanager_Page' => 'صفحات',
+	'admanager_Category' => 'زمرہ جات',
+);
+
 /** Korean (한국어)
  * @author 아라
  */

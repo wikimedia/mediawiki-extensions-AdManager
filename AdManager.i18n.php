@@ -56,7 +56,7 @@ $messages['qqq'] = array(
 * Zone #: Display no ads',
 	'admanager_Page' => '{{Identical|Pages}}',
 	'admanager_Category' => '{{Identical|Categories}}',
-	'admanager_addedzone' => 'Usage example of this mesage (123 is the Zone number):
+	'admanager_addedzone' => 'Usage example of this message (123 is the Zone number):
 
 *Added zone 123',
 	'admanager_zonenum' => '* $1 is the Zone number',

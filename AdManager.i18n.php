@@ -175,6 +175,7 @@ $messages['br'] = array(
 
 /** Catalan (català)
  * @author Gemmaa
+ * @author Pitort
  */
 $messages['ca'] = array(
 	'admanager' => "Administrador d'anuncis",
@@ -197,7 +198,7 @@ $messages['ca'] = array(
 	'admanager_addedzone' => "Zona d'afegit",
 	'admanager_zonenum' => '# La zona:$1',
 	'admanager_zonenotnumber' => 'Error!  $1  no és un número.',
-	'admanager_return' => "Torna a [[especial: AdManager|Administrador d'anuncis]]", # Fuzzy
+	'admanager_return' => "Torna a [[Special:AdManager|Administrador d'anuncis]]",
 	'admanager_gotoads' => "[[Especial: AdManager|Edita la col. locació d'anuncis]]", # Fuzzy
 	'admanager_gotozones' => "[[Especial: AdManagerZones|Edita les zones d'anuncis]]", # Fuzzy
 	'right-admanager' => '[[Especial: AdManager|Gestió de configuració de publicitat]]', # Fuzzy

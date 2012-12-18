@@ -199,7 +199,7 @@ $messages['ca'] = array(
 	'admanager_zonenum' => '# La zona:$1',
 	'admanager_zonenotnumber' => 'Error!  $1  no és un número.',
 	'admanager_return' => "Torna a [[Special:AdManager|Administrador d'anuncis]]",
-	'admanager_gotoads' => "[[Especial: AdManager|Edita la col. locació d'anuncis]]", # Fuzzy
+	'admanager_gotoads' => "[[Special:AdManager|Edita la col. locació d'anuncis]]",
 	'admanager_gotozones' => "[[Special:AdManagerZones|Edita les zones d'anuncis]]",
 	'right-admanager' => '[[Special:AdManager|Gestió de configuració de publicitat]]',
 );
@@ -706,14 +706,25 @@ $messages['ja'] = array(
  * @author David1010
  */
 $messages['ka'] = array(
+	'admanager' => 'რეკლამის მენეჯერი',
+	'admanagerzones' => 'სარეკლამო ზონების მენეჯერი',
+	'admanagerzones_docu' => 'თითოეული სარეკლამო ზონის ნომერი შეიყვანეთ თითო ხაზზე.',
+	'admanager_invalidtargetpage' => 'გვერდი სათაურით „$1“ ვერ მოიძებნა.',
+	'admanager_invalidtargetcategory' => 'კატეგორია სათაურით „$1“ ვერ მოიძებნა.',
 	'admanager_labelPage' => 'გვერდის სათაურები',
 	'admanager_labelCategory' => 'კატეგორიის სახელები',
 	'admanager_submit' => 'მიღება',
+	'admanager_noads' => 'არ აჩვენო რეკლამა',
 	'admanager_Page' => 'გვერდები',
 	'admanager_Category' => 'კატეგორიები',
+	'admanager_added' => 'თქვენი ცვლილებები შენახულია',
 	'admanager_addedzone' => 'დამატებულია ზონა',
 	'admanager_zonenum' => 'ზონა №: $1',
 	'admanager_zonenotnumber' => 'შეცდომა! $1 არ არის რიცხვი.',
+	'admanager_return' => '[[Special:AdManager|რეკლამის მენეჯერთან]] დაბრუნება',
+	'admanager_gotoads' => '[[Special:AdManager|რეკლამის განთავსების რედაქტირება]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|სარეკლამო ზონების რედაქტირება]]',
+	'right-admanager' => '[[Special:AdManager|რეკლამის კონფიგურაციის მართვა]]',
 );
 
 /** Khowar (کھوار)

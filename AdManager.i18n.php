@@ -1074,12 +1074,20 @@ $messages['pt'] = array(
 
 /** Brazilian Portuguese (português do Brasil)
  * @author Luckas Blade
+ * @author 555
  */
 $messages['pt-br'] = array(
-	'admanager_invalidtargetpage' => 'Nenhuma página encontrada com o título "$1".',
-	'admanager_invalidtargetcategory' => 'Nenhuma categoria encontrada com o título "$1".',
-	'admanager_labelPage' => 'Títulos de página',
-	'admanager_labelCategory' => 'Nomes da categoria',
+	'admanager' => 'Gestão de anúncios',
+	'admanagerzones' => 'Gestão de zonas de anúncios',
+	'admanager-desc' => 'Provê uma [[Special:AdManager|página especial]] que permite aos administradores definirem uma zona de anúncios em páginas ou categorias',
+	'admanager_docu' => 'Para adicionar ou remover a zona de anúncios de uma página ou de uma categoria por inteiro, adicione ou remova seus títulos abaixo.',
+	'admanagerzones_docu' => 'Insira cada número de zona de anúncios em sua própria linha.',
+	'admanager_invalidtargetpage' => 'Não foi encontrada nenhuma página com o título "$1".',
+	'admanager_invalidtargetcategory' => 'Não foi encontrada nenhuma categoria com o título "$1".',
+	'admanager_notable' => 'Erro! Uma tabela requerida não foi localizada no banco de dados. Execute update.php antes de prosseguir.',
+	'admanager_noAdManagerZones' => 'Erro! É necessário adicionar algumas zonas de anúncios. Insira-as em [[Special:AdManagerZones|Gestão de zonas de anúncios]]',
+	'admanager_labelPage' => 'Títulos de páginas',
+	'admanager_labelCategory' => 'Nomes de categorias',
 	'admanager_submit' => 'Enviar',
 	'admanager_noads' => 'Não mostrar anúncios',
 	'admanager_Page' => 'Páginas',
@@ -1088,6 +1096,10 @@ $messages['pt-br'] = array(
 	'admanager_addedzone' => 'Zona adicionada',
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Erro! $1 não é um número.',
+	'admanager_return' => 'Retornar para a [[Special:AdManager|gestão de anúncios]]',
+	'admanager_gotoads' => '[[Special:AdManager|Editar a posição do anúncio]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Editar zonas de anúncio]]',
+	'right-admanager' => '[[Special:AdManager|Gerir a configuração dos anúncios]]',
 );
 
 /** Romanian (română)

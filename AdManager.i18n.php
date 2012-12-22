@@ -69,6 +69,14 @@ $messages['qqq'] = array(
 	'right-admanager' => '{{doc-right|admanager}}',
 );
 
+/** Afrikaans (Afrikaans)
+ * @author Naudefj
+ */
+$messages['af'] = array(
+	'admanager_Page' => 'Bladsye',
+	'admanager_Category' => 'Kategorieë',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  * @author روخو
@@ -105,6 +113,24 @@ $messages['azb'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|رئکلامی دیشدیر]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|بؤلگه‌یه دیشدیر]]',
 	'right-admanager' => '[[Special:AdManager|رئکلام ایداره‌چی‌سی نیظام‌لاری]]',
+);
+
+/** Bashkir (башҡортса)
+ * @author Haqmar
+ */
+$messages['ba'] = array(
+	'admanager' => 'Реклама идаралаусыһы',
+	'admanagerzones' => 'Реклама зоналары идаралаусыһы',
+	'admanager_labelPage' => 'Бит исемдәре',
+	'admanager_labelCategory' => 'Категория исемдәре',
+	'admanager_submit' => 'Ебәрергә',
+	'admanager_noads' => 'Реклама күрһәтмәҫкә',
+	'admanager_Page' => 'Биттәр',
+	'admanager_Category' => 'Категориялар',
+	'admanager_added' => 'Үҙгәртеүҙәрегеҙ һаҡланды',
+	'admanager_noadsset' => '$1 реклама күрһәтеүҙе япты',
+	'admanager_addedzone' => 'Өҫтәлгән зона',
+	'admanager_zonenum' => 'Зона #:$1',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)
@@ -149,6 +175,17 @@ $messages['bg'] = array(
 	'admanager_Category' => 'Категории',
 	'admanager_added' => 'Промените бяха съхранени',
 	'admanager_zonenum' => 'Зона #: $1',
+);
+
+/** Bengali (বাংলা)
+ * @author Bellayet
+ */
+$messages['bn'] = array(
+	'admanager_labelPage' => 'পাতার শিরোনাম',
+	'admanager_labelCategory' => 'বিষয়শ্রেণীর নাম',
+	'admanager_submit' => 'জমা দাও',
+	'admanager_Page' => 'পাতা',
+	'admanager_Category' => 'বিষয়শ্রেণী',
 );
 
 /** Breton (brezhoneg)
@@ -219,6 +256,7 @@ $messages['ckb'] = array(
 /** Czech (česky)
  * @author Gaj777
  * @author Mormegil
+ * @author Paxt
  */
 $messages['cs'] = array(
 	'admanager' => 'Správce reklam',
@@ -236,9 +274,14 @@ $messages['cs'] = array(
 	'admanager_Page' => 'Stránky',
 	'admanager_Category' => 'Kategorie',
 	'admanager_added' => 'Vaše úpravy byly uloženy',
+	'admanager_noadsset' => 'Pro $1 bylo vypnuto zobrazování inzerce',
 	'admanager_addedzone' => 'Přidána zona',
+	'admanager_zonenum' => 'Zóna č. $1',
 	'admanager_zonenotnumber' => 'Chyba! $1 není čislem.',
+	'admanager_return' => 'Návrat do [[Special: AdManager|Správce reklamy]]', # Fuzzy
 	'admanager_gotoads' => '[[Special:AdManager|Upravit umístění reklamy]]',
+	'admanager_gotozones' => '[[Special: AdManagerZones|Editovat zóny inzerátů]]', # Fuzzy
+	'right-admanager' => '[[Special:AdManager|Upravit konfiguraci inzerce]]',
 );
 
 /** Welsh (Cymraeg)
@@ -267,6 +310,36 @@ $messages['cy'] = array(
 	'admanager_zonenum' => 'Ardal #: $1',
 	'admanager_zonenotnumber' => 'Gwall! Nid rhif yw $1',
 	'admanager_return' => 'Dychwelyd i [[Special:AdManager|Rheolwr Hysbesebion]]',
+);
+
+/** Danish (dansk)
+ * @author Tjernobyl
+ */
+$messages['da'] = array(
+	'admanager' => 'Annoncehåndtering',
+	'admanagerzones' => 'Annoncehåndteringsområder',
+	'admanager-desc' => 'Giver en [[Special:AdManager|specialside]] som tillader sysops at angive området for sider eller kategorier',
+	'admanager_docu' => 'Hvis du vil tilføje eller fjerne en side eller en hel kategoris annonceområde, tilføj eller fjern titlen nedenfor.',
+	'admanagerzones_docu' => 'Angiv hver annonceområdes nummer på dens egen linje.',
+	'admanager_invalidtargetpage' => 'Ingen side fundet ved navn "$1".',
+	'admanager_invalidtargetcategory' => 'Ingen kategori fundet ved navn "$1".',
+	'admanager_notable' => 'Fejl! En påkrævet databasetabel blev ikke fundet! Kør update.php først.',
+	'admanager_noAdManagerZones' => 'Fejl! Du skal tilføje nogle annonceområder. Angiv dem i [[Special:AdManagerZones|annoncehåndteringsområder]].',
+	'admanager_labelPage' => 'Sidetitler',
+	'admanager_labelCategory' => 'Kategorinavne',
+	'admanager_submit' => 'Gem',
+	'admanager_noads' => 'Vis ingen annoncer',
+	'admanager_Page' => 'Sider',
+	'admanager_Category' => 'Kategorier',
+	'admanager_added' => 'Dine ændringer er blevet gemt',
+	'admanager_noadsset' => '$1 er blevet indstillet til ikke at vise annoncer.',
+	'admanager_addedzone' => 'Tilføjet område',
+	'admanager_zonenum' => 'Område #: $1',
+	'admanager_zonenotnumber' => 'Fejl! $1 er ikke et tal.',
+	'admanager_return' => 'Gå tilbage til [[Special:AdManager|Annoncehåndtering]]',
+	'admanager_gotoads' => '[[Special:AdManager|Rediger annonceplacering]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Rediger annonceområder]]',
+	'right-admanager' => '[[Special:AdManager|Håndter annoncekonfiguration]]',
 );
 
 /** German (Deutsch)
@@ -353,15 +426,61 @@ $messages['dsb'] = array(
 	'right-admanager' => '[[Special:AdManager|Anonse konfigurěrowaś]]',
 );
 
+/** Greek (Ελληνικά)
+ * @author Glavkos
+ * @author ZaDiak
+ */
+$messages['el'] = array(
+	'admanager' => 'Διαχείριση διαφημίσεων',
+	'admanagerzones' => 'Ζώνες διαχείρισης διαφημίσεων',
+	'admanagerzones_docu' => 'Εισάγετε τον αριθμό κάθε ζώνης διαφημίσεων στη δική της γραμμή.',
+	'admanager_invalidtargetpage' => 'Δε βρέθηκε καμία σελίδα με τίτλο "$1".',
+	'admanager_invalidtargetcategory' => 'Δε βρέθηκε καμία κατηγορία με τίτλο "$1".',
+	'admanager_labelPage' => 'Τίτλοι σελίδων',
+	'admanager_labelCategory' => 'Ονόματα κατηγοριών',
+	'admanager_submit' => 'Καταχώρηση',
+	'admanager_noads' => 'Μη προβολή διαφημίσεων',
+	'admanager_Page' => 'Σελίδες',
+	'admanager_Category' => 'Κατηγορίες',
+	'admanager_added' => 'Οι αλλαγές σας έχουν αποθηκευτεί',
+	'admanager_noadsset' => 'Το $1 έχει ρυθμιστεί έτσι ώστε να μην προβάλλει διαφημίσεις',
+	'admanager_addedzone' => 'Προστέθηκε η ζώνη',
+	'admanager_zonenum' => 'Ζώνη #: $1',
+	'admanager_zonenotnumber' => 'Σφάλμα! Το $1 δεν είναι αριθμός.',
+	'admanager_return' => 'Επιστρέψετε στη [[Special:AdManager|Διαχείριση διαφημίσεων]]',
+	'admanager_gotoads' => '[[Ειδικό:Διαχείρισηδιαφημίσεων|Επεξεργασία τοποθέτησης διαφημίσεων]]', # Fuzzy
+	'admanager_gotozones' => '[[Special:AdManagerZones|Επεξεργασία ζωνών διαφημίσεων]]',
+);
+
 /** Esperanto (Esperanto)
+ * @author Blahma
  * @author Yekrats
  */
 $messages['eo'] = array(
+	'admanager' => 'Reklammastrumilo',
+	'admanagerzones' => 'Reklammastrumilaj zonoj',
+	'admanager-desc' => 'Provizas [[Special:AdManager|spacialan paĝon]] per kiu administranto povas agordi la zonon por paĝoj aŭ kategorioj',
+	'admanager_docu' => 'Por aldoni aŭ forigi la reklamzonon de paĝo aŭ tuta kategorio, aldonu aŭ forigu sube ĝian titolon.',
+	'admanagerzones_docu' => 'Enskribu ĉiun reklamzonan numeron sur apartan linion.',
 	'admanager_invalidtargetpage' => 'Neniu paĝo trovita laŭ titolo "$1".',
+	'admanager_invalidtargetcategory' => 'Neniu kategorio trovita laŭ titolo "$1".',
+	'admanager_notable' => 'Eraro! Necesa datumbaza tabelo ne trovita! Unue rulu update.php.',
+	'admanager_noAdManagerZones' => 'Eraro! Vi devas aldoni iun reklamzonon. Faru tion en la paĝo pri [[Special:AdManagerZones|reklammastrumilaj zonoj]].',
 	'admanager_labelPage' => 'Titoloj de paĝoj',
 	'admanager_labelCategory' => 'Nomoj de kategorioj',
+	'admanager_submit' => 'Submeti',
+	'admanager_noads' => 'Montri neniujn reklamojn',
 	'admanager_Page' => 'Paĝoj',
 	'admanager_Category' => 'Kategorioj',
+	'admanager_added' => 'Viaj ŝanĝoj konserviĝis',
+	'admanager_noadsset' => '$1 estas agordita por aperigi neniujn reklamojn',
+	'admanager_addedzone' => 'Aldonita zono',
+	'admanager_zonenum' => 'Zono n-ro $1',
+	'admanager_zonenotnumber' => 'Eraro! $1 ne estas numero.',
+	'admanager_return' => 'Reveni al [[Special:AdManager|reklammastrumilo]]',
+	'admanager_gotoads' => '[[Special:AdManager|Redakti aperon de reklamo]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Redakti reklamajn zonojn]]',
+	'right-admanager' => '[[Special:AdManager|Mastrumi la agordon de reklamado]]',
 );
 
 /** Spanish (español)
@@ -398,6 +517,9 @@ $messages['es'] = array(
  * @author Avjoska
  */
 $messages['et'] = array(
+	'admanager_labelPage' => 'Lehekülgede pealkirjad:',
+	'admanager_labelCategory' => 'Kategooriate nimed',
+	'admanager_noads' => 'Ära näita reklaame',
 	'admanager_Page' => 'Leheküljed',
 	'admanager_Category' => 'Kategooriad',
 	'admanager_added' => 'Sinu muudatused on salvestatud',
@@ -418,12 +540,16 @@ $messages['eu'] = array(
  */
 $messages['fa'] = array(
 	'admanager' => 'مدیریت آگهی',
+	'admanager_invalidtargetpage' => 'صفحه‌ای با عنوان «$1» یافت نشد.',
+	'admanager_invalidtargetcategory' => 'رده‌ای با عنوان «$1» یافت نشد.',
 	'admanager_labelPage' => 'عناوین صفحه',
 	'admanager_labelCategory' => 'نام‌های رده',
 	'admanager_submit' => 'ثبت',
+	'admanager_noads' => 'نمایش بدون آگهی',
 	'admanager_Page' => 'صفحه‌ها',
 	'admanager_Category' => 'رده‌ها',
 	'admanager_added' => 'تغییرات شما ذخیره شده‌است',
+	'admanager_addedzone' => 'منطقهٔ افزوده شده',
 	'admanager_zonenum' => 'شمارهٔ منطقه: $1',
 	'admanager_zonenotnumber' => 'خطا! $1 عدد نیست.',
 );
@@ -431,11 +557,14 @@ $messages['fa'] = array(
 /** Finnish (suomi)
  * @author Beluga
  * @author Nedergard
+ * @author Stryn
  */
 $messages['fi'] = array(
+	'admanager' => 'Mainostenhallinta',
 	'admanager_labelPage' => 'Sivujen nimet',
 	'admanager_labelCategory' => 'Luokkien nimet',
 	'admanager_submit' => 'Lähetä',
+	'admanager_noads' => 'Ei mainoksia',
 	'admanager_Page' => 'Sivut',
 	'admanager_Category' => 'Luokat',
 	'admanager_added' => 'Muutoksesi on tallennettu',
@@ -626,6 +755,32 @@ $messages['ia'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Modificar placiamento de annuncio]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Modificar zonas de annuncios]]',
 	'right-admanager' => '[[Special:AdManager|Gerer configuration de publicitate]]',
+);
+
+/** Indonesian (Bahasa Indonesia)
+ * @author Farras
+ */
+$messages['id'] = array(
+	'admanager' => 'Ad Manager',
+	'admanagerzones_docu' => 'Masukkan setiap nomor zona iklan di barisnya sendiri.',
+	'admanager_invalidtargetpage' => 'Halaman dengan judul "$1" tidak ditemukan.',
+	'admanager_invalidtargetcategory' => 'Kategori dengan judul "$1" tidak ditemukan.',
+	'admanager_notable' => 'Kesalahan! Tabel basis data yang diperlukan tidak ditemukan! Jalankan dulu update.php.',
+	'admanager_labelPage' => 'Judul halaman',
+	'admanager_labelCategory' => 'Nama kategori',
+	'admanager_submit' => 'Kirim',
+	'admanager_noads' => 'Jangan tampilkan iklan',
+	'admanager_Page' => 'Halaman',
+	'admanager_Category' => 'Kategori',
+	'admanager_added' => 'Perubahan Anda telah disimpan',
+	'admanager_noadsset' => '$1 telah diatur agar tidak menampilkan iklan',
+	'admanager_addedzone' => 'Zona ditambahkan',
+	'admanager_zonenum' => 'Zona #: $1',
+	'admanager_zonenotnumber' => 'Kesalahan! $1 bukanlah angka.',
+	'admanager_return' => 'Kembali ke [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => '[[Special:AdManager|Sunting penempatan iklan]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Sunting zona iklan]]',
+	'right-admanager' => '[[Special:AdManager|Kelola konfigurasi iklan]]',
 );
 
 /** Icelandic (íslenska)
@@ -824,6 +979,7 @@ $messages['lb'] = array(
 	'admanager_Category' => 'Kategorien',
 	'admanager_added' => 'Är Ännerunge goufe gespäichert',
 	'admanager_noadsset' => '$1 gouf esou agestallt datt keng Reklamme gewise ginn',
+	'admanager_addedzone' => 'Derbäigesaten Zone',
 	'admanager_zonenum' => 'Zone #: $1',
 	'admanager_zonenotnumber' => 'Feeler! $1 ass keng Zuel.',
 	'admanager_return' => "Zréck op d'[[Special:AdManager|Gestioun vun de Reklammen]]",
@@ -879,6 +1035,17 @@ $messages['lt'] = array(
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Klaida! $1 nėra skaičius.',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Redaguoti reklamos zonas]]',
+);
+
+/** Latvian (latviešu)
+ * @author Papuass
+ */
+$messages['lv'] = array(
+	'admanager_labelPage' => 'Lapu nosaukumi',
+	'admanager_labelCategory' => 'Kategoriju nosaukumi',
+	'admanager_Page' => 'Lapas',
+	'admanager_Category' => 'Kategorijas',
+	'admanager_zonenotnumber' => 'Kļūda! $1 nav skaitlis.',
 );
 
 /** Macedonian (македонски)
@@ -1043,6 +1210,14 @@ $messages['pl'] = array(
 	'admanager_zonenum' => 'Strefa #: $1',
 );
 
+/** Piedmontese (Piemontèis)
+ * @author Borichèt
+ */
+$messages['pms'] = array(
+	'admanager' => "Gestor d'areclam",
+	'admanagerzones' => "Zòne ëd gestor d'areclam",
+);
+
 /** Pashto (پښتو)
  * @author Ahmed-Najib-Biabani-Ibrahimkhel
  */
@@ -1171,6 +1346,35 @@ $messages['ru'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Изменить размещение рекламы]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Изменить рекламные зоны]]',
 	'right-admanager' => '[[Special:AdManager|Управление конфигурацией рекламы]]',
+);
+
+/** Rusyn (русиньскый)
+ * @author Gazeb
+ */
+$messages['rue'] = array(
+	'admanager' => 'Адміністратор реклам',
+	'admanagerzones' => 'Адміністратор рекламовых зон',
+	'admanager-desc' => 'Забеспечує [[Special:AdManager|службову сторінку]], яка дозволює адміністраторам встановлёвати зоны про сторінкы або катеґорії',
+	'admanager_docu' => 'Кідь хочете придати або вылучіти рекламову зону сторінкы або цїлой катеґорії, придайте або одоберьте їй назву долов.',
+	'admanagerzones_docu' => 'Уведьте чісло каждой рекламовой зоны на екстра рядку.',
+	'admanager_invalidtargetpage' => 'Сторінка з назвов "$1" ся не нашла.',
+	'admanager_invalidtargetcategory' => 'Жадна катеґорія з назвов "$1" ся не нашла.',
+	'admanager_notable' => 'Хыба! Потрібна табліця датабазы ся не нашла! Найсамперше спустьте update.php.',
+	'admanager_noAdManagerZones' => 'Хыба! Мусите придати даякы рекламовы зоны. Тото є можливе в [[Special:AdManagerZones|Адміністратор рекламовых зон]].',
+	'admanager_labelPage' => 'Назвы сторінок',
+	'admanager_labelCategory' => 'Назвы катеґорій',
+	'admanager_submit' => 'Загнати',
+	'admanager_noads' => 'Не вказовати рекламы',
+	'admanager_Page' => 'Сторінкы',
+	'admanager_Category' => 'Катеґорії',
+	'admanager_added' => 'Вашы зміны захованы',
+	'admanager_noadsset' => 'Про $1 было одкапчане зображованя рекламы',
+	'admanager_addedzone' => 'Придана зона',
+	'admanager_zonenum' => 'Зона #: $1',
+	'admanager_zonenotnumber' => 'Хыба! $1 не є чісло.',
+	'admanager_return' => 'Вернути ся до [[Special: AdManager|Адміністратор реклам]]', # Fuzzy
+	'admanager_gotoads' => '[[Special:AdManager|Управляти розміщіня реклам]]',
+	'admanager_gotozones' => '[[Special: AdManagerZones|Едітовати зону реклам]]', # Fuzzy
 );
 
 /** Sakha (саха тыла)

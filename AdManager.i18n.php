@@ -166,10 +166,12 @@ $messages['be-tarask'] = array(
 
 /** Bulgarian (български)
  * @author DCLXVI
+ * @author පසිඳු කාවින්ද
  */
 $messages['bg'] = array(
 	'admanager_invalidtargetpage' => 'Не е намерена страница с името „$1“.',
 	'admanager_invalidtargetcategory' => 'Не е намерена категория с името „$1“.',
+	'admanager_submit' => 'Изпращане',
 	'admanager_noads' => 'Без показване на реклами',
 	'admanager_Page' => 'Страници',
 	'admanager_Category' => 'Категории',
@@ -568,6 +570,8 @@ $messages['fi'] = array(
 	'admanager_Page' => 'Sivut',
 	'admanager_Category' => 'Luokat',
 	'admanager_added' => 'Muutoksesi on tallennettu',
+	'admanager_addedzone' => 'Lisätty vyöhyke',
+	'admanager_zonenum' => 'Vyöhyke #: $1',
 	'admanager_zonenotnumber' => 'Virhe! $1 ei ole numero.',
 );
 
@@ -1043,8 +1047,11 @@ $messages['lt'] = array(
 $messages['lv'] = array(
 	'admanager_labelPage' => 'Lapu nosaukumi',
 	'admanager_labelCategory' => 'Kategoriju nosaukumi',
+	'admanager_submit' => 'Iesniegt',
+	'admanager_noads' => 'Nerādīt reklāmas',
 	'admanager_Page' => 'Lapas',
 	'admanager_Category' => 'Kategorijas',
+	'admanager_added' => 'Jūsu veiktās izmaiņas ir saglabātas',
 	'admanager_zonenotnumber' => 'Kļūda! $1 nav skaitlis.',
 );
 
@@ -1109,6 +1116,27 @@ $messages['ms'] = array(
 	'right-admanager' => '[[Special:AdManager|Menguruskan tataletak pengiklanan]]',
 );
 
+/** Maltese (Malti)
+ * @author Chrisportelli
+ */
+$messages['mt'] = array(
+	'admanager' => 'Ġestjoni tar-reklamar',
+	'admanager_invalidtargetpage' => 'L-ebda paġna ma nstabet bit-titlu "$1".',
+	'admanager_invalidtargetcategory' => 'L-ebda kategorija ma nstabet bit-titlu "$1".',
+	'admanager_labelPage' => 'Titli tal-paġni',
+	'admanager_labelCategory' => 'Ismijiet tal-kategoriji',
+	'admanager_submit' => 'Ibgħat',
+	'admanager_noads' => 'Turix l-ebda reklam',
+	'admanager_Page' => 'Paġni',
+	'admanager_Category' => 'Kategoriji',
+	'admanager_added' => 'It-tibdiliet tiegħek ġew salvati',
+	'admanager_noadsset' => '$1 ġiet irranġata sabiex ma turix reklami',
+	'admanager_addedzone' => 'Żoni miżjuda',
+	'admanager_zonenum' => 'Żona #: $1',
+	'admanager_zonenotnumber' => 'Żball! $1 mhuwiex numru.',
+	'admanager_return' => 'Irritorna lura lejn [[Special:AdManager|Ġestjoni tar-reklamar]]',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand
@@ -1138,6 +1166,13 @@ $messages['nl'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Advertentieplaatsing bewerken]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Advertentiezones bewerken]]',
 	'right-admanager' => '[[Special:AdManager|Advertentie-instellingen beheren]]',
+);
+
+/** Nederlands (informeel)‎ (Nederlands (informeel)‎)
+ * @author Siebrand
+ */
+$messages['nl-informal'] = array(
+	'admanager_noAdManagerZones' => 'Fout: je moet advertentiezones toevoegen. Voer ze in op de [[Special:AdManagerZones|speciale pagina]].',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
@@ -1310,11 +1345,27 @@ $messages['ro'] = array(
 
 /** tarandíne (tarandíne)
  * @author Joetaras
+ * @author Reder
  */
 $messages['roa-tara'] = array(
+	'admanager' => "Aggiunge 'nu amministratore",
+	'admanagerzones' => "Aggiunge 'nu amministratore de zone",
+	'admanager_invalidtargetpage' => 'Nisciune pàgene acchijate c\'u titole "$1".',
+	'admanager_invalidtargetcategory' => 'Nisciune categorije acchijate c\'u titole "$1".',
+	'admanager_labelPage' => "Titele d'a pàgene",
+	'admanager_labelCategory' => 'Nome de le categorie',
 	'admanager_submit' => 'Conferme',
+	'admanager_noads' => 'Non ge vide nisciune annunce',
 	'admanager_Page' => 'Pàggene',
 	'admanager_Category' => 'Categorije',
+	'admanager_added' => 'Le cangiaminde tue sonde state salvate',
+	'admanager_noadsset' => "$1 ha state 'mbostate pe' non ge fàce vidè nisciune annunce",
+	'admanager_addedzone' => 'Vanne aggiunde',
+	'admanager_zonenum' => 'Vanne #: $1',
+	'admanager_zonenotnumber' => "Errore! $1 non g'è 'nu numere.",
+	'admanager_return' => 'Tuèrne a [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => "[[Special:AdManager|Cange 'u posizionamènde de le annunce]]",
+	'admanager_gotozones' => "[[Special:AdManagerZones|Cange 'na zone]]",
 );
 
 /** Russian (русский)
@@ -1453,14 +1504,20 @@ $messages['sw'] = array(
 
 /** Tamil (தமிழ்)
  * @author Karthi.dr
+ * @author Shanmugamp7
  */
 $messages['ta'] = array(
 	'admanager_invalidtargetpage' => '"$1" தலைப்புள்ள எந்தப் பக்கமும் காணப்படவில்லை.',
 	'admanager_invalidtargetcategory' => '"$1" தலைப்புள்ள எந்தப் பகுப்பும் காணப்படவில்லை.',
 	'admanager_labelPage' => 'பக்கத் தலைப்புகள்',
+	'admanager_labelCategory' => 'பகுப்புப் பெயர்கள்',
 	'admanager_submit' => 'சமர்ப்பி',
+	'admanager_noads' => 'விளம்பரங்களை காண்பிக்க வேண்டாம்',
 	'admanager_Page' => 'பக்கங்கள்',
 	'admanager_Category' => 'பகுப்புகள்',
+	'admanager_added' => 'உங்கள் மாற்றங்கள் சேமிக்கப்பட்டது.',
+	'admanager_noadsset' => '$1 விளம்பரங்களை காண்பிக்க வேண்டாம் என அமைத்துள்ளார்.',
+	'admanager_addedzone' => 'சேர்க்கப்பட்ட பகுதி',
 	'admanager_zonenotnumber' => 'பிழை! $1 ஓர் எண் அன்று.',
 );
 

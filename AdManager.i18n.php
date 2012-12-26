@@ -91,7 +91,7 @@ $messages['ar'] = array(
 	'admanager_added' => 'تم حفظ التغييرات',
 );
 
-/** تورکجه (تورکجه)
+/** South Azerbaijani (تورکجه)
  * @author Amir a57
  * @author Mousa
  */
@@ -104,7 +104,7 @@ $messages['azb'] = array(
 	'admanager_submit' => 'گؤندر',
 	'admanager_noads' => 'رئکلام لاری گورستمه',
 	'admanager_Page' => 'صحیفه لر',
-	'admanager_Category' => 'بولمه لر',
+	'admanager_Category' => 'بؤلمه‌لر',
 	'admanager_added' => 'ائدیگینیز دیشیک لیک لر ساخلانیب دیر',
 	'admanager_noadsset' => '$1 رئکلام گؤسترمه‌مک اوچون نیظاملانیب',
 	'admanager_addedzone' => 'ائکلئنئن بؤلگه',
@@ -584,6 +584,7 @@ $messages['fa'] = array(
 
 /** Finnish (suomi)
  * @author Beluga
+ * @author Crt
  * @author Nedergard
  * @author Stryn
  * @author VezonThunder
@@ -612,7 +613,7 @@ $messages['fi'] = array(
 	'admanager_return' => 'Palaa sivulle [[Special:AdManager|Mainoshallinta]]',
 	'admanager_gotoads' => '[[Special:AdManager|Muokkaa mainosten sijaintia]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Muokkaa mainosalueita]]',
-	'right-admanager' => '[[Special:AdManager|Hallitse mainonta-asetuksia]]',
+	'right-admanager' => '[[Special:AdManager|Hallinnoida mainonta-asetuksia]]',
 );
 
 /** French (français)
@@ -661,7 +662,7 @@ $messages['frp'] = array(
 	'admanager_noads' => 'Fâre vêre gins de recllâma',
 	'admanager_Page' => 'Pâges',
 	'admanager_Category' => 'Catègories',
-	'admanager_added' => 'Voutros changements ont étâ encartâs',
+	'admanager_added' => 'Voutros changements sont étâs encartâs',
 	'admanager_noadsset' => '$1 at étâ dèfeni por fâre vêre gins de recllâma',
 	'admanager_addedzone' => 'Zona apondua',
 	'admanager_zonenum' => 'Numerô de zona : $1',
@@ -777,6 +778,24 @@ $messages['hsb'] = array(
 $messages['hu'] = array(
 	'admanager' => 'Hirdetéskezelő',
 	'admanagerzones' => 'Hirdetéskezelő zónák',
+	'admanager_invalidtargetpage' => 'Nem található "$1" című oldal.',
+	'admanager_invalidtargetcategory' => 'Nem található "$1" című kategória.',
+	'admanager_notable' => 'Hiba! A kért adatbázis tábla nem található. Futtassa először az update.php-t!',
+	'admanager_noAdManagerZones' => 'Hiba! Először fel kell venned hirdetési zónákat. Add meg őket a [[Special:AdManagerZones|Hirdetéskezelő zónáknál]]!',
+	'admanager_labelPage' => 'Lap címek',
+	'admanager_labelCategory' => 'Kategórianevek',
+	'admanager_submit' => 'Elküldés',
+	'admanager_Page' => 'Lapok',
+	'admanager_Category' => 'Kategóriák',
+	'admanager_added' => 'Változásaid elmentve',
+	'admanager_noadsset' => '$1 kikapcsolta a hirdetések megjelenítését',
+	'admanager_addedzone' => 'Hozzáadott zóna:',
+	'admanager_zonenum' => 'Zónaszám: $1',
+	'admanager_zonenotnumber' => 'Hiba! $1 nem szám.',
+	'admanager_return' => 'Vissza a [[Special:AdManager|hirdetéskezelőhöz]]',
+	'admanager_gotoads' => '[[Special:AdManager|Hirdetés elhelyezés szerkesztése]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Hirdetési zónák szerkesztése]]',
+	'right-admanager' => '[[Special:AdManager|Hirdetési konfiguráció kezelése]]',
 );
 
 /** Interlingua (interlingua)
@@ -833,6 +852,15 @@ $messages['id'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|Sunting penempatan iklan]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Sunting zona iklan]]',
 	'right-admanager' => '[[Special:AdManager|Kelola konfigurasi iklan]]',
+);
+
+/** Igbo (Igbo)
+ * @author Ukabia
+ */
+$messages['ig'] = array(
+	'admanager_labelPage' => 'Íshí ihü',
+	'admanager_Page' => 'Ihü',
+	'admanager_Category' => 'Ébéanọr',
 );
 
 /** Icelandic (íslenska)
@@ -1109,6 +1137,7 @@ $messages['lv'] = array(
 	'admanager_Page' => 'Lapas',
 	'admanager_Category' => 'Kategorijas',
 	'admanager_added' => 'Jūsu veiktās izmaiņas ir saglabātas',
+	'admanager_zonenum' => 'Zonas #: $1',
 	'admanager_zonenotnumber' => 'Kļūda! $1 nav skaitlis.',
 );
 

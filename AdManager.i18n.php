@@ -27,7 +27,6 @@ $messages['en'] = array(
 	'admanager_Page' => 'Pages',
 	'admanager_Category' => 'Categories',
 	'admanager_added' => 'Your changes have been saved',
-	'admanager_noadsset' => '$1 has been set to show no ads',
 	'admanager_addedzone' => 'Added zone',
 	'admanager_zonenum' => 'Zone #: $1',
 	'admanager_zonenotnumber' => 'Error! $1 is not a number.',

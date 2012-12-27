@@ -539,6 +539,7 @@ $messages['et'] = array(
 	'admanager_Page' => 'Leheküljed',
 	'admanager_Category' => 'Kategooriad',
 	'admanager_added' => 'Sinu muudatused on salvestatud',
+	'admanager_zonenotnumber' => 'Viga! $1 ei ole number.',
 );
 
 /** Basque (euskara)
@@ -1629,9 +1630,15 @@ $messages['sv'] = array(
 
 /** Swahili (Kiswahili)
  * @author Kwisha
+ * @author Stephenwanjau
  */
 $messages['sw'] = array(
+	'admanager_invalidtargetpage' => 'Hakuna ukurasa umepatikana wenye mada "$1".',
+	'admanager_invalidtargetcategory' => 'Hakuna jamii imepatikana yemye mada "$1".',
+	'admanager_labelPage' => 'Mada ya ukurasa',
+	'admanager_labelCategory' => 'Jina za jamii',
 	'admanager_submit' => 'Wasilisha',
+	'admanager_noads' => 'Usionyeshe matangazo',
 	'admanager_Page' => 'Kurasa',
 	'admanager_Category' => 'Jamii',
 	'admanager_added' => 'Mabadiliko yako yamehifadhiwa',

@@ -1508,6 +1508,7 @@ $messages['roa-tara'] = array(
 	'admanager_return' => 'Tuèrne a [[Special:AdManager|Ad Manager]]',
 	'admanager_gotoads' => "[[Special:AdManager|Cange 'u posizionamènde de le annunce]]",
 	'admanager_gotozones' => "[[Special:AdManagerZones|Cange 'na zone]]",
+	'right-admanager' => "[[Special:AdManager|Gestisce 'a configurazione d'a pubblecetà]]",
 );
 
 /** Russian (русский)

@@ -77,6 +77,16 @@ $messages['af'] = array(
 	'admanager_Category' => 'Kategorieë',
 );
 
+/** Amharic (አማርኛ)
+ * @author Codex Sinaiticus
+ */
+$messages['am'] = array(
+	'admanager_labelPage' => 'የገጽ አርዕስት',
+	'admanager_submit' => 'ለማቅረብ',
+	'admanager_Page' => 'ገጾች',
+	'admanager_Category' => 'መደቦች',
+);
+
 /** Arabic (العربية)
  * @author Meno25
  * @author روخو
@@ -733,6 +743,24 @@ $messages['he'] = array(
 	'right-admanager' => '[[Special:AdManager|ניהול תצורת פרסום]]',
 );
 
+/** Hindi (हिन्दी)
+ * @author Ansumang
+ */
+$messages['hi'] = array(
+	'admanager' => 'विज्ञापन प्रबंधक',
+	'admanagerzones' => 'विज्ञापन प्रबंधक जोन',
+	'admanager_labelPage' => 'पृष्ठ शीर्षक',
+	'admanager_labelCategory' => 'श्रेणी नाम',
+	'admanager_submit' => 'जमा करें',
+	'admanager_noads' => 'कोई विज्ञापन प्रदर्शित नहीं',
+	'admanager_Page' => 'पृष्ठों',
+	'admanager_Category' => 'श्रेणियाँ',
+	'admanager_zonenum' => 'जोन #: $1',
+	'admanager_zonenotnumber' => 'त्रुटि! $1 एक संख्या नहीं है।',
+	'admanager_return' => '[[Special:AdManager|विज्ञापन प्रबन्धक]] को लौट जाएँ',
+	'admanager_gotoads' => '[[Special:AdManager|विज्ञापन प्लेसमेंट सम्पादन करें]]',
+);
+
 /** Upper Sorbian (hornjoserbsce)
  * @author Michawiki
  */
@@ -1140,6 +1168,8 @@ $messages['map-bms'] = array(
 	'admanagerzones_docu' => 'Lebokna saben nomer wilayah iklan nang barise dhewek.',
 	'admanager_invalidtargetpage' => 'Ora nemokna kaca sing judhule "$1".',
 	'admanager_invalidtargetcategory' => 'Ora nemokna kategori sing judhule "$1".',
+	'admanager_notable' => 'Kasalahan! Tabel basis data sing diperlokna ota ketemu! Lakokna disit update.php.',
+	'admanager_noAdManagerZones' => 'Kasalahan! Rika kudu nambahna wilayah iklan. Lebokna kuwe nang [[Special:AdManagerZones|Ad Manager Zones]].',
 	'admanager_labelPage' => 'Judul kaca',
 	'admanager_labelCategory' => 'Jeneng kategori',
 	'admanager_submit' => 'Kirimna',
@@ -1149,6 +1179,7 @@ $messages['map-bms'] = array(
 	'admanager_added' => 'Owahane Rika wis disimpen',
 	'admanager_addedzone' => 'Wilayah sing ditambahna',
 	'admanager_zonenum' => 'Wilayah #: $1',
+	'admanager_zonenotnumber' => 'Kasalahan! $1 kuwe dudu angka.',
 	'admanager_return' => 'Mbalik ming [[Special:AdManager|Menejer Iklan]]',
 	'admanager_gotoads' => '[[Special:AdManager|Nyunting panggonane iklan]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Nyunting wilayaeh iklan]]',
@@ -1272,9 +1303,11 @@ $messages['nl'] = array(
  */
 $messages['nl-informal'] = array(
 	'admanager_noAdManagerZones' => 'Fout: je moet advertentiezones toevoegen. Voer ze in op de [[Special:AdManagerZones|speciale pagina]].',
+	'admanager_added' => 'Je wijzigingen zijn opgeslagen',
 );
 
 /** Oriya (ଓଡ଼ିଆ)
+ * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author ଆଶୁତୋଷ କର
  */
@@ -1283,7 +1316,7 @@ $messages['or'] = array(
 	'admanagerzones' => 'ବିଜ୍ଞାପନ ପରିଚାଳକ ଅଞ୍ଚଳ ଗୁଡିକ',
 	'admanager_notable' => 'ତ୍ରୁଟି! ଏକ ଦରକାରି ଡେଟାବେସ ତାଲିକା ମିଳିଲା ନାହିଁ। ପ୍ରଥମେ update.php ଚଲାନ୍ତୁ।',
 	'admanager_labelPage' => 'ପୃଷ୍ଠା ଶିରୋନାମାଗୁଡିକ',
-	'admanager_labelCategory' => 'ବିଭାଗ ନାମ',
+	'admanager_labelCategory' => 'ଶ୍ରେଣୀ ନାମ',
 	'admanager_submit' => 'ପଇଠ କରିବେ',
 	'admanager_noads' => 'କୌଣସି ବିଜ୍ଞାପନ ଦେଖାଇବେ ନାହିଁ',
 	'admanager_Page' => 'ପୃଷ୍ଠାଗୁଡିକ',

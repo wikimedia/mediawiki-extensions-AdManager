@@ -1528,6 +1528,7 @@ $messages['roa-tara'] = array(
 	'admanagerzones' => "Aggiunge 'nu amministratore de zone",
 	'admanager_invalidtargetpage' => 'Nisciune pàgene acchijate c\'u titole "$1".',
 	'admanager_invalidtargetcategory' => 'Nisciune categorije acchijate c\'u titole "$1".',
+	'admanager_notable' => "Errore! 'A tabbelle d'u database ca è richieste non ge stè! Lange update.php apprime.",
 	'admanager_labelPage' => "Titele d'a pàgene",
 	'admanager_labelCategory' => 'Nome de le categorie',
 	'admanager_submit' => 'Conferme',

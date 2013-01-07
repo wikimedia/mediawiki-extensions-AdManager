@@ -745,6 +745,7 @@ $messages['he'] = array(
 
 /** Hindi (हिन्दी)
  * @author Ansumang
+ * @author Siddhartha Ghai
  */
 $messages['hi'] = array(
 	'admanager' => 'विज्ञापन प्रबंधक',
@@ -753,7 +754,7 @@ $messages['hi'] = array(
 	'admanager_labelCategory' => 'श्रेणी नाम',
 	'admanager_submit' => 'जमा करें',
 	'admanager_noads' => 'कोई विज्ञापन प्रदर्शित नहीं',
-	'admanager_Page' => 'पृष्ठों',
+	'admanager_Page' => 'पृष्ठ',
 	'admanager_Category' => 'श्रेणियाँ',
 	'admanager_zonenum' => 'जोन #: $1',
 	'admanager_zonenotnumber' => 'त्रुटि! $1 एक संख्या नहीं है।',

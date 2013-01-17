@@ -233,6 +233,15 @@ $messages['br'] = array(
 	'admanager_return' => 'Distreiñ da [[Special:AdManager|Ad Manager]]',
 );
 
+/** Bosnian (bosanski)
+ * @author DzWiki
+ */
+$messages['bs'] = array(
+	'admanager_submit' => 'Pošalji',
+	'admanager_Page' => 'Stranice',
+	'admanager_Category' => 'Kategorije',
+);
+
 /** Catalan (català)
  * @author Gemmaa
  * @author Pitort

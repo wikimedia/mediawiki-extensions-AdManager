@@ -1257,6 +1257,20 @@ $messages['mt'] = array(
 	'admanager_return' => 'Irritorna lura lejn [[Special:AdManager|Ġestjoni tar-reklamar]]',
 );
 
+/** Norwegian Bokmål (norsk (bokmål)‎)
+ * @author EvenT
+ */
+$messages['nb'] = array(
+	'admanager' => 'Annonsebehandler',
+	'admanagerzones' => 'Soner for annonsebehandler',
+	'admanager-desc' => 'Frembringer en [[Special:AdManager|spesialside]] som tillater sysop-er å sette sonen for sider eller kategorier',
+	'admanager_docu' => 'For å legge inn eller fjerne annonsesonen av en side eller hele kategorien er det bare å legge inn eller fjerne tilhørende tittel under.',
+	'admanagerzones_docu' => 'Legg inn hvert annonsesonenummer på egen linje.',
+	'admanager_invalidtargetpage' => 'Finner ikke side med tittel "$1".',
+	'admanager_invalidtargetcategory' => 'Finner ikke kategori med tittel "$1".',
+	'admanager_notable' => 'Feil! En nødvendig databasetabell ble ikke funnet! Kjør <i>update.php</i> først.',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand

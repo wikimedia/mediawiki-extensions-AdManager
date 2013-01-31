@@ -452,14 +452,19 @@ $messages['dsb'] = array(
 
 /** Greek (Ελληνικά)
  * @author Glavkos
+ * @author Protnet
  * @author ZaDiak
  */
 $messages['el'] = array(
 	'admanager' => 'Διαχείριση διαφημίσεων',
 	'admanagerzones' => 'Ζώνες διαχείρισης διαφημίσεων',
+	'admanager-desc' => 'Προσφέρει μια  [[Special:AdManager|ειδική σελίδα]] που επιτρέπει στους διαχειριστές να ορίσουν τη ζώνη για σελίδες ή κατηγορίες',
+	'admanager_docu' => 'Για να προσθέσετε ή να απομακρύνετε τη ζώνη διαφήμισης μιας σελίδας ή μιας κατηγορίας, προσθέστε ή απομακρύνετε τον τίτλο της παρακάτω.',
 	'admanagerzones_docu' => 'Εισάγετε τον αριθμό κάθε ζώνης διαφημίσεων στη δική της γραμμή.',
 	'admanager_invalidtargetpage' => 'Δε βρέθηκε καμία σελίδα με τίτλο "$1".',
 	'admanager_invalidtargetcategory' => 'Δε βρέθηκε καμία κατηγορία με τίτλο "$1".',
+	'admanager_notable' => 'Σφάλμα! Δεν βρέθηκε ο απαιτούμενος πίνακας βάσης δεδομένων! Τρέξτε πρώτα το update.php.',
+	'admanager_noAdManagerZones' => 'Σφάλμα! Πρέπει να προσθέσετε ορισμένες ζώνες διαφημίσεων. Εισαγάγετέ τες στις [[Special:AdManagerZones|Ζώνες Διαχείρισης Διαφημίσεων]].',
 	'admanager_labelPage' => 'Τίτλοι σελίδων',
 	'admanager_labelCategory' => 'Ονόματα κατηγοριών',
 	'admanager_submit' => 'Καταχώρηση',
@@ -471,8 +476,9 @@ $messages['el'] = array(
 	'admanager_zonenum' => 'Ζώνη #: $1',
 	'admanager_zonenotnumber' => 'Σφάλμα! Το $1 δεν είναι αριθμός.',
 	'admanager_return' => 'Επιστρέψετε στη [[Special:AdManager|Διαχείριση διαφημίσεων]]',
-	'admanager_gotoads' => '[[Ειδικό:Διαχείρισηδιαφημίσεων|Επεξεργασία τοποθέτησης διαφημίσεων]]', # Fuzzy
+	'admanager_gotoads' => '[[Special:AdManager|Επεξεργασία τοποθέτηση διαφημίσεων]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Επεξεργασία ζωνών διαφημίσεων]]',
+	'right-admanager' => '[[Special:AdManager|Διαχείριση διάταξης της διαφήμισης]]',
 );
 
 /** Esperanto (Esperanto)

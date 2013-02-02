@@ -89,6 +89,7 @@ $messages['am'] = array(
 
 /** Arabic (العربية)
  * @author Meno25
+ * @author Tarawneh
  * @author روخو
  */
 $messages['ar'] = array(
@@ -97,6 +98,7 @@ $messages['ar'] = array(
 	'admanager_submit' => 'إرسال',
 	'admanager_noads' => 'لا تعرض إعلانات',
 	'admanager_Page' => 'صفحات',
+	'admanager_Category' => 'تصنيفات',
 	'admanager_added' => 'تم حفظ التغييرات',
 );
 
@@ -458,8 +460,8 @@ $messages['dsb'] = array(
 $messages['el'] = array(
 	'admanager' => 'Διαχείριση διαφημίσεων',
 	'admanagerzones' => 'Ζώνες διαχείρισης διαφημίσεων',
-	'admanager-desc' => 'Προσφέρει μια  [[Special:AdManager|ειδική σελίδα]] που επιτρέπει στους διαχειριστές να ορίσουν τη ζώνη για σελίδες ή κατηγορίες',
-	'admanager_docu' => 'Για να προσθέσετε ή να απομακρύνετε τη ζώνη διαφήμισης μιας σελίδας ή μιας κατηγορίας, προσθέστε ή απομακρύνετε τον τίτλο της παρακάτω.',
+	'admanager-desc' => 'Παρέχει μια [[Special:AdManager|ειδική σελίδα]] που επιτρέπει σε διαχειριστές να ορίσουν τη ζώνη για σελίδες ή κατηγορίες',
+	'admanager_docu' => 'Για να προσθέσετε ή να αφαιρέσετε τη ζώνη διαφήμισης μιας σελίδας ή μιας ολόκληρης κατηγορίας, προσθέστε ή αφαιρέστε τον τίτλο της παρακάτω.',
 	'admanagerzones_docu' => 'Εισάγετε τον αριθμό κάθε ζώνης διαφημίσεων στη δική της γραμμή.',
 	'admanager_invalidtargetpage' => 'Δε βρέθηκε καμία σελίδα με τίτλο "$1".',
 	'admanager_invalidtargetcategory' => 'Δε βρέθηκε καμία κατηγορία με τίτλο "$1".',
@@ -476,9 +478,9 @@ $messages['el'] = array(
 	'admanager_zonenum' => 'Ζώνη #: $1',
 	'admanager_zonenotnumber' => 'Σφάλμα! Το $1 δεν είναι αριθμός.',
 	'admanager_return' => 'Επιστρέψετε στη [[Special:AdManager|Διαχείριση διαφημίσεων]]',
-	'admanager_gotoads' => '[[Special:AdManager|Επεξεργασία τοποθέτηση διαφημίσεων]]',
+	'admanager_gotoads' => '[[Special:AdManager|Επεξεργασία θέσης διαφημίσεων]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Επεξεργασία ζωνών διαφημίσεων]]',
-	'right-admanager' => '[[Special:AdManager|Διαχείριση διάταξης της διαφήμισης]]',
+	'right-admanager' => '[[Special:AdManager|Διαχείριση διαμόρφωσης διαφήμισης]]',
 );
 
 /** Esperanto (Esperanto)

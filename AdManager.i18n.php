@@ -567,6 +567,7 @@ $messages['eu'] = array(
 /** Persian (فارسی)
  * @author Dalba
  * @author Mjbmr
+ * @author Reza1615
  * @author ZxxZxxZ
  */
 $messages['fa'] = array(
@@ -578,7 +579,7 @@ $messages['fa'] = array(
 	'admanager_invalidtargetpage' => 'صفحه‌ای با عنوان «$1» یافت نشد.',
 	'admanager_invalidtargetcategory' => 'رده‌ای با عنوان «$1» یافت نشد.',
 	'admanager_notable' => 'خطا! جدول پایگاه دادهٔ مورد نیاز پیدا نشد! ابتدا Update.php را اجرا کنید.',
-	'admanager_noAdManagerZones' => 'خطا! باید چند منطقهٔ آگهی بیفزایید. آنها را در [[ویژه:AdManagerZones|مناطق مدیریت آگهی]] وارد کنید.', # Fuzzy
+	'admanager_noAdManagerZones' => 'خطا! باید چند منطقهٔ آگهی بیفزایید. آنها را در [[Special:AdManagerZones|مناطق مدیریت آگهی]] وارد کنید.',
 	'admanager_labelPage' => 'عناوین صفحه',
 	'admanager_labelCategory' => 'نام‌های رده',
 	'admanager_submit' => 'ثبت',
@@ -589,10 +590,10 @@ $messages['fa'] = array(
 	'admanager_addedzone' => 'منطقهٔ افزوده شده',
 	'admanager_zonenum' => 'شمارهٔ منطقه: $1',
 	'admanager_zonenotnumber' => 'خطا! $1 عدد نیست.',
-	'admanager_return' => 'بازگشت به [[ویژه:AdManager|مدیریت آگهی]]', # Fuzzy
-	'admanager_gotoads' => '[[ویژه:AdManager|ویرایش جای‌گیری آگهی]]', # Fuzzy
-	'admanager_gotozones' => '[[ویژه:AdManagerZones|ویرایش مناطق آگهی]]', # Fuzzy
-	'right-admanager' => '[[ویژه:AdManager|مدیریت پیکربندی تبلیغات]]', # Fuzzy
+	'admanager_return' => 'بازگشت به [[Special:AdManager|مدیریت آگهی]]',
+	'admanager_gotoads' => '[[Special:AdManager|ویرایش جای‌گیری آگهی]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|ویرایش مناطق آگهی]]',
+	'right-admanager' => '[[Special:AdManager|مدیریت پیکربندی تبلیغات]]',
 );
 
 /** Finnish (suomi)

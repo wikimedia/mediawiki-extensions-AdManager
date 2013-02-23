@@ -59,7 +59,8 @@ $messages['qqq'] = array(
 	'admanager_addedzone' => 'Usage example of this message (123 is the Zone number):
 
 *Added zone 123',
-	'admanager_zonenum' => '* $1 is the Zone number',
+	'admanager_zonenum' => '"#" stands for "number" (number sign). Parameters:
+* $1 - the Zone number',
 	'admanager_zonenotnumber' => 'Error message
 
 * $1 is the invalid Zone number. $1 may contain HTML tags.',
@@ -950,8 +951,8 @@ $messages['ja'] = array(
 	'admanager_Page' => 'ページ',
 	'admanager_Category' => 'カテゴリ',
 	'admanager_added' => '変更を保存しました',
-	'admanager_addedzone' => 'ゾーンを追加しました：',
-	'admanager_zonenum' => 'ゾーン番号：$1',
+	'admanager_addedzone' => 'ゾーンを追加しました:',
+	'admanager_zonenum' => 'ゾーン番号: $1',
 	'admanager_zonenotnumber' => 'エラー! $1 は数値ではありません。',
 	'admanager_return' => '[[Special:AdManager|広告の管理]]に戻る',
 	'admanager_gotoads' => '[[Special:AdManager|広告の配置を編集]]',

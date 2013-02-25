@@ -49,7 +49,8 @@ $messages['qqq'] = array(
 	'admanagerzones_docu' => 'Used in [[Special:AdManagerZones]]',
 	'admanager_noAdManagerZones' => 'Used in [[Special:AdManager]]',
 	'admanager_labelPage' => 'Used in [[Special:AdManager]]',
-	'admanager_labelCategory' => 'Used in [[Special:AdManager]]',
+	'admanager_labelCategory' => 'Used in [[Special:AdManager]].
+{{Identical|Category name}}',
 	'admanager_submit' => '{{Identical|Submit}}',
 	'admanager_noads' => 'Usage example of this message:
 

@@ -47,6 +47,10 @@ $messages['qqq'] = array(
 	'admanagerzones' => 'Title of [[Special:AdManagerZones]].  Special:AdManagerZones is used to set which zones are available in Special:AdManager. AdManager is an extension to MediaWiki that allows per-page or per-category placement of ads into a wiki page. It is designed to work with zones from an external advertising server such as OpenX but allows the placement of zones from (probably) any such server.',
 	'admanager-desc' => 'Description of this extension',
 	'admanagerzones_docu' => 'Used in [[Special:AdManagerZones]]',
+	'admanager_invalidtargetpage' => 'Used as error message. Parameters:
+* $1 - page title',
+	'admanager_invalidtargetcategory' => 'Used as error message. Parameters:
+* $1 - category name (category page title)',
 	'admanager_noAdManagerZones' => 'Used in [[Special:AdManager]]',
 	'admanager_labelPage' => 'Used in [[Special:AdManager]]',
 	'admanager_labelCategory' => 'Used in [[Special:AdManager]].

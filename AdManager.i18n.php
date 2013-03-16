@@ -1093,6 +1093,7 @@ Lohß eets ens dat Projramm <code lang="en">update.php</code> loufe.',
  */
 $messages['ku-latn'] = array(
 	'admanager_submit' => 'Tomar bike',
+	'admanager_Page' => 'Rûpel',
 	'admanager_Category' => 'Kategorî',
 );
 

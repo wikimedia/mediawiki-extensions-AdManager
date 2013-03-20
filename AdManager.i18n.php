@@ -1252,6 +1252,15 @@ $messages['mk'] = array(
 	'right-admanager' => '[[Special:AdManager|Поставки за рекламирање]]',
 );
 
+/** Malayalam (മലയാളം)
+ * @author Santhosh.thottingal
+ */
+$messages['ml'] = array(
+	'admanager_submit' => 'സമർപ്പിക്കുക',
+	'admanager_Page' => 'താളുകൾ',
+	'admanager_Category' => 'വർഗ്ഗങ്ങൾ',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  * @author Diagramma Della Verita

@@ -46,13 +46,16 @@ $messages['qqq'] = array(
 	'admanager' => 'Title of [[Special:AdManager]]',
 	'admanagerzones' => 'Title of [[Special:AdManagerZones]]. Special:AdManagerZones is used to set which zones are available in Special:AdManager. AdManager is an extension to MediaWiki that allows per-page or per-category placement of ads into a wiki page. It is designed to work with zones from an external advertising server such as OpenX, but allows the placement of zones from (probably) any such server.',
 	'admanager-desc' => 'Description of this extension',
+	'admanager_docu' => 'Used in Special:AdManager, when there are no errors.',
 	'admanagerzones_docu' => 'Used in [[Special:AdManagerZones]]',
 	'admanager_invalidtargetpage' => 'Used as error message. Parameters:
 * $1 - page title',
 	'admanager_invalidtargetcategory' => 'Used as error message. Parameters:
 * $1 - category name (category page title)',
+	'admanager_notable' => 'Used as error message in Special:AdManager and Special:AdManagerZones.',
 	'admanager_noAdManagerZones' => 'Used in [[Special:AdManager]]',
-	'admanager_labelPage' => 'Used in [[Special:AdManager]]',
+	'admanager_labelPage' => 'Used in [[Special:AdManager]].
+{{Identical|Page title}}',
 	'admanager_labelCategory' => 'Used in [[Special:AdManager]].
 {{Identical|Category name}}',
 	'admanager_submit' => '{{Identical|Submit}}',
@@ -61,6 +64,9 @@ $messages['qqq'] = array(
 * Zone #: Display no ads',
 	'admanager_Page' => '{{Identical|Pages}}',
 	'admanager_Category' => '{{Identical|Categories}}',
+	'admanager_added' => 'Used as success message in Special:AdManager.
+
+This message is followed by the message {{msg-mw|Admanager return}}.',
 	'admanager_addedzone' => 'Usage example of this message (123 is the Zone number):
 
 *Added zone 123',
@@ -69,7 +75,9 @@ $messages['qqq'] = array(
 	'admanager_zonenotnumber' => 'Error message
 
 * $1 is the invalid Zone number. $1 may contain HTML tags.',
-	'admanager_return' => 'Used in [[Special:AdManager]]',
+	'admanager_return' => 'Used in Special:AdManager.
+
+This message follows the message {{msg-mw|Admanager added}}.',
 	'admanager_gotoads' => 'Link to [[Special:AdManager]]. Used in [[Special:AdManagerZones]].',
 	'admanager_gotozones' => 'Link to [[Special:AdManagerZones]]. Used in [[Special:AdManager]].',
 	'right-admanager' => '{{doc-right|admanager}}',
@@ -1938,6 +1946,16 @@ $messages['ur'] = array(
  */
 $messages['vi'] = array(
 	'admanager_Page' => 'Số trang',
+);
+
+/** Waray (Winaray)
+ * @author JinJian
+ */
+$messages['war'] = array(
+	'admanager_Page' => 'Mga pakli',
+	'admanager_Category' => 'Mga kaarangay',
+	'admanager_added' => 'Gintipig an imo mga ginliwat',
+	'admanager_addedzone' => 'Gindugngan hin sona',
 );
 
 /** Yiddish (ייִדיש)

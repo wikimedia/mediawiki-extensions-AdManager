@@ -43,8 +43,9 @@ $messages['en'] = array(
  * @author Umherirrender
  */
 $messages['qqq'] = array(
-	'admanager' => 'Title of [[Special:AdManager]]',
-	'admanagerzones' => 'Title of [[Special:AdManagerZones]]. Special:AdManagerZones is used to set which zones are available in Special:AdManager. AdManager is an extension to MediaWiki that allows per-page or per-category placement of ads into a wiki page. It is designed to work with zones from an external advertising server such as OpenX, but allows the placement of zones from (probably) any such server.',
+	'admanager' => '{{doc-special|AdManager|unlisted=1}}',
+	'admanagerzones' => '{{doc-special|AdManagerZones|unlisted=1}}
+Special:AdManagerZones is used to set which zones are available in Special:AdManager. AdManager is an extension to MediaWiki that allows per-page or per-category placement of ads into a wiki page. It is designed to work with zones from an external advertising server such as OpenX, but allows the placement of zones from (probably) any such server.',
 	'admanager-desc' => 'Description of this extension',
 	'admanager_docu' => 'Used in Special:AdManager, when there are no errors.',
 	'admanagerzones_docu' => 'Used in [[Special:AdManagerZones]]',

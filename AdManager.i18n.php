@@ -1334,6 +1334,16 @@ $messages['nb'] = array(
 	'admanager_notable' => 'Feil! En nødvendig databasetabell ble ikke funnet! Kjør <i>update.php</i> først.',
 );
 
+/** Low German (Plattdüütsch)
+ * @author Joachim Mos
+ */
+$messages['nds'] = array(
+	'admanager_labelCategory' => 'Kategorienamen',
+	'admanager_submit' => 'Spickern',
+	'admanager_Page' => 'Sieden',
+	'admanager_Category' => 'Kategorien',
+);
+
 /** Dutch (Nederlands)
  * @author SPQRobin
  * @author Siebrand

@@ -1003,6 +1003,23 @@ $messages['ja'] = array(
 	'right-admanager' => '[[Special:AdManager|広告の設定を管理]]',
 );
 
+/** Javanese (Basa Jawa)
+ * @author NoiX180
+ */
+$messages['jv'] = array(
+	'admanager' => 'Panata Tawa',
+	'admanagerzones' => 'Wewengkoné Panata Tawa',
+	'admanager_labelPage' => 'Irah-irahan kaca',
+	'admanager_labelCategory' => 'Jenengé katègori',
+	'admanager_submit' => 'Kirim',
+	'admanager_noads' => 'Aja majang tawa',
+	'admanager_Page' => 'Kaca-kaca',
+	'admanager_Category' => 'Kategori-kategori',
+	'admanager_added' => 'Owah-owahané Sampéyan wis kasinggahaké',
+	'admanager_addedzone' => 'Wewengkon sing kawuwuhaké',
+	'admanager_zonenum' => 'Wewengkon #: $1',
+);
+
 /** Georgian (ქართული)
  * @author David1010
  */

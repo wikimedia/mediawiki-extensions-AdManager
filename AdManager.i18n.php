@@ -1970,10 +1970,19 @@ $messages['ur'] = array(
 );
 
 /** Vietnamese (Tiếng Việt)
+ * @author Cheers!
+ * @author Minh Nguyen
  * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
+	'admanager_invalidtargetcategory' => 'Không tìm thấy thể loại với tên “$1”.',
+	'admanager_notable' => 'Lỗi: Không tìm thấy một bảng cơ sở dữ liệu cần thiết! Hãy chạy update.php trước tiên.',
+	'admanager_noAdManagerZones' => 'Lỗi: Bạn phải thêm một số khu vực quảng cáo. Nhập chúng tại [[Special:AdManagerZones|Khu vực quản lý quảng cáo]].',
+	'admanager_labelPage' => 'Tên trang',
+	'admanager_submit' => 'Đăng',
+	'admanager_noads' => 'Không hiển thị quảng cáo',
 	'admanager_Page' => 'Số trang',
+	'admanager_Category' => 'Thể loại',
 );
 
 /** Waray (Winaray)

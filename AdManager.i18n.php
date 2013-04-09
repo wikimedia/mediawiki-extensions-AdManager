@@ -902,6 +902,7 @@ $messages['ia'] = array(
  */
 $messages['id'] = array(
 	'admanager' => 'Ad Manager',
+	'admanagerzones' => 'Ad Manager Zones',
 	'admanagerzones_docu' => 'Masukkan setiap nomor zona iklan di barisnya sendiri.',
 	'admanager_invalidtargetpage' => 'Halaman dengan judul "$1" tidak ditemukan.',
 	'admanager_invalidtargetcategory' => 'Kategori dengan judul "$1" tidak ditemukan.',

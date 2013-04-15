@@ -1338,7 +1338,7 @@ $messages['mt'] = array(
 	'admanager_return' => 'Irritorna lura lejn [[Special:AdManager|Ġestjoni tar-reklamar]]',
 );
 
-/** Norwegian Bokmål (norsk (bokmål)‎)
+/** Norwegian Bokmål (norsk bokmål)
  * @author EvenT
  */
 $messages['nb'] = array(
@@ -1350,6 +1350,16 @@ $messages['nb'] = array(
 	'admanager_invalidtargetpage' => 'Finner ikke side med tittel "$1".',
 	'admanager_invalidtargetcategory' => 'Finner ikke kategori med tittel "$1".',
 	'admanager_notable' => 'Feil! En nødvendig databasetabell ble ikke funnet! Kjør <i>update.php</i> først.',
+	'admanager_labelPage' => 'Sidetitler',
+	'admanager_labelCategory' => 'Kategorinavn',
+	'admanager_submit' => 'Send',
+	'admanager_noads' => 'Vis ingen annonser',
+	'admanager_Page' => 'Sider',
+	'admanager_Category' => 'Kategorier',
+	'admanager_added' => 'Dine endringer er lagret',
+	'admanager_addedzone' => 'Legg til sone',
+	'admanager_zonenum' => 'Sone #: $1',
+	'admanager_zonenotnumber' => 'Feil! $1 er ikke et tall.',
 );
 
 /** Low German (Plattdüütsch)

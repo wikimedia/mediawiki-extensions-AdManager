@@ -1747,6 +1747,19 @@ $messages['si'] = array(
 	'right-admanager' => '[[Special:AdManager|දැන්වීම්කරණ වින්‍යාසගතකිරීම කළමනාකරණය කරන්න]]',
 );
 
+/** Slovak (slovenčina)
+ * @author Helix84
+ */
+$messages['sk'] = array(
+	'admanager' => 'Správca reklám',
+	'admanagerzones' => 'Zóny správcu reklám',
+	'admanager-desc' => 'Poskytuje [[Special:AdManager|špeciálnu stránku]], ktorá umožňuje správcom nastaviť zóny stránok alebo kategórií',
+	'admanager_docu' => 'Ak chcete pridať alebo odstrániť reklamnú zónu stránky alebo celej kategórie, pridajte alebo odstráňte jej názov dolu.',
+	'admanagerzones_docu' => 'Zadajte číslo každej reklamnej zóny na samostatnom riadku.',
+	'admanager_invalidtargetpage' => 'Žiadna stránka s názvom „$1“.',
+	'admanager_invalidtargetcategory' => 'Žiadna kategória s názvom „$1“.',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */

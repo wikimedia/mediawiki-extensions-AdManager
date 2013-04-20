@@ -206,13 +206,13 @@ $messages['ba'] = array(
 $messages['bcl'] = array(
 	'admanager' => 'Paramaneho nin Anunsiyo',
 	'admanagerzones' => 'Mga Sona kan Paramaneho nin Anunsiyo',
-	'admanager-desc' => 'Minahaya nin sarong [[Espesyal:ParamanehoninAnunsiyo|espesyal na pahina]] na minatugot kan mga sistemang nagpapadalagan tanganing ikaag an sona para sa mga pahina o mga kategoriya.', # Fuzzy
+	'admanager-desc' => 'Minahaya nin sarong [[Special:AdManager|espesyal na pahina]] na minatugot kan mga sistemang nagpapadalagan tanganing ikaag an sona para sa mga pahina o mga kategoriya.',
 	'admanager_docu' => 'Sa pagdugang o pagtangkas kan sona nin anunsiyo nin sarong pahina o kabilogan nin kategoriya, idugang o tangkason an titulo kaini sa ibaba.',
 	'admanagerzones_docu' => 'Ilaog an kada numero kan sona nin anunsiyo sa laog kan sadire kaining linya.',
 	'admanager_invalidtargetpage' => 'Mayong pahina an nanagboan na igwang titulo na "$1".',
 	'admanager_invalidtargetcategory' => 'Mayong kategoriya an nanagboan na igwang titulo na "$1".',
 	'admanager_notable' => 'Ay sala! Sarong pinaghahagad na katalaanan sa datos-sarayan an dae nanagboan! Magpadalagan nguna nin kasumpayan.php.',
-	'admanager_noAdManagerZones' => 'Ay sala! Ika kaipuhang magdugang nin iba pang mga sona nin anunsiyo. Ilaog sinda sa [[Espesyal:MgaSonakanParamanehoninAnunsiyo|Mga Sona kan Paramaneho nin Anunsiyo]].', # Fuzzy
+	'admanager_noAdManagerZones' => 'Kasalaan! Ika kaipuhang magdugang nin iba pang mga sona nin anunsiyo. Ilaog sinda sa [[Special:AdManagerZones|Mga Sona kan Paramaneho nin Anunsiyo]].',
 	'admanager_labelPage' => 'Mga Titulo nin Pahina',
 	'admanager_labelCategory' => 'Kategoriya nin mga pangaran',
 	'admanager_submit' => 'Isumite',
@@ -223,10 +223,10 @@ $messages['bcl'] = array(
 	'admanager_addedzone' => 'Pinagdugang na sona',
 	'admanager_zonenum' => 'Sona #:$1',
 	'admanager_zonenotnumber' => 'Ay sala! $1 bako tabing numero.',
-	'admanager_return' => 'Magbuwelta sa [[Espesyal:ParamanehoninAnunsiyo|Paramaneho nin Anunsiyo]]', # Fuzzy
-	'admanager_gotoads' => '[[Espesyal:ParamanehoninAnunsiyo|Liwaton an kinaagan nin anunsiyo]]', # Fuzzy
-	'admanager_gotozones' => '[[Espesyal:MgasonakanParamanehoninAnunsiyo|Liwaton an mga sona nin anunsiyo]]', # Fuzzy
-	'right-admanager' => '[[Espesyal:ParamanehoninAnunsiyo|Imaneho an kasalansanan nin anunsiyo]]', # Fuzzy
+	'admanager_return' => 'Magbuwelta sa [[Special:AdManager|Paramaneho nin Anunsiyo]]',
+	'admanager_gotoads' => '[[Special:AdManager|Liwaton an kaaganan nin anunsiyo]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Liwaton an mga sona nin anunsiyo]]',
+	'right-admanager' => '[[Special:AdManager|Manehoon an kasalansanan nin anunsiyo]]',
 );
 
 /** Belarusian (Taraškievica orthography) (беларуская (тарашкевіца)‎)

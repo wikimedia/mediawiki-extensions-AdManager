@@ -1380,6 +1380,7 @@ $messages['nb'] = array(
 	'admanager_invalidtargetpage' => 'Finner ikke side med tittel "$1".',
 	'admanager_invalidtargetcategory' => 'Finner ikke kategori med tittel "$1".',
 	'admanager_notable' => 'Feil! En nødvendig databasetabell ble ikke funnet! Kjør <i>update.php</i> først.',
+	'admanager_noAdManagerZones' => 'Feil! Du må legge til noen reklamesoner. Legg dem i [[Special:AdManagerZones|Ad Manager Zones]].',
 	'admanager_labelPage' => 'Sidetitler',
 	'admanager_labelCategory' => 'Kategorinavn',
 	'admanager_submit' => 'Send',
@@ -1390,6 +1391,7 @@ $messages['nb'] = array(
 	'admanager_addedzone' => 'Legg til sone',
 	'admanager_zonenum' => 'Sone #: $1',
 	'admanager_zonenotnumber' => 'Feil! $1 er ikke et tall.',
+	'admanager_return' => 'Gå tilbake til [[Special:AdManager|Ad Manager]]',
 );
 
 /** Low German (Plattdüütsch)

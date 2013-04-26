@@ -63,7 +63,7 @@ Special:AdManagerZones is used to set which zones are available in Special:AdMan
 	'admanager_noads' => 'Usage example of this message:
 
 * Zone #: Display no ads',
-	'admanager_Page' => '{{Identical|Pages}}',
+	'admanager_Page' => '{{Identical|Page}}',
 	'admanager_Category' => '{{Identical|Categories}}',
 	'admanager_added' => 'Used as success message in Special:AdManager.
 

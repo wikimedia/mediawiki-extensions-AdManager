@@ -64,7 +64,7 @@ Special:AdManagerZones is used to set which zones are available in Special:AdMan
 
 * Zone #: Display no ads',
 	'admanager_Page' => '{{Identical|Page}}',
-	'admanager_Category' => '{{Identical|Categories}}',
+	'admanager_Category' => '{{Identical|Category}}',
 	'admanager_added' => 'Used as success message in Special:AdManager.
 
 This message is followed by the message {{msg-mw|Admanager return}}.',
@@ -1074,6 +1074,14 @@ $messages['ka'] = array(
 	'admanager_gotoads' => '[[Special:AdManager|რეკლამის განთავსების რედაქტირება]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|სარეკლამო ზონების რედაქტირება]]',
 	'right-admanager' => '[[Special:AdManager|რეკლამის კონფიგურაციის მართვა]]',
+);
+
+/** Kongo (Kongo)
+ * @author Rkupsala
+ */
+$messages['kg'] = array(
+	'admanager_Page' => 'Mikânda',
+	'admanager_Category' => 'Mitîndu',
 );
 
 /** Khowar (کھوار)

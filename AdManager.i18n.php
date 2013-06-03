@@ -1452,7 +1452,7 @@ $messages['nl-informal'] = array(
 	'admanager_added' => 'Je wijzigingen zijn opgeslagen',
 );
 
-/** Oriya (ଓଡ଼ିଆ)
+/** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu
  * @author ଆଶୁତୋଷ କର
@@ -1603,6 +1603,7 @@ $messages['pt'] = array(
 );
 
 /** Brazilian Portuguese (português do Brasil)
+ * @author Luckas
  * @author Luckas Blade
  * @author 555
  */

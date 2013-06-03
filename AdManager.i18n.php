@@ -360,12 +360,14 @@ $messages['ckb'] = array(
 
 /** Czech (česky)
  * @author Gaj777
+ * @author Lahwaacz
  * @author Mormegil
  * @author Paxt
  */
 $messages['cs'] = array(
 	'admanager' => 'Správce reklam',
 	'admanagerzones' => 'Správce reklamních zón',
+	'admanager-desc' => 'Poskytuje [[Special:AdManager|speciální stránku]], která umožňuje správcům nastavit zóny stránek nebo kategorií',
 	'admanager_docu' => 'Chcete-li přidat nebo odstranit reklamní zónu stránky nebo celé kategorie, přidej nebo odberte její název.',
 	'admanagerzones_docu' => 'Zadejte číslo každé reklamní zóny na samostatném řádku.',
 	'admanager_invalidtargetpage' => 'Stránka s názvem "$1" nebyla nalezena.',
@@ -382,9 +384,9 @@ $messages['cs'] = array(
 	'admanager_addedzone' => 'Přidána zona',
 	'admanager_zonenum' => 'Zóna č. $1',
 	'admanager_zonenotnumber' => 'Chyba! $1 není čislem.',
-	'admanager_return' => 'Návrat do [[Special: AdManager|Správce reklamy]]', # Fuzzy
+	'admanager_return' => 'Návrat do [[Special: AdManager|správce reklam]]', # Fuzzy
 	'admanager_gotoads' => '[[Special:AdManager|Upravit umístění reklamy]]',
-	'admanager_gotozones' => '[[Special: AdManagerZones|Editovat zóny inzerátů]]', # Fuzzy
+	'admanager_gotozones' => '[[Special: AdManagerZones|Editovat zóny reklam]]', # Fuzzy
 	'right-admanager' => '[[Special:AdManager|Upravit konfiguraci inzerce]]',
 );
 

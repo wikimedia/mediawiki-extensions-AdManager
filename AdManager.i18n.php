@@ -1452,6 +1452,22 @@ $messages['nl-informal'] = array(
 	'admanager_added' => 'Je wijzigingen zijn opgeslagen',
 );
 
+/** Occitan (occitan)
+ * @author Cedric31
+ */
+$messages['oc'] = array(
+	'admanager_labelPage' => 'Títols de pagina',
+	'admanager_labelCategory' => 'Noms de categoria',
+	'admanager_submit' => 'Sometre',
+	'admanager_noads' => 'Afichar pas de publicitat',
+	'admanager_Page' => 'Paginas',
+	'admanager_Category' => 'Categorias',
+	'admanager_added' => 'Vòstres cambiaments son estats enregistrats',
+	'admanager_addedzone' => 'Zòna aponduda',
+	'admanager_zonenum' => 'Zòna #: $1',
+	'admanager_zonenotnumber' => 'Error ! « $1 » es pas un nombre.',
+);
+
 /** Oriya (ଓଡ଼ିଆ)
  * @author Ansumang
  * @author Jnanaranjan Sahu

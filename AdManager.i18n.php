@@ -346,6 +346,13 @@ $messages['ca'] = array(
 	'right-admanager' => '[[Special:AdManager|Gestió de configuració de publicitat]]',
 );
 
+/** Chechen (нохчийн)
+ * @author Умар
+ */
+$messages['ce'] = array(
+	'admanager_submit' => 'ДӀадахьийта',
+);
+
 /** Sorani Kurdish (کوردی)
  * @author Calak
  */
@@ -1602,10 +1609,20 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Bonifácio
+ * @author Malafaya
  * @author SandroHc
  */
 $messages['pt'] = array(
+	'admanager' => 'Gestor de Anúncios',
+	'admanagerzones' => 'Zonas do Gestor de Anúncios',
+	'admanager-desc' => 'Fornece uma [[Special:AdManager|página especial]] que permite que sysops estabeleçam a zona para páginas e categorias',
 	'admanager_docu' => 'Para adicionar ou remover a zona de publicidade de uma página ou toda a categoria, adicionar ou remover o título abaixo.',
+	'admanagerzones_docu' => 'Introduza cada número da zona de anúncio na sua linha própria.',
+	'admanager_invalidtargetpage' => 'Nenhuma página encontrada com título "$1".',
+	'admanager_invalidtargetcategory' => 'Nenhuma categoria encontrada com título "$1".',
+	'admanager_notable' => 'Erro! Uma tabela da base de dados necessária não foi encontrada! Execute update.php primeiro.',
+	'admanager_noAdManagerZones' => 'Erro! Deverá adicionar algumas zonas de anúncio. Insira-as nas [[Special:AdManagerZones|Zonas do Gestor de Anúncios]].',
+	'admanager_labelPage' => 'Títulos de páginas',
 	'admanager_labelCategory' => 'Nomes da categoria',
 	'admanager_submit' => 'Enviar',
 	'admanager_noads' => 'Não apresentar anúncios',
@@ -1616,6 +1633,9 @@ $messages['pt'] = array(
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Erro! $1 não é um número.',
 	'admanager_return' => 'Voltar para [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => '[[Special:AdManager|Editar posicionamento do anúncio]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Editar zonas de anúncio]]',
+	'right-admanager' => '[[Special:AdManager|Gerir configuração de anúncio]]',
 );
 
 /** Brazilian Portuguese (português do Brasil)

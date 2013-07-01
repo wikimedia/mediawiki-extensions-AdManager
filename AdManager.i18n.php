@@ -1234,6 +1234,7 @@ $messages['li'] = array(
 
 /** Lithuanian (lietuvių)
  * @author Eitvys200
+ * @author Mantak111
  */
 $messages['lt'] = array(
 	'admanager' => 'Skelbimų tvarkyklė',
@@ -1250,6 +1251,7 @@ $messages['lt'] = array(
 	'admanager_addedzone' => 'Pridėta zona',
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Klaida! $1 nėra skaičius.',
+	'admanager_return' => 'Grįžti į [[Special:AdManager|Reklamos valdytoją]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Redaguoti reklamos zonas]]',
 );
 

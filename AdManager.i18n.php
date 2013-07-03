@@ -1465,6 +1465,10 @@ $messages['nl-informal'] = array(
  * @author Cedric31
  */
 $messages['oc'] = array(
+	'admanager' => 'Gestionari de publicitat',
+	'admanagerzones' => 'Zònas de gestionari de publicitat',
+	'admanager_invalidtargetpage' => 'Cap de pagina pas trobada amb lo títol « $1 ».',
+	'admanager_invalidtargetcategory' => 'Cap de categoria pas trobada amb lo títol "$1".',
 	'admanager_labelPage' => 'Títols de pagina',
 	'admanager_labelCategory' => 'Noms de categoria',
 	'admanager_submit' => 'Sometre',
@@ -1475,6 +1479,10 @@ $messages['oc'] = array(
 	'admanager_addedzone' => 'Zòna aponduda',
 	'admanager_zonenum' => 'Zòna #: $1',
 	'admanager_zonenotnumber' => 'Error ! « $1 » es pas un nombre.',
+	'admanager_return' => 'Tornar al [[Special:AdManager|Gestionari de publicitat]]',
+	'admanager_gotoads' => "[[Special:AdManager|Modificar l’emplaçament d'una publicitat]]",
+	'admanager_gotozones' => '[[Special:AdManagerZones|Modificar las zònas de publicitat]]',
+	'right-admanager' => '[[Special:AdManager|Gerir la configuracion de las publicitats]]',
 );
 
 /** Oriya (ଓଡ଼ିଆ)

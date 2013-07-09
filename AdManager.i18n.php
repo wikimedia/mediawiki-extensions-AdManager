@@ -422,6 +422,8 @@ $messages['cy'] = array(
 	'admanager_zonenum' => 'Ardal #: $1',
 	'admanager_zonenotnumber' => 'Gwall! Nid rhif yw $1',
 	'admanager_return' => 'Dychwelyd i [[Special:AdManager|Rheolwr Hysbesebion]]',
+	'admanager_gotoads' => '[[Special:AdManager|Golygu gosodiad hysbyseb]]',
+	'admanager_gotozones' => "[[Special:AdManagerZones|Golygu rhanbarthau'r hysbysebion]]",
 	'right-admanager' => '[[Special:AdManager|Trefnu ffurfwedd yr hysbysebu]]',
 );
 
@@ -851,6 +853,15 @@ $messages['hi'] = array(
 	'admanager_zonenotnumber' => 'त्रुटि! $1 एक संख्या नहीं है।',
 	'admanager_return' => '[[Special:AdManager|विज्ञापन प्रबन्धक]] को लौट जाएँ',
 	'admanager_gotoads' => '[[Special:AdManager|विज्ञापन प्लेसमेंट सम्पादन करें]]',
+);
+
+/** Croatian (hrvatski)
+ * @author Roberta F.
+ */
+$messages['hr'] = array(
+	'admanager_submit' => 'Potvrdi',
+	'admanager_Page' => 'Stranice',
+	'admanager_Category' => 'Kategorije',
 );
 
 /** Upper Sorbian (hornjoserbsce)

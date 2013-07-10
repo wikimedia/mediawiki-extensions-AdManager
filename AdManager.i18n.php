@@ -397,6 +397,17 @@ $messages['cs'] = array(
 	'right-admanager' => '[[Special:AdManager|Upravit konfiguraci inzerce]]',
 );
 
+/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+ * @author ОйЛ
+ */
+$messages['cu'] = array(
+	'admanager_labelPage' => 'страницѧ имєна',
+	'admanager_labelCategory' => 'катигорїѩ имєна',
+	'admanager_Page' => 'страницѧ',
+	'admanager_Category' => 'катигорїѩ',
+	'admanager_added' => 'твоꙗ мѣнꙑ съхранѥнꙑ сѫтъ',
+);
+
 /** Welsh (Cymraeg)
  * @author Lloffiwr
  * @author Pwyll

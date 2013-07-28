@@ -1360,6 +1360,21 @@ $messages['ml'] = array(
 	'admanager_Category' => 'വർഗ്ഗങ്ങൾ',
 );
 
+/** Marathi (मराठी)
+ * @author V.narsikar
+ */
+$messages['mr'] = array(
+	'admanager_invalidtargetpage' => '"$1" या शीर्षकाचे पान सापडले नाही.',
+	'admanager_invalidtargetcategory' => '"$1" या शीर्षकाचा वर्ग सापडला नाही.',
+	'admanager_labelPage' => 'पान शीर्षके',
+	'admanager_labelCategory' => 'वर्गांची नावे',
+	'admanager_submit' => 'सादर करा',
+	'admanager_noads' => 'कोणत्याही जाहीराती नकोत',
+	'admanager_Page' => 'पाने',
+	'admanager_Category' => 'वर्ग',
+	'admanager_added' => 'आपले बदल जतन केले आहेत',
+);
+
 /** Malay (Bahasa Melayu)
  * @author Anakmalaysia
  * @author Diagramma Della Verita

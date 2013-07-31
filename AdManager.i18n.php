@@ -2135,11 +2135,11 @@ $messages['vi'] = array(
 	'admanager_noads' => 'Không hiển thị quảng cáo',
 	'admanager_Page' => 'Số trang',
 	'admanager_Category' => 'Thể loại',
-	'admanager_added' => 'Đã lưu các thay đổi của bạn tại $1.', # Fuzzy
-	'admanager_addedzone' => 'Nhập khu vực',
-	'admanager_zonenum' => 'Khu #:$1',
+	'admanager_added' => 'Đã lưu các thay đổi của bạn.',
+	'admanager_addedzone' => 'Đã thêm khu vực',
+	'admanager_zonenum' => 'Số khu vực: $1',
 	'admanager_zonenotnumber' => 'Lỗi! $1 không phải là số.',
-	'admanager_return' => 'Trở lại [[Special:AdManager|quản lý quảng cáo]]',
+	'admanager_return' => 'Trở lại [[Special:AdManager|Quản lý quảng cáo]]',
 	'admanager_gotoads' => '[[Special:AdManager|Chỉnh sửa vị trí quảng cáo]]',
 );
 

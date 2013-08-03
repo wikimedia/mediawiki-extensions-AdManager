@@ -1887,6 +1887,24 @@ $messages['sk'] = array(
 	'admanager_invalidtargetcategory' => 'Žiadna kategória s názvom „$1“.',
 );
 
+/** Slovenian (slovenščina)
+ * @author Yerpo
+ */
+$messages['sl'] = array(
+	'admanager' => 'Upravitelj oglasov',
+	'admanagerzones' => 'Cone upravitelja oglasov',
+	'admanager_labelPage' => 'Naslovi strani',
+	'admanager_labelCategory' => 'Imena kategorij',
+	'admanager_submit' => 'Potrdi',
+	'admanager_noads' => 'Ne prikazuj oglasov',
+	'admanager_Page' => 'Strani',
+	'admanager_Category' => 'Kategorije',
+	'admanager_added' => 'Vaše spremembe so bile shranjene',
+	'admanager_addedzone' => 'Dodana cona',
+	'admanager_zonenum' => 'Cona #: $1',
+	'admanager_zonenotnumber' => 'Napaka! $1 ni število.',
+);
+
 /** Serbian (Cyrillic script) (српски (ћирилица)‎)
  * @author Rancher
  */

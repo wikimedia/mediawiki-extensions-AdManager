@@ -1373,6 +1373,11 @@ $messages['mr'] = array(
 	'admanager_Page' => 'पाने',
 	'admanager_Category' => 'वर्ग',
 	'admanager_added' => 'आपले बदल जतन केले आहेत',
+	'admanager_zonenotnumber' => 'त्रूटी! $1 हा आकडा नाही.',
+	'admanager_return' => '[[Special:AdManager|जाहिरात व्यवस्थापकाकडे]] परत चला',
+	'admanager_gotoads' => '[[Special:AdManager|टाकलेली जाहिरात संपादित करा]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|जाहिरात-प्रभाग संपादित करा]]',
+	'right-admanager' => '[[Special:AdManager|जाहिरात विन्यासाचे व्यवस्थापन करा]]',
 );
 
 /** Malay (Bahasa Melayu)

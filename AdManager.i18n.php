@@ -1352,12 +1352,18 @@ $messages['mk'] = array(
 );
 
 /** Malayalam (മലയാളം)
+ * @author Kavya Manohar
  * @author Santhosh.thottingal
  */
 $messages['ml'] = array(
+	'admanager_invalidtargetpage' => '"$1" എന്ന തലക്കെട്ടുള്ള താൾ കണ്ടെത്താനായില്ല.',
+	'admanager_invalidtargetcategory' => ' "$1" എന്ന പേരിൽ ഒരു വർഗ്ഗം കണ്ടെത്താനായില്ല.',
 	'admanager_submit' => 'സമർപ്പിക്കുക',
 	'admanager_Page' => 'താളുകൾ',
 	'admanager_Category' => 'വർഗ്ഗങ്ങൾ',
+	'admanager_added' => 'താങ്കൾ വരുത്തിയ മാറ്റങ്ങൾ സേവ് ചെയ്തിരിക്കുന്നു.',
+	'admanager_addedzone' => 'മേഖല ചേർത്തിരിക്കുന്നു',
+	'admanager_zonenum' => 'മേഖല #: $1',
 );
 
 /** Marathi (मराठी)

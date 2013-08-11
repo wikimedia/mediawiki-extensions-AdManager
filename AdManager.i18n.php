@@ -961,14 +961,18 @@ $messages['ia'] = array(
 
 /** Indonesian (Bahasa Indonesia)
  * @author Farras
+ * @author Rv77ax
  */
 $messages['id'] = array(
 	'admanager' => 'Ad Manager',
 	'admanagerzones' => 'Ad Manager Zones',
+	'admanager-desc' => 'Menyediakan [[Istimewa:adManager|halaman istimewa]] yang memungkinkan pengurus mengatur zona untuk halaman atau kategori', # Fuzzy
+	'admanager_docu' => 'Untuk menambah atau menghapus zona iklan dari sebuah halaman atau keseluruhan kategori, tambah atau hapus judulnya di bawah ini.',
 	'admanagerzones_docu' => 'Masukkan setiap nomor zona iklan di barisnya sendiri.',
 	'admanager_invalidtargetpage' => 'Halaman dengan judul "$1" tidak ditemukan.',
 	'admanager_invalidtargetcategory' => 'Kategori dengan judul "$1" tidak ditemukan.',
 	'admanager_notable' => 'Kesalahan! Tabel basis data yang diperlukan tidak ditemukan! Jalankan dulu update.php.',
+	'admanager_noAdManagerZones' => 'Kesalahan! Anda harus menambahkan beberapa zona iklan. Tambahkan di [[Istimewa:AdManagerZones|Zona Manajer Iklan]].', # Fuzzy
 	'admanager_labelPage' => 'Judul halaman',
 	'admanager_labelCategory' => 'Nama kategori',
 	'admanager_submit' => 'Kirim',

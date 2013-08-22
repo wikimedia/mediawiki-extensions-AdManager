@@ -1395,6 +1395,10 @@ $messages['ml'] = array(
  * @author V.narsikar
  */
 $messages['mr'] = array(
+	'admanager' => 'जाहिरात व्यवस्थापक',
+	'admanagerzones' => 'जाहिरात व्यवस्थापकाची क्षेत्रे',
+	'admanager-desc' => 'पान किंवा वर्गाचे क्षेत्र ठरविण्यास प्रचालकासाठी [[Special:AdManager|विशेष पानाची]] तरतुद करते.',
+	'admanager_docu' => 'एखाद्या पानाचे किंवा संपूर्ण वर्गाचे जाहिरात क्षेत्र जोडण्यास किंवा वगळण्यास, त्याचे खालील शीर्षक जोडा किंवा वगळा.',
 	'admanager_invalidtargetpage' => '"$1" या शीर्षकाचे पान सापडले नाही.',
 	'admanager_invalidtargetcategory' => '"$1" या शीर्षकाचा वर्ग सापडला नाही.',
 	'admanager_labelPage' => 'पान शीर्षके',
@@ -1404,6 +1408,8 @@ $messages['mr'] = array(
 	'admanager_Page' => 'पाने',
 	'admanager_Category' => 'वर्ग',
 	'admanager_added' => 'आपले बदल जतन केले आहेत',
+	'admanager_addedzone' => 'क्षेत्र जोडले',
+	'admanager_zonenum' => 'क्षेत्र #: $1',
 	'admanager_zonenotnumber' => 'त्रूटी! $1 हा आकडा नाही.',
 	'admanager_return' => '[[Special:AdManager|जाहिरात व्यवस्थापकाकडे]] परत चला',
 	'admanager_gotoads' => '[[Special:AdManager|टाकलेली जाहिरात संपादित करा]]',

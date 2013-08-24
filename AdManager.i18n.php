@@ -1492,9 +1492,9 @@ $messages['nb'] = array(
 	'admanager_zonenum' => 'Sone #: $1',
 	'admanager_zonenotnumber' => 'Feil! $1 er ikke et tall.',
 	'admanager_return' => 'Gå tilbake til [[Special:AdManager|Ad Manager]]',
-	'admanager_gotoads' => '[[Special:AdManager|Rediger reklameplassering]]',
-	'admanager_gotozones' => '[[Special:AdManagerZones|Rediger reklamesoner]]',
-	'right-admanager' => '[[Special:AdManager|Håndter reklamekonfigurering]]',
+	'admanager_gotoads' => '[[Special:AdManager|Rediger annonseplassering]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Rediger annonsesoner]]',
+	'right-admanager' => '[[Special:AdManager|Håndter annonsekonfigurering]]',
 );
 
 /** Low German (Plattdüütsch)

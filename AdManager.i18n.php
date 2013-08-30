@@ -286,12 +286,14 @@ $messages['bn'] = array(
 );
 
 /** Breton (brezhoneg)
+ * @author Fohanno
  * @author Fulup
  * @author Y-M D
  */
 $messages['br'] = array(
 	'admanager' => 'Merour ar brudañ',
 	'admanagerzones' => 'Takadoù merañ ar brudañ',
+	'admanagerzones_docu' => 'Ebarzhit pep niverenn takad bruderezh war he linenn dezhi.',
 	'admanager_invalidtargetpage' => 'N\'eus bet kavet pajenn ebet dezhi an titl "$1".',
 	'admanager_invalidtargetcategory' => 'N\'eus bet kavet rummañ ebet dezhañ an titl "$1".',
 	'admanager_labelPage' => 'Titloù ar bajenn',
@@ -305,6 +307,8 @@ $messages['br'] = array(
 	'admanager_zonenum' => 'Takad #: $1',
 	'admanager_zonenotnumber' => "Fazi ! $1 n'eo ket un niver.",
 	'admanager_return' => 'Distreiñ da [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => "[[Special:AdManager|Aozañ lec'h an tamm bruderezh]]",
+	'admanager_gotozones' => '[[Special:AdManagerZones|Aozañ an takadoù bruderezh]]',
 );
 
 /** Bosnian (bosanski)

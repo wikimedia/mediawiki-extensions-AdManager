@@ -296,6 +296,7 @@ $messages['br'] = array(
 	'admanagerzones_docu' => 'Ebarzhit pep niverenn takad bruderezh war he linenn dezhi.',
 	'admanager_invalidtargetpage' => 'N\'eus bet kavet pajenn ebet dezhi an titl "$1".',
 	'admanager_invalidtargetcategory' => 'N\'eus bet kavet rummañ ebet dezhañ an titl "$1".',
+	'admanager_notable' => "Fazi ! Un daolenn diaz roadennoù rekis n'eo ket bet kavet ! Lañsit update.php da gentañ.",
 	'admanager_labelPage' => 'Titloù ar bajenn',
 	'admanager_labelCategory' => 'Anvioù ar rummad :',
 	'admanager_submit' => 'Kas',

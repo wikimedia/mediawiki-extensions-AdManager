@@ -1881,9 +1881,9 @@ $messages['rue'] = array(
 	'admanager_addedzone' => 'Придана зона',
 	'admanager_zonenum' => 'Зона #: $1',
 	'admanager_zonenotnumber' => 'Хыба! $1 не є чісло.',
-	'admanager_return' => 'Вернути ся до [[Special: AdManager|Адміністратор реклам]]', # Fuzzy
+	'admanager_return' => 'Вернути ся до [[Special:AdManager|Адміністратор реклам]]',
 	'admanager_gotoads' => '[[Special:AdManager|Управляти розміщіня реклам]]',
-	'admanager_gotozones' => '[[Special: AdManagerZones|Едітовати зону реклам]]', # Fuzzy
+	'admanager_gotozones' => '[[Special:AdManagerZones|Едітовати зону реклам]]',
 );
 
 /** Sakha (саха тыла)

@@ -103,11 +103,16 @@ $messages['am'] = array(
 );
 
 /** Arabic (العربية)
+ * @author Asaifm
  * @author Meno25
  * @author Tarawneh
  * @author روخو
  */
 $messages['ar'] = array(
+	'admanager' => 'إدارة الإعلانات',
+	'admanager_invalidtargetpage' => 'لم يتم العثور على صفحة بهذا العنوان "$1".',
+	'admanager_invalidtargetcategory' => 'لم يتم العثور على تصنيف بهذا العنوان "$1".',
+	'admanager_notable' => 'خطأ! لم يتم العثور على جدول قاعدة بيانات مطلوب! الرجاء تشغيل update.php أولا.',
 	'admanager_labelPage' => 'عناوين الصفحة:',
 	'admanager_labelCategory' => 'أسماء التصنيف',
 	'admanager_submit' => 'إرسال',
@@ -115,6 +120,7 @@ $messages['ar'] = array(
 	'admanager_Page' => 'صفحات',
 	'admanager_Category' => 'تصنيفات',
 	'admanager_added' => 'تم حفظ التغييرات',
+	'admanager_zonenotnumber' => 'خطأ! $1 ليس برقم.',
 );
 
 /** Asturian (asturianu)

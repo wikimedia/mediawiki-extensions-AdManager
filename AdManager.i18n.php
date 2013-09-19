@@ -278,6 +278,7 @@ $messages['bg'] = array(
 	'admanager_Category' => 'Категории',
 	'admanager_added' => 'Промените бяха съхранени',
 	'admanager_zonenum' => 'Зона #: $1',
+	'admanager_zonenotnumber' => 'Грешка! $1 не е число.',
 );
 
 /** Bengali (বাংলা)

@@ -1231,7 +1231,7 @@ $messages['ku-latn'] = array(
 	'admanager_Category' => 'Kategorî',
 );
 
-/** Kirghiz (Кыргызча)
+/** Kyrgyz (Кыргызча)
  * @author Growingup
  */
 $messages['ky'] = array(

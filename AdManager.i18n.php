@@ -1715,6 +1715,7 @@ $messages['ps'] = array(
 
 /** Portuguese (português)
  * @author Bonifácio
+ * @author Hamilton Abreu
  * @author Malafaya
  * @author SandroHc
  */
@@ -1734,7 +1735,7 @@ $messages['pt'] = array(
 	'admanager_noads' => 'Não apresentar anúncios',
 	'admanager_Page' => 'Páginas',
 	'admanager_Category' => 'Categorias',
-	'admanager_added' => 'As suas alterações foram salvas',
+	'admanager_added' => 'As suas alterações foram gravadas',
 	'admanager_addedzone' => 'Zona adicionada',
 	'admanager_zonenum' => 'Zona #: $1',
 	'admanager_zonenotnumber' => 'Erro! $1 não é um número.',

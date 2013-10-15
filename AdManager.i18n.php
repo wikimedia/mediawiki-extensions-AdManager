@@ -1935,6 +1935,7 @@ $messages['si'] = array(
 
 /** Slovak (slovenčina)
  * @author Helix84
+ * @author Sudo77(new)
  */
 $messages['sk'] = array(
 	'admanager' => 'Správca reklám',
@@ -1944,6 +1945,18 @@ $messages['sk'] = array(
 	'admanagerzones_docu' => 'Zadajte číslo každej reklamnej zóny na samostatnom riadku.',
 	'admanager_invalidtargetpage' => 'Žiadna stránka s názvom „$1“.',
 	'admanager_invalidtargetcategory' => 'Žiadna kategória s názvom „$1“.',
+	'admanager_labelPage' => 'Názvy stránok',
+	'admanager_labelCategory' => 'Názvy kategórií',
+	'admanager_submit' => 'Odoslať',
+	'admanager_noads' => 'Nezobrazovať reklamy',
+	'admanager_Page' => 'Stránky',
+	'admanager_Category' => 'Kategórie',
+	'admanager_added' => 'Vaše úpravy boli uložené',
+	'admanager_addedzone' => 'Pridaná zóna',
+	'admanager_zonenum' => 'Zóna #:$1',
+	'admanager_zonenotnumber' => 'Chyba! $1 nie je číslo.',
+	'admanager_gotoads' => '[[Special:AdManager|Upraviť umiestnenie reklamy]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Upraviť zóny reklám]]',
 );
 
 /** Slovenian (slovenščina)

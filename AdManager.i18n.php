@@ -120,6 +120,7 @@ $messages['ar'] = array(
 	'admanager_Page' => 'صفحات',
 	'admanager_Category' => 'تصنيفات',
 	'admanager_added' => 'تم حفظ التغييرات',
+	'admanager_addedzone' => 'أضاف المنطقة',
 	'admanager_zonenotnumber' => 'خطأ! $1 ليس برقم.',
 );
 

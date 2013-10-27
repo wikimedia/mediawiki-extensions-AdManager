@@ -382,6 +382,7 @@ $messages['ckb'] = array(
  * @author Frettie
  * @author Gaj777
  * @author Lahwaacz
+ * @author Michaelbrabec
  * @author Mormegil
  * @author Paxt
  */
@@ -405,7 +406,7 @@ $messages['cs'] = array(
 	'admanager_addedzone' => 'Přidána zona',
 	'admanager_zonenum' => 'Zóna č. $1',
 	'admanager_zonenotnumber' => 'Chyba! $1 není čislem.',
-	'admanager_return' => 'Návrat do [[Special: AdManager|správce reklam]]', # Fuzzy
+	'admanager_return' => 'Návrat do [[Special:AdManager|správce reklam]]',
 	'admanager_gotoads' => '[[Special:AdManager|Upravit umístění reklamy]]',
 	'admanager_gotozones' => '[[Special:AdManagerZones|Editovat zóny reklam]]',
 	'right-admanager' => '[[Special:AdManager|Upravit konfiguraci inzerce]]',

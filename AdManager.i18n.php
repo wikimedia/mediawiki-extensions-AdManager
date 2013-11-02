@@ -378,7 +378,7 @@ $messages['ckb'] = array(
 	'admanager_zonenotnumber' => 'ھەڵە! $1 ژمارە نییە.',
 );
 
-/** Czech (česky)
+/** Czech (čeština)
  * @author Frettie
  * @author Gaj777
  * @author Lahwaacz

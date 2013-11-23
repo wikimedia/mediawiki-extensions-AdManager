@@ -110,6 +110,7 @@ $messages['am'] = array(
  */
 $messages['ar'] = array(
 	'admanager' => 'إدارة الإعلانات',
+	'admanagerzones' => 'مناطق مدير الإعلانات',
 	'admanager_invalidtargetpage' => 'لم يتم العثور على صفحة بهذا العنوان "$1".',
 	'admanager_invalidtargetcategory' => 'لم يتم العثور على تصنيف بهذا العنوان "$1".',
 	'admanager_notable' => 'خطأ! لم يتم العثور على جدول قاعدة بيانات مطلوب! الرجاء تشغيل update.php أولا.',
@@ -121,6 +122,7 @@ $messages['ar'] = array(
 	'admanager_Category' => 'تصنيفات',
 	'admanager_added' => 'تم حفظ التغييرات',
 	'admanager_addedzone' => 'أضاف المنطقة',
+	'admanager_zonenum' => 'المنطقة #: $1',
 	'admanager_zonenotnumber' => 'خطأ! $1 ليس برقم.',
 );
 

@@ -366,6 +366,7 @@ $messages['ca'] = array(
  */
 $messages['ce'] = array(
 	'admanager_submit' => 'ДӀадахьийта',
+	'admanager_Category' => 'Категореш',
 );
 
 /** Sorani Kurdish (کوردی)

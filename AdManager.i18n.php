@@ -415,7 +415,7 @@ $messages['cs'] = array(
 	'right-admanager' => '[[Special:AdManager|Upravit konfiguraci inzerce]]',
 );
 
-/** Church Slavic (словѣ́ньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
+/** Church Slavic (словѣньскъ / ⰔⰎⰑⰂⰡⰐⰠⰔⰍⰟ)
  * @author ОйЛ
  */
 $messages['cu'] = array(

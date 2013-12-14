@@ -1247,11 +1247,12 @@ $messages['ky'] = array(
 
 /** Luxembourgish (Lëtzebuergesch)
  * @author Robby
+ * @author Soued031
  */
 $messages['lb'] = array(
 	'admanager' => 'Gestioun vun de Reklammen',
 	'admanagerzones' => 'Gestioun vun den Zone vun de Reklammen',
-	'admanager-desc' => 'Setzt eng [[Special:AdManager|Spezialsäit]] derbäi déi et Administrateuren erlaabt fir Zone vu Säiten oder Kategorien ze definéieren',
+	'admanager-desc' => 'Setzt eng [[Special:AdManager|Spezialsäit]] dobäi déi et Administrateuren erlaabt fir Zone vu Säiten oder Kategorien ze definéieren',
 	'admanager_invalidtargetpage' => 'Keng Säit mam Titel "$1" fonnt.',
 	'admanager_invalidtargetcategory' => 'Keng Kategorie mam Titel "$1" fonnt.',
 	'admanager_notable' => "Feeler: Déi erfuerdert Datebanktabell gouf net fonnt! Start d'éischt update.php.",
@@ -1262,7 +1263,7 @@ $messages['lb'] = array(
 	'admanager_Page' => 'Säiten',
 	'admanager_Category' => 'Kategorien',
 	'admanager_added' => 'Är Ännerunge goufe gespäichert',
-	'admanager_addedzone' => 'Derbäigesaten Zone',
+	'admanager_addedzone' => 'Dobäigesaten Zone',
 	'admanager_zonenum' => 'Zone #: $1',
 	'admanager_zonenotnumber' => 'Feeler! $1 ass keng Zuel.',
 	'admanager_return' => "Zréck op d'[[Special:AdManager|Gestioun vun de Reklammen]]",

@@ -1715,9 +1715,11 @@ $messages['ps'] = array(
 	'admanager_labelPage' => 'مخ سرليکونه',
 	'admanager_labelCategory' => 'د وېشنيزو نومونه',
 	'admanager_submit' => 'سپارل',
+	'admanager_noads' => 'خبرتياو پرته ښکارېدنه',
 	'admanager_Page' => 'مخونه',
 	'admanager_Category' => 'وېشنيزې',
 	'admanager_added' => 'ستاسې بدلونونه خوندي شول',
+	'admanager_addedzone' => 'ورگډه شوې سيمه',
 	'admanager_zonenum' => 'سيمه #: $1',
 	'admanager_zonenotnumber' => 'ستونزه! $1 يوه شمېره نه ده.',
 );

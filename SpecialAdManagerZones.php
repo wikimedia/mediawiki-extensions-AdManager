@@ -133,8 +133,8 @@ class SpecialAdManagerZones extends SpecialPage {
 			$display .= "$zone\n";
 		}
 
-		$text =	Xml::openElement( 'form', array( 'id' => 'admanagerzones', 'action' => $this->getTitle()->getFullURL(), 'method' => 'post' ) ) . "\n" .
-			AdManagerUtils::hiddenField( 'title', $this->getTitle()->getPrefixedText() ) .
+		$text =	Xml::openElement( 'form', array( 'id' => 'admanagerzones', 'action' => $this->getPageTitle()->getFullURL(), 'method' => 'post' ) ) . "\n" .
+			AdManagerUtils::hiddenField( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			AdManagerUtils::hiddenField( 'submitted', 1 );
 		$text .= Xml::textarea( 'zones' , $display, 25, 20, array( 'style' => 'width: auto; margin-bottom: 1em;' ) );
 		$text .= Xml::element( 'br' );

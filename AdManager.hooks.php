@@ -69,7 +69,7 @@ final class AdManagerHooks {
 
 	// Pop some ads at the bottom of the sidebar
 	public static function SkinBuildSidebar( $skin, &$sidebar ) {
-		global $wgOut, $wgTitle, $wgAdManagerService, $wgAdManagerCode;
+		global $wgOut, $wgAdManagerService, $wgAdManagerCode;
 
 		$fullTableName = AD_TABLE;
 		$dbr = wfGetDB( DB_SLAVE );
@@ -77,8 +77,10 @@ final class AdManagerHooks {
 			return $sidebar;
 		}
 
+		$title = $skin->getTitle();
+
 		// check if an ad zone was set for this page.
-		$thisPageID = $wgTitle->getArticleID();
+		$thisPageID = $title->getArticleID();
 		if ( $thisPageID <= 0 ) {
 			return $sidebar;
 		}
@@ -104,7 +106,7 @@ final class AdManagerHooks {
 				__METHOD__
 			);
 
-			$thisCategoryIDS = $wgTitle->getParentCategoryTree();
+			$thisCategoryIDS = $title->getParentCategoryTree();
 			array_walk( $thisCategoryIDS , 'self::assignLevel' );
 			asort( self::$catList ); // give precedence to the closest ancestors
 

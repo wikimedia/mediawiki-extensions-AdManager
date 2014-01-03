@@ -2225,13 +2225,16 @@ $messages['ur'] = array(
  * @author Baonguyen21022003
  * @author Cheers!
  * @author Minh Nguyen
+ * @author Withoutaname
  * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
+	'admanager_invalidtargetpage' => 'Không tìm thấy trang với tên “$1”.',
 	'admanager_invalidtargetcategory' => 'Không tìm thấy thể loại với tên “$1”.',
 	'admanager_notable' => 'Lỗi: Không tìm thấy một bảng cơ sở dữ liệu cần thiết! Hãy chạy update.php trước tiên.',
 	'admanager_noAdManagerZones' => 'Lỗi: Bạn phải thêm một số khu vực quảng cáo. Nhập chúng tại [[Special:AdManagerZones|Khu vực quản lý quảng cáo]].',
 	'admanager_labelPage' => 'Tên trang',
+	'admanager_labelCategory' => 'Tên thể loại',
 	'admanager_submit' => 'Đăng',
 	'admanager_noads' => 'Không hiển thị quảng cáo',
 	'admanager_Page' => 'Số trang',

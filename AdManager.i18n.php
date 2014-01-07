@@ -365,6 +365,7 @@ $messages['ca'] = array(
  * @author Умар
  */
 $messages['ce'] = array(
+	'admanager_labelPage' => 'АгӀона цӀе',
 	'admanager_submit' => 'ДӀадахьийта',
 	'admanager_Category' => 'Категореш',
 );

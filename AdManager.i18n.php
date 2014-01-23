@@ -2230,6 +2230,7 @@ $messages['ur'] = array(
  * @author පසිඳු කාවින්ද
  */
 $messages['vi'] = array(
+	'admanager' => 'Quản lý quảng cáo',
 	'admanager_invalidtargetpage' => 'Không tìm thấy trang với tên “$1”.',
 	'admanager_invalidtargetcategory' => 'Không tìm thấy thể loại với tên “$1”.',
 	'admanager_notable' => 'Lỗi: Không tìm thấy một bảng cơ sở dữ liệu cần thiết! Hãy chạy update.php trước tiên.',

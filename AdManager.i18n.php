@@ -104,6 +104,7 @@ $messages['am'] = array(
 
 /** Arabic (العربية)
  * @author Asaifm
+ * @author Claw eg
  * @author Meno25
  * @author Tarawneh
  * @author روخو
@@ -124,6 +125,9 @@ $messages['ar'] = array(
 	'admanager_addedzone' => 'أضاف المنطقة',
 	'admanager_zonenum' => 'المنطقة #: $1',
 	'admanager_zonenotnumber' => 'خطأ! $1 ليس برقم.',
+	'admanager_return' => 'عد إلى [[Special:AdManager|مدير الإعلانات]]',
+	'admanager_gotoads' => '[[Special:AdManager|عدل موضع الإعلان]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|عدل مناطق الإعلانات]]',
 );
 
 /** Asturian (asturianu)

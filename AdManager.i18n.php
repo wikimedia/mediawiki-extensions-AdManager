@@ -2088,6 +2088,8 @@ $messages['ta'] = array(
  * @author Veeven
  */
 $messages['te'] = array(
+	'admanager' => 'యాడ్ మేనేజరు',
+	'admanagerzones' => 'యాడ్ మేనేజరు జోన్లు',
 	'admanager_invalidtargetpage' => '"$1" పేరుతో పేజీ ఏదీ కనబడలేదు.',
 	'admanager_invalidtargetcategory' => '"$1" పేరుతో వర్గమేదీ కనబడలేదు.',
 	'admanager_notable' => 'లోపం!. అవసరమైన ఓ డేటాబేసు టేబుల్ కనబడలేదు! ముందు update.php ని రన్ చెయ్యండి.',

@@ -1924,6 +1924,35 @@ $messages['sah'] = array(
 	'admanager_added' => 'Уларытыыҥ бигэргэннэ',
 );
 
+/** Scots (Scots)
+ * @author John Reid
+ */
+$messages['sco'] = array(
+	'admanager' => 'Ad Manager',
+	'admanagerzones' => 'Ad Manager Zones',
+	'admanager-desc' => 'Provides ae [[Special:AdManager|speecial page]] that permits sysops tae set the zone fer pages or categories',
+	'admanager_docu' => 'Tae add or remuiv the ad zone o ae page or entire categorie, add or remove its title ablow.',
+	'admanagerzones_docu' => 'Enter ilka ad zone nummer oan its ain line.',
+	'admanager_invalidtargetpage' => 'Naw page foond wi title "$1".',
+	'admanager_invalidtargetcategory' => 'Naw categorie foond wi title "$1".',
+	'admanager_notable' => 'Mistak! Ae required database buird wisna foond! Rin update.php first.',
+	'admanager_noAdManagerZones' => 'Mistak! Ye maun add some ad zones. Enter theim at [[Special:AdManagerZones|Ad Manager Zones]].',
+	'admanager_labelPage' => 'Page titles',
+	'admanager_labelCategory' => 'Categorie names',
+	'admanager_submit' => 'Haun-in',
+	'admanager_noads' => 'Display nae ads',
+	'admanager_Page' => 'Pages',
+	'admanager_Category' => 'Categories',
+	'admanager_added' => "Yer chynges hae been hain'd",
+	'admanager_addedzone' => 'Added zone',
+	'admanager_zonenum' => 'Zone #: $1',
+	'admanager_zonenotnumber' => 'Mistak! $1 isna ae nummer.',
+	'admanager_return' => 'Return til [[Special:AdManager|Ad Manager]]',
+	'admanager_gotoads' => '[[Special:AdManager|Eidit ad placement]]',
+	'admanager_gotozones' => '[[Special:AdManagerZones|Eidit ad zones]]',
+	'right-admanager' => '[[Special:AdManager|Manage advertising confeeguration]]',
+);
+
 /** Sinhala (සිංහල)
  * @author Singhalawap
  * @author පසිඳු කාවින්ද

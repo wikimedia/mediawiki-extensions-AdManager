@@ -371,7 +371,12 @@ $messages['ca'] = array(
 $messages['ce'] = array(
 	'admanager_labelPage' => 'АгӀона цӀе',
 	'admanager_submit' => 'ДӀадахьийта',
+	'admanager_Page' => 'АгӀонаш',
 	'admanager_Category' => 'Категореш',
+	'admanager_added' => 'Хьа хийцамаш Ӏалашбина',
+	'admanager_addedzone' => 'ТӀетоьхна зона',
+	'admanager_zonenum' => 'Зона #:$1',
+	'admanager_zonenotnumber' => 'ГӀалат!  $1  иза терахь дац.',
 );
 
 /** Sorani Kurdish (کوردی)

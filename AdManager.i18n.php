@@ -639,6 +639,7 @@ $messages['eo'] = array(
 
 /** Spanish (español)
  * @author Armando-Martin
+ * @author Fitoschido
  */
 $messages['es'] = array(
 	'admanager' => 'Administrador de publicidad',
@@ -658,7 +659,7 @@ $messages['es'] = array(
 	'admanager_Category' => 'Categorías',
 	'admanager_added' => 'Sus cambios han sido guardados',
 	'admanager_addedzone' => 'Zona adicional',
-	'admanager_zonenum' => 'Zona #: $1',
+	'admanager_zonenum' => 'N.º de zona: $1',
 	'admanager_zonenotnumber' => '¡Error!  $1 no es un número.',
 	'admanager_return' => 'Volver al [[Special:AdManager|Administrador de publicidad]]',
 	'admanager_gotoads' => '[[Special:AdManager|Editar ubicación de publicidad]]',

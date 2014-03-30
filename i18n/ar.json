@@ -1,0 +1,29 @@
+{
+    "@metadata": {
+        "authors": [
+            "Asaifm",
+            "Claw eg",
+            "Meno25",
+            "Tarawneh",
+            "روخو"
+        ]
+    },
+    "admanager": "إدارة الإعلانات",
+    "admanagerzones": "مناطق مدير الإعلانات",
+    "admanager_invalidtargetpage": "لم يتم العثور على صفحة بهذا العنوان \"$1\".",
+    "admanager_invalidtargetcategory": "لم يتم العثور على تصنيف بهذا العنوان \"$1\".",
+    "admanager_notable": "خطأ! لم يتم العثور على جدول قاعدة بيانات مطلوب! الرجاء تشغيل update.php أولا.",
+    "admanager_labelPage": "عناوين الصفحة:",
+    "admanager_labelCategory": "أسماء التصنيف",
+    "admanager_submit": "إرسال",
+    "admanager_noads": "لا تعرض إعلانات",
+    "admanager_Page": "صفحات",
+    "admanager_Category": "تصنيفات",
+    "admanager_added": "تم حفظ التغييرات",
+    "admanager_addedzone": "أضاف المنطقة",
+    "admanager_zonenum": "المنطقة #: $1",
+    "admanager_zonenotnumber": "خطأ! $1 ليس برقم.",
+    "admanager_return": "عد إلى [[Special:AdManager|مدير الإعلانات]]",
+    "admanager_gotoads": "[[Special:AdManager|عدل موضع الإعلان]]",
+    "admanager_gotozones": "[[Special:AdManagerZones|عدل مناطق الإعلانات]]"
+}

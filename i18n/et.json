@@ -1,0 +1,14 @@
+{
+    "@metadata": {
+        "authors": [
+            "Avjoska"
+        ]
+    },
+    "admanager_labelPage": "Lehekülgede pealkirjad:",
+    "admanager_labelCategory": "Kategooriate nimed",
+    "admanager_noads": "Ära näita reklaame",
+    "admanager_Page": "Leheküljed",
+    "admanager_Category": "Kategooriad",
+    "admanager_added": "Sinu muudatused on salvestatud",
+    "admanager_zonenotnumber": "Viga! $1 ei ole number."
+}

@@ -1,0 +1,31 @@
+{
+    "@metadata": {
+        "authors": [
+            "EvenT",
+            "Event"
+        ]
+    },
+    "admanager": "Annonsebehandler",
+    "admanagerzones": "Soner for annonsebehandler",
+    "admanager-desc": "Frembringer en [[Special:AdManager|spesialside]] som tillater sysop-er å sette sonen for sider eller kategorier",
+    "admanager_docu": "For å legge inn eller fjerne annonsesonen av en side eller hele kategorien er det bare å legge inn eller fjerne tilhørende tittel under.",
+    "admanagerzones_docu": "Legg inn hvert annonsesonenummer på egen linje.",
+    "admanager_invalidtargetpage": "Finner ikke side med tittel \"$1\".",
+    "admanager_invalidtargetcategory": "Finner ikke kategori med tittel \"$1\".",
+    "admanager_notable": "Feil! En nødvendig databasetabell ble ikke funnet! Kjør <i>update.php</i> først.",
+    "admanager_noAdManagerZones": "Feil! Du må legge til noen reklamesoner. Legg dem i [[Special:AdManagerZones|Ad Manager Zones]].",
+    "admanager_labelPage": "Sidetitler",
+    "admanager_labelCategory": "Kategorinavn",
+    "admanager_submit": "Send",
+    "admanager_noads": "Vis ingen annonser",
+    "admanager_Page": "Sider",
+    "admanager_Category": "Kategorier",
+    "admanager_added": "Dine endringer er lagret",
+    "admanager_addedzone": "Legg til sone",
+    "admanager_zonenum": "Sone #: $1",
+    "admanager_zonenotnumber": "Feil! $1 er ikke et tall.",
+    "admanager_return": "Gå tilbake til [[Special:AdManager|Ad Manager]]",
+    "admanager_gotoads": "[[Special:AdManager|Rediger annonseplassering]]",
+    "admanager_gotozones": "[[Special:AdManagerZones|Rediger annonsesoner]]",
+    "right-admanager": "[[Special:AdManager|Håndter annonsekonfigurering]]"
+}

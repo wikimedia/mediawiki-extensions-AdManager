@@ -1,0 +1,24 @@
+{
+    "@metadata": {
+        "authors": [
+            "Eitvys200",
+            "Mantak111"
+        ]
+    },
+    "admanager": "Skelbimų tvarkyklė",
+    "admanagerzones": "Skelbimų tvarkyklės zonos",
+    "admanager_invalidtargetpage": "Puslapis nerastas su pavadinimu \"$1\".",
+    "admanager_invalidtargetcategory": "Kategorija nerasta su pavadinimu \"$1\".",
+    "admanager_labelPage": "Puslapio pavadinimai",
+    "admanager_labelCategory": "Kategorijų pavadinimai",
+    "admanager_submit": "Siųsti",
+    "admanager_noads": "Nerodyti reklamų",
+    "admanager_Page": "Puslapiai",
+    "admanager_Category": "Kategorijos",
+    "admanager_added": "Jūsų pakeitimai buvo įrašyti",
+    "admanager_addedzone": "Pridėta zona",
+    "admanager_zonenum": "Zona #: $1",
+    "admanager_zonenotnumber": "Klaida! $1 nėra skaičius.",
+    "admanager_return": "Grįžti į [[Special:AdManager|Reklamos valdytoją]]",
+    "admanager_gotozones": "[[Special:AdManagerZones|Redaguoti reklamos zonas]]"
+}

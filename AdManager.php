@@ -1,7 +1,7 @@
 <?php
 /**
  * AdManager - a MediaWiki extension that allows setting an ad zone for
- * individual pages or categories 
+ * individual pages or categories
  *
  * The special page created is 'Special:AdManager', which allows sysops to set
  * the zone for the pages or categories.
@@ -10,7 +10,6 @@
  *
  * @file
  * @ingroup Extensions
- * @version 0.2
  * @author Ike Hecht
  * @link http://www.mediawiki.org/wiki/Extension:AdManager Documentation
  */
@@ -26,7 +25,7 @@ define( 'AD_ZONES_TABLE', 'adzones' );
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'AdManager',
-	'version' => '0.2',
+	'version' => '0.3.0',
 	'author' => 'Ike Hecht for WikiWorks',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
 	'descriptionmsg' => 'admanager-desc',
@@ -39,6 +38,7 @@ $wgAdManagerService = null;
 $wgAdManagerCode = null;
 
 $dir = dirname( __FILE__ ) . '/';
+$wgMessagesDirs['AdManager'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AdManager'] = $dir . 'AdManager.i18n.php';
 
 // This extension uses its own permission type, 'admanager'

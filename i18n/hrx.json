@@ -6,6 +6,7 @@
     },
     "admanager": "Oonzeicheverwaltung",
     "admanagerzones": "Oonzeicheverwaltung - Oonzeichebereiche",
+    "admanager_invalidtargetpage": "Do woard ken Seit mit dem Noome \"$1\" gefund.",
     "admanager_labelPage": "Seitenoome",
     "admanager_labelCategory": "Kategorienoome",
     "admanager_submit": "Speichre",

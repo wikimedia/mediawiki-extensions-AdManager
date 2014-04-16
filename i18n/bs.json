@@ -1,10 +1,10 @@
 {
-    "@metadata": {
-        "authors": [
-            "DzWiki"
-        ]
-    },
-    "admanager_submit": "Pošalji",
-    "admanager_Page": "Stranice",
-    "admanager_Category": "Kategorije"
+	"@metadata": {
+		"authors": [
+			"DzWiki"
+		]
+	},
+	"admanager_submit": "Pošalji",
+	"admanager_Page": "Stranice",
+	"admanager_Category": "Kategorije"
 }

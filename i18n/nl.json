@@ -1,31 +1,31 @@
 {
-    "@metadata": {
-        "authors": [
-            "SPQRobin",
-            "Siebrand"
-        ]
-    },
-    "admanager": "Advertentiebeheer",
-    "admanagerzones": "Zones voor advertentiebeheer",
-    "admanager-desc": "Voegt een [[Special:AdManager|speciale pagina]] toe die beheerders in staat stelt om de zone voor pagina's of categorieën in te stellen",
-    "admanager_docu": "U kunt een advertentiezone van een pagina of volledige categorie toevoegen of verwijderen door de naam ervan toe te voegen of te verwijderen.",
-    "admanagerzones_docu": "Voer elke advertentiezone op een eigen regel in.",
-    "admanager_invalidtargetpage": "Geen pagina gevonden met de naam \"$1\".",
-    "admanager_invalidtargetcategory": "Geen categorie gevonden met de naam \"$1\".",
-    "admanager_notable": "Fout: een vereiste databasetabel is niet gevonden. Voer eerst update.php uit.",
-    "admanager_noAdManagerZones": "Fout: u moet advertentiezones toevoegen. Voer ze in op de [[Special:AdManagerZones|speciale pagina]].",
-    "admanager_labelPage": "Paginanamen",
-    "admanager_labelCategory": "Categorienamen",
-    "admanager_submit": "Opslaan",
-    "admanager_noads": "Geen advertenties weergeven",
-    "admanager_Page": "Pagina's",
-    "admanager_Category": "Categorieën",
-    "admanager_added": "Uw wijzigingen zijn opgeslagen",
-    "admanager_addedzone": "Zone toegevoegd",
-    "admanager_zonenum": "Zonenummer: $1",
-    "admanager_zonenotnumber": "Fout: $1 is geen getal.",
-    "admanager_return": "Terug naar [[Special:AdManager|advertentiebeheer]]",
-    "admanager_gotoads": "[[Special:AdManager|Advertentieplaatsing bewerken]]",
-    "admanager_gotozones": "[[Special:AdManagerZones|Advertentiezones bewerken]]",
-    "right-admanager": "[[Special:AdManager|Advertentie-instellingen beheren]]"
+	"@metadata": {
+		"authors": [
+			"SPQRobin",
+			"Siebrand"
+		]
+	},
+	"admanager": "Advertentiebeheer",
+	"admanagerzones": "Zones voor advertentiebeheer",
+	"admanager-desc": "Voegt een [[Special:AdManager|speciale pagina]] toe die beheerders in staat stelt om de zone voor pagina's of categorieën in te stellen",
+	"admanager_docu": "U kunt een advertentiezone van een pagina of volledige categorie toevoegen of verwijderen door de naam ervan toe te voegen of te verwijderen.",
+	"admanagerzones_docu": "Voer elke advertentiezone op een eigen regel in.",
+	"admanager_invalidtargetpage": "Geen pagina gevonden met de naam \"$1\".",
+	"admanager_invalidtargetcategory": "Geen categorie gevonden met de naam \"$1\".",
+	"admanager_notable": "Fout: een vereiste databasetabel is niet gevonden. Voer eerst update.php uit.",
+	"admanager_noAdManagerZones": "Fout: u moet advertentiezones toevoegen. Voer ze in op de [[Special:AdManagerZones|speciale pagina]].",
+	"admanager_labelPage": "Paginanamen",
+	"admanager_labelCategory": "Categorienamen",
+	"admanager_submit": "Opslaan",
+	"admanager_noads": "Geen advertenties weergeven",
+	"admanager_Page": "Pagina's",
+	"admanager_Category": "Categorieën",
+	"admanager_added": "Uw wijzigingen zijn opgeslagen",
+	"admanager_addedzone": "Zone toegevoegd",
+	"admanager_zonenum": "Zonenummer: $1",
+	"admanager_zonenotnumber": "Fout: $1 is geen getal.",
+	"admanager_return": "Terug naar [[Special:AdManager|advertentiebeheer]]",
+	"admanager_gotoads": "[[Special:AdManager|Advertentieplaatsing bewerken]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|Advertentiezones bewerken]]",
+	"right-admanager": "[[Special:AdManager|Advertentie-instellingen beheren]]"
 }

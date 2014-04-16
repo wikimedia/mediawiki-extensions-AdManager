@@ -1,12 +1,12 @@
 {
-    "@metadata": {
-        "authors": [
-            "Bellayet"
-        ]
-    },
-    "admanager_labelPage": "পাতার শিরোনাম",
-    "admanager_labelCategory": "বিষয়শ্রেণীর নাম",
-    "admanager_submit": "জমা দাও",
-    "admanager_Page": "পাতা",
-    "admanager_Category": "বিষয়শ্রেণী"
+	"@metadata": {
+		"authors": [
+			"Bellayet"
+		]
+	},
+	"admanager_labelPage": "পাতার শিরোনাম",
+	"admanager_labelCategory": "বিষয়শ্রেণীর নাম",
+	"admanager_submit": "জমা দাও",
+	"admanager_Page": "পাতা",
+	"admanager_Category": "বিষয়শ্রেণী"
 }

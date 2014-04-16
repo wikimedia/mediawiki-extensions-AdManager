@@ -1,11 +1,11 @@
 {
-    "@metadata": {
-        "authors": [
-            "JinJian"
-        ]
-    },
-    "admanager_Page": "Mga pakli",
-    "admanager_Category": "Mga kaarangay",
-    "admanager_added": "Gintipig an imo mga ginliwat",
-    "admanager_addedzone": "Gindugngan hin sona"
+	"@metadata": {
+		"authors": [
+			"JinJian"
+		]
+	},
+	"admanager_Page": "Mga pakli",
+	"admanager_Category": "Mga kaarangay",
+	"admanager_added": "Gintipig an imo mga ginliwat",
+	"admanager_addedzone": "Gindugngan hin sona"
 }

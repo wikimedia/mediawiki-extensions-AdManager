@@ -3,7 +3,8 @@
 		"authors": [
 			"Farras",
 			"Rv77ax",
-			"Kenrick95"
+			"Kenrick95",
+			"Arifin.wijaya"
 		]
 	},
 	"admanager": "Ad Manager",
@@ -14,7 +15,7 @@
 	"admanager_invalidtargetpage": "Halaman dengan judul \"$1\" tidak ditemukan.",
 	"admanager_invalidtargetcategory": "Kategori dengan judul \"$1\" tidak ditemukan.",
 	"admanager_notable": "Kesalahan! Tabel basis data yang diperlukan tidak ditemukan! Jalankan dulu update.php.",
-	"admanager_noAdManagerZones": "Kesalahan! Anda harus menambahkan beberapa zona iklan. Tambahkan di [[Istimewa:AdManagerZones|Zona Manajer Iklan]].",
+	"admanager_noAdManagerZones": "Kesalahan! Anda harus menambahkan beberapa zona iklan. Tambahkan di [[Special:AdManagerZones|Zona Manajer Iklan]].",
 	"admanager_labelPage": "Judul halaman",
 	"admanager_labelCategory": "Nama kategori",
 	"admanager_submit": "Kirim",

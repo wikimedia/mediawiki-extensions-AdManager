@@ -188,8 +188,8 @@ class SpecialAdManager extends SpecialPage {
 			$wgOut->addWikiText( $text );
 		}
 
-		$text =	Xml::openElement( 'form', array( 'id' => 'admanager', 'action' => $this->getTitle()->getFullURL(), 'method' => 'post' ) ) . "\n" .
-			AdManagerUtils::hiddenField( 'title', $this->getTitle()->getPrefixedText() ) .
+		$text =	Xml::openElement( 'form', array( 'id' => 'admanager', 'action' => $this->getPageTitle()->getFullURL(), 'method' => 'post' ) ) . "\n" .
+			AdManagerUtils::hiddenField( 'title', $this->getPageTitle()->getPrefixedText() ) .
 			AdManagerUtils::hiddenField( 'submitted', 1 );
 
 		$this->currentData['Page'] = $this->getCurrentData( 'Page' );

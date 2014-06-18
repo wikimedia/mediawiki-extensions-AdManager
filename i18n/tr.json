@@ -2,12 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Hedda Gabler",
-			"Incelemeelemani"
+			"Incelemeelemani",
+			"Sayginer"
 		]
 	},
 	"admanager": "Reklam Yöneticisi",
 	"admanagerzones": "Reklam Yöneticisi bölgeleri",
 	"admanager_invalidtargetpage": "\"$1\" adıyla sayfa bulunamadı.",
+	"admanager_invalidtargetcategory": "\"$1\" adlı kategori bulunamadı.",
 	"admanager_labelPage": "Sayfa başlıkları",
 	"admanager_labelCategory": "Kategori adları",
 	"admanager_submit": "Gönder",

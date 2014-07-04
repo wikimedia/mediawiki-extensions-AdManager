@@ -2,7 +2,6 @@
 /**
  * Helper functions for the Ad Manager extension.
  */
-
 class AdManagerUtils {
 
 	/**
@@ -12,7 +11,8 @@ class AdManagerUtils {
 	 * @param $wikiMsg String: name of a system message to output as wikitext
 	 * @return Boolean: true if error found
 	 */
-	public static function checkForAndDisplayError( $condition, $wikiMsg = 'admanager_error' ) {
+	public static function checkForAndDisplayError( $condition,
+		$wikiMsg = 'admanager_error' ) {
 		global $wgOut;
 
 		if ( !$condition ) {

@@ -1,0 +1,8 @@
+div[id*='AdManager'] h3, div[id*='AdManager'] h5 {
+    display: none;
+}
+div[id*='AdManager'] > div {
+    border: none;
+    padding-left: 0!important;
+    margin-left: 0!important;
+}

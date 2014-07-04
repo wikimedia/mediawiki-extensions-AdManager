@@ -1,51 +1,17 @@
 <?php
-
 final class AdManagerHooks {
-
 	static $catList = array();
 
 	/**
 	 * Schema update to set up the needed database tables.
 	 */
-	public static function onSchemaUpdate( /* DatabaseUpdater */ $updater = null ) {
-		global $wgDBtype;
-
-		if ( $wgDBtype == 'mysql' ) {
-			// Set up the current schema.
-			if ( $updater === null ) {
-				// <= 1.16 support
-				global $wgExtNewTables, $wgExtNewIndexes;
-
-				$wgExtNewTables[] = array(
-					AD_TABLE,
-					dirname( __FILE__ ) . '/AdManager.sql',
-					true
-				);
-
-				$wgExtNewTables[] = array(
-					AD_ZONES_TABLE,
-					dirname( __FILE__ ) . '/AdManager.sql',
-					true
-				);
-
-				/* TODO: Do we need an index? */
-			} else {
-				// >= 1.17 support
-				$updater->addExtensionUpdate( array(
-					'addTable',
-					AD_TABLE,
-					dirname( __FILE__ ) . '/AdManager.sql',
-					true
-				) );
-				$updater->addExtensionUpdate( array(
-					'addTable',
-					AD_ZONES_TABLE,
-					dirname( __FILE__ ) . '/AdManager.sql',
-					true
-				) );
-			}
-
-		}
+	public static function onSchemaUpdate( DatabaseUpdater $updater ) {
+		$updater->addExtensionTable(
+			AD_TABLE, __DIR__ . '/AdManager.sql', true
+		);
+		$updater->addExtensionTable(
+			AD_ZONES_TABLE, __DIR__ . '/AdManager.sql', true
+		);
 
 		return true;
 	}
@@ -60,7 +26,7 @@ final class AdManagerHooks {
 	private static function assignLevel( $value, $catName, $count = 0 ) {
 		$count++;
 
-		if( !empty( $value ) ) {
+		if ( !empty( $value ) ) {
 			array_walk( $value, 'self::assignLevel', $count );
 		}
 
@@ -69,7 +35,7 @@ final class AdManagerHooks {
 
 	// Pop some ads at the bottom of the sidebar
 	public static function SkinBuildSidebar( $skin, &$sidebar ) {
-		global $wgOut, $wgAdManagerService, $wgAdManagerCode;
+		global $wgAdManagerService, $wgAdManagerCode;
 
 		$fullTableName = AD_TABLE;
 		$dbr = wfGetDB( DB_SLAVE );
@@ -86,10 +52,8 @@ final class AdManagerHooks {
 		}
 
 		$thisPageAdZonesDB = $dbr->select(
-			$fullTableName,
-			array( 'ad_zone' ),
-			"ad_page_id = $thisPageID AND ad_page_is_category IS NOT TRUE",
-			__METHOD__
+			$fullTableName, array( 'ad_zone' ),
+			"ad_page_id = $thisPageID AND ad_page_is_category IS NOT TRUE", __METHOD__
 		);
 
 		$thisPageAdZones = array();
@@ -100,31 +64,22 @@ final class AdManagerHooks {
 		} else {
 			// check if an ad zone was set for any of this page's categories
 			$allCategories = $dbr->select(
-				$fullTableName,
-				array( 'ad_page_id', 'ad_zone' ),
-				'ad_page_is_category IS TRUE',
-				__METHOD__
+				$fullTableName, array( 'ad_page_id', 'ad_zone' ),
+				'ad_page_is_category IS TRUE', __METHOD__
 			);
 
 			$thisCategoryIDS = $title->getParentCategoryTree();
-			array_walk( $thisCategoryIDS , 'self::assignLevel' );
+			array_walk( $thisCategoryIDS, 'self::assignLevel' );
 			asort( self::$catList ); // give precedence to the closest ancestors
 
 			if ( !empty( self::$catList ) ) {
 				// find first match in this page's catlist that exists in the database
-				foreach ( self::$catList as $catName => $level ) {
-					// @todo FIXME: this is awfully hacky and specfic to
-					// English; the correct way of doing this would be
-					// constructing a Title object and calling getText() on it
-					// or something like that to get the name of the category
-					// without the namespace
-					$catName = substr( $catName, 9 ); // strips Category: prefix
+				foreach ( self::$catList as $catNameNamespaced => $level ) {
+					$catName = Title::newFromText( $catNameNamespaced )->getText(); // strips Category: prefix
 					$catID = Category::newFromName( $catName )->getID();
 					$firstMatch = $dbr->select(
-						$fullTableName,
-						array( 'ad_zone' ),
-						"ad_page_id = $catID AND ad_page_is_category IS TRUE",
-						__METHOD__
+						$fullTableName, array( 'ad_zone' ),
+						"ad_page_id = $catID AND ad_page_is_category IS TRUE", __METHOD__
 					);
 					if ( $firstMatch->numRows() !== 0 ) {
 						break;
@@ -156,20 +111,6 @@ final class AdManagerHooks {
 			return true; // TODO: show error
 		}
 
-		// Adds some CSS, but puts it in <body>
-		$wgOut->addHTML( <<<EOT
-<style type="text/css">
-div[id*='AdManager'] h5 {
-	display: none;
-}
-div[id*='AdManager'] .pBody {
-	border: none;
-	padding-left: 0;
-}
-</style>
-EOT
-		);
-
 		$adNumber = 0;
 		foreach ( $thisPageAdZones as $thisPageAdZone ) {
 			$adNumber++;
@@ -180,5 +121,9 @@ EOT
 		}
 
 		return true;
+	}
+
+	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
+		$out->addModules( 'ext.adManager' );
 	}
 }

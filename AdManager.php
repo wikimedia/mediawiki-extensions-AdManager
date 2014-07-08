@@ -17,14 +17,11 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 	die( 'Not an entry point.' );
 }
 
-define( 'AD_TABLE', 'ad' );
-define( 'AD_ZONES_TABLE', 'adzones' );
-
 // Extension credits that will show up on Special:Version
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'AdManager',
-	'version' => '0.3.1',
+	'version' => '0.4.0',
 	'author' => 'Ike Hecht for WikiWorks',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
 	'descriptionmsg' => 'admanager-desc',
@@ -47,10 +44,11 @@ $wgGroupPermissions['sysop']['admanager'] = true;
 $wgSpecialPages['AdManagerZones'] = 'SpecialAdManagerZones';
 $wgSpecialPages['AdManager'] = 'SpecialAdManager';
 
-$wgAutoloadClasses['SpecialAdManagerZones'] = __DIR__ . '/SpecialAdManagerZones.php';
-$wgAutoloadClasses['SpecialAdManager'] = __DIR__ . '/SpecialAdManager.php';
+$wgAutoloadClasses['SpecialAdManagerZones'] = __DIR__ . '/specials/SpecialAdManagerZones.php';
+$wgAutoloadClasses['SpecialAdManager'] = __DIR__ . '/specials/SpecialAdManager.php';
+$wgAutoloadClasses['AdManager'] = __DIR__ . '/AdManager.class.php';
+$wgAutoloadClasses['AdManagerZones'] = __DIR__ . '/AdManagerZones.class.php';
 $wgAutoloadClasses['AdManagerHooks'] = __DIR__ . '/AdManager.hooks.php';
-$wgAutoloadClasses['AdManagerUtils'] = __DIR__ . '/AdManager.utils.php';
 
 $wgHooks['LoadExtensionSchemaUpdates'][] = 'AdManagerHooks::onSchemaUpdate';
 $wgHooks['SkinBuildSidebar'][] = 'AdManagerHooks::SkinBuildSidebar';

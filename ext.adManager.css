@@ -6,3 +6,26 @@ div[id*='AdManager'] > div {
     padding-left: 0!important;
     margin-left: 0!important;
 }
+
+body.mw-special-AdManager legend {
+    display: none;
+}
+
+body.mw-special-AdManager fieldset {
+    padding-top: .5em;
+    font-size: 125%;
+    font-weight: bold;
+}
+body.mw-special-AdManager fieldset label {
+    font-size: 75%;
+    font-weight: bold;
+}
+body.mw-special-AdManager fieldset .mw-htmlform-field-HTMLTextAreaField {
+    max-width: 20em;
+    float: left;
+    padding: .5em 1em;
+}
+
+body.mw-special-AdManagerZones fieldset {
+    max-width: 30em;
+}

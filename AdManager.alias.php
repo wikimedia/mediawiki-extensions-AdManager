@@ -15,6 +15,18 @@ $specialPageAliases['en'] = array(
 	'AdManagerZones' => array( 'AdManagerZones', 'Ad Manager Zones' ),
 );
 
+/** German (Deutsch) */
+$specialPageAliases['de'] = array(
+	'AdManager' => array( 'Anzeigen_verwalten' ),
+	'AdManagerZones' => array( 'Anzeigenverwaltungsbereiche' ),
+);
+
+/** Macedonian (македонски) */
+$specialPageAliases['mk'] = array(
+	'AdManager' => array( 'РаководителСоРеклами' ),
+	'AdManagerZones' => array( 'РаководителСоРекламиПодрачја' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AdManager' => array( '广告管理器' ),

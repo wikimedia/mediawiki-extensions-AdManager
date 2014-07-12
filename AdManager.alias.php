@@ -21,6 +21,12 @@ $specialPageAliases['de'] = array(
 	'AdManagerZones' => array( 'Anzeigenverwaltungsbereiche' ),
 );
 
+/** Hebrew (עברית) */
+$specialPageAliases['he'] = array(
+	'AdManager' => array( 'מנהל_פרסומות' ),
+	'AdManagerZones' => array( 'אזורי_מנהל_פרסומות' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'AdManager' => array( 'РаководителСоРеклами' ),

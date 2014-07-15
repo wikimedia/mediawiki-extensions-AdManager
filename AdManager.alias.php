@@ -15,6 +15,18 @@ $specialPageAliases['en'] = array(
 	'AdManagerZones' => array( 'AdManagerZones', 'Ad Manager Zones' ),
 );
 
+/** Arabic (العربية) */
+$specialPageAliases['ar'] = array(
+	'AdManager' => array( 'مدير_الإعلانات' ),
+	'AdManagerZones' => array( 'مناطق_مدير_الإعلانات' ),
+);
+
+/** Egyptian Spoken Arabic (مصرى) */
+$specialPageAliases['arz'] = array(
+	'AdManager' => array( 'مدير_الاعلانات' ),
+	'AdManagerZones' => array( 'مناطق_مدير_الاعلانات' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'AdManager' => array( 'Anzeigen_verwalten' ),

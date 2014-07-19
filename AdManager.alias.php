@@ -39,6 +39,12 @@ $specialPageAliases['he'] = array(
 	'AdManagerZones' => array( 'אזורי_מנהל_פרסומות' ),
 );
 
+/** Korean (한국어) */
+$specialPageAliases['ko'] = array(
+	'AdManager' => array( '광고관리자' ),
+	'AdManagerZones' => array( '광고관리자영역' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'AdManager' => array( 'РаководителСоРеклами' ),

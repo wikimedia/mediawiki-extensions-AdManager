@@ -3,7 +3,8 @@
 		"authors": [
 			"Justincheng12345",
 			"Oapbtommy",
-			"Simon Shek"
+			"Simon Shek",
+			"LNDDYL"
 		]
 	},
 	"admanager": "廣告管理員",
@@ -21,7 +22,7 @@
 	"admanager_noads": "不顯示廣告",
 	"admanager_Page": "頁面",
 	"admanager_Category": "類別",
-	"admanager_added": "更改已保存",
+	"admanager_added": "更改已儲存",
 	"admanager_addedzone": "已添加區域",
 	"admanager_zonenum": "區＃：$1",
 	"admanager_zonenotnumber": "錯誤！$1 不是一個數字。",

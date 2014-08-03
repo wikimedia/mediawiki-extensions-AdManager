@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Dj"
+			"Dj",
+			"Misibacsi"
 		]
 	},
 	"admanager": "Hirdetéskezelő",
@@ -13,6 +14,7 @@
 	"admanager_labelPage": "Lap címek",
 	"admanager_labelCategory": "Kategórianevek",
 	"admanager_submit": "Elküldés",
+	"admanager_noads": "Reklámok kikapcsolása",
 	"admanager_Page": "Lapok",
 	"admanager_Category": "Kategóriák",
 	"admanager_added": "Változásaid elmentve",

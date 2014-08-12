@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Matma Rex",
-			"Woytecr"
+			"Woytecr",
+			"Chrumps"
 		]
 	},
 	"admanager": "Menedżer reklam",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Strony",
 	"admanager_Category": "Kategorie",
 	"admanager_added": "Zmiany zostały zapisane",
-	"admanager_addedzone": "Dodano obszar",
+	"admanager_addedzone": "Dodano obszar $1",
 	"admanager_zonenum": "Strefa #: $1",
 	"admanager_zonenotnumber": "Błąd! „$1” nie jest liczbą.",
 	"admanager_return": "Wróć do [[Special:AdManager|Menedżera reklam]]",

@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kghbln"
+			"Kghbln",
+			"Metalhead64"
 		]
 	},
 	"admanager": "Anzeigenverwaltung",
@@ -20,7 +21,7 @@
 	"admanager_Page": "Seiten",
 	"admanager_Category": "Kategorien",
 	"admanager_added": "Die Änderungen wurden gespeichert",
-	"admanager_addedzone": "Anzeigenbereich wurde hinzugefügt",
+	"admanager_addedzone": "Anzeigenbereich $1 wurde hinzugefügt",
 	"admanager_zonenum": "Anzeigenbereichsnummer: $1",
 	"admanager_zonenotnumber": "Fehler: Bei $1 handelt es sich nicht um eine Anzeigenbereichsnummer.",
 	"admanager_return": "Zurück zur [[Special:AdManager|Anzeigenverwaltung]]",

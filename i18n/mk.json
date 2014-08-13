@@ -20,7 +20,7 @@
 	"admanager_Page": "Страници",
 	"admanager_Category": "Категории",
 	"admanager_added": "Вашите измени се зачувани",
-	"admanager_addedzone": "Додадена зона",
+	"admanager_addedzone": "Додадено подрачјето $1",
 	"admanager_zonenum": "Зона бр: $1",
 	"admanager_zonenotnumber": "Грешка! $1 не претставува број.",
 	"admanager_return": "Назад на [[Special:AdManager|Раководителот со реклами]]",

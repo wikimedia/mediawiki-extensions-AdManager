@@ -22,7 +22,7 @@
 	"admanager_Page": "Pages",
 	"admanager_Category": "Catégories",
 	"admanager_added": "Vos modifications ont été enregistrées",
-	"admanager_addedzone": "Zone ajoutée",
+	"admanager_addedzone": "Zone $1 ajoutée",
 	"admanager_zonenum": "Zone #: $1",
 	"admanager_zonenotnumber": "Erreur ! « $1 » n'est pas un nombre.",
 	"admanager_return": "Revenir à [[Special:AdManager|Gestionnaire de publicité]]",

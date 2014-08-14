@@ -21,7 +21,7 @@
 	"admanager_Page": "Pagina's",
 	"admanager_Category": "Categorieën",
 	"admanager_added": "Uw wijzigingen zijn opgeslagen",
-	"admanager_addedzone": "Zone toegevoegd",
+	"admanager_addedzone": "Zone $1 toegevoegd",
 	"admanager_zonenum": "Zonenummer: $1",
 	"admanager_zonenotnumber": "Fout: $1 is geen getal.",
 	"admanager_return": "Terug naar [[Special:AdManager|advertentiebeheer]]",

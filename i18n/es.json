@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Armando-Martin",
-			"Fitoschido"
+			"Fitoschido",
+			"Amitie 10g"
 		]
 	},
 	"admanager": "Administrador de publicidad",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Páginas",
 	"admanager_Category": "Categorías",
 	"admanager_added": "Sus cambios han sido guardados",
-	"admanager_addedzone": "Zona adicional",
+	"admanager_addedzone": "Zona agregada",
 	"admanager_zonenum": "N.º de zona: $1",
 	"admanager_zonenotnumber": "¡Error!  $1 no es un número.",
 	"admanager_return": "Volver al [[Special:AdManager|Administrador de publicidad]]",

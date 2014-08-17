@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Anakmalaysia",
-			"Diagramma Della Verita"
+			"Diagramma Della Verita",
+			"Pizza1016"
 		]
 	},
 	"admanager": "Pengurus Iklan",
 	"admanagerzones": "Zon Pengurus Iklan",
-	"admanager-desc": "Menyediakan [[Special:AdManager|halaman khas]] yang membolehkan pentadbir menetapkan zon untuk halaman atau kategori",
+	"admanager-desc": "Menyediakan sebuah [[Special:AdManager|laman khas]] yang membolehkan penyelia menetapkan zon untuk laman-laman atau kategori-kategori",
 	"admanager_docu": "Untuk menambahkan atau menggugurkan zon iklan sesuatu halaman atau seluruh kategori, tambahkan atau gugurkan tajuknya di bawah.",
 	"admanagerzones_docu": "Satu nombor zon iklan sahaja untuk setiap baris.",
 	"admanager_invalidtargetpage": "Tiada halaman yang bertajuk \"$1\".",

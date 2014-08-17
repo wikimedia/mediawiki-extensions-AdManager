@@ -3,7 +3,8 @@
 		"authors": [
 			"Glavkos",
 			"Protnet",
-			"ZaDiak"
+			"ZaDiak",
+			"Geraki"
 		]
 	},
 	"admanager": "Διαχείριση διαφημίσεων",
@@ -22,7 +23,7 @@
 	"admanager_Page": "Σελίδες",
 	"admanager_Category": "Κατηγορίες",
 	"admanager_added": "Οι αλλαγές σας έχουν αποθηκευτεί",
-	"admanager_addedzone": "Προστέθηκε η ζώνη",
+	"admanager_addedzone": "Προστέθηκε η ζώνη $1",
 	"admanager_zonenum": "Ζώνη #: $1",
 	"admanager_zonenotnumber": "Σφάλμα! Το $1 δεν είναι αριθμός.",
 	"admanager_return": "Επιστρέψετε στη [[Special:AdManager|Διαχείριση διαφημίσεων]]",

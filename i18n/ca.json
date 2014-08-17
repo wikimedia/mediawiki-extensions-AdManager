@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Gemmaa",
-			"Pitort"
+			"Pitort",
+			"Fitoschido"
 		]
 	},
 	"admanager": "Administrador d'anuncis",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Pàgines",
 	"admanager_Category": "Categories",
 	"admanager_added": "S'han desat els canvis",
-	"admanager_addedzone": "Zona d'afegit",
+	"admanager_addedzone": "S’ha afegit la zona $1",
 	"admanager_zonenum": "# La zona:$1",
 	"admanager_zonenotnumber": "Error!  $1  no és un número.",
 	"admanager_return": "Torna a [[Special:AdManager|Administrador d'anuncis]]",

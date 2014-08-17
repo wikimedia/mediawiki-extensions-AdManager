@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Rancher"
+			"Rancher",
+			"Milicevic01"
 		]
 	},
 	"admanager_invalidtargetpage": "Не постоји страница под називом „$1“.",
@@ -15,7 +16,7 @@
 	"admanager_Page": "Странице",
 	"admanager_Category": "Категорије",
 	"admanager_added": "Ваше измене су сачуване",
-	"admanager_addedzone": "Додата зона",
+	"admanager_addedzone": "Додата зона $1",
 	"admanager_zonenum": "Зона бр.: $1",
 	"admanager_zonenotnumber": "Грешка! $1 не представља број.",
 	"admanager_return": "Назад на [[Special:AdManager|управљач огласима]]",

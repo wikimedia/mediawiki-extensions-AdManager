@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Tjernobyl"
+			"Tjernobyl",
+			"Thomsen"
 		]
 	},
 	"admanager": "Annoncehåndtering",
@@ -20,7 +21,7 @@
 	"admanager_Page": "Sider",
 	"admanager_Category": "Kategorier",
 	"admanager_added": "Dine ændringer er blevet gemt",
-	"admanager_addedzone": "Tilføjet område",
+	"admanager_addedzone": "Tilføjet område $1",
 	"admanager_zonenum": "Område #: $1",
 	"admanager_zonenotnumber": "Fejl! $1 er ikke et tal.",
 	"admanager_return": "Gå tilbage til [[Special:AdManager|Annoncehåndtering]]",

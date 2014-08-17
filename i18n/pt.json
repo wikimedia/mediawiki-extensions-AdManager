@@ -4,7 +4,8 @@
 			"Bonifácio",
 			"Hamilton Abreu",
 			"Malafaya",
-			"SandroHc"
+			"SandroHc",
+			"Vitorvicentevalente"
 		]
 	},
 	"admanager": "Gestor de Anúncios",
@@ -23,7 +24,7 @@
 	"admanager_Page": "Páginas",
 	"admanager_Category": "Categorias",
 	"admanager_added": "As suas alterações foram gravadas",
-	"admanager_addedzone": "Zona adicionada",
+	"admanager_addedzone": "Zona $1 adicionada",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Erro! $1 não é um número.",
 	"admanager_return": "Voltar para [[Special:AdManager|Ad Manager]]",

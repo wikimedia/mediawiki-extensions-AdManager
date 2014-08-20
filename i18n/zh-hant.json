@@ -4,7 +4,8 @@
 			"Justincheng12345",
 			"Oapbtommy",
 			"Simon Shek",
-			"LNDDYL"
+			"LNDDYL",
+			"Cwlin0416"
 		]
 	},
 	"admanager": "廣告管理員",
@@ -23,7 +24,7 @@
 	"admanager_Page": "頁面",
 	"admanager_Category": "類別",
 	"admanager_added": "更改已儲存",
-	"admanager_addedzone": "已添加區域",
+	"admanager_addedzone": "已新增區域 $1",
 	"admanager_zonenum": "區＃：$1",
 	"admanager_zonenotnumber": "錯誤！$1 不是一個數字。",
 	"admanager_return": "回到[[Special:AdManager|廣告管理器]]",

@@ -9,7 +9,7 @@
 	"admanager_Page": "АгӀонаш",
 	"admanager_Category": "Категореш",
 	"admanager_added": "Хьа хийцамаш Ӏалашбина",
-	"admanager_addedzone": "ТӀетоьхна зона",
+	"admanager_addedzone": "ТӀетоьхна зона $1",
 	"admanager_zonenum": "Зона #:$1",
 	"admanager_zonenotnumber": "ГӀалат!  $1  иза терахь дац."
 }

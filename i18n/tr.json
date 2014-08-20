@@ -3,7 +3,8 @@
 		"authors": [
 			"Hedda Gabler",
 			"Incelemeelemani",
-			"Sayginer"
+			"Sayginer",
+			"Sucsuzz"
 		]
 	},
 	"admanager": "Reklam Yöneticisi",
@@ -17,7 +18,7 @@
 	"admanager_Page": "Sayfalar",
 	"admanager_Category": "Kategoriler",
 	"admanager_added": "Değişiklikleriniz kaydedildi",
-	"admanager_addedzone": "Eklenen bölge",
+	"admanager_addedzone": "Eklenen bölge $1",
 	"admanager_zonenum": "Bölge #: $1",
 	"admanager_zonenotnumber": "Hata!  $1  bir sayı değil.",
 	"admanager_return": "[[Special:AdManager|Reklam Yöneticisine]] dön",

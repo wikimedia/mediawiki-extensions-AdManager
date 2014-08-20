@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"WikiPhoenix"
+			"WikiPhoenix",
+			"Lokal Profil"
 		]
 	},
 	"admanager": "Annonshanterare",
@@ -20,7 +21,7 @@
 	"admanager_Page": "Sidor",
 	"admanager_Category": "Kategorier",
 	"admanager_added": "Dina ändringar har sparats",
-	"admanager_addedzone": "Lade till zon",
+	"admanager_addedzone": "Lade till zon $1",
 	"admanager_zonenum": "Zon #: $1",
 	"admanager_zonenotnumber": "Fel! $1 är inte ett tal.",
 	"admanager_return": "Återgå till [[Special:AdManager|Annonshanteraren]]",

@@ -20,7 +20,7 @@
 	"admanager_Page": "Mga Pahina",
 	"admanager_Category": "Mga Kategoriya",
 	"admanager_added": "An saimong mga kaliwatan nakatagama na.",
-	"admanager_addedzone": "Pinagdugang na sona",
+	"admanager_addedzone": "Pinagdugang na sona $1",
 	"admanager_zonenum": "Sona #:$1",
 	"admanager_zonenotnumber": "Ay sala! $1 bako tabing numero.",
 	"admanager_return": "Magbuwelta sa [[Special:AdManager|Paramaneho nin Anunsiyo]]",

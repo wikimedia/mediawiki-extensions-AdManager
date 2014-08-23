@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Singhalawap",
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Indunil Chamara"
 		]
 	},
 	"admanager": "දැන්වීම් කළමනාකරු",
@@ -16,7 +17,7 @@
 	"admanager_Page": "පිටු",
 	"admanager_Category": "ප්‍රවර්ග",
 	"admanager_added": "ඔබ විසින් කරනලද වෙනස්කිරීම් සුරකින ලදී.",
-	"admanager_addedzone": "දැන්වීම් කලාපය",
+	"admanager_addedzone": "$1 කලාපය එකතු කලා",
 	"admanager_zonenum": "කලාපය #: $1",
 	"admanager_zonenotnumber": "දෝෂය! $1 යනු අංකයක් නොවේ.",
 	"admanager_return": "[[Special:AdManager|දැන්වීම් කළමනාකරු]] වෙත ආපසු යන්න",

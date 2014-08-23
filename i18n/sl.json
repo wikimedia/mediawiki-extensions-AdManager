@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Yerpo"
+			"Yerpo",
+			"Dbc334"
 		]
 	},
 	"admanager": "Upravitelj oglasov",
@@ -13,7 +14,7 @@
 	"admanager_Page": "Strani",
 	"admanager_Category": "Kategorije",
 	"admanager_added": "Vaše spremembe so bile shranjene",
-	"admanager_addedzone": "Dodana cona",
+	"admanager_addedzone": "Dodana cona $1",
 	"admanager_zonenum": "Cona #: $1",
 	"admanager_zonenotnumber": "Napaka! $1 ni število."
 }

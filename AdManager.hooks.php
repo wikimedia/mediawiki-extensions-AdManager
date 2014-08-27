@@ -18,39 +18,48 @@ final class AdManagerHooks {
 	/**
 	 * Pop some ads at the bottom of the sidebar
 	 *
-	 * @global string $wgAdManagerService
-	 * @global string $wgAdManagerCode
+	 * @global string $wgAdManagerPlacement
 	 * @param Skin $skin
 	 * @param array $sidebar
 	 * @return boolean
 	 */
 	public static function SkinBuildSidebar( $skin, &$sidebar ) {
-		if ( !AdManager::tableExists() ) {
+		global $wgAdManagerPlacement;
+
+		if ( $wgAdManagerPlacement != 'sidebar' ) {
 			return true;
 		}
 
-		$thisPageAdZones = AdManager::getAdZonesFor( $skin->getTitle() );
-
-		if ( empty( $thisPageAdZones ) ) { // No zone set for this page or its categories
-			return true;
-		}
-
-		$adManagerCode = AdManager::getAdManagerCode();
-		if ( !isset( $adManagerCode ) ) {
-			return true; // TODO: show error
-		}
-
-		$adNumber = 0;
-		foreach ( $thisPageAdZones as $thisPageAdZone ) {
-			$adNumber++;
-			$out = str_replace( '$1', $thisPageAdZone, $adManagerCode );
-			$sidebar["AdManager$adNumber"] = $out;
+		$adsOut = AdManager::getAdOutputFor( $skin->getTitle() );
+		foreach ( $adsOut as $adNumber => $adOut ) {
+			$sidebar["AdManager$adNumber"] = $adOut;
 		}
 
 		return true;
 	}
 
+	/**
+	 * Pop some ads into the start of the content area
+	 *
+	 * @global string $wgAdManagerPlacement
+	 * @param OutputPage $out
+	 * @param Skin $skin
+	 * @return boolean
+	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		$out->addModules( 'ext.adManager' );
+
+		global $wgAdManagerPlacement;
+		if ( $wgAdManagerPlacement != 'content' ) {
+			return true;
+		}
+
+		$adsOut = AdManager::getAdOutputFor( $skin->getTitle() );
+		foreach ( $adsOut as $adNumber => $adOut ) {
+			$out->prependHTML( Html::rawelement( 'div',
+					array( 'id' => "AdManager-content-$adNumber", 'class' => 'AdManager-content' ), $adOut ) );
+		}
+
+		return true;
 	}
 }

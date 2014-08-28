@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Beta16"
+			"Beta16",
+			"Mario"
 		]
 	},
 	"admanager": "Gestione pubblicità",
@@ -20,7 +21,7 @@
 	"admanager_Page": "Pagine",
 	"admanager_Category": "Categorie",
 	"admanager_added": "Le modifiche sono state salvate",
-	"admanager_addedzone": "Zone aggiunte",
+	"admanager_addedzone": "Zone aggiunte $1",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Errore! $1 non è un numero.",
 	"admanager_return": "Ritorna a [[Special:AdManager|Gestione pubblicità]]",

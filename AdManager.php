@@ -21,7 +21,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'AdManager',
-	'version' => '0.4.0',
+	'version' => '0.5.0',
 	'author' => 'Ike Hecht for WikiWorks',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
 	'descriptionmsg' => 'admanager-desc',

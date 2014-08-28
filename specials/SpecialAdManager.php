@@ -194,6 +194,7 @@ class SpecialAdManager extends FormSpecialPage {
 	private function getAdPageTitleText( $adPage, $type ) {
 		if ( $type == 'Page' ) {
 			$pageObject = Title::newFromText( trim( $adPage ) );
+			/** @todo disallows Specials */
 			if ( !$pageObject->exists() ) {
 				throw new ErrorPageError( 'internalerror', 'admanager_invalidtargetpage',
 				$adPage );

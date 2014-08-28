@@ -67,7 +67,6 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * @return bool|string|array|Status As documented for HTMLForm::trySubmit.
 	 */
 	public function onSubmit( array $data ) {
-
 		$zones = explode( "\n", $data['zones'] );
 		$this->adManagerZones = new AdManagerZones( array_filter( $zones ) ); //remove blanks
 		return $this->adManagerZones->execute();
@@ -78,9 +77,8 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 */
 	public function onSuccess() {
 		$text = Html::openElement( 'div', array( 'class' => 'successbox' ) );
-		foreach ( $this->adManagerZones->getZones() as $zone ) {
-			$text .= "\n* " . $this->msg( 'admanager_addedzone', $zone )->text();
-		}
+		$text .= $this->getZonesAddedMessage();
+		$text .= $this->getZonesRemovedMessage();
 		$text .= Html::closeElement( 'div' ) . Html::element( 'br',
 				array( 'clear' => 'both' ) );
 		$this->getOutput()->addWikiText( $text );
@@ -118,5 +116,42 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	public static function validateZonesText( $zonesText ) {
 		$zones = explode( "\n", $zonesText );
 		return AdManagerZones::validateZones( $zones );
+	}
+
+	/**
+	 * Get the complete message detailing which zones were added
+	 *
+	 * @return string Message
+	 */
+	public function getZonesAddedMessage() {
+		$zonesToAdd = $this->adManagerZones->getZonesToAdd();
+		if ( empty( $zonesToAdd ) ) {
+			return "\n* " . $this->msg( 'admanager_nozonesadded' )->escaped();
+		}
+
+		$text = '';
+		foreach ( $zonesToAdd as $zone ) {
+			$text .= "\n* " . $this->msg( 'admanager_addedzone', $zone )->escaped();
+		}
+		return $text;
+	}
+
+	/**
+	 * Get the complete message detailing which zones were removed
+	 *
+	 * @return string Message
+	 */
+	public function getZonesRemovedMessage() {
+		$zonesToRemove = $this->adManagerZones->getZonesToRemove();
+		if ( empty( $zonesToRemove ) ) {
+			return "\n* " . $this->msg( 'admanager_nozonesremoved' )->escaped();
+		}
+
+		$text = '';
+		foreach ( $zonesToRemove as $zone ) {
+			$text .= "\n* " . $this->msg( 'admanager_removedzone', $zone )->escaped();
+		}
+
+		return $text;
 	}
 }

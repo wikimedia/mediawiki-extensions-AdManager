@@ -4,13 +4,13 @@
  * Layer on top of the ad table with some helper functions
  */
 class AdManager {
+	const AD_TABLE = 'ad';
 	private static $catList = array();
 
 	/**
 	 * @var array $ads Ads to be added to db
 	 */
 	private $ads = array();
-	const AD_TABLE = 'ad';
 
 	public function __construct( array $ads ) {
 		$this->setAds( $ads );
@@ -30,7 +30,7 @@ class AdManager {
 	 * @return boolean
 	 */
 	public static function tableExists() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getReadDbConnection();
 		return $dbr->tableExists( self::getTableName() );
 	}
 
@@ -77,7 +77,7 @@ class AdManager {
 	 */
 	public static function getSomeAdsfromDB( $type ) {
 		$blank = AdManagerZones::getBlankZoneID();
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getReadDbConnection();
 		$current = $dbr->select(
 			self::getTableName(), array(
 			'ad_id', 'ad_page_id', 'ad_zone', 'ad_page_is_category'
@@ -103,7 +103,7 @@ class AdManager {
 	 * @return type
 	 */
 	public function execute() {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = $this->getWriteDbConnection();
 		/** @todo Not such a good idea. What if insert fails? */
 		$dbw->delete( self::getTableName(), '*', __METHOD__ );
 
@@ -162,7 +162,7 @@ class AdManager {
 	 * @return type
 	 */
 	protected function addAd( $type, $adZoneID, $ad ) {
-		$dbw = wfGetDB( DB_MASTER );
+		$dbw = $this->getReadDbConnection();
 
 		// Depending on fields being processed, lookup either the
 		// text's Page ID or Category ID
@@ -256,7 +256,7 @@ class AdManager {
 	 */
 	public static function getCategoryAdZonesFor( $title ) {
 		$fullTableName = AdManager::getTableName();
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getReadDbConnection();
 		$thisPageAdZones = array();
 		// check if an ad zone was set for any of this page's categories
 		$allCategories = $dbr->select(
@@ -314,5 +314,19 @@ class AdManager {
 			// desire by inserting in LocalSettings.php
 			return $wgAdManagerCode;
 		}
+	}
+
+	/**
+	 * @return DatabaseBase Read-only db connection
+	 */
+	public static function getReadDbConnection() {
+		return wfGetDB( DB_SLAVE );
+	}
+
+	/**
+	 * @return DatabaseBase Writable db connection
+	 */
+	public static function getWriteDbConnection() {
+		return wfGetDB( DB_MASTER );
 	}
 }

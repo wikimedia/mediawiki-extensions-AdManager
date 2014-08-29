@@ -19,7 +19,7 @@
 	"admanager_Page": "Pajennoù",
 	"admanager_Category": "Rummadoù",
 	"admanager_added": "Enrollet eo bet ho kemmoù",
-	"admanager_addedzone": "Takad ouzhpennet",
+	"admanager_addedzone": "Takad ouzhpennet $1",
 	"admanager_zonenum": "Takad #: $1",
 	"admanager_zonenotnumber": "Fazi ! $1 n'eo ket un niver.",
 	"admanager_return": "Distreiñ da [[Special:AdManager|Ad Manager]]",

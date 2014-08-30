@@ -60,5 +60,5 @@ $specialPageAliases['zh-hans'] = array(
 /** Traditional Chinese (中文（繁體）‎) */
 $specialPageAliases['zh-hant'] = array(
 	'AdManager' => array( '廣告管理' ),
-	'AdManagerZones' => array( '廣告管理域' ),
+	'AdManagerZones' => array( '廣告管理區域' ),
 );

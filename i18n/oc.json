@@ -17,7 +17,7 @@
 	"admanager_Page": "Paginas",
 	"admanager_Category": "Categorias",
 	"admanager_added": "Vòstres cambiaments son estats enregistrats",
-	"admanager_addedzone": "Zòna aponduda",
+	"admanager_addedzone": "Zòna $1 aponduda",
 	"admanager_zonenum": "Zòna #: $1",
 	"admanager_zonenotnumber": "Error ! « $1 » es pas un nombre.",
 	"admanager_return": "Tornar al [[Special:AdManager|Gestionari de publicitat]]",

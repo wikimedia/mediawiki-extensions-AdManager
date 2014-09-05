@@ -45,6 +45,11 @@ $specialPageAliases['ko'] = array(
 	'AdManagerZones' => array( '광고관리자영역' ),
 );
 
+/** Malagasy (Malagasy) */
+$specialPageAliases['mg'] = array(
+	'AdManager' => array( 'Mpikarakara_doka', 'MpikarakaraDoka' ),
+);
+
 /** Macedonian (македонски) */
 $specialPageAliases['mk'] = array(
 	'AdManager' => array( 'РаководителСоРеклами' ),

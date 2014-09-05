@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EugeneZelenko",
-			"Jim-by"
+			"Jim-by",
+			"Red Winged Duck"
 		]
 	},
 	"admanager": "Кіраўнік рэклямы",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Старонкі",
 	"admanager_Category": "Катэгорыі",
 	"admanager_added": "Вашыя зьмены былі захаваныя",
-	"admanager_addedzone": "Дададзеная зона",
+	"admanager_addedzone": "Дададзеная зона $1",
 	"admanager_zonenum": "Зона № $1",
 	"admanager_zonenotnumber": "Памылка: $1 не зьяўляецца лікам.",
 	"admanager_return": "Вярнуцца ў [[Special:AdManager|кіраваньне рэклямай]]",

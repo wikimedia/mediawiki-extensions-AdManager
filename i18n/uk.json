@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Sodmy"
+			"Sodmy",
+			"Andriykopanytsia"
 		]
 	},
 	"admanager": "Менеджер оголошень",
@@ -20,7 +21,7 @@
 	"admanager_Page": "Сторінки",
 	"admanager_Category": "Категорії",
 	"admanager_added": "Ваші зміни збережено",
-	"admanager_addedzone": "Додана зона",
+	"admanager_addedzone": "Додана зона $1",
 	"admanager_zonenum": "Зона #: $1",
 	"admanager_zonenotnumber": "Помилка! $1 не є числом.",
 	"admanager_return": "Повернутися до [[Special:AdManager|Менеджер оголошень]]",

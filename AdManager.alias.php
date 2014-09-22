@@ -56,6 +56,12 @@ $specialPageAliases['mk'] = array(
 	'AdManagerZones' => array( 'РаководителСоРекламиПодрачја' ),
 );
 
+/** Vietnamese (Tiếng Việt) */
+$specialPageAliases['vi'] = array(
+	'AdManager' => array( 'Quản_lý_quảng_cáo', 'Quản_lí_quảng_cáo' ),
+	'AdManagerZones' => array( 'Đới_quản_lý_quảng_cáo', 'Đới_quản_lí_quảng_cáo' ),
+);
+
 /** Simplified Chinese (中文（简体）‎) */
 $specialPageAliases['zh-hans'] = array(
 	'AdManager' => array( '广告管理器' ),

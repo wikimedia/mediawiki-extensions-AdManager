@@ -20,7 +20,7 @@
 	"admanager_Page": "Pages",
 	"admanager_Category": "Categories",
 	"admanager_added": "Yer chynges hae been hain'd",
-	"admanager_addedzone": "Eikit zone",
+	"admanager_addedzone": "Eikit zone $1",
 	"admanager_zonenum": "Zone #: $1",
 	"admanager_zonenotnumber": "Mistak! $1 isna ae nummer.",
 	"admanager_return": "Return til [[Special:AdManager|Ad Manager]]",

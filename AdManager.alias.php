@@ -33,6 +33,12 @@ $specialPageAliases['de'] = array(
 	'AdManagerZones' => array( 'Anzeigenverwaltungsbereiche' ),
 );
 
+/** Persian (فارسی) */
+$specialPageAliases['fa'] = array(
+	'AdManager' => array( 'مدیریت_تبلیغات' ),
+	'AdManagerZones' => array( 'نقاط_مدیریت_تبلیغات' ),
+);
+
 /** Hebrew (עברית) */
 $specialPageAliases['he'] = array(
 	'AdManager' => array( 'מנהל_פרסומות' ),

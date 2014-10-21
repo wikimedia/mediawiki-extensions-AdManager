@@ -1,16 +1,71 @@
 <?php
+
 /**
  * Layer on top of the ad zones table
  */
 class AdManagerZones {
+	const AD_ZONES_TABLE = 'adzones';
 	/**
 	 * @var array $zones Zones to be added to db
 	 */
-	private $zones = array();
-	const AD_ZONES_TABLE = 'adzones';
+	private $zonesToAdd = array();
 
-	public function __construct( array $zones ) {
-		$this->setZones( $zones );
+	/**
+	 * @var array $zones Zones to be removed from db
+	 */
+	private $zonesToRemove = array();
+
+	/**
+	 * @var boolean $zonesAddedSuccessfully
+	 */
+	private $zonesAddedSuccessfully;
+
+	/**
+	 * @var boolean $zonesRemovedSuccessfully
+	 */
+	private $zonesRemovedSuccessfully;
+
+	/**
+	 * @return array
+	 */
+	public function getZonesToAdd() {
+		return $this->zonesToAdd;
+	}
+
+
+	public function getZonesToRemove() {
+		return $this->zonesToRemove;
+	}
+
+	public function getZonesAddedSuccessfully() {
+		return $this->zonesAddedSuccessfully;
+	}
+
+	public function getZonesRemovedSuccessfully() {
+		return $this->zonesRemovedSuccessfully;
+	}
+
+	public function setZonesToAdd( array $zones ) {
+		return wfSetVar( $this->zonesToAdd, $zones );
+	}
+
+	public function setZonesToRemove( $zonesToRemove ) {
+		return wfSetVar( $this->zonesToRemove, $zonesToRemove );
+	}
+
+	public function setZonesAddedSuccessfully( $zonesAddedSuccessfully ) {
+		return wfSetVar( $this->zonesAddedSuccessfully, $zonesAddedSuccessfully );
+	}
+
+	public function setZonesRemovedSuccessfully( $zonesRemovedSuccessfully ) {
+		return wfSetVar( $this->zonesRemovedSuccessfully, $zonesRemovedSuccessfully );
+	}
+
+	public function __construct( array $wantedZones ) {
+		$currentZones = $this->getZonesFromDB();
+
+		$this->zonesToAdd = array_diff( $wantedZones, $currentZones );
+		$this->zonesToRemove = array_diff( $currentZones, $wantedZones );
 	}
 
 	public static function getTableName() {
@@ -22,7 +77,7 @@ class AdManagerZones {
 	}
 
 	/**
-	 * Check if this zone is valid
+	 * Check if the zone is valid
 	 *
 	 * @param string $zone
 	 * @return boolean
@@ -71,15 +126,8 @@ class AdManagerZones {
 	 * @return boolean
 	 */
 	public static function tableExists() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getReadDbConnection();
 		return $dbr->tableExists( self::getTableName() );
-	}
-
-	/**
-	 * @return array
-	 */
-	public function getZones() {
-		return $this->zones;
 	}
 
 	/**
@@ -88,7 +136,7 @@ class AdManagerZones {
 	 * @return array current zones in db
 	 */
 	public static function getZonesFromDB() {
-		$dbr = wfGetDB( DB_SLAVE );
+		$dbr = self::getReadDbConnection();
 		$current = $dbr->select(
 			self::getTableName(), array( '*' ), array(), __METHOD__
 		);
@@ -103,58 +151,69 @@ class AdManagerZones {
 	}
 
 	/**
-	 * Purge the db and insert new zones
+	 * Add new zones to db and remove the old zones
 	 *
-	 * @return boolean
+	 * @return boolean Successful if added and removed successfully
 	 */
 	public function execute() {
-		$dbw = wfGetDB( DB_MASTER );
-		/** @todo Not such a good idea. What if insert fails? */
-		$dbw->delete( self::getTableName(), '*', __METHOD__ );
+		$this->zonesAdded = $this->doAddZones();
+		$this->zonesRemoved = $this->doRemoveZones();
 
-		return $this->addZones( $this->zones );
+		return $this->zonesAdded && $this->zonesRemoved;
 	}
 
 	/**
 	 * Insert an array of zones into the db
 	 *
-	 * @param array $zones
 	 * @return boolean
 	 */
-	protected function addZones( $zones = null ) {
-		if ( !$zones ) {
-			if ( isset( $this->zones ) ) {
-				$zones = $this->zones;
-			} else {
-				return false;
-			}
+	protected function doAddZones() {
+		$dbw = $this->getWriteDbConnection();
+		$rows = array();
+		foreach ( $this->getZonesToAdd() as $zone ) {
+			$rows[] = array( 'ad_zone_id' => $zone );
 		}
+		$success = $dbw->insert( self::getTableName(), $rows, __METHOD__, 'IGNORE' );
 
-		foreach ( $zones as $zone ) {
-			if ( !self::addZone( $zone ) ) {
-				return false;
-			}
-		}
-		return true;
+		// DatabaseBase::insert does not always return true for success as documented...
+		return $success !== false;
 	}
 
 	/**
-	 * Insert a single zone into the db
+	 * Remove zones from the db
+	 *
+	 * return Boolean True if all zones were removed
+	 */
+	protected function doRemoveZones() {
+		$successAll = true;
+		foreach ( $this->getZonesToRemove() as $zone ) {
+			$successAll &= (bool) $this->removeZone( $zone );
+		}
+		return $successAll;
+	}
+
+	/**
+	 * Remove a zone from the db
 	 *
 	 * @param string $zone
-	 * @return boolean
+	 * @return bool|ResultWrapper
 	 */
-	protected function addZone( $zone ) {
-		$dbw = wfGetDB( DB_MASTER );
-		return $dbw->insert(
-				self::getTableName(), array( 'ad_zone_id' => $zone ), __METHOD__
-		);
+	protected function removeZone( $zone ) {
+		$dbw = $this->getWriteDbConnection();
+		return $dbw->delete( self::getTableName(), array( 'ad_zone_id' => $zone ), __METHOD__ );
 	}
 
 	/**
-	 * @param array $zones
+	 * @return DatabaseBase Read-only db connection
 	 */
-	public function setZones( array $zones ) {
-		$this->zones = $zones;
+	public static function getReadDbConnection() {
+		return wfGetDB( DB_SLAVE );
+	}
+
+	/**
+	 * @return DatabaseBase Writable db connection
+	 */
+	public static function getWriteDbConnection() {
+		return wfGetDB( DB_MASTER );
 	}
 }

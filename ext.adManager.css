@@ -7,6 +7,10 @@ div[id*='AdManager'] > div {
     margin-left: 0!important;
 }
 
+div.AdManager-content {
+    float: right;
+}
+
 body.mw-special-AdManager legend {
     display: none;
 }

@@ -203,6 +203,33 @@ class AdManager {
 	}
 
 	/**
+	 * Get HTML for all ads that should be displayed for this page
+	 *
+	 * @param Title $title Title of the page
+	 * @return boolean|array false on error or an array with HTML for each ad
+	 */
+	public static function getAdOutputFor( Title $title ) {
+		if ( !AdManager::tableExists() ) {
+			return false;
+		}
+		$adManagerCode = AdManager::getAdManagerCode();
+		if ( !isset( $adManagerCode ) ) {
+			return false; // TODO: show error
+		}
+
+		$thisPageAdZones = AdManager::getAdZonesFor( $title );
+		if ( empty( $thisPageAdZones ) ) { // No zone set for this page or its categories
+			return array();
+		}
+
+		$adsOut = array();
+		foreach ( $thisPageAdZones as $thisPageAdZone ) {
+			$adsOut[] = str_replace( '$1', $thisPageAdZone, $adManagerCode );
+		}
+		return $adsOut;
+	}
+
+	/**
 	 * Get all the ad slot ids that should be displayed for this title
 	 *
 	 * @param Title $title

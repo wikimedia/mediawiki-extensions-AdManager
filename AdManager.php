@@ -21,7 +21,7 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 $wgExtensionCredits['specialpage'][] = array(
 	'path' => __FILE__,
 	'name' => 'AdManager',
-	'version' => '0.4.0',
+	'version' => '0.5.0',
 	'author' => 'Ike Hecht for WikiWorks',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
 	'descriptionmsg' => 'admanager-desc',
@@ -32,6 +32,9 @@ $wgExtensionCredits['specialpage'][] = array(
 $wgAdManagerService = null;
 // For custom code. Insert $1 anywhere that the ad zone should be inserted.
 $wgAdManagerCode = null;
+// Where should the ads be outputted?
+// Allowed values: 'sidebar', 'content'
+$wgAdManagerPlacement = 'sidebar';
 
 $wgMessagesDirs['AdManager'] = __DIR__ . '/i18n';
 $wgExtensionMessagesFiles['AdManager'] = __DIR__ . 'AdManager.i18n.php';

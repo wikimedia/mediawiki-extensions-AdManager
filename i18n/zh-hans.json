@@ -3,7 +3,8 @@
 		"authors": [
 			"Hzy980512",
 			"Yfdyh000",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Papapasan"
 		]
 	},
 	"admanager": "广告管理器",
@@ -23,6 +24,8 @@
 	"admanager_Category": "分类",
 	"admanager_added": "更改已保存",
 	"admanager_addedzone": "已添加区域$1",
+	"admanager_nozonesadded": "没有任何区域被添加了。",
+	"admanager_nozonesremoved": "没有任何区被移除了。",
 	"admanager_zonenum": "区域 #: $1",
 	"admanager_zonenotnumber": "错误！$1不是数字。",
 	"admanager_return": "回到[[Special:AdManager|广告管理器]]",

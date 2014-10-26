@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Fryed-peach",
-			"Shirayuki"
+			"Shirayuki",
+			"SkyDaisy9"
 		]
 	},
 	"admanager": "広告の管理",
@@ -22,6 +23,9 @@
 	"admanager_Category": "カテゴリ",
 	"admanager_added": "変更を保存しました",
 	"admanager_addedzone": "ゾーン $1 を追加しました",
+	"admanager_removedzone": "ゾーン$1を削除しました。",
+	"admanager_nozonesadded": "追加されたゾーンはありません。",
+	"admanager_nozonesremoved": "削除されたゾーンはありません",
 	"admanager_zonenum": "ゾーン番号: $1",
 	"admanager_zonenotnumber": "エラー! $1 は数値ではありません。",
 	"admanager_return": "[[Special:AdManager|広告の管理]]に戻る",

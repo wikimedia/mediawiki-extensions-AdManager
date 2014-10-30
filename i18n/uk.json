@@ -3,7 +3,8 @@
 		"authors": [
 			"Sodmy",
 			"Andriykopanytsia",
-			"Olion"
+			"Olion",
+			"Olvin"
 		]
 	},
 	"admanager": "Менеджер оголошень",
@@ -24,8 +25,8 @@
 	"admanager_added": "Ваші зміни збережено",
 	"admanager_addedzone": "Додана зона $1",
 	"admanager_removedzone": "Вилучено зону $1.",
-	"admanager_nozonesadded": "Немає зон для додавання.",
-	"admanager_nozonesremoved": "Немає зон для вилучення.",
+	"admanager_nozonesadded": "Не було додано жодної зони.",
+	"admanager_nozonesremoved": "Не було вилучено жодної зони.",
 	"admanager_zonenum": "Зона №: $1",
 	"admanager_zonenotnumber": "Помилка! $1 не є числом.",
 	"admanager_return": "Повернутися до [[Special:AdManager|Менеджер оголошень]]",

@@ -21,7 +21,7 @@
 	"admanager_Page": "Số trang",
 	"admanager_Category": "Thể loại",
 	"admanager_added": "Đã lưu các thay đổi của bạn.",
-	"admanager_addedzone": "Đã thêm khu vực $1",
+	"admanager_addedzone": "Đã thêm khu vực $1.",
 	"admanager_zonenum": "Số khu vực: $1",
 	"admanager_zonenotnumber": "Lỗi! $1 không phải là số.",
 	"admanager_return": "Trở lại [[Special:AdManager|Quản lý quảng cáo]]",

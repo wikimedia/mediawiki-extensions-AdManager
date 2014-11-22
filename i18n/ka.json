@@ -16,7 +16,7 @@
 	"admanager_Page": "გვერდები",
 	"admanager_Category": "კატეგორიები",
 	"admanager_added": "თქვენი ცვლილებები შენახულია",
-	"admanager_addedzone": "დამატებულია ზონა",
+	"admanager_addedzone": "დაემატა ზონა $1",
 	"admanager_zonenum": "ზონა №: $1",
 	"admanager_zonenotnumber": "შეცდომა! $1 არ არის რიცხვი.",
 	"admanager_return": "[[Special:AdManager|რეკლამის მენეჯერთან]] დაბრუნება",

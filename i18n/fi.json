@@ -5,7 +5,8 @@
 			"Crt",
 			"Nedergard",
 			"Stryn",
-			"VezonThunder"
+			"VezonThunder",
+			"Macofe"
 		]
 	},
 	"admanager": "Mainoshallinta",
@@ -24,7 +25,7 @@
 	"admanager_Page": "Sivut",
 	"admanager_Category": "Luokat",
 	"admanager_added": "Muutoksesi on tallennettu",
-	"admanager_addedzone": "Lisätty vyöhyke",
+	"admanager_addedzone": "Lisätty vyöhyke $1.",
 	"admanager_zonenum": "Vyöhyke #: $1",
 	"admanager_zonenotnumber": "Virhe! $1 ei ole numero.",
 	"admanager_return": "Palaa sivulle [[Special:AdManager|Mainoshallinta]]",

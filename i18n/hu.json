@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Dj",
-			"Misibacsi"
+			"Misibacsi",
+			"Tacsipacsi"
 		]
 	},
 	"admanager": "Hirdetéskezelő",
@@ -18,7 +19,7 @@
 	"admanager_Page": "Lapok",
 	"admanager_Category": "Kategóriák",
 	"admanager_added": "Változásaid elmentve",
-	"admanager_addedzone": "Hozzáadott zóna:",
+	"admanager_addedzone": "Hozzáadott zóna: $1",
 	"admanager_zonenum": "Zónaszám: $1",
 	"admanager_zonenotnumber": "Hiba! $1 nem szám.",
 	"admanager_return": "Vissza a [[Special:AdManager|hirdetéskezelőhöz]]",

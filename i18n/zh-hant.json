@@ -5,7 +5,8 @@
 			"Oapbtommy",
 			"Simon Shek",
 			"LNDDYL",
-			"Cwlin0416"
+			"Cwlin0416",
+			"Liuxinyu970226"
 		]
 	},
 	"admanager": "廣告管理員",
@@ -19,7 +20,7 @@
 	"admanager_noAdManagerZones": "錯誤！您必須添加廣告區。在[[Special:AdManagerZones|管理廣告區]]內輸入它。",
 	"admanager_labelPage": "頁面標題",
 	"admanager_labelCategory": "類別名稱",
-	"admanager_submit": "提交",
+	"admanager_submit": "送出",
 	"admanager_noads": "不顯示廣告",
 	"admanager_Page": "頁面",
 	"admanager_Category": "類別",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Lloffiwr",
-			"Pwyll"
+			"Pwyll",
+			"Robin Owain"
 		]
 	},
 	"admanager": "Rheolwr hysbysebion",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Tudalennau",
 	"admanager_Category": "Categorïau",
 	"admanager_added": "Cadwyd eich newidiadau",
-	"admanager_addedzone": "Ardal a ychwanegwyd",
+	"admanager_addedzone": "Ychwanegwyd ardal $1.",
 	"admanager_zonenum": "Ardal #: $1",
 	"admanager_zonenotnumber": "Gwall! Nid rhif yw $1",
 	"admanager_return": "Dychwelyd i [[Special:AdManager|Rheolwr Hysbesebion]]",

@@ -1,0 +1,10 @@
+{
+	"@metadata": {
+		"authors": [
+			"Milicevic01"
+		]
+	},
+	"admanager_removedzone": "Uklonjena zona $1.",
+	"admanager_nozonesadded": "Nijedna zona nije dodata.",
+	"admanager_nozonesremoved": "Nijedna zona nije uklonjena."
+}

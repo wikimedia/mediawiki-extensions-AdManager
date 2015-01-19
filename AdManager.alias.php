@@ -62,6 +62,12 @@ $specialPageAliases['mk'] = array(
 	'AdManagerZones' => array( 'РаководителСоРекламиПодрачја' ),
 );
 
+/** Dutch (Nederlands) */
+$specialPageAliases['nl'] = array(
+	'AdManager' => array( 'Advertentiebeheer' ),
+	'AdManagerZones' => array( 'Advertentiebeheerzones' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'AdManager' => array( 'Quản_lý_quảng_cáo', 'Quản_lí_quảng_cáo' ),

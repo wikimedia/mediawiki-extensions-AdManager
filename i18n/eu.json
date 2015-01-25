@@ -1,10 +1,12 @@
 {
 	"@metadata": {
 		"authors": [
-			"පසිඳු කාවින්ද"
+			"පසිඳු කාවින්ද",
+			"Subi"
 		]
 	},
 	"admanager_submit": "Bidali",
 	"admanager_Page": "Orrialdeak",
-	"admanager_Category": "Kategoriak"
+	"admanager_Category": "Kategoriak",
+	"admanager_zonenotnumber": "Errorea! $1 ez da zenbaki bat."
 }

@@ -6,7 +6,8 @@
 			"Minh Nguyen",
 			"Withoutaname",
 			"පසිඳු කාවින්ද",
-			"Max20091"
+			"Max20091",
+			"Dinhxuanduyet"
 		]
 	},
 	"admanager": "Quản lý quảng cáo",
@@ -22,6 +23,7 @@
 	"admanager_Category": "Thể loại",
 	"admanager_added": "Đã lưu các thay đổi của bạn.",
 	"admanager_addedzone": "Đã thêm khu vực $1.",
+	"admanager_nozonesremoved": "Không có vùng nào bị gỡ bỏ.",
 	"admanager_zonenum": "Số khu vực: $1",
 	"admanager_zonenotnumber": "Lỗi! $1 không phải là số.",
 	"admanager_return": "Trở lại [[Special:AdManager|Quản lý quảng cáo]]",

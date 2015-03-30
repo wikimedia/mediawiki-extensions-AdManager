@@ -68,6 +68,12 @@ $specialPageAliases['nl'] = array(
 	'AdManagerZones' => array( 'Advertentiebeheerzones' ),
 );
 
+/** Brazilian Portuguese (português do Brasil) */
+$specialPageAliases['pt-br'] = array(
+	'AdManager' => array( 'Gerenciador_de_propaganda' ),
+	'AdManagerZones' => array( 'Gerenciador_de_zonas_de_propaganda' ),
+);
+
 /** Vietnamese (Tiếng Việt) */
 $specialPageAliases['vi'] = array(
 	'AdManager' => array( 'Quản_lý_quảng_cáo', 'Quản_lí_quảng_cáo' ),

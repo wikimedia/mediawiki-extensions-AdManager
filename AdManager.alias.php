@@ -51,6 +51,12 @@ $specialPageAliases['ko'] = array(
 	'AdManagerZones' => array( '광고관리자영역' ),
 );
 
+/** لوری (لوری) */
+$specialPageAliases['lrc'] = array(
+	'AdManager' => array( 'اضاف_کردن_دیووندار' ),
+	'AdManagerZones' => array( 'اضاف_کردن_راساگه_یا_دیوونداری' ),
+);
+
 /** Malagasy (Malagasy) */
 $specialPageAliases['mg'] = array(
 	'AdManager' => array( 'Mpikarakara_doka', 'MpikarakaraDoka' ),

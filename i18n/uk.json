@@ -4,7 +4,8 @@
 			"Sodmy",
 			"Andriykopanytsia",
 			"Olion",
-			"Olvin"
+			"Olvin",
+			"Ahonc"
 		]
 	},
 	"admanager": "Менеджер оголошень",
@@ -32,5 +33,5 @@
 	"admanager_return": "Повернутися до [[Special:AdManager|Менеджер оголошень]]",
 	"admanager_gotoads": "[[Special:AdManager|Редагувати розміщення оголошень]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Редагувати зони оголошень]]",
-	"right-admanager": "[[Special:AdManager|Керування конфігурацією реклами]]"
+	"right-admanager": "[[Special:AdManager|керування конфігурацією реклами]]"
 }

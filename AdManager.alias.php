@@ -27,6 +27,12 @@ $specialPageAliases['arz'] = array(
 	'AdManagerZones' => array( 'مناطق_مدير_الاعلانات' ),
 );
 
+/** Western Balochi (بلوچی رخشانی) */
+$specialPageAliases['bgn'] = array(
+	'AdManager' => array( 'تبلیغات_ئی_مدیر' ),
+	'AdManagerZones' => array( 'تبلیغات_ئی_مدیر_ئی_زون' ),
+);
+
 /** German (Deutsch) */
 $specialPageAliases['de'] = array(
 	'AdManager' => array( 'Anzeigen_verwalten' ),

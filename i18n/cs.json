@@ -7,7 +7,8 @@
 			"Michaelbrabec",
 			"Mormegil",
 			"Paxt",
-			"Draceane"
+			"Draceane",
+			"Cvanca"
 		]
 	},
 	"admanager": "Správce reklam",
@@ -27,6 +28,9 @@
 	"admanager_Category": "Kategorie",
 	"admanager_added": "Vaše úpravy byly uloženy",
 	"admanager_addedzone": "Přidána zóna $1",
+	"admanager_removedzone": "Odstraněna zóna $1.",
+	"admanager_nozonesadded": "Žádné zóny nebyly přidány.",
+	"admanager_nozonesremoved": "Žádné zóny nebyly odebrány.",
 	"admanager_zonenum": "Zóna č. $1",
 	"admanager_zonenotnumber": "Chyba! $1 není čislem.",
 	"admanager_return": "Návrat do [[Special:AdManager|správce reklam]]",

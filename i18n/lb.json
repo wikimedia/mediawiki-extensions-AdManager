@@ -19,6 +19,8 @@
 	"admanager_Category": "Kategorien",
 	"admanager_added": "Är Ännerunge goufe gespäichert",
 	"admanager_addedzone": "Derbäigesaten Zone $1",
+	"admanager_nozonesadded": "Keng Zone goufen dobäigesat.",
+	"admanager_nozonesremoved": "Keng Zone goufen ewechgeholl.",
 	"admanager_zonenum": "Zone #: $1",
 	"admanager_zonenotnumber": "Feeler! $1 ass keng Zuel.",
 	"admanager_return": "Zréck op d'[[Special:AdManager|Gestioun vun de Reklammen]]",

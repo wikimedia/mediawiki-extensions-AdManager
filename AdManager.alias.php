@@ -21,7 +21,7 @@ $specialPageAliases['ar'] = array(
 	'AdManagerZones' => array( 'مناطق_مدير_الإعلانات' ),
 );
 
-/** Egyptian Spoken Arabic (مصرى) */
+/** Egyptian Arabic (مصرى) */
 $specialPageAliases['arz'] = array(
 	'AdManager' => array( 'مدير_الاعلانات' ),
 	'AdManagerZones' => array( 'مناطق_مدير_الاعلانات' ),
@@ -57,7 +57,7 @@ $specialPageAliases['ko'] = array(
 	'AdManagerZones' => array( '광고관리자영역' ),
 );
 
-/** لوری (لوری) */
+/** لوری مینجایی (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
 	'AdManager' => array( 'اضاف_کردن_دیووندار' ),
 	'AdManagerZones' => array( 'اضاف_کردن_راساگه_یا_دیوونداری' ),

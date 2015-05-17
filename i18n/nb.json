@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"EvenT",
-			"Event"
+			"Event",
+			"Chameleon222"
 		]
 	},
 	"admanager": "Annonsebehandler",
@@ -21,7 +22,10 @@
 	"admanager_Page": "Sider",
 	"admanager_Category": "Kategorier",
 	"admanager_added": "Dine endringer er lagret",
-	"admanager_addedzone": "Legg til sone",
+	"admanager_addedzone": "La til sone $1.",
+	"admanager_removedzone": "Fjernet sone $1.",
+	"admanager_nozonesadded": "Ingen soner ble lagt til.",
+	"admanager_nozonesremoved": "Ingen soner ble fjernet.",
 	"admanager_zonenum": "Sone #: $1",
 	"admanager_zonenotnumber": "Feil! $1 er ikke et tall.",
 	"admanager_return": "Gå tilbake til [[Special:AdManager|Ad Manager]]",

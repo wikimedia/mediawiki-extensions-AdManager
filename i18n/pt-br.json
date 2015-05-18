@@ -4,7 +4,8 @@
 			"Luckas",
 			"Luckas Blade",
 			"555",
-			"Rodrigo codignoli"
+			"Rodrigo codignoli",
+			"Dianakc"
 		]
 	},
 	"admanager": "Gestão de anúncios",
@@ -24,6 +25,9 @@
 	"admanager_Category": "Categorias",
 	"admanager_added": "Suas alterações foram salvas",
 	"admanager_addedzone": "Zona adicionada $1",
+	"admanager_removedzone": "Zona $1 removida.",
+	"admanager_nozonesadded": "Nenhuma zona foi adicionada.",
+	"admanager_nozonesremoved": "Nenhuma zona foi removida.",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Erro! $1 não é um número.",
 	"admanager_return": "Retornar para a [[Special:AdManager|gestão de anúncios]]",

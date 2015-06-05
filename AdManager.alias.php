@@ -59,8 +59,8 @@ $specialPageAliases['ko'] = array(
 
 /** Northern Luri (لوری مینجایی) */
 $specialPageAliases['lrc'] = array(
-	'AdManager' => array( 'اضاف_کردن_دیووندار' ),
-	'AdManagerZones' => array( 'اضاف_کردن_راساگه_یا_دیوونداری' ),
+	'AdManager' => array( 'ئضاف_کئردئن_دیڤوٙندار' ),
+	'AdManagerZones' => array( 'ئضاف_کئردئن_راساگە_یا_دیڤوٙنداری' ),
 );
 
 /** Malagasy (Malagasy) */

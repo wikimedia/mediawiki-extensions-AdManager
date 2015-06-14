@@ -57,7 +57,7 @@ $specialPageAliases['ko'] = array(
 	'AdManagerZones' => array( '광고관리자영역' ),
 );
 
-/** Northern Luri (لوری مینجایی) */
+/** Northern Luri (لۊری شومالی) */
 $specialPageAliases['lrc'] = array(
 	'AdManager' => array( 'ئضاف_کئردئن_دیڤوٙندار' ),
 	'AdManagerZones' => array( 'ئضاف_کئردئن_راساگە_یا_دیڤوٙنداری' ),

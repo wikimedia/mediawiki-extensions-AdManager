@@ -11,7 +11,7 @@
 	"admanagerzones": "Zonas de administrador de publicidad",
 	"admanager-desc": "Proporciona una [[Special:AdManager|página especial]] que permite a los sysops (operadores de sistema) establecer la zona de páginas o categorías",
 	"admanager_docu": "Para agregar o quitar la zona de publicidad de una página o de toda la categoría, agregue o elimine su título a continuación.",
-	"admanagerzones_docu": "Introduzca cada número de zona de publicidad en su propia línea.",
+	"admanagerzones_docu": "Escribe cada número de zona de publicidad en su propia línea.",
 	"admanager_invalidtargetpage": "Ninguna página encontrada con el título \"$1\".",
 	"admanager_invalidtargetcategory": "Ninguna categoría encontrada con el título \"$1\".",
 	"admanager_notable": "¡Error! ¡No se encontró una tabla de base de datos requerida! Ejecute primero update.php.",

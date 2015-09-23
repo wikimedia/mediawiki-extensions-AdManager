@@ -3,7 +3,8 @@
 		"authors": [
 			"DCamer",
 			"Engineering",
-			"Okras"
+			"Okras",
+			"Kaganer"
 		]
 	},
 	"admanager": "Менеджер рекламы",
@@ -27,7 +28,7 @@
 	"admanager_nozonesadded": "Нет зон для добавления.",
 	"admanager_nozonesremoved": "Нет зон для удаления.",
 	"admanager_zonenum": "Зона #:$1",
-	"admanager_zonenotnumber": "Ошибка!  $1  не является числом.",
+	"admanager_zonenotnumber": "Ошибка!  $1 — не число.",
 	"admanager_return": "Обратно в [[Special:AdManager|Менеджер рекламы]]",
 	"admanager_gotoads": "[[Special:AdManager|Изменить размещение рекламы]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Изменить рекламные зоны]]",

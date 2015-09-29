@@ -55,7 +55,7 @@ class SpecialAdManager extends FormSpecialPage {
 	 */
 	protected function getFormFields() {
 		$formFields = array();
-		//Add a textarea for each zone and type
+		// Add a textarea for each zone and type
 		foreach ( $this->zones as $zone ) {
 			foreach ( AdManager::getTypes() as $type ) {
 				if ( isset( $this->adTexts[$type][$zone] ) ) {

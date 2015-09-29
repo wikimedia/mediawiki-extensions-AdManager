@@ -87,7 +87,7 @@ class AdManager {
 		// Fetch current table into array
 		$currentArray = array();
 		while ( $currentRow = $current->fetchObject() ) {
-			//if ad_zone is null, it's the "NOAD" zone
+			// If ad_zone is null, it's the "NOAD" zone
 			$adZone = $currentRow->ad_zone ? $currentRow->ad_zone : $blank;
 			$adPageID = $currentRow->ad_page_id;
 			$adTitle = $type == 'Page' ? Title::newFromID( $adPageID ) :

@@ -68,7 +68,7 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 */
 	public function onSubmit( array $data ) {
 		$zones = explode( "\n", $data['zones'] );
-		$this->adManagerZones = new AdManagerZones( array_filter( $zones ) ); //remove blanks
+		$this->adManagerZones = new AdManagerZones( array_filter( $zones ) ); // remove blanks
 		return $this->adManagerZones->execute();
 	}
 

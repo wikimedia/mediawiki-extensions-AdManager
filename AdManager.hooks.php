@@ -6,10 +6,10 @@ final class AdManagerHooks {
 	 */
 	public static function onSchemaUpdate( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable(
-			AD_TABLE, __DIR__ . '/AdManager.sql', true
+			AdManager::getTableName(), __DIR__ . '/AdManager.sql', true
 		);
 		$updater->addExtensionTable(
-			AD_ZONES_TABLE, __DIR__ . '/AdManager.sql', true
+			AdManagerZones::getTableName(), __DIR__ . '/AdManager.sql', true
 		);
 
 		return true;

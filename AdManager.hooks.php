@@ -55,6 +55,12 @@ final class AdManagerHooks {
 		}
 
 		$adsOut = AdManager::getAdOutputFor( $skin->getTitle() );
+
+		if ( !$adsOut ) {
+			// No ads. Nothing to do.
+			return true;
+		}
+
 		foreach ( $adsOut as $adNumber => $adOut ) {
 			$out->prependHTML( Html::rawelement( 'div',
 					array( 'id' => "AdManager-content-$adNumber", 'class' => 'AdManager-content' ), $adOut ) );

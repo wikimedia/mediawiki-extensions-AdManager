@@ -37,7 +37,6 @@ $wgAdManagerCode = null;
 $wgAdManagerPlacement = 'sidebar';
 
 $wgMessagesDirs['AdManager'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AdManager'] = __DIR__ . 'AdManager.i18n.php';
 $wgExtensionMessagesFiles['AdManagerAlias'] = __DIR__ . '/AdManager.alias.php';
 
 // This extension uses its own permission type, 'admanager'

@@ -143,7 +143,7 @@ class AdManagerZones {
 
 		// Fetch current table into array
 		$currentArray = array();
-		while ( $currentRow = $current->fetchObject() ) {
+		foreach ( $current as $currentRow ) {
 			$currentArray[] = $currentRow->ad_zone_id;
 		}
 

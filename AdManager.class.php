@@ -86,7 +86,7 @@ class AdManager {
 
 		// Fetch current table into array
 		$currentArray = array();
-		while ( $currentRow = $current->fetchObject() ) {
+		foreach ( $current as $currentRow ) {
 			// If ad_zone is null, it's the "NOAD" zone
 			$adZone = $currentRow->ad_zone ? $currentRow->ad_zone : $blank;
 			$adPageID = $currentRow->ad_page_id;
@@ -308,7 +308,7 @@ class AdManager {
 				}
 			}
 
-			while ( $row = $firstMatch->fetchObject() ) {
+			foreach ( $firstMatch as $row ) {
 				$adZone = $row->ad_zone;
 				if ( $adZone == null ) {
 					$thisPageAdZones[] = AdManagerZones::getBlankZoneID();

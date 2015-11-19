@@ -19,7 +19,7 @@
 	"admanager_added": "आपले बदल जतन केले आहेत",
 	"admanager_addedzone": "क्षेत्र जोडले",
 	"admanager_zonenum": "क्षेत्र #: $1",
-	"admanager_zonenotnumber": "त्रूटी! $1 हा आकडा नाही.",
+	"admanager_zonenotnumber": "त्रुटी! $1 ही एक संख्या नाही.",
 	"admanager_return": "[[Special:AdManager|जाहिरात व्यवस्थापकाकडे]] परत चला",
 	"admanager_gotoads": "[[Special:AdManager|टाकलेली जाहिरात संपादित करा]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|जाहिरात-प्रभाग संपादित करा]]",

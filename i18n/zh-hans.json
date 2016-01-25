@@ -10,7 +10,7 @@
 	"admanager": "广告管理器",
 	"admanagerzones": "广告管理器区域",
 	"admanager-desc": "提供了一个[[Special:AdManager|特殊页面]]，它允许管理员设置页面或分类的区域",
-	"admanager_docu": "要添加或移除一个页面或分类的广告区域，在下面添加或移除其标题。",
+	"admanager_docu": "要添加或移除一个页面或分类的广告区域，在下方添加或移除页面或分类的标题。",
 	"admanagerzones_docu": "在其行上输入每个广告区域的编号。",
 	"admanager_invalidtargetpage": "找不到标题名为“$1”的页面",
 	"admanager_invalidtargetcategory": "找不到标题名为“$1”的分类",

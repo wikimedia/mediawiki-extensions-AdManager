@@ -8,7 +8,7 @@
 	"admanager": "Xestor de anuncios",
 	"admanagerzones": "Xestor das zonas de anuncios",
 	"admanager-desc": "Proporciona unha [[Special:AdManager|páxina especial]] que permite aos administradores definir a zona das páxinas ou categorías",
-	"admanager_docu": "Para engadir ou eliminar a zona de anuncios dunha páxina ou categoría enteira, engada ou elimine o seu título a continuación.",
+	"admanager_docu": "Para engadir ou eliminar a zona de anuncios dunha páxina ou categoría enteira, engada ou elimine o título da páxina ou da categoría a continuación.",
 	"admanagerzones_docu": "Escriba cada número de zona de anuncios na súa propia liña.",
 	"admanager_invalidtargetpage": "Non se atopou ningunha páxina co título \"$1\".",
 	"admanager_invalidtargetcategory": "Non se atopou ningunha categoría co título \"$1\".",

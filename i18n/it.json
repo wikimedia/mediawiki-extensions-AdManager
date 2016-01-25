@@ -8,7 +8,7 @@
 	"admanager": "Gestione pubblicità",
 	"admanagerzones": "Gestione zone per pubblicità",
 	"admanager-desc": "Fornisce una [[Special:AdManager|pagina speciale]] che permette agli amministratori di impostare le zone per pagine o categorie",
-	"admanager_docu": "Per aggiungere o rimuovere la zona per la pubblicità di una pagina o l'intera categoria, aggiungi o rimuovi il suo titolo sotto.",
+	"admanager_docu": "Per aggiungere o rimuovere la zona per la pubblicità di una pagina o l'intera categoria, aggiungi o rimuovi il titolo della pagina o della categoria sotto.",
 	"admanagerzones_docu": "Inserisci il numero di ogni zona nella propria riga.",
 	"admanager_invalidtargetpage": "Nessuna pagina trovata con il titolo \"$1\".",
 	"admanager_invalidtargetcategory": "Nessuna categoria trovata con il titolo \"$1\".",

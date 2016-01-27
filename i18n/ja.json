@@ -3,13 +3,14 @@
 		"authors": [
 			"Fryed-peach",
 			"Shirayuki",
-			"SkyDaisy9"
+			"SkyDaisy9",
+			"Sujiniku"
 		]
 	},
 	"admanager": "広告の管理",
 	"admanagerzones": "広告管理のゾーン",
 	"admanager-desc": "管理者がページまたはカテゴリにゾーンを設定できるようにする、[[Special:AdManager|特別ページ]]を提供する",
-	"admanager_docu": "ページまたはカテゴリ全体の広告ゾーンを追加または除去するには、下でページ名を追加または除去してください。",
+	"admanager_docu": "ページまたはカテゴリ全体の広告ゾーンを追加または除去するには、下でページ名またはカテゴリ名を追加または除去してください。",
 	"admanagerzones_docu": "広告ゾーン番号を各行に 1 つずつ入力してください。",
 	"admanager_invalidtargetpage": "「$1」という名前のページはありません。",
 	"admanager_invalidtargetcategory": "「$1」という名前のカテゴリはありません。",

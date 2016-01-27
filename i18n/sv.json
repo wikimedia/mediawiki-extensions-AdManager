@@ -8,7 +8,7 @@
 	"admanager": "Annonshanterare",
 	"admanagerzones": "Annonshanterar-zoner",
 	"admanager-desc": "Ger en [[Special:AdManager|specialsida]] som låter systemoperatör ställa in zonen för sidor eller kategorier",
-	"admanager_docu": "För att lägga till eller ta bort annonszonen av en sida eller en hel kategori, lägg till eller ta bort rubriken nedan.",
+	"admanager_docu": "För att lägga till eller ta bort annonszonen för en sida eller en hel kategori, lägg till eller ta bort sidans eller kategorins rubrik nedan.",
 	"admanagerzones_docu": "Ange varje annonszon-nummer på en egen rad.",
 	"admanager_invalidtargetpage": "Ingen sida hittades med titeln \"$1\".",
 	"admanager_invalidtargetcategory": "Ingen kategori hittades med titeln \"$1\".",

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Amire80",
-			"Deror avi"
+			"Deror avi",
+			"MojoMann"
 		]
 	},
 	"admanager": "ניהול המודעות",
@@ -21,7 +22,7 @@
 	"admanager_Page": "דפים",
 	"admanager_Category": "קטגוריות",
 	"admanager_added": "השינויים נשמרו",
-	"admanager_addedzone": "אזור נוסף",
+	"admanager_addedzone": "נוסף אזור $1.",
 	"admanager_zonenum": "אזור #: $1",
 	"admanager_zonenotnumber": "שגיאה! $1 אינו מספר.",
 	"admanager_return": "חזרה ל[[Special:AdManager|מנהל הפרסומות]]",

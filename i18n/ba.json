@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Haqmar",
-			"Sagan"
+			"Sagan",
+			"З. ӘЙЛЕ"
 		]
 	},
 	"admanager": "Реклама идаралаусыһы",
 	"admanagerzones": "Реклама зоналары идаралаусыһы",
 	"admanager-desc": "Хакимдәргә бит һәм категория заналарын өҫтәү өсөн[[Special:AdManager|ярҙамсы бит]] өҫтәргә",
-	"admanager_docu": "Биттә йәки бөтә категорияла реклама зонаһын ҡуйыу йәки ҡуймау өсөн, уның исемен ҡуйығыҙ йәки алып ташлағыҙ.",
+	"admanager_docu": "Биттең йәки бөтә категорияның реклама зонаһын ҡуйыу йәки ҡуймау өсөн, уның исемен ҡуйығыҙ йәки алып ташлағыҙ.",
 	"admanagerzones_docu": "Һәр реклама зонаһы номерын айырым юлда яҙығыҙ.",
 	"admanager_invalidtargetpage": "\" $1 \" бите табылманы.",
 	"admanager_invalidtargetcategory": "\" $1 \" категорияһы табылманы.",
@@ -21,7 +22,10 @@
 	"admanager_Page": "Биттәр",
 	"admanager_Category": "Категориялар",
 	"admanager_added": "Үҙгәртеүҙәрегеҙ һаҡланды",
-	"admanager_addedzone": "Өҫтәлгән зона",
+	"admanager_addedzone": " $1 зонаһы өҫтәлгән",
+	"admanager_removedzone": " $1 зонаһы юйылған",
+	"admanager_nozonesadded": "Өҫтәү өсөн зона юҡ.",
+	"admanager_nozonesremoved": "Юйыу өсөн зона юҡ.",
 	"admanager_zonenum": "Зона #:$1",
 	"admanager_zonenotnumber": "Хата!  $1 һан түгел.",
 	"admanager_return": "Киренән  [[Special:AdManager|Реклама менеджерына]]",

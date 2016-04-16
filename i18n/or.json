@@ -3,12 +3,13 @@
 		"authors": [
 			"Ansumang",
 			"Jnanaranjan Sahu",
-			"ଆଶୁତୋଷ କର"
+			"ଆଶୁତୋଷ କର",
+			"MKar"
 		]
 	},
 	"admanager": "ବିଜ୍ଞାପନ ପରିଚାଳକ",
 	"admanagerzones": "ବିଜ୍ଞାପନ ପରିଚାଳକ ଅଞ୍ଚଳ ଗୁଡିକ",
-	"admanager_notable": "ତ୍ରୁଟି! ଏକ ଦରକାରି ଡେଟାବେସ ତାଲିକା ମିଳିଲା ନାହିଁ। ପ୍ରଥମେ update.php ଚଲାନ୍ତୁ।",
+	"admanager_notable": "ତ୍ରୁଟି! ଏକ ଦରକାରୀ ଡାଟାବେସ ତାଲିକା ମିଳିଲା ନାହିଁ। ପ୍ରଥମେ update.php ଚଲାନ୍ତୁ।",
 	"admanager_labelPage": "ପୃଷ୍ଠା ଶିରୋନାମାଗୁଡିକ",
 	"admanager_labelCategory": "ଶ୍ରେଣୀ ନାମ",
 	"admanager_submit": "ପଇଠ କରିବେ",

@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"SPQRobin",
-			"Siebrand"
+			"Siebrand",
+			"Jeleniccz"
 		]
 	},
 	"admanager": "Advertentiebeheer",
 	"admanagerzones": "Zones voor advertentiebeheer",
 	"admanager-desc": "Voegt een [[Special:AdManager|speciale pagina]] toe die beheerders in staat stelt om de zone voor pagina's of categorieën in te stellen",
-	"admanager_docu": "U kunt een advertentiezone van een pagina of volledige categorie toevoegen of verwijderen door de naam ervan toe te voegen of te verwijderen.",
+	"admanager_docu": "Toevoegen of verwijderen van de ad-zone van een pagina of de hele categorie, toevoegen of verwijderen van pagina's of categorie titel hieronder.",
 	"admanagerzones_docu": "Voer elke advertentiezone op een eigen regel in.",
 	"admanager_invalidtargetpage": "Geen pagina gevonden met de naam \"$1\".",
 	"admanager_invalidtargetcategory": "Geen categorie gevonden met de naam \"$1\".",

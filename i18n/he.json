@@ -3,13 +3,14 @@
 		"authors": [
 			"Amire80",
 			"Deror avi",
-			"MojoMann"
+			"MojoMann",
+			"Guycn2"
 		]
 	},
 	"admanager": "ניהול המודעות",
 	"admanagerzones": "איזור ניהול המודעות",
 	"admanager-desc": "יצירת [[Special:AdManager|דף מיוחד]] שמאפשר למפעילים להגדיר את האזור לדפים או קטגוריות",
-	"admanager_docu": "על מנת להוסיף או להסיר את איזור המועדות של עמוד או של קטגוריה שלמה, נא להוסיף או להסיר את כותרתו מטה.",
+	"admanager_docu": "על־מנת להוסיף או להסיר את אזור המודעות של עמוד או של קטגוריה שלמה, יש להוסיף או להסיר את הכותרת של הדף או הקטגוריה למטה.",
 	"admanagerzones_docu": "נא להזין כל מספר איזור מודעה בשורה נפרדת.",
 	"admanager_invalidtargetpage": "לא נמצא דף שכותרתו \"$1\".",
 	"admanager_invalidtargetcategory": "לא נמצאה קטגוריה שכותרתה \"$1\".",
@@ -23,6 +24,9 @@
 	"admanager_Category": "קטגוריות",
 	"admanager_added": "השינויים נשמרו",
 	"admanager_addedzone": "נוסף אזור $1.",
+	"admanager_removedzone": "הוסר האזור $1.",
+	"admanager_nozonesadded": "לא נוספו אזורים.",
+	"admanager_nozonesremoved": "לא הוסרו אזורים.",
 	"admanager_zonenum": "אזור #: $1",
 	"admanager_zonenotnumber": "שגיאה! $1 אינו מספר.",
 	"admanager_return": "חזרה ל[[Special:AdManager|מנהל הפרסומות]]",

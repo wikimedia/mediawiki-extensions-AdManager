@@ -18,14 +18,14 @@ if ( !defined( 'MEDIAWIKI' ) ) {
 }
 
 // Extension credits that will show up on Special:Version
-$wgExtensionCredits['specialpage'][] = array(
+$wgExtensionCredits['specialpage'][] = [
 	'path' => __FILE__,
 	'name' => 'AdManager',
 	'version' => '1.1.0',
 	'author' => 'Ike Hecht for WikiWorks',
 	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
 	'descriptionmsg' => 'admanager-desc',
-);
+];
 
 // Lowercase name of the advertising service. Currently supported values are:
 // openx
@@ -56,8 +56,8 @@ $wgHooks['LoadExtensionSchemaUpdates'][] = 'AdManagerHooks::onSchemaUpdate';
 $wgHooks['SkinBuildSidebar'][] = 'AdManagerHooks::SkinBuildSidebar';
 $wgHooks['BeforePageDisplay'][] = 'AdManagerHooks::onBeforePageDisplay';
 
-$wgResourceModules['ext.adManager'] = array(
+$wgResourceModules['ext.adManager'] = [
 	'styles' => 'ext.adManager.css',
 	'localBasePath' => __DIR__,
 	'remoteExtPath' => 'AdManager'
-);
+];

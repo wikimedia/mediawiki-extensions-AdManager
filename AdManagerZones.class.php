@@ -8,12 +8,12 @@ class AdManagerZones {
 	/**
 	 * @var array $zones Zones to be added to db
 	 */
-	private $zonesToAdd = array();
+	private $zonesToAdd = [];
 
 	/**
 	 * @var array $zones Zones to be removed from db
 	 */
-	private $zonesToRemove = array();
+	private $zonesToRemove = [];
 
 	/**
 	 * @var boolean $zonesAddedSuccessfully
@@ -31,7 +31,6 @@ class AdManagerZones {
 	public function getZonesToAdd() {
 		return $this->zonesToAdd;
 	}
-
 
 	public function getZonesToRemove() {
 		return $this->zonesToRemove;
@@ -138,11 +137,11 @@ class AdManagerZones {
 	public static function getZonesFromDB() {
 		$dbr = self::getReadDbConnection();
 		$current = $dbr->select(
-			self::getTableName(), array( '*' ), array(), __METHOD__
+			self::getTableName(), [ '*' ], [], __METHOD__
 		);
 
 		// Fetch current table into array
-		$currentArray = array();
+		$currentArray = [];
 		foreach ( $current as $currentRow ) {
 			$currentArray[] = $currentRow->ad_zone_id;
 		}
@@ -169,9 +168,9 @@ class AdManagerZones {
 	 */
 	protected function doAddZones() {
 		$dbw = $this->getWriteDbConnection();
-		$rows = array();
+		$rows = [];
 		foreach ( $this->getZonesToAdd() as $zone ) {
-			$rows[] = array( 'ad_zone_id' => $zone );
+			$rows[] = [ 'ad_zone_id' => $zone ];
 		}
 		$success = $dbw->insert( self::getTableName(), $rows, __METHOD__, 'IGNORE' );
 
@@ -200,7 +199,7 @@ class AdManagerZones {
 	 */
 	protected function removeZone( $zone ) {
 		$dbw = $this->getWriteDbConnection();
-		return $dbw->delete( self::getTableName(), array( 'ad_zone_id' => $zone ), __METHOD__ );
+		return $dbw->delete( self::getTableName(), [ 'ad_zone_id' => $zone ], __METHOD__ );
 	}
 
 	/**

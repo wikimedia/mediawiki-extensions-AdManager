@@ -54,7 +54,7 @@ class SpecialAdManager extends FormSpecialPage {
 	 * @return array
 	 */
 	protected function getFormFields() {
-		$formFields = array();
+		$formFields = [];
 		// Add a textarea for each zone and type
 		foreach ( $this->zones as $zone ) {
 			foreach ( AdManager::getTypes() as $type ) {
@@ -64,7 +64,7 @@ class SpecialAdManager extends FormSpecialPage {
 					$default = '';
 				}
 				$name = "textarea_{$zone}_{$type}";
-				$formFields[$name] = array(
+				$formFields[$name] = [
 					'section' => $zone,
 					'name' => $name,
 					'label-message' => "admanager_label$type",
@@ -73,7 +73,7 @@ class SpecialAdManager extends FormSpecialPage {
 					'cols' => 40,
 					'rows' => 15,
 					'default' => $default
-				);
+				];
 			}
 		}
 		return $formFields;
@@ -131,10 +131,10 @@ class SpecialAdManager extends FormSpecialPage {
 	}
 
 	public function onSuccess() {
-		$text = Html::openElement( 'div', $attribs = array( 'class' => 'successbox' ) );
+		$text = Html::openElement( 'div', $attribs = [ 'class' => 'successbox' ] );
 		$text .= $this->msg( 'admanager_added' );
 		$text .= Html::closeElement( 'div' ) . Html::element( 'br',
-				array( 'clear' => 'both' ) );
+				[ 'clear' => 'both' ] );
 		$this->getOutput()->addWikiText( $text );
 
 		$this->getOutput()->addWikiMsg( 'admanager_gotozones' );
@@ -166,7 +166,7 @@ class SpecialAdManager extends FormSpecialPage {
 	private function dataToArray( array $data ) {
 		// Load user input and do error checking
 		$types = AdManager::getTypes();
-		$ads = array();
+		$ads = [];
 		foreach ( $this->zones as $zone ) {
 			foreach ( $types as $type ) {
 				$adPages = explode( "\n", trim( $data["textarea_{$zone}_{$type}"] ) );

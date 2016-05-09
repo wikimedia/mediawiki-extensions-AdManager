@@ -5,12 +5,12 @@
  */
 class AdManager {
 	const AD_TABLE = 'ad';
-	private static $catList = array();
+	private static $catList = [];
 
 	/**
 	 * @var array $ads Ads to be added to db
 	 */
-	private $ads = array();
+	private $ads = [];
 
 	public function __construct( array $ads ) {
 		$this->setAds( $ads );
@@ -21,7 +21,7 @@ class AdManager {
 	}
 
 	public static function getTypes() {
-		return array( 'Page', 'Category' );
+		return [ 'Page', 'Category' ];
 	}
 
 	/**
@@ -41,7 +41,7 @@ class AdManager {
 	public static function getAdsFromDB() {
 		$types = self::getTypes();
 
-		$allAds = array();
+		$allAds = [];
 		foreach ( $types as $type ) {
 			$allAds[$type] = self::getSomeAdsfromDB( $type );
 		}
@@ -54,7 +54,7 @@ class AdManager {
 	 */
 	public static function getAdTextsFromDB() {
 		$allAdTitles = self::getAdsFromDB();
-		$allAdTexts = array();
+		$allAdTexts = [];
 		foreach ( self::getTypes() as $type ) {
 			foreach ( $allAdTitles[$type] as $zone => $adTitles ) {
 				foreach ( $adTitles as $adTitle ) {
@@ -79,13 +79,13 @@ class AdManager {
 		$blank = AdManagerZones::getBlankZoneID();
 		$dbr = self::getReadDbConnection();
 		$current = $dbr->select(
-			self::getTableName(), array(
+			self::getTableName(), [
 			'ad_id', 'ad_page_id', 'ad_zone', 'ad_page_is_category'
-			), 'ad_page_is_category IS ' . ( $type == 'Page' ? 'NOT ' : '' ) . 'TRUE', __METHOD__
+			], 'ad_page_is_category IS ' . ( $type == 'Page' ? 'NOT ' : '' ) . 'TRUE', __METHOD__
 		);
 
 		// Fetch current table into array
-		$currentArray = array();
+		$currentArray = [];
 		foreach ( $current as $currentRow ) {
 			// If ad_zone is null, it's the "NOAD" zone
 			$adZone = $currentRow->ad_zone ? $currentRow->ad_zone : $blank;
@@ -173,11 +173,11 @@ class AdManager {
 		}
 		return $dbw->insert(
 				self::getTableName(),
-				array(
+				[
 				'ad_page_id' => $targetPageID,
 				'ad_zone' => $adZoneID,
 				'ad_page_is_category' => ( $type == 'Category' ? true : false )
-				), __METHOD__
+				], __METHOD__
 		);
 	}
 
@@ -219,10 +219,10 @@ class AdManager {
 
 		$thisPageAdZones = AdManager::getAdZonesFor( $title );
 		if ( empty( $thisPageAdZones ) ) { // No zone set for this page or its categories
-			return array();
+			return [];
 		}
 
-		$adsOut = array();
+		$adsOut = [];
 		foreach ( $thisPageAdZones as $thisPageAdZone ) {
 			$adsOut[] = str_replace( '$1', $thisPageAdZone, $adManagerCode );
 		}
@@ -245,7 +245,7 @@ class AdManager {
 		}
 		if ( in_array( AdManagerZones::getBlankZoneID(), $pageAdZones ) ) {
 			// An entry in this array was set to "None" so show no ads
-			return array();
+			return [];
 		}
 
 		return $pageAdZones;
@@ -260,10 +260,10 @@ class AdManager {
 	public static function getPageAdZonesFor( Title $title ) {
 		$thisPageID = $title->getArticleID();
 		if ( !$thisPageID ) {
-			return array();
+			return [];
 		}
 
-		$thisPageAdZones = array();
+		$thisPageAdZones = [];
 		$pagesAdsAll = self::getSomeAdsfromDB( 'Page' );
 		foreach ( $pagesAdsAll as $adID => $pagesAds ) {
 			foreach ( $pagesAds as $pagesAd ) {
@@ -284,10 +284,10 @@ class AdManager {
 	public static function getCategoryAdZonesFor( $title ) {
 		$fullTableName = AdManager::getTableName();
 		$dbr = self::getReadDbConnection();
-		$thisPageAdZones = array();
+		$thisPageAdZones = [];
 		// check if an ad zone was set for any of this page's categories
 		$allCategories = $dbr->select(
-			$fullTableName, array( 'ad_page_id', 'ad_zone' ), 'ad_page_is_category IS TRUE', __METHOD__
+			$fullTableName, [ 'ad_page_id', 'ad_zone' ], 'ad_page_is_category IS TRUE', __METHOD__
 		);
 
 		$thisCategoryIDS = $title->getParentCategoryTree();
@@ -300,7 +300,7 @@ class AdManager {
 				$catName = Title::newFromText( $catNameNamespaced )->getText(); // strips Category: prefix
 				$catID = Category::newFromName( $catName )->getID();
 				$firstMatch = $dbr->select(
-					$fullTableName, array( 'ad_zone' ), "ad_page_id = $catID AND ad_page_is_category IS TRUE",
+					$fullTableName, [ 'ad_zone' ], "ad_page_id = $catID AND ad_page_is_category IS TRUE",
 					__METHOD__
 				);
 				if ( $firstMatch->numRows() !== 0 ) {

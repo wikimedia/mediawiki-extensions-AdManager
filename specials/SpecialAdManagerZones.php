@@ -49,16 +49,16 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * @return array
 	 */
 	protected function getFormFields() {
-		return array(
-			'zones' => array(
+		return [
+			'zones' => [
 				'class' => 'HTMLTextAreaField',
 				'style' => 'margin-bottom: 1em;',
 				'default' => implode( "\n", AdManagerZones::getZonesFromDB() ),
 				'cols' => 25,
 				'rows' => 20,
 				'validation-callback' => __CLASS__ . '::validateZonesText'
-			)
-		);
+			]
+		];
 	}
 
 	/**
@@ -76,11 +76,11 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * Output a nice box listing the zones now in the db and some links
 	 */
 	public function onSuccess() {
-		$text = Html::openElement( 'div', array( 'class' => 'successbox' ) );
+		$text = Html::openElement( 'div', [ 'class' => 'successbox' ] );
 		$text .= $this->getZonesAddedMessage();
 		$text .= $this->getZonesRemovedMessage();
 		$text .= Html::closeElement( 'div' ) . Html::element( 'br',
-				array( 'clear' => 'both' ) );
+				[ 'clear' => 'both' ] );
 		$this->getOutput()->addWikiText( $text );
 
 		$this->getOutput()->addWikiMsg( 'admanager_gotoads' );

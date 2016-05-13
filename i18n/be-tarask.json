@@ -25,6 +25,7 @@
 	"admanager_addedzone": "Дададзеная зона $1",
 	"admanager_removedzone": "Выдаленая зона $1.",
 	"admanager_nozonesadded": "Зоны не былі дададзеныя.",
+	"admanager_nozonesremoved": "Зоны не былі выдаленыя.",
 	"admanager_zonenum": "Зона № $1",
 	"admanager_zonenotnumber": "Памылка: $1 не зьяўляецца лікам.",
 	"admanager_return": "Вярнуцца ў [[Special:AdManager|кіраваньне рэклямай]]",

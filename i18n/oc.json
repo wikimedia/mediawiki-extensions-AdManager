@@ -9,7 +9,7 @@
 	"admanagerzones_docu": "Entratz cada numèro de zòna de publicitat sus sa pròpria linha.",
 	"admanager_invalidtargetpage": "Cap de pagina pas trobada amb lo títol « $1 ».",
 	"admanager_invalidtargetcategory": "Cap de categoria pas trobada amb lo títol \"$1\".",
-	"admanager_notable": "Error ! Una taula de banca de donadas requesida es pas estada trobada ! Aviatz primièr update.php.",
+	"admanager_notable": "Error ! Una taula de basa de donadas requesida es pas estada trobada ! Aviatz primièr update.php.",
 	"admanager_labelPage": "Títols de pagina",
 	"admanager_labelCategory": "Noms de categoria",
 	"admanager_submit": "Sometre",

@@ -28,7 +28,7 @@
 	"admanager_nozonesadded": "영역이 추가되지 않았습니다.",
 	"admanager_nozonesremoved": "영역이 제거되지 않았습니다.",
 	"admanager_zonenum": "영역 #: $1",
-	"admanager_zonenotnumber": "오류! $1(은)는 숫자가 아닙니다.",
+	"admanager_zonenotnumber": "오류! $1은(는) 숫자가 아닙니다.",
 	"admanager_return": "[[Special:AdManager|광고 관리자]]로 돌아갑니다",
 	"admanager_gotoads": "[[Special:AdManager|광고 배치 편집]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|광고 영역 편집]]",

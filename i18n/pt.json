@@ -5,13 +5,14 @@
 			"Hamilton Abreu",
 			"Malafaya",
 			"SandroHc",
-			"Vitorvicentevalente"
+			"Vitorvicentevalente",
+			"Fúlvio"
 		]
 	},
 	"admanager": "Gestor de Anúncios",
 	"admanagerzones": "Zonas do Gestor de Anúncios",
 	"admanager-desc": "Fornece uma [[Special:AdManager|página especial]] que permite que sysops estabeleçam a zona para páginas e categorias",
-	"admanager_docu": "Para adicionar ou remover a zona de publicidade de uma página ou toda a categoria, adicionar ou remover o título abaixo.",
+	"admanager_docu": "Para adicionar ou remover a zona de publicidade de uma página ou toda a categoria, adicionar ou remover o título da página ou categoria abaixo.",
 	"admanagerzones_docu": "Introduza cada número da zona de anúncio na sua linha própria.",
 	"admanager_invalidtargetpage": "Nenhuma página encontrada com título \"$1\".",
 	"admanager_invalidtargetcategory": "Nenhuma categoria encontrada com título \"$1\".",
@@ -25,6 +26,9 @@
 	"admanager_Category": "Categorias",
 	"admanager_added": "As suas alterações foram gravadas",
 	"admanager_addedzone": "Zona $1 adicionada",
+	"admanager_removedzone": "Removida a zona $1.",
+	"admanager_nozonesadded": "Não foram adicionadas zonas.",
+	"admanager_nozonesremoved": "Não foram removidas zonas.",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Erro! $1 não é um número.",
 	"admanager_return": "Voltar para [[Special:AdManager|Ad Manager]]",

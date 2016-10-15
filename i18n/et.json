@@ -2,10 +2,11 @@
 	"@metadata": {
 		"authors": [
 			"Avjoska",
-			"Boxmein"
+			"Boxmein",
+			"Pikne"
 		]
 	},
-	"admanager_labelPage": "Lehekülgede pealkirjad:",
+	"admanager_labelPage": "Lehekülgede pealkirjad",
 	"admanager_labelCategory": "Kategooriate nimed",
 	"admanager_noads": "Ära näita reklaame",
 	"admanager_Page": "Leheküljed",

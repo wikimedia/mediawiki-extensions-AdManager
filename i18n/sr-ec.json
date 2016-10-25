@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Rancher",
-			"Milicevic01"
+			"Milicevic01",
+			"Сербијана"
 		]
 	},
 	"admanager_invalidtargetpage": "Не постоји страница под називом „$1“.",
@@ -25,5 +26,5 @@
 	"admanager_return": "Назад на [[Special:AdManager|управљач огласима]]",
 	"admanager_gotoads": "[[Special:AdManager|Промени положај огласа]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Уреди огласне зоне]]",
-	"right-admanager": "[[Special:AdManager|поставке за оглашавање]]"
+	"right-admanager": "[[Special:AdManager|Поставке за оглашавање]]"
 }

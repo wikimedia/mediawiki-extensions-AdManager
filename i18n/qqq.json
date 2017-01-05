@@ -10,7 +10,7 @@
 	},
 	"admanager": "{{doc-special|AdManager|unlisted=1}}",
 	"admanagerzones": "{{doc-special|AdManagerZones|unlisted=1}}\nSpecial:AdManagerZones is used to set which zones are available in Special:AdManager. AdManager is an extension to MediaWiki that allows per-page or per-category placement of ads into a wiki page. It is designed to work with zones from an external advertising server such as OpenX, but allows the placement of zones from (probably) any such server.",
-	"admanager-desc": "Description of this extension",
+	"admanager-desc": "{{desc|name=AdManager|url=https://www.mediawiki.org/wiki/Extension:AdManager}}",
 	"admanager_docu": "Used in Special:AdManager, when there are no errors.",
 	"admanagerzones_docu": "Used in [[Special:AdManagerZones]]",
 	"admanager_invalidtargetpage": "Used as error message. Parameters:\n* $1 - page title",

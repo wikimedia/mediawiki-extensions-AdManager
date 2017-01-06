@@ -7,7 +7,7 @@
 	"admanager": "Gestor de annuncios",
 	"admanagerzones": "Zonas del gestor de annuncios",
 	"admanager-desc": "Forni un [[Special:AdManager|pagina special]] que permitte al administratores de definir le zona pro paginas o categorias",
-	"admanager_docu": "Pro adder o remover le zona de annuncios de un pagina o de un tote categoria, adde o remove su titulo hic infra.",
+	"admanager_docu": "Pro adder o remover le zona de annuncios de un pagina o de un tote categoria, adde o remove le titulo del pagina o categoria hic infra.",
 	"admanagerzones_docu": "Entra le numero de cata zona de annuncios in su proprie linea.",
 	"admanager_invalidtargetpage": "Nulle pagina trovate con titulo \"$1\".",
 	"admanager_invalidtargetcategory": "Nulle categoria trovate con titulo \"$1\".",

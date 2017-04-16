@@ -5,13 +5,14 @@
 			"Luckas Blade",
 			"555",
 			"Rodrigo codignoli",
-			"Dianakc"
+			"Dianakc",
+			"Felipe L. Ewald"
 		]
 	},
 	"admanager": "Gestão de anúncios",
 	"admanagerzones": "Gestão de zonas de anúncios",
 	"admanager-desc": "Provê uma [[Special:AdManager|página especial]] que permite aos administradores definirem uma zona de anúncios em páginas ou categorias",
-	"admanager_docu": "Para adicionar ou remover a zona de anúncios de uma página ou de uma categoria por inteiro, adicione ou remova seus títulos abaixo.",
+	"admanager_docu": "Para adicionar ou remover a zona de anúncios de uma página ou de uma categoria inteira, adicione ou remova o título da página ou da categoria abaixo.",
 	"admanagerzones_docu": "Insira cada número de zona de anúncios em sua própria linha.",
 	"admanager_invalidtargetpage": "Não foi encontrada nenhuma página com o título \"$1\".",
 	"admanager_invalidtargetcategory": "Não foi encontrada nenhuma categoria com o título \"$1\".",

@@ -186,7 +186,7 @@ class AdManagerZones {
 	protected function doRemoveZones() {
 		$successAll = true;
 		foreach ( $this->getZonesToRemove() as $zone ) {
-			$successAll &= (bool) $this->removeZone( $zone );
+			$successAll &= (bool)$this->removeZone( $zone );
 		}
 		return $successAll;
 	}

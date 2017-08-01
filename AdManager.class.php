@@ -27,7 +27,7 @@ class AdManager {
 	/**
 	 * Check if the correct table exists
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function tableExists() {
 		$dbr = self::getReadDbConnection();
@@ -114,7 +114,7 @@ class AdManager {
 	 * Insert an array of ads into the db
 	 *
 	 * @param array $allAds
-	 * @return boolean
+	 * @return bool
 	 */
 	protected function addAllAds( $allAds = null ) {
 		if ( !$allAds ) {
@@ -137,7 +137,7 @@ class AdManager {
 	 *
 	 * @param string $type either Page or Category
 	 * @param array $someAds
-	 * @return boolean
+	 * @return bool
 	 */
 	protected function addSomeAds( $type, $someAds ) {
 		foreach ( $someAds as $adZoneID => $ads ) {
@@ -206,18 +206,18 @@ class AdManager {
 	 * Get HTML for all ads that should be displayed for this page
 	 *
 	 * @param Title $title Title of the page
-	 * @return boolean|array false on error or an array with HTML for each ad
+	 * @return bool|array false on error or an array with HTML for each ad
 	 */
 	public static function getAdOutputFor( Title $title ) {
-		if ( !AdManager::tableExists() ) {
+		if ( !self::tableExists() ) {
 			return false;
 		}
-		$adManagerCode = AdManager::getAdManagerCode();
+		$adManagerCode = self::getAdManagerCode();
 		if ( !isset( $adManagerCode ) ) {
 			return false; // TODO: show error
 		}
 
-		$thisPageAdZones = AdManager::getAdZonesFor( $title );
+		$thisPageAdZones = self::getAdZonesFor( $title );
 		if ( empty( $thisPageAdZones ) ) { // No zone set for this page or its categories
 			return [];
 		}
@@ -282,7 +282,7 @@ class AdManager {
 	 * @return array
 	 */
 	public static function getCategoryAdZonesFor( $title ) {
-		$fullTableName = AdManager::getTableName();
+		$fullTableName = self::getTableName();
 		$dbr = self::getReadDbConnection();
 		$thisPageAdZones = [];
 		// check if an ad zone was set for any of this page's categories

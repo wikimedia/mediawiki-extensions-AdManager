@@ -21,7 +21,7 @@ final class AdManagerHooks {
 	 * @global string $wgAdManagerPlacement
 	 * @param Skin $skin
 	 * @param array $sidebar
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function SkinBuildSidebar( $skin, &$sidebar ) {
 		global $wgAdManagerPlacement;
@@ -44,7 +44,7 @@ final class AdManagerHooks {
 	 * @global string $wgAdManagerPlacement
 	 * @param OutputPage $out
 	 * @param Skin $skin
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {
 		$out->addModules( 'ext.adManager' );

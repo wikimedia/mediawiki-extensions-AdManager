@@ -111,7 +111,7 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * Validate a string of text containing zones
 	 *
 	 * @param string $zonesText Each zone must be delimited by \n
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function validateZonesText( $zonesText ) {
 		$zones = explode( "\n", $zonesText );

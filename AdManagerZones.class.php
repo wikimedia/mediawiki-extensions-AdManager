@@ -16,12 +16,12 @@ class AdManagerZones {
 	private $zonesToRemove = [];
 
 	/**
-	 * @var boolean $zonesAddedSuccessfully
+	 * @var bool $zonesAddedSuccessfully
 	 */
 	private $zonesAddedSuccessfully;
 
 	/**
-	 * @var boolean $zonesRemovedSuccessfully
+	 * @var bool $zonesRemovedSuccessfully
 	 */
 	private $zonesRemovedSuccessfully;
 
@@ -79,7 +79,7 @@ class AdManagerZones {
 	 * Check if the zone is valid
 	 *
 	 * @param string $zone
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function isValidZone( $zone ) {
 		if ( empty( $zone ) ) {
@@ -95,7 +95,7 @@ class AdManagerZones {
 	 * Validate single zone name and throw an error if invalid
 	 *
 	 * @param string $zone
-	 * @return boolean
+	 * @return bool
 	 * @throws ErrorPageError
 	 */
 	public static function validateZone( $zone ) {
@@ -110,7 +110,7 @@ class AdManagerZones {
 	 * Validate array of zones
 	 *
 	 * @param array $zones
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function validateZones( $zones ) {
 		foreach ( $zones as $zone ) {
@@ -122,7 +122,7 @@ class AdManagerZones {
 	/**
 	 * Check if the correct table exists
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	public static function tableExists() {
 		$dbr = self::getReadDbConnection();
@@ -152,7 +152,7 @@ class AdManagerZones {
 	/**
 	 * Add new zones to db and remove the old zones
 	 *
-	 * @return boolean Successful if added and removed successfully
+	 * @return bool Successful if added and removed successfully
 	 */
 	public function execute() {
 		$this->zonesAdded = $this->doAddZones();
@@ -164,7 +164,7 @@ class AdManagerZones {
 	/**
 	 * Insert an array of zones into the db
 	 *
-	 * @return boolean
+	 * @return bool
 	 */
 	protected function doAddZones() {
 		$dbw = $this->getWriteDbConnection();
@@ -181,7 +181,7 @@ class AdManagerZones {
 	/**
 	 * Remove zones from the db
 	 *
-	 * return Boolean True if all zones were removed
+	 * return bool True if all zones were removed
 	 */
 	protected function doRemoveZones() {
 		$successAll = true;

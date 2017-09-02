@@ -347,7 +347,7 @@ class AdManager {
 	 * @return DatabaseBase Read-only db connection
 	 */
 	public static function getReadDbConnection() {
-		return wfGetDB( DB_SLAVE );
+		return wfGetDB( DB_REPLICA );
 	}
 
 	/**

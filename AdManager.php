@@ -1,63 +1,37 @@
 <?php
 /**
- * AdManager - a MediaWiki extension that allows setting an ad zone for
- * individual pages or categories
- *
- * The special page created is 'Special:AdManager', which allows sysops to set
- * the zone for the pages or categories.
- * The correct ad code for adding the zone is automatically added to the
- * correct page.
- *
- * @file
- * @ingroup Extensions
- * @author Ike Hecht
- * @link http://www.mediawiki.org/wiki/Extension:AdManager Documentation
- */
-if ( !defined( 'MEDIAWIKI' ) ) {
-	die( 'Not an entry point.' );
+* AdManager - a MediaWiki extension that allows setting an
+* ad zone for individual pages or categories.
+*
+* Copyright (C) 2008, Ike Hecht.
+*
+* This program is free software; you can redistribute it and/or
+* modify it under the terms of the GNU General Public License
+* as published by the Free Software Foundation; either version 2
+* of the License, or (at your option) any later version.
+*
+* This program is distributed in the hope that it will be useful,
+* but WITHOUT ANY WARRANTY; without even the implied warranty of
+* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+* GNU General Public License for more details.
+*
+* You should have received a copy of the GNU General Public License
+* along with this program; if not, write to the Free Software
+* Foundation, Inc., 51 Franklin Street, Fifth Floor,
+* Boston, MA  02110-1301, USA.
+*/
+
+if ( function_exists( 'wfLoadExtension' ) ) {
+	wfLoadExtension( 'AdManager' );
+	// Keep i18n globals so mergeMessageFileList.php doesn't break
+	$wgMessagesDirs['AdManager'] = __DIR__ . '/i18n';
+	$wgExtensionMessagesFiles['AdManagerAlias'] = __DIR__ . '/AdManager.alias.php';
+	wfWarn(
+		'Deprecated PHP entry point used for the AdManager extension. ' .
+		'Please use wfLoadExtension instead, ' .
+		'see https://www.mediawiki.org/wiki/Extension_registration for more details.'
+	);
+	return;
+} else {
+	die( 'This version of the AdManager extension requires MediaWiki 1.29+' );
 }
-
-// Extension credits that will show up on Special:Version
-$wgExtensionCredits['specialpage'][] = [
-	'path' => __FILE__,
-	'name' => 'AdManager',
-	'version' => '1.1.0',
-	'author' => 'Ike Hecht for WikiWorks',
-	'url' => 'https://www.mediawiki.org/wiki/Extension:AdManager',
-	'descriptionmsg' => 'admanager-desc',
-];
-
-// Lowercase name of the advertising service. Currently supported values are:
-// openx
-$wgAdManagerService = null;
-// For custom code. Insert $1 anywhere that the ad zone should be inserted.
-$wgAdManagerCode = null;
-// Where should the ads be outputted?
-// Allowed values: 'sidebar', 'content'
-$wgAdManagerPlacement = 'sidebar';
-
-$wgMessagesDirs['AdManager'] = __DIR__ . '/i18n';
-$wgExtensionMessagesFiles['AdManagerAlias'] = __DIR__ . '/AdManager.alias.php';
-
-// This extension uses its own permission type, 'admanager'
-$wgAvailableRights[] = 'admanager';
-$wgGroupPermissions['sysop']['admanager'] = true;
-
-$wgSpecialPages['AdManagerZones'] = 'SpecialAdManagerZones';
-$wgSpecialPages['AdManager'] = 'SpecialAdManager';
-
-$wgAutoloadClasses['SpecialAdManagerZones'] = __DIR__ . '/specials/SpecialAdManagerZones.php';
-$wgAutoloadClasses['SpecialAdManager'] = __DIR__ . '/specials/SpecialAdManager.php';
-$wgAutoloadClasses['AdManager'] = __DIR__ . '/AdManager.class.php';
-$wgAutoloadClasses['AdManagerZones'] = __DIR__ . '/AdManagerZones.class.php';
-$wgAutoloadClasses['AdManagerHooks'] = __DIR__ . '/AdManager.hooks.php';
-
-$wgHooks['LoadExtensionSchemaUpdates'][] = 'AdManagerHooks::onSchemaUpdate';
-$wgHooks['SkinBuildSidebar'][] = 'AdManagerHooks::SkinBuildSidebar';
-$wgHooks['BeforePageDisplay'][] = 'AdManagerHooks::onBeforePageDisplay';
-
-$wgResourceModules['ext.adManager'] = [
-	'styles' => 'ext.adManager.css',
-	'localBasePath' => __DIR__,
-	'remoteExtPath' => 'AdManager'
-];

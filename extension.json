@@ -1,0 +1,62 @@
+{
+	"name": "AdManager",
+	"version": "1.2.0",
+	"author": "[https://www.mediawiki.org/wiki/User:Tosfos Ike Hecht]",
+	"url": "https://www.mediawiki.org/wiki/Extension:AdManager",
+	"descriptionmsg": "admanager-desc",
+	"license-name": "GPL-2.0-or-later",
+	"type": "specialpage",
+	"AvailableRights": [
+		"admanager"
+	],
+	"GroupPermissions": {
+		"sysop": {
+			"admanager": true
+		}
+	},
+	"SpecialPages": {
+		"AdManagerZones": "SpecialAdManagerZones",
+		"AdManager": "SpecialAdManager"
+	},
+	"MessagesDirs": {
+		"AdManager": [
+			"i18n"
+		]
+	},
+	"ExtensionMessagesFiles": {
+		"AdManagerAlias": "AdManager.alias.php"
+	},
+	"AutoloadClasses": {
+		"SpecialAdManagerZones": "specials/SpecialAdManagerZones.php",
+		"SpecialAdManager": "specials/SpecialAdManager.php",
+		"AdManager": "AdManager.class.php",
+		"AdManagerZones": "AdManagerZones.class.php",
+		"AdManagerHooks": "AdManager.hooks.php"
+	},
+	"ResourceModules": {
+		"ext.adManager": {
+			"styles": "ext.adManager.css"
+		}
+	},
+	"ResourceFileModulePaths": {
+		"localBasePath": "",
+		"remoteExtPath": "AdManager"
+	},
+	"Hooks": {
+		"LoadExtensionSchemaUpdates": "AdManagerHooks::onSchemaUpdate",
+		"SkinBuildSidebar": "AdManagerHooks::SkinBuildSidebar",
+		"BeforePageDisplay": "AdManagerHooks::onBeforePageDisplay"
+	},
+	"config": {
+		"AdManagerService": {
+			"value": null
+		},
+		"AdManagerCode": {
+			"value": null
+		},
+		"AdManagerPlacement": {
+			"value": "sidebar"
+		}
+	},
+	"manifest_version": 2
+}

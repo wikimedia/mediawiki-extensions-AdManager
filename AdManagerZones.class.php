@@ -174,14 +174,14 @@ class AdManagerZones {
 		}
 		$success = $dbw->insert( self::getTableName(), $rows, __METHOD__, 'IGNORE' );
 
-		// DatabaseBase::insert does not always return true for success as documented...
+		// IDatabase::insert does not always return true for success as documented...
 		return $success !== false;
 	}
 
 	/**
 	 * Remove zones from the db
 	 *
-	 * return bool True if all zones were removed
+	 * @return bool True if all zones were removed
 	 */
 	protected function doRemoveZones() {
 		$successAll = true;
@@ -203,14 +203,14 @@ class AdManagerZones {
 	}
 
 	/**
-	 * @return DatabaseBase Read-only db connection
+	 * @return \Wikimedia\Rdbms\IDatabase Read-only db connection
 	 */
 	public static function getReadDbConnection() {
 		return wfGetDB( DB_REPLICA );
 	}
 
 	/**
-	 * @return DatabaseBase Writable db connection
+	 * @return \Wikimedia\Rdbms\IDatabase Writable db connection
 	 */
 	public static function getWriteDbConnection() {
 		return wfGetDB( DB_MASTER );

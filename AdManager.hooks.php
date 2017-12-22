@@ -3,6 +3,8 @@ final class AdManagerHooks {
 
 	/**
 	 * Schema update to set up the needed database tables.
+	 * @param DatabaseUpdater $updater
+	 * @return true
 	 */
 	public static function onSchemaUpdate( DatabaseUpdater $updater ) {
 		$updater->addExtensionTable(
@@ -20,7 +22,7 @@ final class AdManagerHooks {
 	 *
 	 * @global string $wgAdManagerPlacement
 	 * @param Skin $skin
-	 * @param array $sidebar
+	 * @param array &$sidebar
 	 * @return bool
 	 */
 	public static function SkinBuildSidebar( $skin, &$sidebar ) {
@@ -42,8 +44,8 @@ final class AdManagerHooks {
 	 * Pop some ads into the start of the content area
 	 *
 	 * @global string $wgAdManagerPlacement
-	 * @param OutputPage $out
-	 * @param Skin $skin
+	 * @param OutputPage &$out
+	 * @param Skin &$skin
 	 * @return bool
 	 */
 	public static function onBeforePageDisplay( OutputPage &$out, Skin &$skin ) {

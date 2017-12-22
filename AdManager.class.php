@@ -344,14 +344,14 @@ class AdManager {
 	}
 
 	/**
-	 * @return DatabaseBase Read-only db connection
+	 * @return \Wikimedia\Rdbms\IDatabase Read-only db connection
 	 */
 	public static function getReadDbConnection() {
 		return wfGetDB( DB_REPLICA );
 	}
 
 	/**
-	 * @return DatabaseBase Writable db connection
+	 * @return \Wikimedia\Rdbms\IDatabase Writable db connection
 	 */
 	public static function getWriteDbConnection() {
 		return wfGetDB( DB_MASTER );

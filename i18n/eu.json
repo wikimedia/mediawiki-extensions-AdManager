@@ -2,12 +2,21 @@
 	"@metadata": {
 		"authors": [
 			"පසිඳු කාවින්ද",
-			"Subi"
+			"Subi",
+			"Mikel Ibaiba"
 		]
 	},
+	"admanager_labelPage": "Orri-izenburuak",
 	"admanager_labelCategory": "Kategoria-izenak",
 	"admanager_submit": "Bidali",
+	"admanager_noads": "Iragarkirik ez erakutsi",
 	"admanager_Page": "Orrialdeak",
 	"admanager_Category": "Kategoriak",
+	"admanager_added": "Zure aldaketak gorde egin dira.",
+	"admanager_addedzone": "Gehitutako $1 zonaldea.",
+	"admanager_removedzone": "Kendutako $1 zonaldea.",
+	"admanager_nozonesadded": "Zonalderik ez da gehitu.",
+	"admanager_nozonesremoved": "Zonalderik ez da kendu.",
+	"admanager_zonenum": "Zonaldea #: $1",
 	"admanager_zonenotnumber": "Errorea! $1 ez da zenbaki bat."
 }

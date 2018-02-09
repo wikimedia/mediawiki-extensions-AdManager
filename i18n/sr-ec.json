@@ -7,6 +7,8 @@
 			"Acamicamacaraca"
 		]
 	},
+	"admanager": "Управљач огласима",
+	"admanagerzones": "Зоне управљача огласа",
 	"admanager_invalidtargetpage": "Не постоји страница под називом „$1“.",
 	"admanager_invalidtargetcategory": "Не постоји категорија под називом „$1“.",
 	"admanager_notable": "Грешка! Не могу да пронађем потребну табелу у бази. Прво покрените update.php.",
@@ -22,7 +24,7 @@
 	"admanager_removedzone": "Уклоњена зона $1.",
 	"admanager_nozonesadded": "Ниједна зона није додата.",
 	"admanager_nozonesremoved": "Ниједна зона није уклоњена.",
-	"admanager_zonenum": "Зона бр.: $1",
+	"admanager_zonenum": "Зона број: $1",
 	"admanager_zonenotnumber": "Грешка! $1 не представља број.",
 	"admanager_return": "Назад на [[Special:AdManager|управљач огласима]]",
 	"admanager_gotoads": "[[Special:AdManager|Промени положај огласа]]",

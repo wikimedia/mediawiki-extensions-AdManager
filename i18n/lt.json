@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Eitvys200",
-			"Mantak111"
+			"Mantak111",
+			"Manvydasz"
 		]
 	},
 	"admanager": "Skelbimų tvarkyklė",
 	"admanagerzones": "Skelbimų tvarkyklės zonos",
 	"admanager-desc": "Suteikia [[Special:AdManager|specialų puslapį]], kuris leidžia sysops nustatyti zonas puslapiams ar kategorijoms.",
-	"admanager_docu": "Norint pridėti ar pašalinti skelbimų zoną iš puslapio ar kategorijos, pridėkite ar pašalinkite jų pavadinimas žemiau.",
+	"admanager_docu": "Norint pridėti ar pašalinti skelbimų zoną iš puslapio ar kategorijos, pridėkite ar pašalinkite puslapio ar kategorijos pavadinimus žemiau.",
 	"admanagerzones_docu": "Įveskite kiekvieną skelbimų zonos numerį kitoje linijoje.",
 	"admanager_invalidtargetpage": "Puslapis nerastas su pavadinimu \"$1\".",
 	"admanager_invalidtargetcategory": "Kategorija nerasta su pavadinimu \"$1\".",

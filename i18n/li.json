@@ -1,13 +1,14 @@
 {
 	"@metadata": {
 		"authors": [
-			"Pahles"
+			"Pahles",
+			"Ooswesthoesbes"
 		]
 	},
 	"admanager": "Advertentiebehier",
 	"admanagerzones": "Zones veur advertentiebehier",
 	"admanager-desc": "Veug 'n [[Special:AdManager|speciaal pagina]] bie die systeemwèrkers in sjtaot sjtelt om de zone veur pagina's of categorieë in te sjtèlle",
-	"admanager_docu": "De kins 'n advertentiezone van 'n pagina of volledige categorie biedoon of ewegsjaffe door de naam devaan bie te doon of eweg te sjaffe.",
+	"admanager_docu": "Touveuge of ewegsjaffe van de ad-zone van 'n pagina of de ganse categorie; veug tou of sjaf eweg hie-ónger.",
 	"admanagerzones_docu": "Veur jeder advertentiezone op 'n eige regel in.",
 	"admanager_invalidtargetpage": "Gein pagina gevónje mit de naam \"$1\".",
 	"admanager_invalidtargetcategory": "Gein categorie gevónje mit de naam \"$1\".",
@@ -20,7 +21,10 @@
 	"admanager_Page": "Pagina's",
 	"admanager_Category": "Categorieë",
 	"admanager_added": "Dien verangeringe zeen opgesjlage",
-	"admanager_addedzone": "Zone toegeveug",
+	"admanager_addedzone": "Zone $1 toegeveug.",
+	"admanager_removedzone": "Zone $1 eweggehaold.",
+	"admanager_nozonesadded": "Gein zones zint tougeveug.",
+	"admanager_nozonesremoved": "Gein zones zint eweggehaold.",
 	"admanager_zonenum": "Zonenómmer: $1",
 	"admanager_zonenotnumber": "Fout: $1 is gein getal.",
 	"admanager_return": "Trök nao [[Special:AdManager|advertentiebehier]]",

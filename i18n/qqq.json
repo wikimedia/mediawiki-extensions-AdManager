@@ -5,7 +5,8 @@
 			"EugeneZelenko",
 			"Shirayuki",
 			"Umherirrender",
-			"Tacsipacsi"
+			"Tacsipacsi",
+			"ديفيد"
 		]
 	},
 	"admanager": "{{doc-special|AdManager|unlisted=1}}",
@@ -25,7 +26,7 @@
 	"admanager_Category": "{{Identical|Category}}",
 	"admanager_added": "Used as success message in Special:AdManager.\n\nThis message is followed by the message {{msg-mw|Admanager return}}.",
 	"admanager_addedzone": "Parameters:\n* $1 - the Zone number.\n\nUsage example of this message (123 is the Zone number):\n\n*Added zone 123",
-	"admanager_removedzone": " Parameters:\n* $1 - the Zone number.\n\nUsage example of this message (123 is the Zone number):\n\n*Removed zone 123",
+	"admanager_removedzone": "Parameters:\n* $1 - the Zone number.\n\nUsage example of this message (123 is the Zone number):\n\n*Removed zone 123",
 	"admanager_nozonesadded": "Used as success message when no zones were added",
 	"admanager_nozonesremoved": "Used as success message when no zones were removed",
 	"admanager_zonenum": "\"#\" stands for \"number\" (number sign). Parameters:\n* $1 - the Zone number",

@@ -113,7 +113,7 @@ class AdManager {
 	/**
 	 * Insert an array of ads into the db
 	 *
-	 * @param array $allAds
+	 * @param array|null $allAds
 	 * @return bool
 	 */
 	protected function addAllAds( $allAds = null ) {

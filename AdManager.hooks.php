@@ -64,7 +64,7 @@ final class AdManagerHooks {
 		}
 
 		foreach ( $adsOut as $adNumber => $adOut ) {
-			$out->prependHTML( Html::rawelement( 'div',
+			$out->prependHTML( Html::rawElement( 'div',
 					[ 'id' => "AdManager-content-$adNumber", 'class' => 'AdManager-content' ], $adOut ) );
 		}
 

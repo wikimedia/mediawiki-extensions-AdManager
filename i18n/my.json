@@ -1,8 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Ninjastrikers"
+			"Ninjastrikers",
+			"Dr Lotus Black"
 		]
 	},
+	"admanager_labelPage": "စာမျက်နှာ ခေါင်းစဉ်များ",
 	"admanager_Page": "စာမျက်နှာများ"
 }

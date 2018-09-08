@@ -10,7 +10,7 @@
 	"admanager": "광고 관리자",
 	"admanagerzones": "광고 관리자 영역",
 	"admanager-desc": "문서나 분류에 대한 영역을 설정하여 관리할 수 있도록 [[Special:AdManager|특수 문서]]를 제공합니다",
-	"admanager_docu": "문서나 전체 카테고리의 광고 영역을 더하거나 제거하려면 아래에 있는 광고의 제목을 추가하거나 제거하세요.",
+	"admanager_docu": "문서나 전체 카테고리의 광고 영역을 추가하거나 제거하려면 아래에 있는 광고의 제목을 추가하거나 제거하세요.",
 	"admanagerzones_docu": "각각의 줄에 광고 영역 번호를 입력하세요.",
 	"admanager_invalidtargetpage": "\"$1\" 제목으로 된 문서가 없습니다.",
 	"admanager_invalidtargetcategory": "\"$1\" 제목으로 된 분류가 없습니다.",

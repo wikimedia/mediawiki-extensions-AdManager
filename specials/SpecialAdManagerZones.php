@@ -76,12 +76,12 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * Output a nice box listing the zones now in the db and some links
 	 */
 	public function onSuccess() {
-		$text = Html::openElement( 'div', [ 'class' => 'successbox' ] );
-		$text .= $this->getZonesAddedMessage();
-		$text .= $this->getZonesRemovedMessage();
-		$text .= Html::closeElement( 'div' ) . Html::element( 'br',
-				[ 'clear' => 'both' ] );
-		$this->getOutput()->addWikiText( $text );
+		$this->getOutput()->wrapWikiTextAsInterface(
+			'successbox',
+			$this->getZonesAddedMessage() .
+			$this->getZonesRemovedMessage()
+		);
+		$this->getOutput()->addWikiTextAsInterface( '<br clear="both">' );
 
 		$this->getOutput()->addWikiMsg( 'admanager_gotoads' );
 		$this->getOutput()->addReturnTo( $this->getPageTitle() );

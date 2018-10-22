@@ -131,11 +131,11 @@ class SpecialAdManager extends FormSpecialPage {
 	}
 
 	public function onSuccess() {
-		$text = Html::openElement( 'div', $attribs = [ 'class' => 'successbox' ] );
-		$text .= $this->msg( 'admanager_added' );
-		$text .= Html::closeElement( 'div' ) . Html::element( 'br',
-				[ 'clear' => 'both' ] );
-		$this->getOutput()->addWikiText( $text );
+		$this->getOutput()->wrapWikiTextAsInterface(
+			'successbox',
+			$this->msg( 'admanager_added' )->plain()
+		);
+		$this->getOutput()->addWikiTextAsInterface( '<br clear="both">' );
 
 		$this->getOutput()->addWikiMsg( 'admanager_gotozones' );
 		$this->getOutput()->addWikiMsg( 'admanager_return' );

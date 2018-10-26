@@ -172,10 +172,9 @@ class AdManagerZones {
 		foreach ( $this->getZonesToAdd() as $zone ) {
 			$rows[] = [ 'ad_zone_id' => $zone ];
 		}
-		$success = $dbw->insert( self::getTableName(), $rows, __METHOD__, 'IGNORE' );
+		$dbw->insert( self::getTableName(), $rows, __METHOD__, 'IGNORE' );
 
-		// IDatabase::insert does not always return true for success as documented...
-		return $success !== false;
+		return true;
 	}
 
 	/**

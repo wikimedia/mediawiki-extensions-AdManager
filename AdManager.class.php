@@ -159,7 +159,7 @@ class AdManager {
 	 * @param string $type either Page or Category
 	 * @param string|null $adZoneID set to null for the NOAD zone
 	 * @param string $ad
-	 * @return type
+	 * @return bool
 	 */
 	protected function addAd( $type, $adZoneID, $ad ) {
 		$dbw = $this->getReadDbConnection();
@@ -171,14 +171,17 @@ class AdManager {
 		} else {
 			$targetPageID = Category::newFromName( $ad )->getID();
 		}
-		return $dbw->insert(
-				self::getTableName(),
-				[
-				'ad_page_id' => $targetPageID,
-				'ad_zone' => $adZoneID,
-				'ad_page_is_category' => ( $type == 'Category' ? true : false )
-				], __METHOD__
+
+		$dbw->insert(
+			self::getTableName(),
+			[
+			'ad_page_id' => $targetPageID,
+			'ad_zone' => $adZoneID,
+			'ad_page_is_category' => ( $type == 'Category' ? true : false )
+			], __METHOD__
 		);
+
+		return true;
 	}
 
 	public function setAds( array $ads ) {

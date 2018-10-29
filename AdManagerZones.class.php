@@ -198,7 +198,9 @@ class AdManagerZones {
 	 */
 	protected function removeZone( $zone ) {
 		$dbw = $this->getWriteDbConnection();
-		return $dbw->delete( self::getTableName(), [ 'ad_zone_id' => $zone ], __METHOD__ );
+		$dbw->delete( self::getTableName(), [ 'ad_zone_id' => $zone ], __METHOD__ );
+
+		return true;
 	}
 
 	/**

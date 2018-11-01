@@ -6,13 +6,14 @@
 			"Simon Shek",
 			"LNDDYL",
 			"Cwlin0416",
-			"Liuxinyu970226"
+			"Liuxinyu970226",
+			"Kly"
 		]
 	},
 	"admanager": "廣告管理員",
 	"admanagerzones": "廣告管理員區域",
 	"admanager-desc": "提供一個[[Special:AdManager|特殊頁面]]以供管理員設置頁面或分類的區域",
-	"admanager_docu": "要添加或移除一個頁面或分類的廣告區域，在下面添加或移除其標題。",
+	"admanager_docu": "要添加或移除一個頁面或分類的廣告區域，在下面添加或移除頁面或分類的標題。",
 	"admanagerzones_docu": "在其行上輸入每個廣告區域編號。",
 	"admanager_invalidtargetpage": "找不到標題名為“$1”的頁面",
 	"admanager_invalidtargetcategory": "找不到標題名為“$1”的分類",

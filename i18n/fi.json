@@ -7,7 +7,8 @@
 			"Stryn",
 			"VezonThunder",
 			"Macofe",
-			"01miki10"
+			"01miki10",
+			"Valtlait"
 		]
 	},
 	"admanager": "Mainoshallinta",
@@ -15,8 +16,8 @@
 	"admanager-desc": "Sisältää [[Special:AdManager|toimintosivun]], jolla ylläpitäjät voivat asettaa mainosalueet sivuille tai luokille",
 	"admanager_docu": "Voit lisätä tai poistaa sivun tai kokonaisen luokan mainosalueen lisäämällä tai poistamalla sivun tai luokan otsikon alla.",
 	"admanagerzones_docu": "Kirjoita kunkin mainosalueen numero omalle rivilleen.",
-	"admanager_invalidtargetpage": "Sivua otsikolla \"$1\" ei löytynyt.",
-	"admanager_invalidtargetcategory": "Luokkaa otsikolla \"$1\" ei löytynyt.",
+	"admanager_invalidtargetpage": "Sivua otsikolla ”$1” ei löytynyt.",
+	"admanager_invalidtargetcategory": "Luokkaa otsikolla ”$1” ei löytynyt.",
 	"admanager_notable": "Virhe! Vaadittua tietokantataulukkoa ei löytynyt! Suorita update.php ensin.",
 	"admanager_noAdManagerZones": "Virhe! Sinun tulee lisätä mainosalueita. Lisää ne sivulla [[Special:AdManagerZones|Mainoshallinnan alueet]].",
 	"admanager_labelPage": "Sivujen nimet",

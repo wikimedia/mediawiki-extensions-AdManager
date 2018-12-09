@@ -3,13 +3,14 @@
 		"authors": [
 			"Matma Rex",
 			"Woytecr",
-			"Chrumps"
+			"Chrumps",
+			"Railfail536"
 		]
 	},
 	"admanager": "Menedżer reklam",
 	"admanagerzones": "Obszary reklamowe",
 	"admanager-desc": "Dodaje [[Special:AdManager|stronę specjalną]], która pozwala administratorom ustalać obszary reklamowe dla stron lub kategorii",
-	"admanager_docu": "Aby dodać lub usunąć obszar reklamowy do/z strony lub całej kategorii, dodaj lub usuń jej nazwę poniżej.",
+	"admanager_docu": "Aby dodać lub usunąć obszar reklamowy do/z strony lub całej kategorii, dodaj lub usuń nazwę strony/kategorii poniżej.",
 	"admanagerzones_docu": "Wpisz numer każdego obszaru reklamowego w osobnej linii.",
 	"admanager_invalidtargetpage": "Nie znaleziono strony o nazwie „$1”.",
 	"admanager_invalidtargetcategory": "Nie znaleziono kategorii o nazwie „$1”.",

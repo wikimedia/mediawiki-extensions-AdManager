@@ -4,11 +4,13 @@
 			"DCLXVI",
 			"පසිඳු කාවින්ද",
 			"Vodnokon4e",
-			"StanProg"
+			"StanProg",
+			"Ted Masters"
 		]
 	},
 	"admanager_invalidtargetpage": "Не е намерена страница с името „$1“.",
 	"admanager_invalidtargetcategory": "Не е намерена категория с името „$1“.",
+	"admanager_labelPage": "Заглавия на страницата",
 	"admanager_labelCategory": "Имена на категории",
 	"admanager_submit": "Изпращане",
 	"admanager_noads": "Без показване на реклами",

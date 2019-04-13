@@ -34,5 +34,6 @@
 	"admanager_return": "Used in Special:AdManager.\n\nThis message follows the message {{msg-mw|Admanager added}}.",
 	"admanager_gotoads": "Link to [[Special:AdManager]]. Used in [[Special:AdManagerZones]].",
 	"admanager_gotozones": "Link to [[Special:AdManagerZones]]. Used in [[Special:AdManager]].",
+	"action-admanager": "{{doc-action|admanager}}",
 	"right-admanager": "{{doc-right|admanager}}"
 }

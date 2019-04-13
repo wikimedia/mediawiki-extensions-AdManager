@@ -29,5 +29,6 @@
 	"admanager_return": "Return to [[Special:AdManager|Ad Manager]]",
 	"admanager_gotoads": "[[Special:AdManager|Edit ad placement]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Edit ad zones]]",
+	"action-admanager": "manage advertising configuration",
 	"right-admanager": "[[Special:AdManager|Manage advertising configuration]]"
 }

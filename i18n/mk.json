@@ -29,5 +29,6 @@
 	"admanager_return": "Назад на [[Special:AdManager|Раководителот со реклами]]",
 	"admanager_gotoads": "[[Special:AdManager|Смени положба на рекламата]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Уреди рекламни зони]]",
+	"action-admanager": "раководење со поставеноста на рекламите",
 	"right-admanager": "[[Special:AdManager|Поставки за рекламирање]]"
 }

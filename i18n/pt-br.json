@@ -6,7 +6,8 @@
 			"555",
 			"Rodrigo codignoli",
 			"Dianakc",
-			"Felipe L. Ewald"
+			"Felipe L. Ewald",
+			"Eduardo Addad de Oliveira"
 		]
 	},
 	"admanager": "Gestão de anúncios",
@@ -34,5 +35,6 @@
 	"admanager_return": "Retornar para a [[Special:AdManager|gestão de anúncios]]",
 	"admanager_gotoads": "[[Special:AdManager|Editar a posição do anúncio]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Editar zonas de anúncio]]",
+	"action-admanager": "gerenciar configuração de publicidade",
 	"right-admanager": "[[Special:AdManager|Gerir a configuração dos anúncios]]"
 }

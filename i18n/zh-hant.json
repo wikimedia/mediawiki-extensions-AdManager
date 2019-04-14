@@ -35,5 +35,6 @@
 	"admanager_return": "回到[[Special:AdManager|廣告管理器]]",
 	"admanager_gotoads": "[[Special:AdManager|編輯廣告位置]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|編輯廣告區域]]",
+	"action-admanager": "管理廣告配置",
 	"right-admanager": "[[Special:AdManager|管理廣告配置]]"
 }

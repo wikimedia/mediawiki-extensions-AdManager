@@ -4,7 +4,8 @@
 			"Crochet.david",
 			"Gomoko",
 			"Hashar",
-			"Wladek92"
+			"Wladek92",
+			"Pols12"
 		]
 	},
 	"admanager": "Gestionnaire de publicité",
@@ -32,5 +33,6 @@
 	"admanager_return": "Revenir à [[Special:AdManager|Gestionnaire de publicité]]",
 	"admanager_gotoads": "[[Special:AdManager|Modifier l’emplacement d'une publicité]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Modifier les zones de publicité]]",
+	"action-admanager": "gérer la configuration de la publicité",
 	"right-admanager": "[[Special:AdManager|Gérer la configuration des publicités]]"
 }

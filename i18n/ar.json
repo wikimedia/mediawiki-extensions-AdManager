@@ -35,5 +35,6 @@
 	"admanager_return": "عد إلى [[Special:AdManager|مدير الإعلانات]]",
 	"admanager_gotoads": "[[Special:AdManager|عدل موضع الإعلان]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|عدل مناطق الإعلانات]]",
+	"action-admanager": "التحكم بإعدادات الإعلان",
 	"right-admanager": "[[Special:AdManager|إدارة تكوين الإعلان]]"
 }

@@ -32,5 +32,6 @@
 	"admanager_return": "Wróć do [[Special:AdManager|Menedżera reklam]]",
 	"admanager_gotoads": "[[Special:AdManager|Zmień umiejscowienie reklam]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Zmień obszary reklamowe]]",
+	"action-admanager": "zarządzania konfiguracją reklam",
 	"right-admanager": "[[Special:AdManager|Zarządzaj konfiguracją reklam]]"
 }

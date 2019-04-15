@@ -31,5 +31,6 @@
 	"admanager_return": "Вярнуцца ў [[Special:AdManager|кіраваньне рэклямай]]",
 	"admanager_gotoads": "[[Special:AdManager|Рэдагаваць разьмяшчэньне рэклямы]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Рэдагаваць зоны рэклямы]]",
+	"action-admanager": "кіраваньне канфігурацыяй рэклямы",
 	"right-admanager": "[[Special:AdManager|кіраваньне наладамі рэклямы]]"
 }

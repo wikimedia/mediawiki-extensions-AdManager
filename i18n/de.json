@@ -30,5 +30,6 @@
 	"admanager_return": "Zurück zur [[Special:AdManager|Anzeigenverwaltung]]",
 	"admanager_gotoads": "[[Special:AdManager|Anzeigen bearbeiten]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Anzeigenbereiche bearbeiten]]",
+	"action-admanager": "Anzeigen zu konfigurieren",
 	"right-admanager": "[[Special:AdManager|Anzeigen konfigurieren]]"
 }

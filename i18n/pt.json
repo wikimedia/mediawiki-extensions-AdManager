@@ -34,5 +34,6 @@
 	"admanager_return": "Voltar para o [[Special:AdManager|gestor de anúncios]]",
 	"admanager_gotoads": "[[Special:AdManager|Editar posicionamento do anúncio]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Editar zonas de anúncio]]",
+	"action-admanager": "gerir configuração de anúncios",
 	"right-admanager": "[[Special:AdManager|Gerir configuração de anúncios]]"
 }

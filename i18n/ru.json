@@ -4,7 +4,8 @@
 			"DCamer",
 			"Engineering",
 			"Okras",
-			"Kaganer"
+			"Kaganer",
+			"Vlad5250"
 		]
 	},
 	"admanager": "Менеджер рекламы",
@@ -32,5 +33,6 @@
 	"admanager_return": "Обратно в [[Special:AdManager|Менеджер рекламы]]",
 	"admanager_gotoads": "[[Special:AdManager|Изменить размещение рекламы]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Изменить рекламные зоны]]",
+	"action-admanager": "управление конфигурацией рекламы",
 	"right-admanager": "[[Special:AdManager|Управление конфигурацией рекламы]]"
 }

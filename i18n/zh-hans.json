@@ -4,7 +4,8 @@
 			"Hzy980512",
 			"Yfdyh000",
 			"Liuxinyu970226",
-			"Papapasan"
+			"Papapasan",
+			"佛壁灯"
 		]
 	},
 	"admanager": "广告管理器",
@@ -32,5 +33,6 @@
 	"admanager_return": "回到[[Special:AdManager|广告管理器]]",
 	"admanager_gotoads": "[[Special:AdManager|编辑广告位置]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|编辑广告区域]]",
+	"action-admanager": "管理广告配置",
 	"right-admanager": "[[Special:AdManager|管理广告配置]]"
 }

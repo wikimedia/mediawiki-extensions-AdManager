@@ -6,7 +6,8 @@
 			"Olion",
 			"Olvin",
 			"Ahonc",
-			"Piramidion"
+			"Piramidion",
+			"Vlad5250"
 		]
 	},
 	"admanager": "Менеджер оголошень",
@@ -34,5 +35,6 @@
 	"admanager_return": "Повернутися до [[Special:AdManager|Менеджер оголошень]]",
 	"admanager_gotoads": "[[Special:AdManager|Редагувати розміщення оголошень]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Редагувати зони оголошень]]",
+	"action-admanager": "керування конфігурацією реклами",
 	"right-admanager": "[[Special:AdManager|керування конфігурацією реклами]]"
 }

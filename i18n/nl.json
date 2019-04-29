@@ -3,7 +3,8 @@
 		"authors": [
 			"SPQRobin",
 			"Siebrand",
-			"Jeleniccz"
+			"Jeleniccz",
+			"Mainframe98"
 		]
 	},
 	"admanager": "Advertentiebeheer",
@@ -31,5 +32,6 @@
 	"admanager_return": "Terug naar [[Special:AdManager|advertentiebeheer]]",
 	"admanager_gotoads": "[[Special:AdManager|Advertentieplaatsing bewerken]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Advertentiezones bewerken]]",
+	"action-admanager": "advertentie-instellingen te beheren",
 	"right-admanager": "[[Special:AdManager|Advertentie-instellingen beheren]]"
 }

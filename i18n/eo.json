@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Blahma",
-			"Yekrats"
+			"Yekrats",
+			"Mirin"
 		]
 	},
 	"admanager": "Reklammastrumilo",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Paĝoj",
 	"admanager_Category": "Kategorioj",
 	"admanager_added": "Viaj ŝanĝoj konserviĝis",
-	"admanager_addedzone": "Aldonita zono",
+	"admanager_addedzone": "Aldonis zonon $1.",
 	"admanager_zonenum": "Zono n-ro $1",
 	"admanager_zonenotnumber": "Eraro! $1 ne estas numero.",
 	"admanager_return": "Reveni al [[Special:AdManager|reklammastrumilo]]",

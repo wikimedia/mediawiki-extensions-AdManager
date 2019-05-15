@@ -2,13 +2,14 @@
 	"@metadata": {
 		"authors": [
 			"Firilacroco",
-			"Minisarm"
+			"Minisarm",
+			"Andrei Stroe"
 		]
 	},
 	"admanager": "Gestionar de anunțuri",
 	"admanagerzones": "Zone gestionare anunțuri",
 	"admanager-desc": "Furnizează o [[Special:AdManager|pagină specială]] care permite administratorilor să seteze zona pentru pagini sau categorii",
-	"admanager_docu": "Pentru a adăuga sau înlătura zona cu anunțuri a unei pagini sau a unei întregi categorii, adăugați-i sau eliminați-i titlul mai jos.",
+	"admanager_docu": "Pentru a adăuga sau înlătura zona cu anunțuri a unei pagini sau a unei întregi categorii, adăugați sau eliminați de mai jos titlul paginii sau categoriei.",
 	"admanagerzones_docu": "Introduceți fiecare număr al zonei cu anunțuri pe un singur rând.",
 	"admanager_invalidtargetpage": "Nicio pagină găsită cu titlul „$1”.",
 	"admanager_invalidtargetcategory": "Nicio categorie găsită cu titlul „$1”.",
@@ -21,7 +22,7 @@
 	"admanager_Page": "Pagini",
 	"admanager_Category": "Categorii",
 	"admanager_added": "Modificările dumneavoastră au fost salvate",
-	"admanager_addedzone": "Zonă adăugată",
+	"admanager_addedzone": "Adăugat zona $1",
 	"admanager_zonenum": "Zona nr.: $1",
 	"admanager_zonenotnumber": "Eroare! $1 nu este un număr.",
 	"admanager_return": "Revenire la [[Special:AdManager|Ad Manager]]",

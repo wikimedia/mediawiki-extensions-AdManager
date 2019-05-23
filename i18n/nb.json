@@ -32,5 +32,6 @@
 	"admanager_return": "Gå tilbake til [[Special:AdManager|Ad Manager]]",
 	"admanager_gotoads": "[[Special:AdManager|Rediger annonseplassering]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Rediger annonsesoner]]",
+	"action-admanager": "behandle reklamekonfigurasjon",
 	"right-admanager": "[[Special:AdManager|Håndter annonsekonfigurering]]"
 }

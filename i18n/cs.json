@@ -8,13 +8,14 @@
 			"Mormegil",
 			"Paxt",
 			"Draceane",
-			"Cvanca"
+			"Cvanca",
+			"Slepi"
 		]
 	},
 	"admanager": "Správce reklam",
 	"admanagerzones": "Správce reklamních zón",
 	"admanager-desc": "Poskytuje [[Special:AdManager|speciální stránku]], která umožňuje správcům nastavit zóny stránek nebo kategorií",
-	"admanager_docu": "Chcete-li přidat nebo odstranit reklamní zónu stránky nebo celé kategorie, přidej nebo odberte její název.",
+	"admanager_docu": "Chcete-li přidat nebo odstranit reklamní zónu stránky nebo celé kategorie, přidejte nebo odeberte název dané stránky či kategorie níže.",
 	"admanagerzones_docu": "Zadejte číslo každé reklamní zóny na samostatném řádku.",
 	"admanager_invalidtargetpage": "Stránka s názvem \"$1\" nebyla nalezena.",
 	"admanager_invalidtargetcategory": "Žádná kategorie s názvem \"$1\" nebyla nalezena.",
@@ -36,5 +37,6 @@
 	"admanager_return": "Návrat do [[Special:AdManager|správce reklam]]",
 	"admanager_gotoads": "[[Special:AdManager|Upravit umístění reklamy]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Editovat zóny reklam]]",
+	"action-admanager": "spravovat nastavení reklam",
 	"right-admanager": "[[Special:AdManager|Upravit konfiguraci inzerce]]"
 }

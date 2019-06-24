@@ -4,7 +4,8 @@
 			"Amire80",
 			"Deror avi",
 			"MojoMann",
-			"Guycn2"
+			"Guycn2",
+			"Steeve815"
 		]
 	},
 	"admanager": "ניהול המודעות",
@@ -32,5 +33,6 @@
 	"admanager_return": "חזרה ל[[Special:AdManager|מנהל הפרסומות]]",
 	"admanager_gotoads": "[[Special:AdManager|עריכת מיקום מודעה]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|עריכת איזורי מודעה]]",
+	"action-admanager": "ניהול תצורת פרסום",
 	"right-admanager": "[[Special:AdManager|ניהול תצורת פרסום]]"
 }

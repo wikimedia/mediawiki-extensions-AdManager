@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Beta16",
-			"Mario"
+			"Mario",
+			"Joetaras"
 		]
 	},
 	"admanager": "Gestione pubblicità",
@@ -30,5 +31,6 @@
 	"admanager_return": "Ritorna a [[Special:AdManager|Gestione pubblicità]]",
 	"admanager_gotoads": "[[Special:AdManager|Modifica il posizionamento della pubblicità]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Modifica zone pubblicità]]",
+	"action-admanager": "gestire la configurazione della pubblicità",
 	"right-admanager": "[[Special:AdManager|Gestisce la configurazione della pubblicità]]"
 }

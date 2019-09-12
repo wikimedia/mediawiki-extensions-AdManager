@@ -24,5 +24,11 @@
 	"admanager_removedzone": "Uklonjena zona $1",
 	"admanager_nozonesadded": "Nijedna zona nije dodata.",
 	"admanager_nozonesremoved": "Nijedna zona nije uklonjena.",
-	"admanager_zonenum": "Zona #: $1"
+	"admanager_zonenum": "Zona #: $1",
+	"admanager_zonenotnumber": "Greška! $1 ne predstavlja broj.",
+	"admanager_return": "Nazad na [[Special:AdManager|Upravitelj sa oglasima]]",
+	"admanager_gotoads": "[[Special:AdManager|Smijeni položaj oglasa]]",
+	"admanager_gotozones": "[[Special:AdManager|Uredi oglasne zone]]",
+	"action-admanager": "upravljanje postavljenošću oglasâ",
+	"right-admanager": "[[Special:AdManager|Postavke za oglašavanje]]"
 }

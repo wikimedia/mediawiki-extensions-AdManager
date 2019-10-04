@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Helix84",
-			"Sudo77(new)"
+			"Sudo77(new)",
+			"Vlad5250"
 		]
 	},
 	"admanager": "Správca reklám",
@@ -19,7 +20,7 @@
 	"admanager_Page": "Stránky",
 	"admanager_Category": "Kategórie",
 	"admanager_added": "Vaše úpravy boli uložené",
-	"admanager_addedzone": "Pridaná zóna",
+	"admanager_addedzone": "Pridaná zóna $1.",
 	"admanager_zonenum": "Zóna #:$1",
 	"admanager_zonenotnumber": "Chyba! $1 nie je číslo.",
 	"admanager_gotoads": "[[Special:AdManager|Upraviť umiestnenie reklamy]]",

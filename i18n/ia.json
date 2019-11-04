@@ -29,5 +29,6 @@
 	"admanager_return": "Retornar al [[Special:AdManager|gestor de annuncios]]",
 	"admanager_gotoads": "[[Special:AdManager|Modificar placiamento de annuncio]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Modificar zonas de annuncios]]",
+	"action-admanager": "gerer le configuration de publicitate",
 	"right-admanager": "[[Special:AdManager|Gerer configuration de publicitate]]"
 }

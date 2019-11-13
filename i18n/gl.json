@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Toliño",
-			"Elisardojm"
+			"Elisardojm",
+			"Breogan2008"
 		]
 	},
 	"admanager": "Xestor de anuncios",
@@ -30,5 +31,6 @@
 	"admanager_return": "Volver ao [[Special:AdManager|Xestor de anuncios]]",
 	"admanager_gotoads": "[[Special:AdManager|Editar a posición do anuncio]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Editar as zonas dos anuncios]]",
+	"action-admanager": "xestionar configuración de anuncios",
 	"right-admanager": "[[Special:AdManager|Xestionar a configuración dos anuncios]]"
 }

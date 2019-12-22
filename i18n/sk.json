@@ -3,13 +3,14 @@
 		"authors": [
 			"Helix84",
 			"Sudo77(new)",
-			"Vlad5250"
+			"Vlad5250",
+			"Luky001"
 		]
 	},
 	"admanager": "Správca reklám",
 	"admanagerzones": "Zóny správcu reklám",
 	"admanager-desc": "Poskytuje [[Special:AdManager|špeciálnu stránku]], ktorá umožňuje správcom nastaviť zóny stránok alebo kategórií",
-	"admanager_docu": "Ak chcete pridať alebo odstrániť reklamnú zónu stránky alebo celej kategórie, pridajte alebo odstráňte jej názov dolu.",
+	"admanager_docu": "Ak chcete pridať alebo odstrániť reklamnú zónu stránky alebo celej kategórie, pridajte alebo odstráňte názov danej stránky alebo kategórie nižšie.",
 	"admanagerzones_docu": "Zadajte číslo každej reklamnej zóny na samostatnom riadku.",
 	"admanager_invalidtargetpage": "Žiadna stránka s názvom „$1“.",
 	"admanager_invalidtargetcategory": "Žiadna kategória s názvom „$1“.",

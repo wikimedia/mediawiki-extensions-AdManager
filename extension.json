@@ -30,11 +30,11 @@
 		"AdManagerAlias": "AdManager.alias.php"
 	},
 	"AutoloadClasses": {
-		"SpecialAdManagerZones": "specials/SpecialAdManagerZones.php",
-		"SpecialAdManager": "specials/SpecialAdManager.php",
-		"AdManager": "AdManager.class.php",
-		"AdManagerZones": "AdManagerZones.class.php",
-		"AdManagerHooks": "AdManager.hooks.php"
+		"SpecialAdManagerZones": "includes/specials/SpecialAdManagerZones.php",
+		"SpecialAdManager": "includes/specials/SpecialAdManager.php",
+		"AdManager": "includes/AdManager.php",
+		"AdManagerZones": "includes/AdManagerZones.php",
+		"AdManagerHooks": "includes/AdManagerHooks.php"
 	},
 	"ResourceModules": {
 		"ext.adManager": {
@@ -42,8 +42,8 @@
 		}
 	},
 	"ResourceFileModulePaths": {
-		"localBasePath": "",
-		"remoteExtPath": "AdManager"
+		"localBasePath": "resources",
+		"remoteExtPath": "AdManager/resources"
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "AdManagerHooks::onSchemaUpdate",

@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"Kavya Manohar",
-			"Santhosh.thottingal",
 			"Adithyak1997",
-			"Praveenp"
+			"Kavya Manohar",
+			"Praveenp",
+			"Santhosh.thottingal"
 		]
 	},
 	"admanager_invalidtargetpage": "\"$1\" എന്ന തലക്കെട്ടുള്ള താൾ കണ്ടെത്താനായില്ല.",

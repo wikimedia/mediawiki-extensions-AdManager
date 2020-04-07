@@ -1,10 +1,10 @@
 {
 	"@metadata": {
 		"authors": [
-			"SPQRobin",
-			"Siebrand",
 			"Jeleniccz",
-			"Mainframe98"
+			"Mainframe98",
+			"SPQRobin",
+			"Siebrand"
 		]
 	},
 	"admanager": "Advertentiebeheer",

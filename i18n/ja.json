@@ -33,6 +33,6 @@
 	"admanager_return": "[[Special:AdManager|広告の管理]]に戻る",
 	"admanager_gotoads": "[[Special:AdManager|広告の配置を編集]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|広告ゾーンを編集]]",
-	"action-admanager": "広告の設定を管理",
+	"action-admanager": "広告の設定の管理",
 	"right-admanager": "[[Special:AdManager|広告の設定を管理]]"
 }

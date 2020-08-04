@@ -3,13 +3,14 @@
 		"authors": [
 			"Fitoschido",
 			"Gemmaa",
+			"Mguix",
 			"Pitort"
 		]
 	},
 	"admanager": "Administrador d'anuncis",
 	"admanagerzones": "Zones de l'administrador d'anuncis",
 	"admanager-desc": "Proporciona una [[Special:AdManager|pàgina especial]] que permet els administradors de configurar la zona de pàgines o categories.",
-	"admanager_docu": "Per afegir o suprimir la zona d'anunci d'una pàgina o categoria sencera, afegir o treure el seu títol sota.",
+	"admanager_docu": "Per afegir o suprimir la zona d'anunci d'una pàgina o categoria sencera, afegiu o treieu el títol de la pàgina o de la categoria a continuació.",
 	"admanagerzones_docu": "Cada número de zona d'anunci d'entrar en la seva pròpia línia.",
 	"admanager_invalidtargetpage": "No hi ha pàgina s'ha trobat amb títol \" $1 \".",
 	"admanager_invalidtargetcategory": "No hi ha pàgina s'ha trobat amb títol \" $1 \".",

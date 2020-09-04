@@ -33,6 +33,12 @@ final class AdManagerHooks {
 		}
 
 		$adsOut = AdManager::getAdOutputFor( $skin->getTitle() );
+
+		if ( !$adsOut ) {
+			// No ads. Nothing to do.
+			return true;
+		}
+
 		foreach ( $adsOut as $adNumber => $adOut ) {
 			$sidebar["AdManager$adNumber"] = $adOut;
 		}

@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"1917 Ekim Devrimi",
 			"Asmen",
 			"Erdemaslancan",
 			"Mirzali"
@@ -15,7 +16,7 @@
 	"admanager_Page": "Peli",
 	"admanager_Category": "Kategoriyi",
 	"admanager_added": "Vurnayışe şıma biyo qeyd",
-	"admanager_addedzone": "Mıntıqaya ke debyaya",
+	"admanager_addedzone": "Mıntıqaya ke debyayê $1",
 	"admanager_zonenum": "Nıntıqa #: $1",
 	"admanager_zonenotnumber": "Xırabin!  $1  yew amar niya.",
 	"admanager_return": "Peyser şo [[Special:AdManager|İdarekarê Reklami]]",

@@ -8,7 +8,7 @@ class AdManager {
 	private static $catList = [];
 
 	/**
-	 * @var array $ads Ads to be added to db
+	 * @var array Ads to be added to db
 	 */
 	private $ads = [];
 

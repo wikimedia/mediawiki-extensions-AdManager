@@ -4,7 +4,7 @@
  */
 class SpecialAdManagerZones extends FormSpecialPage {
 	/**
-	 * @var AdManagerZones $adManagerZones DB layer
+	 * @var AdManagerZones DB layer
 	 */
 	private $adManagerZones;
 

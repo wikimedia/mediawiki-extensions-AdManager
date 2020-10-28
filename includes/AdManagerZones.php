@@ -16,12 +16,12 @@ class AdManagerZones {
 	private $zonesToRemove = [];
 
 	/**
-	 * @var bool $zonesAddedSuccessfully
+	 * @var bool
 	 */
 	private $zonesAddedSuccessfully;
 
 	/**
-	 * @var bool $zonesRemovedSuccessfully
+	 * @var bool
 	 */
 	private $zonesRemovedSuccessfully;
 

@@ -1,6 +1,8 @@
 <?php
 class SpecialAdManager extends FormSpecialPage {
+	/** @var array|null */
 	private $zones;
+	/** @var array|null */
 	private $adTexts;
 
 	/**

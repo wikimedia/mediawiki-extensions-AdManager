@@ -5,6 +5,7 @@
  */
 class AdManager {
 	const AD_TABLE = 'ad';
+	/** @var int[] */
 	private static $catList = [];
 
 	/**
@@ -12,14 +13,23 @@ class AdManager {
 	 */
 	private $ads = [];
 
+	/**
+	 * @param array $ads
+	 */
 	public function __construct( array $ads ) {
 		$this->setAds( $ads );
 	}
 
+	/**
+	 * @return string
+	 */
 	public static function getTableName() {
 		return self::AD_TABLE;
 	}
 
+	/**
+	 * @return string[]
+	 */
 	public static function getTypes() {
 		return [ 'Page', 'Category' ];
 	}
@@ -100,7 +110,7 @@ class AdManager {
 	/**
 	 * Purge the db and insert new ads
 	 *
-	 * @return type
+	 * @return bool
 	 */
 	public function execute() {
 		$dbw = $this->getWriteDbConnection();
@@ -184,6 +194,9 @@ class AdManager {
 		return true;
 	}
 
+	/**
+	 * @param array $ads
+	 */
 	public function setAds( array $ads ) {
 		$this->ads = $ads;
 	}
@@ -194,6 +207,9 @@ class AdManager {
 	 * (array_walk_recursive doesn't like when the value is an array)
 	 * A lower count indicates a closer ancestor to the page, that is
 	 * supercategories are assigned higher numbers than subcategories
+	 * @param string $value
+	 * @param string $catName
+	 * @param int $count
 	 */
 	private static function assignLevel( $value, $catName, $count = 0 ) {
 		$count++;
@@ -209,7 +225,7 @@ class AdManager {
 	 * Get HTML for all ads that should be displayed for this page
 	 *
 	 * @param Title $title Title of the page
-	 * @return bool|array false on error or an array with HTML for each ad
+	 * @return false|array false on error or an array with HTML for each ad
 	 */
 	public static function getAdOutputFor( Title $title ) {
 		if ( !self::tableExists() ) {
@@ -236,7 +252,7 @@ class AdManager {
 	 * Get all the ad slot ids that should be displayed for this title
 	 *
 	 * @param Title $title
-	 * @return array - all ad zones for this title
+	 * @return array all ad zones for this title
 	 */
 	public static function getAdZonesFor( Title $title ) {
 		$pageAdZones = self::getPageAdZonesFor( $title );
@@ -281,7 +297,7 @@ class AdManager {
 	/**
 	 * Get only the Category ad slots for this title
 	 *
-	 * @param type $title
+	 * @param Title $title
 	 * @return array
 	 */
 	public static function getCategoryAdZonesFor( $title ) {

@@ -32,34 +32,62 @@ class AdManagerZones {
 		return $this->zonesToAdd;
 	}
 
+	/**
+	 * @return array
+	 */
 	public function getZonesToRemove() {
 		return $this->zonesToRemove;
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function getZonesAddedSuccessfully() {
 		return $this->zonesAddedSuccessfully;
 	}
 
+	/**
+	 * @return bool
+	 */
 	public function getZonesRemovedSuccessfully() {
 		return $this->zonesRemovedSuccessfully;
 	}
 
+	/**
+	 * @param array $zones
+	 * @return array|null
+	 */
 	public function setZonesToAdd( array $zones ) {
 		return wfSetVar( $this->zonesToAdd, $zones );
 	}
 
+	/**
+	 * @param array $zonesToRemove
+	 * @return array|null
+	 */
 	public function setZonesToRemove( $zonesToRemove ) {
 		return wfSetVar( $this->zonesToRemove, $zonesToRemove );
 	}
 
+	/**
+	 * @param bool $zonesAddedSuccessfully
+	 * @return bool|null
+	 */
 	public function setZonesAddedSuccessfully( $zonesAddedSuccessfully ) {
 		return wfSetVar( $this->zonesAddedSuccessfully, $zonesAddedSuccessfully );
 	}
 
+	/**
+	 * @param bool $zonesRemovedSuccessfully
+	 * @return bool|null
+	 */
 	public function setZonesRemovedSuccessfully( $zonesRemovedSuccessfully ) {
 		return wfSetVar( $this->zonesRemovedSuccessfully, $zonesRemovedSuccessfully );
 	}
 
+	/**
+	 * @param array $wantedZones
+	 */
 	public function __construct( array $wantedZones ) {
 		$currentZones = $this->getZonesFromDB();
 
@@ -67,10 +95,16 @@ class AdManagerZones {
 		$this->zonesToRemove = array_diff( $currentZones, $wantedZones );
 	}
 
+	/**
+	 * @return string
+	 */
 	public static function getTableName() {
 		return self::AD_ZONES_TABLE;
 	}
 
+	/**
+	 * @return string
+	 */
 	public static function getBlankZoneID() {
 		return '----';
 	}

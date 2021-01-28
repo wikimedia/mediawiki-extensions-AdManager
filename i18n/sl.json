@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Dbc334",
+			"Eleassar",
 			"Yerpo"
 		]
 	},
@@ -13,7 +14,7 @@
 	"admanager_noads": "Ne prikazuj oglasov",
 	"admanager_Page": "Strani",
 	"admanager_Category": "Kategorije",
-	"admanager_added": "Vaše spremembe so bile shranjene",
+	"admanager_added": "Vaše spremembe so shranjene.",
 	"admanager_addedzone": "Dodana cona $1",
 	"admanager_zonenum": "Cona #: $1",
 	"admanager_zonenotnumber": "Napaka! $1 ni število."

@@ -3,7 +3,8 @@
 		"authors": [
 			"Anakmalaysia",
 			"Diagramma Della Verita",
-			"Pizza1016"
+			"Pizza1016",
+			"Tofeiku"
 		]
 	},
 	"admanager": "Pengurus Iklan",
@@ -23,6 +24,7 @@
 	"admanager_Category": "Kategori-kategori",
 	"admanager_added": "Perubahan anda telah disimpan",
 	"admanager_addedzone": "Zon $1 ditambahkan",
+	"admanager_nozonesadded": "Tiada zon telah ditambahkan.",
 	"admanager_zonenum": "Bil. Zon: $1",
 	"admanager_zonenotnumber": "Ralat! $1 bukan bilangan.",
 	"admanager_return": "Kembali ke [[Special:AdManager|Ad Manager]]",

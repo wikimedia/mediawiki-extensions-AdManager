@@ -1,4 +1,5 @@
 <?php
+
 /**
  * Handle the special page and process with the AdManagerZones class
  */
@@ -8,9 +9,6 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 */
 	private $adManagerZones;
 
-	/**
-	 * Constructor -- set up the new special page
-	 */
 	public function __construct() {
 		parent::__construct( 'AdManagerZones', 'admanager' );
 	}
@@ -33,7 +31,7 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	 * Failures here must throw subclasses of ErrorPageError.
 	 *
 	 * @param User $user
-	 * @return bool True
+	 * @return true
 	 */
 	protected function checkExecutePermissions( User $user ) {
 		parent::checkExecutePermissions( $user );
@@ -64,7 +62,7 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	/**
 	 * Process the form on POST submission.
 	 * @param array $data
-	 * @return bool|string|array|Status As documented for HTMLForm::trySubmit.
+	 * @return bool
 	 */
 	public function onSubmit( array $data ) {
 		$zones = explode( "\n", $data['zones'] );

@@ -4,7 +4,9 @@
  * Layer on top of the ad zones table
  */
 class AdManagerZones {
-	const AD_ZONES_TABLE = 'adzones';
+
+	private const AD_ZONES_TABLE = 'adzones';
+
 	/**
 	 * @var array $zones Zones to be added to db
 	 */

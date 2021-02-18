@@ -47,7 +47,7 @@
 	},
 	"Hooks": {
 		"LoadExtensionSchemaUpdates": "AdManagerHooks::onSchemaUpdate",
-		"SkinBuildSidebar": "AdManagerHooks::SkinBuildSidebar",
+		"SkinBuildSidebar": "AdManagerHooks::onSkinBuildSidebar",
 		"BeforePageDisplay": "AdManagerHooks::onBeforePageDisplay"
 	},
 	"config": {

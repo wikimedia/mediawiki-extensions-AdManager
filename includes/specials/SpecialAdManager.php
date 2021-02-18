@@ -1,13 +1,11 @@
 <?php
+
 class SpecialAdManager extends FormSpecialPage {
 	/** @var array|null */
 	private $zones;
 	/** @var array|null */
 	private $adTexts;
 
-	/**
-	 * Constructor -- set up the new special page
-	 */
 	public function __construct() {
 		parent::__construct( 'AdManager', 'admanager' );
 	}

@@ -4,7 +4,9 @@
  * Layer on top of the ad table with some helper functions
  */
 class AdManager {
-	const AD_TABLE = 'ad';
+
+	private const AD_TABLE = 'ad';
+
 	/** @var int[] */
 	private static $catList = [];
 
@@ -83,7 +85,7 @@ class AdManager {
 	 * Get only the Page or Category ad settings, depending on $type
 	 *
 	 * @param string $type either 'Page' or 'Category'
-	 * @return Title
+	 * @return Title[][]|Category[][]
 	 */
 	public static function getSomeAdsfromDB( $type ) {
 		$blank = AdManagerZones::getBlankZoneID();
@@ -343,8 +345,6 @@ class AdManager {
 	 * Get the code that should be inserted to generate the ad display
 	 * If both $wgAdManagerService & $wgAdManagerCode, the service will override
 	 *
-	 * @global string $wgAdManagerService
-	 * @global string $wgAdManagerCode
 	 * @return string
 	 */
 	public static function getAdManagerCode() {

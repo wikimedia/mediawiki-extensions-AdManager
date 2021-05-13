@@ -373,6 +373,6 @@ class AdManager {
 	 * @return \Wikimedia\Rdbms\IDatabase Writable db connection
 	 */
 	public static function getWriteDbConnection() {
-		return wfGetDB( DB_MASTER );
+		return wfGetDB( DB_PRIMARY );
 	}
 }

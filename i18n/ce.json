@@ -5,13 +5,13 @@
 		]
 	},
 	"admanagerzones": "Кхайкхорашший зонийн менеджер",
-	"admanager_labelPage": "АгӀона цӀе",
+	"admanager_labelPage": "АгӀонийн цӀерш",
 	"admanager_submit": "ДӀадахьийта",
 	"admanager_Page": "АгӀонаш",
 	"admanager_Category": "Категореш",
 	"admanager_added": "Хьа хийцамаш Ӏалашбина",
 	"admanager_addedzone": "ТӀетоьхна зона $1",
-	"admanager_removedzone": "ДӀаяьхна зонаш $1.",
+	"admanager_removedzone": "ДӀайаьхна зонаш $1.",
 	"admanager_zonenum": "Зона #:$1",
 	"admanager_zonenotnumber": "ГӀалат!  $1  иза терахь дац."
 }

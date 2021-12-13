@@ -4,7 +4,8 @@
 			"Arifin.wijaya",
 			"Farras",
 			"Kenrick95",
-			"Rv77ax"
+			"Rv77ax",
+			"Daud I.F. Argana"
 		]
 	},
 	"admanager": "Ad Manager",
@@ -24,10 +25,14 @@
 	"admanager_Category": "Kategori",
 	"admanager_added": "Perubahan Anda telah disimpan",
 	"admanager_addedzone": "Zona $1 ditambahkan.",
+	"admanager_removedzone": "Zona $1 dihapus.",
+	"admanager_nozonesadded": "Tidak ada zona yang ditambahkan.",
+	"admanager_nozonesremoved": "Tidak ada zona yang dihapus.",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Kesalahan! $1 bukanlah angka.",
 	"admanager_return": "Kembali ke [[Special:AdManager|Ad Manager]]",
 	"admanager_gotoads": "[[Special:AdManager|Sunting penempatan iklan]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Sunting zona iklan]]",
+	"action-admanager": "mengelola konfigurasi periklanan",
 	"right-admanager": "[[Special:AdManager|Kelola konfigurasi iklan]]"
 }

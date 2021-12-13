@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Bennylin"
 		]
 	},
 	"admanager": "Panata Tawa",
@@ -11,7 +12,7 @@
 	"admanager_submit": "Kirim",
 	"admanager_noads": "Aja majang tawa",
 	"admanager_Page": "Kaca",
-	"admanager_Category": "Kategori",
+	"admanager_Category": "Katégori",
 	"admanager_added": "Owah-owahané Sampéyan wis kasinggahaké",
 	"admanager_addedzone": "Wewengkon sing kawuwuhaké",
 	"admanager_zonenum": "Wewengkon #: $1"

@@ -1,8 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"NoiX180"
+			"NoiX180",
+			"Chinamoonroll"
 		]
 	},
+	"admanager": "Ad Manager",
+	"admanagerzones": "Wawengkon Ad Manager",
 	"admanager_added": "Uahan jero sampun maraksa."
 }

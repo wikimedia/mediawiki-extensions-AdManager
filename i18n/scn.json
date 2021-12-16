@@ -4,10 +4,14 @@
 			"Ajeje Brazorf"
 		]
 	},
+	"admanager_invalidtargetpage": "Nudda pàggina attruvata cû tìtulu \"$1\".",
+	"admanager_invalidtargetcategory": "Nudda catigurìa attruvata cû tìtulu \"$1\".",
 	"admanager_labelPage": "Tìtuli dî pàggini",
 	"admanager_labelCategory": "Noma dî catigurìi",
+	"admanager_submit": "Mànna",
 	"admanager_Page": "Pàggini",
 	"admanager_Category": "Catigurìi",
+	"admanager_added": "Li tò canciamenti foru sarvati.",
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Erruri! $1 nun è nu nùmmiru."
 }

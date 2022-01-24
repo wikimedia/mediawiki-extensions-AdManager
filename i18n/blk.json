@@ -1,0 +1,21 @@
+{
+	"@metadata": {
+		"authors": [
+			"Khun Kt"
+		]
+	},
+	"admanager_invalidtargetpage": "ထီႏမော့ꩻတဝ်းလိတ်မဲ့ငါ တောမ်ႏကတူႏစဲဉ်ႏ \"$1\"ယိူ။",
+	"admanager_invalidtargetcategory": "ထီႏမော့ꩻတဝ်းကဏ္ဍ တောမ်ႏကတူႏစဲဉ်ႏ \"$1\"ယို။",
+	"admanager_labelPage": "လိတ်မဲ့ငါ ကတူႏစဲဉ်ႏဖိုင်ႏ",
+	"admanager_labelCategory": "ကဏ္ဍပြောင်ꩻမိဉ်ꩻဖိုင်ႏ",
+	"admanager_submit": "ဒင်ႏသွင်ꩻသော့ꩻ",
+	"admanager_Page": "လိတ်မဲ့ငါဖိုင်ႏ",
+	"admanager_Category": "ကဏ္ဍဖိုင်ႏ",
+	"admanager_added": "သိမ်ꩻထွူလဲဉ်း နာꩻပြောင်ꩻလုဲင်ႏမုꩻဖိုင်ႏ",
+	"admanager_addedzone": "ထဲမ်သော့ꩻလဲဉ်း ဇိုန် $1။",
+	"admanager_removedzone": "ဖုဲင်းထိုꩻလဲဉ်း ဇိုန် $1။",
+	"admanager_nozonesadded": "ထဲမ်သော့ꩻတဝ်း ဇိုန်မုဲင်ꩻမုဲင်ꩻ။",
+	"admanager_nozonesremoved": "ယားကုဲင်ခါꩻဗာႏတဝ်း ဇိုန်မုဲင်ꩻမုဲင်ꩻ။",
+	"admanager_zonenum": "ဇိုန် #: $1",
+	"admanager_zonenotnumber": "အမာႏ! $1 နဝ်ꩻ ဂဏန်ꩻအမုဲင်တဗာႏမွေးတဝ်း။"
+}

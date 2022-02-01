@@ -2,12 +2,13 @@
 	"@metadata": {
 		"authors": [
 			"Kghbln",
-			"Metalhead64"
+			"Metalhead64",
+			"Brettchenweber"
 		]
 	},
 	"admanager": "Anzeigenverwaltung",
 	"admanagerzones": "Anzeigenverwaltung - Anzeigenbereiche",
-	"admanager-desc": "Erweitert das Wiki um eine [[Special:AdManager|Spezialseite]], die es Administratoren ermöglicht einen Bereich für Werbeanzeige auf Seiten und Kategorien festzulegen",
+	"admanager-desc": "Erweitert das Wiki um eine [[Special:AdManager|Spezialseite]], die es Administratoren ermöglicht, einen Bereich für Werbeanzeige auf Seiten und Kategorien festzulegen",
 	"admanager_docu": "Um einen Anzeigenbereich bei einer Seite oder Kategorie hinzuzufügen oder zu entfernen, muss der Seiten- oder Kategorienname hinzugefügt oder entfernt werden.",
 	"admanagerzones_docu": "Bitte die Nummer jedes Anzeigenbereichs in einer eigenen Zeile angeben.",
 	"admanager_invalidtargetpage": "Es wurde keine Seite mit dem Namen „$1“ gefunden.",

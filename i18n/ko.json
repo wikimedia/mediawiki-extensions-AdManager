@@ -4,7 +4,8 @@
 			"Hwangjy9",
 			"Revi",
 			"Ykhwong",
-			"아라"
+			"아라",
+			"그냥기여자"
 		]
 	},
 	"admanager": "광고 관리자",
@@ -32,5 +33,6 @@
 	"admanager_return": "[[Special:AdManager|광고 관리자]]로 돌아갑니다",
 	"admanager_gotoads": "[[Special:AdManager|광고 배치 편집]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|광고 영역 편집]]",
+	"action-admanager": "광고 설정 관리",
 	"right-admanager": "[[Special:AdManager|광고 설정 관리]]"
 }

@@ -2,7 +2,8 @@
 	"@metadata": {
 		"authors": [
 			"Chrisportelli",
-			"Leli Forte"
+			"Leli Forte",
+			"ToniSant"
 		]
 	},
 	"admanager": "Ġestjoni tar-reklamar",
@@ -15,7 +16,7 @@
 	"admanager_Page": "Paġni",
 	"admanager_Category": "Kategoriji",
 	"admanager_added": "It-tibdiliet tiegħek ġew salvati",
-	"admanager_addedzone": "Żdiedu ż-żoni $1",
+	"admanager_addedzone": "Żdiedet iż-żona $1.",
 	"admanager_zonenum": "Żona #: $1",
 	"admanager_zonenotnumber": "Żball! $1 mhuwiex numru.",
 	"admanager_return": "Irritorna lura lejn [[Special:AdManager|Ġestjoni tar-reklamar]]"

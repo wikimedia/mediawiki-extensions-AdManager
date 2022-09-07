@@ -28,7 +28,7 @@
 	"admanager_zonenotnumber": "Greška! $1 ne predstavlja broj.",
 	"admanager_return": "Nazad na [[Special:AdManager|Upravitelj sa oglasima]]",
 	"admanager_gotoads": "[[Special:AdManager|Smijeni položaj oglasa]]",
-	"admanager_gotozones": "[[Special:AdManager|Uredi oglasne zone]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|Uredi oglasne zone]]",
 	"action-admanager": "upravljanje postavljenošću oglasâ",
 	"right-admanager": "[[Special:AdManager|Postavke za oglašavanje]]"
 }

@@ -5,8 +5,27 @@
 			"Сербијана"
 		]
 	},
+	"admanager": "Upravljač oglasima",
+	"admanagerzones": "Zone upravljača oglasa",
+	"admanager_invalidtargetpage": "Ne postoji stranica pod nazivom „$1“.",
+	"admanager_invalidtargetcategory": "Ne postoji kategorija pod nazivom „$1“.",
+	"admanager_notable": "Greška! Ne mogu da pronađem potrebnu tabelu u bazi. Prvo pokrenite update.php.",
+	"admanager_noAdManagerZones": "Greška! Morate da dodate neke oglasne zone. Unesite ih u „[[Special:AdManagerZones|Zone – upravljač oglasima]]“.",
+	"admanager_labelPage": "Naslovi stranica",
+	"admanager_labelCategory": "Nazivi kategorija",
+	"admanager_submit": "Pošalji",
+	"admanager_noads": "Ne prikazuj reklame",
+	"admanager_Page": "Stranice",
+	"admanager_Category": "Kategorije",
+	"admanager_added": "Vaše izmene su sačuvane.",
+	"admanager_addedzone": "Dodata zona $1.",
 	"admanager_removedzone": "Uklonjena zona $1.",
 	"admanager_nozonesadded": "Nijedna zona nije dodata.",
 	"admanager_nozonesremoved": "Nijedna zona nije uklonjena.",
-	"right-admanager": "[[Special:AdManager|postavke za oglašavanje]]"
+	"admanager_zonenum": "Zona broj: $1",
+	"admanager_zonenotnumber": "Greška! $1 ne predstavlja broj.",
+	"admanager_return": "Nazad na [[Special:AdManager|upravljač oglasima]]",
+	"admanager_gotoads": "[[Special:AdManager|Promeni položaj oglasa]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|Uredi oglasne zone]]",
+	"right-admanager": "[[Special:AdManager|Podešavanja za oglašavanje]]"
 }

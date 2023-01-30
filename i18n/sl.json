@@ -13,7 +13,7 @@
 	"admanagerzones_docu": "Vsako številko oglasnega območja vnesite v svojo vrstico.",
 	"admanager_invalidtargetpage": "Najdena ni bila nobena stran z naslovom »$1«.",
 	"admanager_invalidtargetcategory": "Najdena ni bila nobena kategorija z naslovom »$1«.",
-	"admanager_notable": "Napaka! Zahtevane tabele zbirke podatkov ni bilo mogoče najti! Najprej zaženite update.php.",
+	"admanager_notable": "Napaka! Zahtevane tabele podatkovne zbirke ni bilo mogoče najti! Najprej zaženite update.php.",
 	"admanager_noAdManagerZones": "Napaka! Dodati morate nekaj oglasnih območij. Vnesite jih v [[Special:AdManagerZones|cone Upravljalnika oglasov]].",
 	"admanager_labelPage": "Naslovi strani",
 	"admanager_labelCategory": "Imena kategorij",

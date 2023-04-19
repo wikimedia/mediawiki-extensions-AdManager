@@ -32,5 +32,6 @@
 	"admanager_return": "Grįžti į [[Special:AdManager|Reklamos valdytoją]]",
 	"admanager_gotoads": "[[Special:AdManager|Redaguoti skelbimų vietą]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Redaguoti reklamos zonas]]",
+	"action-admanager": "valdyti reklamos konfigūraciją",
 	"right-admanager": "[[Special:AdManager|Tvarkyti skelbimų konfigūraciją]]"
 }

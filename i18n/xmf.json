@@ -4,6 +4,8 @@
 			"Narazeni"
 		]
 	},
+	"admanager_invalidtargetpage": "ხასჷლაქ დუდჯოხოთ „$1“ ვეგორუ.",
+	"admanager_invalidtargetcategory": "კატეგორიაქ დუდჯოხოთ „$1“ ვეგორუ.",
 	"admanager_labelPage": "ხასჷლაშ დუდჯოხოეფი",
 	"admanager_labelCategory": "კატეგორიაშ ჯოხოეფი",
 	"admanager_submit": "მეღება",
@@ -11,5 +13,7 @@
 	"admanager_Page": "ხასჷლეფი",
 	"admanager_Category": "კატეგორიეფი",
 	"admanager_added": "თქვანი თირუეფი ჩუალირი რე.",
+	"admanager_addedzone": "გეძინელი ზონა $1",
+	"admanager_removedzone": "ლასირი ზონა $1.",
 	"admanager_zonenotnumber": "ჩილათა! $1 ვა რე რიცხუ."
 }

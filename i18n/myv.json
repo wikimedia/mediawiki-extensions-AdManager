@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"Botuzhaleny-sodamo"
+			"Botuzhaleny-sodamo",
+			"Denö"
 		]
 	},
 	"admanager_invalidtargetpage": "\"$1\" конякс марто лопа а муеви.",
@@ -9,7 +10,7 @@
 	"admanager_Page": "Лопат",
 	"admanager_Category": "Категорият",
 	"admanager_added": "Тонь теевть полавтнематне ванстовсть",
-	"admanager_addedzone": "Поладозь зона",
+	"admanager_addedzone": "Поладозь $1 зона.",
 	"admanager_zonenum": "Зона #:$1",
 	"admanager_zonenotnumber": "Ильведевкс! $1 аволь ловома вал."
 }

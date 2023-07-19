@@ -1,0 +1,9 @@
+{
+	"@metadata": {
+		"authors": [
+			"Piano1forte2"
+		]
+	},
+	"admanager_invalidtargetpage": "No page found with title '$1'.",
+	"admanager_invalidtargetcategory": "No category found with title '$1'."
+}

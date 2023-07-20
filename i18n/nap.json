@@ -1,7 +1,8 @@
 {
 	"@metadata": {
 		"authors": [
-			"C.R."
+			"C.R.",
+			"Ruthven"
 		]
 	},
 	"admanager": "Gestione 'e pubbricità",
@@ -11,7 +12,7 @@
 	"admanagerzones_docu": "Azzecca 'o nummero d'ogne zona dint'a propria riga.",
 	"admanager_invalidtargetpage": "Nisciuna paggena truvata c' 'o titolo \"$1\".",
 	"admanager_invalidtargetcategory": "Nisciuna categurìa truvata c' 'o titolo \"$1\".",
-	"admanager_notable": "Errore! Na tabbella 'e database addimannata nun è stata truvata! Và ncopp'a update.php apprimm' 'e cuntinuà.",
+	"admanager_notable": "Sbarione! Nun avimmo truvato 'a tabbella 'e database addimannata! Và ncopp' 'a update.php primm' 'e jì annanze.",
 	"admanager_noAdManagerZones": "Errore! È necessario ghienchere cocche zona p' 'a pubbricità. Azzecca sti zzone dint' 'a [[Special:AdManagerZones|Gestione zzone pe' pubbricità]].",
 	"admanager_labelPage": "Titule d' 'e paggene",
 	"admanager_labelCategory": "Nomme d' 'e categurìe",

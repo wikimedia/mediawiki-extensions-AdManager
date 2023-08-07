@@ -1,9 +1,11 @@
 {
 	"@metadata": {
 		"authors": [
-			"Growingup"
+			"Growingup",
+			"Bosogo"
 		]
 	},
+	"admanager_labelCategory": "Категория аталыштары",
 	"admanager_submit": "Жөнөтүү",
 	"admanager_Page": "Барактар",
 	"admanager_Category": "Категориялар"

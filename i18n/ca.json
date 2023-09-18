@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Fitoschido",
 			"Gemmaa",
 			"Mguix",
@@ -28,7 +29,7 @@
 	"admanager_nozonesadded": "No s’ha afegit cap zona.",
 	"admanager_nozonesremoved": "No s’ha tret cap zona.",
 	"admanager_zonenum": "# La zona:$1",
-	"admanager_zonenotnumber": "Error!  $1  no és un número.",
+	"admanager_zonenotnumber": "Error! $1 no és un número.",
 	"admanager_return": "Torna a [[Special:AdManager|Administrador d'anuncis]]",
 	"admanager_gotoads": "[[Special:AdManager|Edita la col. locació d'anuncis]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Edita les zones d'anuncis]]",

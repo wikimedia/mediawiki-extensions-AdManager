@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Amitie 10g",
 			"Armando-Martin",
 			"Fitoschido",
@@ -28,7 +29,7 @@
 	"admanager_nozonesadded": "No se agregó ninguna zona.",
 	"admanager_nozonesremoved": "No se eliminó ninguna zona.",
 	"admanager_zonenum": "N.º de zona: $1",
-	"admanager_zonenotnumber": "¡Error!  $1 no es un número.",
+	"admanager_zonenotnumber": "¡Error! $1 no es un número.",
 	"admanager_return": "Volver al [[Special:AdManager|Administrador de publicidad]]",
 	"admanager_gotoads": "[[Special:AdManager|Editar ubicación de publicidad]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Editar zonas de publicidad]]",

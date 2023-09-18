@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Amire80",
 			"Умар"
 		]
 	},
@@ -13,5 +14,5 @@
 	"admanager_addedzone": "ТӀетоьхна зона $1",
 	"admanager_removedzone": "ДӀайаьхна зонаш $1.",
 	"admanager_zonenum": "Зона #:$1",
-	"admanager_zonenotnumber": "ГӀалат!  $1  иза терахь дац."
+	"admanager_zonenotnumber": "ГӀалат! $1 иза терахь дац."
 }

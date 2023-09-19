@@ -2,17 +2,18 @@
 	"@metadata": {
 		"authors": [
 			"Arlin",
-			"Sahran"
+			"Sahran",
+			"Amire80"
 		]
 	},
 	"admanager": "ئېلان باشقۇرغۇچ",
 	"admanagerzones": "ئېلان باشقۇرغۇچ رايون",
-	"admanager-desc": "بىر [[Special:AdManager|ئالاھىدە بەت]]  تەمىنلىگەن، ئۇ باشقۇرغۇچىنىڭ بەت ياكى تۈرگە ئايرىش دائىرىسىنى تەڭشىشىگە يول قويىدۇ.",
+	"admanager-desc": "بىر [[Special:AdManager|ئالاھىدە بەت]] تەمىنلىگەن، ئۇ باشقۇرغۇچىنىڭ بەت ياكى تۈرگە ئايرىش دائىرىسىنى تەڭشىشىگە يول قويىدۇ.",
 	"admanagerzones_docu": "ئۆزىنىڭ قۇرىدا ھەر بىر ئېلان رايونىنىڭ نومۇرىنى كىرگۈزۈڭ.",
 	"admanager_invalidtargetpage": "ماۋزۇسى \"$1\" بولغان بەت تېپىلمىدى.",
 	"admanager_invalidtargetcategory": "ماۋزۇسى \"$1\" بولغان كاتېگورىيە تېپىلمىدى.",
 	"admanager_notable": "خاتالىق! زۆرۈر بىر ساندان جەدۋىلىنى تاپالمىدى! ئالدى بىلەن update.php نى ئىجرا قىلىڭ.",
-	"admanager_noAdManagerZones": "خاتالىق! چوقۇم ئېلان ئورنى قىستۇرۇشىڭىز كېرەك.  [[Special:AdManagerZones|ئېلان ئورنىنى باشقۇرۇش]] نىڭ ئىچىگە ئۇنى كىرگۈزۈڭ.",
+	"admanager_noAdManagerZones": "خاتالىق! چوقۇم ئېلان ئورنى قىستۇرۇشىڭىز كېرەك. [[Special:AdManagerZones|ئېلان ئورنىنى باشقۇرۇش]] نىڭ ئىچىگە ئۇنى كىرگۈزۈڭ.",
 	"admanager_labelPage": "بەت ماۋزۇسى:",
 	"admanager_labelCategory": "كاتېگورىيە ئىسمى",
 	"admanager_submit": "تاپشۇر",

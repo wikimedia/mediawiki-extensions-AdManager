@@ -3,7 +3,8 @@
 		"authors": [
 			"Haqmar",
 			"Sagan",
-			"З. ӘЙЛЕ"
+			"З. ӘЙЛЕ",
+			"Amire80"
 		]
 	},
 	"admanager": "Реклама идарасыһы",
@@ -14,7 +15,7 @@
 	"admanager_invalidtargetpage": "\"$1\" бите табылманы.",
 	"admanager_invalidtargetcategory": "\"$1\" категорияһы табылманы.",
 	"admanager_notable": "Хата! Мәғлүмәт базаһының тейешле таблицаһы табылманы. Тәүҙә update.php. ҡабыҙығыҙ.",
-	"admanager_noAdManagerZones": "Хата! Бер нисә реклама зонаһын өҫтәргә кәрәк. Уларҙы  [[Special:AdManagerZones|реклама идарасыһы зонаһына]] өҫтәгеҙ.",
+	"admanager_noAdManagerZones": "Хата! Бер нисә реклама зонаһын өҫтәргә кәрәк. Уларҙы [[Special:AdManagerZones|реклама идарасыһы зонаһына]] өҫтәгеҙ.",
 	"admanager_labelPage": "Бит исемдәре",
 	"admanager_labelCategory": "Категория исемдәре",
 	"admanager_submit": "Ебәрергә",
@@ -27,7 +28,7 @@
 	"admanager_nozonesadded": "Өҫтәү өсөн зона юҡ.",
 	"admanager_nozonesremoved": "Юйыу өсөн зона юҡ.",
 	"admanager_zonenum": "Зона #: $1",
-	"admanager_zonenotnumber": "Хата!  $1 - һан түгел.",
+	"admanager_zonenotnumber": "Хата! $1 - һан түгел.",
 	"admanager_return": "[[Special:AdManager|Реклама идарасыһына]] кире ҡайтырға",
 	"admanager_gotoads": "[[Special:AdManager|Реклама урынлаштырыуҙы үҙгәртергә]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Реклама зоналарын үҙгәртергә]]",

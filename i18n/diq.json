@@ -4,7 +4,8 @@
 			"1917 Ekim Devrimi",
 			"Asmen",
 			"Erdemaslancan",
-			"Mirzali"
+			"Mirzali",
+			"Amire80"
 		]
 	},
 	"admanager": "İdarekarê Reklami",
@@ -18,7 +19,7 @@
 	"admanager_added": "Vurnayışe şıma biyo qeyd",
 	"admanager_addedzone": "Mıntıqaya ke debyayê $1",
 	"admanager_zonenum": "Nıntıqa #: $1",
-	"admanager_zonenotnumber": "Xırabin!  $1  yew amar niya.",
+	"admanager_zonenotnumber": "Xırabin! $1 yew amar niya.",
 	"admanager_return": "Peyser şo [[Special:AdManager|İdarekarê Reklami]]",
 	"admanager_gotoads": "[[Special:AdManager|Reklami timar ke]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Warey timar ke]]",

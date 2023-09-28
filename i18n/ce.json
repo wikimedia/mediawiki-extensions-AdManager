@@ -5,8 +5,10 @@
 			"Amire80"
 		]
 	},
+	"admanager": "Рекламин менеджер",
 	"admanagerzones": "Кхайкхорашший зонийн менеджер",
 	"admanager_labelPage": "АгӀонийн цӀерш",
+	"admanager_labelCategory": "Категорин цӀерш",
 	"admanager_submit": "ДӀадахьийта",
 	"admanager_Page": "АгӀонаш",
 	"admanager_Category": "Категореш",

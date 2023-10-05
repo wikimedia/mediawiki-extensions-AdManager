@@ -7,14 +7,20 @@
 	},
 	"admanager": "Рекламин менеджер",
 	"admanagerzones": "Кхайкхорашший зонийн менеджер",
+	"admanager_invalidtargetpage": "«$1» агӀо цакарий.",
+	"admanager_invalidtargetcategory": "«$1» категори цакарий.",
 	"admanager_labelPage": "АгӀонийн цӀерш",
 	"admanager_labelCategory": "Категорин цӀерш",
 	"admanager_submit": "ДӀадахьийта",
+	"admanager_noads": "Реклама ма гайта",
 	"admanager_Page": "АгӀонаш",
 	"admanager_Category": "Категореш",
 	"admanager_added": "Хьа хийцамаш Ӏалашбина",
 	"admanager_addedzone": "ТӀетоьхна зона $1",
 	"admanager_removedzone": "ДӀайаьхна зонаш $1.",
+	"admanager_nozonesadded": "ТӀетоха зонаш йац.",
+	"admanager_nozonesremoved": "ДӀайаха зонаш йац.",
 	"admanager_zonenum": "Зона #:$1",
-	"admanager_zonenotnumber": "ГӀалат! $1 иза терахь дац."
+	"admanager_zonenotnumber": "ГӀалат! $1 иза терахь дац.",
+	"admanager_return": "Йуха [[Special:AdManager|рекламин Менеджер]] чу"
 }

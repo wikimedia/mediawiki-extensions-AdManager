@@ -22,5 +22,9 @@
 	"admanager_nozonesremoved": "ДӀайаха зонаш йац.",
 	"admanager_zonenum": "Зона #:$1",
 	"admanager_zonenotnumber": "ГӀалат! $1 иза терахь дац.",
-	"admanager_return": "Йуха [[Special:AdManager|рекламин Менеджер]] чу"
+	"admanager_return": "Йуха [[Special:AdManager|рекламин Менеджер]] чу",
+	"admanager_gotoads": "[[Special:AdManager|Реклама йиллар хийца]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|Рекламин зонаш хийца]]",
+	"action-admanager": "рекламин конфигурацин урхаладар",
+	"right-admanager": "[[Special:AdManager|Рекламин конфигурацин урхаладар]]"
 }

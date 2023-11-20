@@ -4,7 +4,8 @@
 			"Acamicamacaraca",
 			"Milicevic01",
 			"Rancher",
-			"Сербијана"
+			"Сербијана",
+			"Kizule"
 		]
 	},
 	"admanager": "Управљач огласима",
@@ -29,5 +30,6 @@
 	"admanager_return": "Назад на [[Special:AdManager|управљач огласима]]",
 	"admanager_gotoads": "[[Special:AdManager|Промени положај огласа]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Уреди огласне зоне]]",
+	"action-admanager": "управљате подешавањима оглашавања",
 	"right-admanager": "[[Special:AdManager|Подешавања за оглашавање]]"
 }

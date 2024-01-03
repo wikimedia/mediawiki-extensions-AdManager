@@ -5,7 +5,8 @@
 			"Fitoschido",
 			"Gemmaa",
 			"Mguix",
-			"Pitort"
+			"Pitort",
+			"SMP"
 		]
 	},
 	"admanager": "Administrador d'anuncis",
@@ -33,5 +34,6 @@
 	"admanager_return": "Torna a [[Special:AdManager|Administrador d'anuncis]]",
 	"admanager_gotoads": "[[Special:AdManager|Edita la col. locació d'anuncis]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Edita les zones d'anuncis]]",
-	"right-admanager": "[[Special:AdManager|Gestió de configuració de publicitat]]"
+	"action-admanager": "gestionar la configuració de la publicitat",
+	"right-admanager": "[[Special:AdManager|Gestionar la configuració de publicitat]]"
 }

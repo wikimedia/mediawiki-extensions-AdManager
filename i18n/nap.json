@@ -13,7 +13,7 @@
 	"admanager_invalidtargetpage": "Nisciuna paggena truvata c' 'o titolo \"$1\".",
 	"admanager_invalidtargetcategory": "Nisciuna categurìa truvata c' 'o titolo \"$1\".",
 	"admanager_notable": "Sbarione! Nun avimmo truvato 'a tabbella 'e database addimannata! Và ncopp' 'a update.php primm' 'e jì annanze.",
-	"admanager_noAdManagerZones": "Errore! È necessario ghienchere cocche zona p' 'a pubbricità. Azzecca sti zzone dint' 'a [[Special:AdManagerZones|Gestione zzone pe' pubbricità]].",
+	"admanager_noAdManagerZones": "Errore! Hê ghienchere na zona p' 'a pubbricità. Azzecca sti zzone dint' 'a [[Special:AdManagerZones|Gestione zzone pe' pubbricità]].",
 	"admanager_labelPage": "Titule d' 'e paggene",
 	"admanager_labelCategory": "Nomme d' 'e categurìe",
 	"admanager_submit": "Manna",

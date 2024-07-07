@@ -98,7 +98,7 @@ class SpecialAdManager extends FormSpecialPage {
 		$form->setDisplayFormat( 'div' );
 		$form->setWrapperLegend( false );
 		foreach ( $this->zones as $zone ) {
-			$form->setHeaderText( $this->getZoneLabel( $zone ), $zone );
+			$form->setHeaderHtml( $this->getZoneLabel( $zone ), $zone );
 		}
 		$form->setSubmitTextMsg( 'admanager_submit' );
 	}
@@ -127,7 +127,7 @@ class SpecialAdManager extends FormSpecialPage {
 	 * @return string
 	 */
 	public function getZoneLabel( $zone ) {
-		return $this->msg( 'admanager_zonenum', $this->getZoneText( $zone ) )->text();
+		return $this->msg( 'admanager_zonenum', $this->getZoneText( $zone ) )->escaped();
 	}
 
 	public function onSuccess() {
@@ -143,17 +143,17 @@ class SpecialAdManager extends FormSpecialPage {
 
 	/**
 	 * Add pre-text to the form
-	 * @return string HTML which will be sent to $form->addPreText()
+	 * @return string HTML which will be sent to $form->addPreHtml()
 	 */
-	protected function preText() {
+	protected function preHtml() {
 		return $this->msg( 'admanager_docu' )->parseAsBlock();
 	}
 
 	/**
 	 * Add post-text to the form
-	 * @return string HTML which will be sent to $form->addPostText()
+	 * @return string HTML which will be sent to $form->addPostHtml()
 	 */
-	protected function postText() {
+	protected function postHtml() {
 		return $this->msg( 'admanager_gotozones' )->parseAsBlock();
 	}
 

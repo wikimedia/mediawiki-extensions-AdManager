@@ -99,9 +99,9 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	/**
 	 * Add post-text to the form
 	 *
-	 * @return string HTML which will be sent to $form->addPostText()
+	 * @return string HTML which will be sent to $form->addPostHtml()
 	 */
-	protected function postText() {
+	protected function postHtml() {
 		return $this->msg( 'admanager_gotoads' )->parseAsBlock();
 	}
 

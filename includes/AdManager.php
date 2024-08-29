@@ -217,7 +217,7 @@ class AdManager {
 		$count++;
 
 		if ( !empty( $value ) ) {
-			array_walk( $value, 'self::assignLevel', $count );
+			array_walk( $value, [ self::class, 'assignLevel' ], $count );
 		}
 
 		self::$catList[$catName] = $count;
@@ -312,7 +312,7 @@ class AdManager {
 		);
 
 		$thisCategoryIDS = $title->getParentCategoryTree();
-		array_walk( $thisCategoryIDS, 'self::assignLevel' );
+		array_walk( $thisCategoryIDS, [ self::class, 'assignLevel' ] );
 		asort( self::$catList ); // give precedence to the closest ancestors
 
 		if ( !empty( self::$catList ) ) {

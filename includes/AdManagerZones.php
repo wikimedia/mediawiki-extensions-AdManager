@@ -1,5 +1,7 @@
 <?php
 
+use MediaWiki\MediaWikiServices;
+
 /**
  * Layer on top of the ad zones table
  */
@@ -243,13 +245,13 @@ class AdManagerZones {
 	 * @return \Wikimedia\Rdbms\IDatabase Read-only db connection
 	 */
 	public static function getReadDbConnection() {
-		return wfGetDB( DB_REPLICA );
+		return MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_REPLICA );
 	}
 
 	/**
 	 * @return \Wikimedia\Rdbms\IDatabase Writable db connection
 	 */
 	public static function getWriteDbConnection() {
-		return wfGetDB( DB_PRIMARY );
+		return MediaWikiServices::getInstance()->getDBLoadBalancer()->getConnection( DB_PRIMARY );
 	}
 }

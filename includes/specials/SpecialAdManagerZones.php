@@ -49,7 +49,7 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	protected function getFormFields() {
 		return [
 			'zones' => [
-				'class' => 'HTMLTextAreaField',
+				'class' => HTMLTextAreaField::class,
 				'style' => 'margin-bottom: 1em;',
 				'default' => implode( "\n", AdManagerZones::getZonesFromDB() ),
 				'cols' => 25,

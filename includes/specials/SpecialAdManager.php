@@ -68,7 +68,7 @@ class SpecialAdManager extends FormSpecialPage {
 					'section' => $zone,
 					'name' => $name,
 					'label-message' => "admanager_label$type",
-					'class' => 'HTMLTextAreaField',
+					'class' => HTMLTextAreaField::class,
 					'cssclass' => 'am_textarea',
 					'cols' => 40,
 					'rows' => 15,

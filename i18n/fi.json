@@ -8,7 +8,9 @@
 			"Nedergard",
 			"Stryn",
 			"Valtlait",
-			"VezonThunder"
+			"VezonThunder",
+			"Samoasambia",
+			"Valtlai"
 		]
 	},
 	"admanager": "Mainoshallinta",
@@ -26,7 +28,7 @@
 	"admanager_noads": "Ei mainoksia",
 	"admanager_Page": "Sivut",
 	"admanager_Category": "Luokat",
-	"admanager_added": "Muutoksesi on tallennettu",
+	"admanager_added": "Muutoksesi on tallennettu.",
 	"admanager_addedzone": "Lisätty vyöhyke $1.",
 	"admanager_removedzone": "Poistettu alue $1.",
 	"admanager_nozonesadded": "Alueita ei lisätty.",

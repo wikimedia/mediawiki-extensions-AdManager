@@ -1,6 +1,8 @@
 <?php
 
+use MediaWiki\Category\Category;
 use MediaWiki\MediaWikiServices;
+use MediaWiki\Title\Title;
 
 /**
  * Layer on top of the ad table with some helper functions

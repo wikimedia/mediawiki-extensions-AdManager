@@ -1,6 +1,7 @@
 <?php
 
 use MediaWiki\MediaWikiServices;
+use Wikimedia\Rdbms\ResultWrapper;
 
 /**
  * Layer on top of the ad zones table

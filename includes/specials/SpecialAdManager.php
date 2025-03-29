@@ -1,5 +1,8 @@
 <?php
 
+use MediaWiki\Category\Category;
+use MediaWiki\Title\Title;
+
 class SpecialAdManager extends FormSpecialPage {
 	/** @var array|null */
 	private $zones;

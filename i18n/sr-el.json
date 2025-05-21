@@ -27,5 +27,6 @@
 	"admanager_return": "Nazad na [[Special:AdManager|upravljač oglasima]]",
 	"admanager_gotoads": "[[Special:AdManager|Promeni položaj oglasa]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Uredi oglasne zone]]",
+	"action-admanager": "upravljate podešavanjima oglašavanja",
 	"right-admanager": "[[Special:AdManager|Podešavanja za oglašavanje]]"
 }

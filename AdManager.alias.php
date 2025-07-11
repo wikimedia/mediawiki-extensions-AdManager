@@ -91,13 +91,19 @@ $specialPageAliases['vi'] = [
 	'AdManagerZones' => [ 'Đới_quản_lý_quảng_cáo', 'Đới_quản_lí_quảng_cáo' ],
 ];
 
-/** Simplified Chinese (中文（简体）‎) */
+/** Chinese (中文) */
+$specialPageAliases['zh'] = [
+	'AdManager' => [ 'AdManager' ],
+	'AdManagerZones' => [ 'AdManagerZones' ],
+];
+
+/** Simplified Chinese (中文（简体）) */
 $specialPageAliases['zh-hans'] = [
 	'AdManager' => [ '广告管理器' ],
 	'AdManagerZones' => [ '广告管理区域' ],
 ];
 
-/** Traditional Chinese (中文（繁體）‎) */
+/** Traditional Chinese (中文（繁體）) */
 $specialPageAliases['zh-hant'] = [
 	'AdManager' => [ '廣告管理' ],
 	'AdManagerZones' => [ '廣告管理區域' ],

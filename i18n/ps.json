@@ -5,6 +5,15 @@
 			"شاه زمان پټان"
 		]
 	},
+	"admanager": "اعلان چاروال",
+	"admanagerzones": "اعلان چاروال سيمې",
+	"admanager-desc": "يو  [[Special:AdManager|ځانگړی مخ]] چمتو کوي چې پازوالانو ته د مخونو يا وېشنيزو د سيمو ټاکلو اجازه ورکوي",
+	"admanager_docu": "د يو مخ يا ټولې وېشنيزې د اعلان سيمې ورگډولو يا لرې کولو لپاره لاندې د مخ يا وېشنيزې سرليک ورگډ يا لرې کړئ.",
+	"admanagerzones_docu": "د هرې اعلان سيمې شمېره د هغې خپله کرښه کې دننه کړئ.",
+	"admanager_invalidtargetpage": "\"$1\" سرليک سره هېڅ مخ ونه موندل شو.",
+	"admanager_invalidtargetcategory": "\"$1\" سرليک سره هېڅ وېشنيزه ونه موندل شوه.",
+	"admanager_notable": "تېروتنه! اړين اومتوک‌اډانې لښتيال ونه موندل شو! لومړی update.php ترسره کړئ.",
+	"admanager_noAdManagerZones": "تېروتنه! تاسو بايد يو څو اعلان سيمې ورگډې کړئ. په [[Special:AdManagerZones|اعلان چاروال سيمو]] کې يې وليکئ.",
 	"admanager_labelPage": "مخ سرليکونه",
 	"admanager_labelCategory": "د وېشنيزو نومونه",
 	"admanager_submit": "سپارل",
@@ -13,6 +22,14 @@
 	"admanager_Category": "وېشنيزې",
 	"admanager_added": "ستاسې بدلونونه خوندي شول",
 	"admanager_addedzone": "$1 سيمه ورگډه شوې.",
+	"admanager_removedzone": "$1 سيمه لرې‌شوه.",
+	"admanager_nozonesadded": "هېڅ سيمې ورگډې‌شوې نه دي.",
+	"admanager_nozonesremoved": "هېڅ سيمې لرې‌شوې نه دي.",
 	"admanager_zonenum": "سيمه #: $1",
-	"admanager_zonenotnumber": "ستونزه! $1 يوه شمېره نه ده."
+	"admanager_zonenotnumber": "ستونزه! $1 يوه شمېره نه ده.",
+	"admanager_return": "[[Special:AdManager|اعلان چاروال]] ته راستنېدل",
+	"admanager_gotoads": "[[Special:AdManager|د اعلان ځايتابه سمول]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|اعلان سيمې سمول]]",
+	"action-admanager": "د اعلاناتو ترتيبات مهارول",
+	"right-admanager": "[[Special:AdManager|د اعلاناتو ترتيبات مهارول]]"
 }

@@ -51,7 +51,6 @@ class AdManager {
 	}
 
 	/**
-	 *
 	 * @return array of Titles in multi-dimensional form
 	 */
 	public static function getAdsFromDB() {
@@ -65,7 +64,6 @@ class AdManager {
 	}
 
 	/**
-	 *
 	 * @return array of strings in multi-dimensional form
 	 */
 	public static function getAdTextsFromDB() {

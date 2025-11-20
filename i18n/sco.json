@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"CiphriusKane",
 			"John Reid"
 		]
 	},
@@ -24,7 +25,7 @@
 	"admanager_zonenum": "Zone #: $1",
 	"admanager_zonenotnumber": "Mistak! $1 isna ae nummer.",
 	"admanager_return": "Return til [[Special:AdManager|Ad Manager]]",
-	"admanager_gotoads": "[[Special:AdManager|Eidit ad placement]]",
+	"admanager_gotoads": "[[Special:AdManager|Edit ad placement]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Eidit ad zones]]",
 	"right-admanager": "[[Special:AdManager|Manage advertising confeeguration]]"
 }

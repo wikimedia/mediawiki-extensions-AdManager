@@ -1,0 +1,17 @@
+{
+	"@metadata": {
+		"authors": [
+			"बडा काजी"
+		]
+	},
+	"admanager": "व्यवस्थापक प्रबन्धक",
+	"admanagerzones": "व्यवस्थापक प्रबन्धक क्षेत्रहरू",
+	"admanager_invalidtargetpage": "\" $1 \" शीर्षक भएको कुनै पृष्ठ भेटिएन।",
+	"admanager_invalidtargetcategory": "\" $1 \" शीर्षक भएको कुनै पनि श्रेणी भेटिएन।",
+	"admanager_labelPage": "पृष्ठ शीर्षकहरू",
+	"admanager_labelCategory": "श्रेणीको नाम",
+	"admanager_submit": "पेस गर्नुहोस्",
+	"admanager_Page": "पृष्ठहरू",
+	"admanager_Category": "श्रेणीहरू",
+	"admanager_added": "परिवर्तन सङ्ग्रह गरिएको छ।"
+}

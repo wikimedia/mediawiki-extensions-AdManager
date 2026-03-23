@@ -1,6 +1,7 @@
 {
 	"@metadata": {
 		"authors": [
+			"Aca",
 			"Winston Sung"
 		]
 	},
@@ -9,10 +10,10 @@
 	"admanager-desc": "Daje [[Special:AdManager|posebnu stranicu]] gdje operatori sustava mogu postaviti zonu za stranice ili kategorije",
 	"admanager_docu": "Da biste dodali ili uklonili reklamno područje na jednoj stranici ili cijeloj kategoriji, ispod dodajte/uklonite njeni naslov.",
 	"admanagerzones_docu": "Unesite brojeve reklamnih zona, svaki u zasebnom retku.",
-	"admanager_invalidtargetpage": "Nisam pronašao stranicu pod nazivom \"$1\".",
-	"admanager_invalidtargetcategory": "Nisam pronašao kategoriju pod nazivom \"$1\".",
-	"admanager_notable": "Greška! Nisam pronašao traženu tablicu u bazi podataka! Prvo napravite ažuriranje s update.php.",
-	"admanager_noAdManagerZones": "Greška! Morate dodati neke reklamske zone. Unesite ih u „[[Special:AdManagerZones|Zone - Voditelj reklama]]“.",
+	"admanager_invalidtargetpage": "Nije pronađena stranica s naslovom \"$1\".",
+	"admanager_invalidtargetcategory": "Nije pronađena kategorija s naslovom \"$1\".",
+	"admanager_notable": "Greška: Tražena tabela u bazi podataka nije pronađena. Prvo pokrenite update.php.",
+	"admanager_noAdManagerZones": "Greška. Morate dodati neke reklamske zone. Unesite ih u \"[[Special:AdManagerZones|Zone - Voditelj reklama]]\".",
 	"admanager_labelPage": "Naslovi stranice",
 	"admanager_labelCategory": "Imena kategorija",
 	"admanager_submit": "Pošalji",
@@ -27,7 +28,7 @@
 	"admanager_zonenum": "Zona #: $1",
 	"admanager_zonenotnumber": "Greška! $1 ne predstavlja broj.",
 	"admanager_return": "Nazad na [[Special:AdManager|Upravitelj sa oglasima]]",
-	"admanager_gotoads": "[[Special:AdManager|Smijeni položaj oglasa]]",
+	"admanager_gotoads": "[[Special:AdManager|Promijeni položaj oglasa]]",
 	"admanager_gotozones": "[[Special:AdManagerZones|Uredi oglasne zone]]",
 	"action-admanager": "upravljanje postavljenošću oglasâ",
 	"right-admanager": "[[Special:AdManager|Postavke za oglašavanje]]"

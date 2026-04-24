@@ -10,7 +10,12 @@ class SpecialAdManager extends FormSpecialPage {
 	private $adTexts;
 
 	public function __construct() {
-		parent::__construct( 'AdManager', 'admanager' );
+		parent::__construct( 'AdManager' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'admanager';
 	}
 
 	/**

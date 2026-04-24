@@ -10,7 +10,12 @@ class SpecialAdManagerZones extends FormSpecialPage {
 	private $adManagerZones;
 
 	public function __construct() {
-		parent::__construct( 'AdManagerZones', 'admanager' );
+		parent::__construct( 'AdManagerZones' );
+	}
+
+	/** @inheritDoc */
+	public function getRestriction(): string {
+		return 'admanager';
 	}
 
 	/**

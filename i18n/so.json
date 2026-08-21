@@ -1,8 +1,35 @@
 {
 	"@metadata": {
 		"authors": [
-			"Abdullahi"
+			"Abdullahi",
+			"AhmedG612"
 		]
 	},
-	"admanager_invalidtargetcategory": "Lama helin qayb leh ciwaanka \"$1\"."
+	"admanager": "Maamulaha xayeysiisyada",
+	"admanagerzones": "Aagagga maamulaha xayeysiisyada",
+	"admanager-desc": "Waxay bixisaa [[Special:AdManager|bog gaar ah]] oo u oggolaanaya maamulayaasha inay dejiyaan aagga bogagga ama qaybaha",
+	"admanager_docu": "Si aad ugu darto ama uga saarto aagga xayeysiiska bog ama qayb dhan, ku dar ama ka saar cinwaanka bogga ama qaybta hoos ku qoran.",
+	"admanagerzones_docu": "Geli lambarka aag kasta oo xayeysiis ah sadar u gaar ah.",
+	"admanager_invalidtargetpage": "Bog cinwaankiisu yahay \"$1\" lama helin.",
+	"admanager_invalidtargetcategory": "Lama helin qayb leh ciwaanka \"$1\".",
+	"admanager_notable": "Khalad! Jadwalka xogta ee loo baahan yahay lama helin! Marka hore socodsii update.php.",
+	"admanager_noAdManagerZones": "Khalad! Waa inaad ku dartaa qaar ka mid ah aagagga xayeysiiska. Ku geli [[Special:AdManagerZones|Aagagga maamulaha xayeysiisyada]].",
+	"admanager_labelPage": "Cinwaannada bogagga",
+	"admanager_labelCategory": "Magacyada qaybta",
+	"admanager_submit": "Gudbi",
+	"admanager_noads": "Ha soo bandhigin xayeysiisyo",
+	"admanager_Page": "Boggaga",
+	"admanager_Category": "Qaybaha",
+	"admanager_added": "Isbeddelladaada waa la kaydiyay.",
+	"admanager_addedzone": "Aagga $1 waa lagu daray.",
+	"admanager_removedzone": "Aagga $1 waa laga saaray.",
+	"admanager_nozonesadded": "Aagag lama darin.",
+	"admanager_nozonesremoved": "Aagag lama saarin.",
+	"admanager_zonenum": "Lambarka aagga: $1",
+	"admanager_zonenotnumber": "Khalad! $1 ma aha lambar.",
+	"admanager_return": "Ku noqo [[Special:AdManager|Maamulaha xayeysiisyada]]",
+	"admanager_gotoads": "[[Special:AdManager|Wax ka beddel meelaynta xayeysiiska]]",
+	"admanager_gotozones": "[[Special:AdManagerZones|Wax ka beddel aagagga xayeysiisyada]]",
+	"action-admanager": "Maamul qaabaynta xayeysiisyada",
+	"right-admanager": "[[Special:AdManager|Maamul qaabaynta xayeysiisyada]]"
 }

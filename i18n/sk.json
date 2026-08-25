@@ -5,7 +5,8 @@
 			"Luky001",
 			"Sudo77(new)",
 			"TomášPolonec",
-			"Vlad5250"
+			"Vlad5250",
+			"Wizzard"
 		]
 	},
 	"admanager": "Správca reklám",
@@ -15,6 +16,8 @@
 	"admanagerzones_docu": "Zadajte číslo každej reklamnej zóny na samostatnom riadku.",
 	"admanager_invalidtargetpage": "Žiadna stránka s názvom „$1“.",
 	"admanager_invalidtargetcategory": "Žiadna kategória s názvom „$1“.",
+	"admanager_notable": "Chyba! Potrebná databázová tabuľka sa nenašla! Najprv spustite update.php.",
+	"admanager_noAdManagerZones": "Chyba! Musíte pridať nejaké reklamné zóny. Zadajte ich na stránke [[Special:AdManagerZones|Zóny správcu reklám]].",
 	"admanager_labelPage": "Názvy stránok",
 	"admanager_labelCategory": "Názvy kategórií",
 	"admanager_submit": "Odoslať",
@@ -23,10 +26,14 @@
 	"admanager_Category": "Kategórie",
 	"admanager_added": "Vaše úpravy boli uložené",
 	"admanager_addedzone": "Pridaná zóna $1.",
+	"admanager_removedzone": "Zóna $1 bola odstránená.",
 	"admanager_nozonesadded": "Neboli pridané žiadne zóny.",
 	"admanager_nozonesremoved": "Neboli odstránené žiadne zóny.",
 	"admanager_zonenum": "Zóna #:$1",
 	"admanager_zonenotnumber": "Chyba! $1 nie je číslo.",
+	"admanager_return": "Návrat na [[Special:AdManager|Správcu reklám]]",
 	"admanager_gotoads": "[[Special:AdManager|Upraviť umiestnenie reklamy]]",
-	"admanager_gotozones": "[[Special:AdManagerZones|Upraviť zóny reklám]]"
+	"admanager_gotozones": "[[Special:AdManagerZones|Upraviť zóny reklám]]",
+	"action-admanager": "spravovať konfiguráciu reklamy",
+	"right-admanager": "[[Special:AdManager|Spravovať konfiguráciu reklamy]]"
 }

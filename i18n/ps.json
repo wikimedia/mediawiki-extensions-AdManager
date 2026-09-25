@@ -2,6 +2,7 @@
 	"@metadata": {
 		"authors": [
 			"Ahmed-Najib-Biabani-Ibrahimkhel",
+			"باران",
 			"شاه زمان پټان"
 		]
 	},
@@ -17,10 +18,10 @@
 	"admanager_labelPage": "مخ سرليکونه",
 	"admanager_labelCategory": "د وېشنيزو نومونه",
 	"admanager_submit": "سپارل",
-	"admanager_noads": "خبرتياو پرته ښکارېدنه",
+	"admanager_noads": "بې له خبرتياوو ښکارېدنه",
 	"admanager_Page": "مخونه",
 	"admanager_Category": "وېشنيزې",
-	"admanager_added": "ستاسې بدلونونه خوندي شول",
+	"admanager_added": "ستاسې بدلونونه خوندي شول.",
 	"admanager_addedzone": "$1 سيمه ورگډه شوې.",
 	"admanager_removedzone": "$1 سيمه لرې‌شوه.",
 	"admanager_nozonesadded": "هېڅ سيمې ورگډې‌شوې نه دي.",
